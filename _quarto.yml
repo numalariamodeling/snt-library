@@ -1,5 +1,8 @@
 project:
   type: website
+  
+execute:
+  freeze: auto
 
 website:
   title: "2023 Faculty Enrichment Program in Applied Malaria Modeling"
