@@ -1,0 +1,21 @@
+---
+title: "Team"
+format: 
+  html:
+    toc: true
+    toc-depth: 4
+---
+
+### Our Team
+
+
+* Program Director
+  * Jaline Gerardin
+* Curriculum 
+  * Anne Stahlfeld
+  * Tobias Holden
+* Instructional Staff  
+  * Isaiah Agorinya
+  * Benedicta Mensah
+  * Kok Ben Toh
+
