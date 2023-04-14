@@ -8,12 +8,12 @@
   {
     "listing": "/guides.html",
     "items": [
-      "/EMOD_Guides/demographics_guide.html",
+      "/EMOD_Guides/analyzer_guide.html",
       "/EMOD_Guides/climate_guide.html",
-      "/EMOD_Guides/simulation_guide.html",
+      "/EMOD_Guides/demographics_guide.html",
       "/EMOD_Guides/report_guide.html",
-      "/EMOD_Guides/vector_guide.html",
-      "/EMOD_Guides/analyzer_guide.html"
+      "/EMOD_Guides/simulation_guide.html",
+      "/EMOD_Guides/vector_guide.html"
     ]
   },
   {

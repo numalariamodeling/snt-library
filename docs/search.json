@@ -2,7 +2,7 @@
   {
     "objectID": "EMOD_Guides/climate_guide.html",
     "href": "EMOD_Guides/climate_guide.html",
-    "title": "How-To: Climate",
+    "title": "Climate Guide",
     "section": "",
     "text": "Edit Climate Files"
   },
@@ -23,119 +23,119 @@
   {
     "objectID": "EMOD_Guides/simulation_guide.html#set-config-parameters",
     "href": "EMOD_Guides/simulation_guide.html#set-config-parameters",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Set config parameters",
     "text": "Set config parameters"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#sweep-config-parameters",
     "href": "EMOD_Guides/simulation_guide.html#sweep-config-parameters",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Sweep config parameters",
     "text": "Sweep config parameters"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#build-campaign",
     "href": "EMOD_Guides/simulation_guide.html#build-campaign",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Build campaign",
     "text": "Build campaign"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#sweep-campaign-parameters",
     "href": "EMOD_Guides/simulation_guide.html#sweep-campaign-parameters",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Sweep campaign parameters",
     "text": "Sweep campaign parameters"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#serializing-configuration-parameters",
     "href": "EMOD_Guides/simulation_guide.html#serializing-configuration-parameters",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Serializing configuration parameters",
     "text": "Serializing configuration parameters"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#serializing-campaign-parameters",
     "href": "EMOD_Guides/simulation_guide.html#serializing-campaign-parameters",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Serializing campaign parameters",
     "text": "Serializing campaign parameters"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#platform",
     "href": "EMOD_Guides/simulation_guide.html#platform",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Platform",
     "text": "Platform"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#emodtask",
     "href": "EMOD_Guides/simulation_guide.html#emodtask",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "EMODTask",
     "text": "EMODTask"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#builder",
     "href": "EMOD_Guides/simulation_guide.html#builder",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Builder",
     "text": "Builder"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#reports",
     "href": "EMOD_Guides/simulation_guide.html#reports",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Reports",
     "text": "Reports"
   },
   {
     "objectID": "EMOD_Guides/simulation_guide.html#experiment",
     "href": "EMOD_Guides/simulation_guide.html#experiment",
-    "title": "How-To: General EMOD",
+    "title": "Simulation Guide",
     "section": "Experiment",
     "text": "Experiment"
   },
   {
     "objectID": "EMOD_Guides/vector_guide.html#challenge-bite",
     "href": "EMOD_Guides/vector_guide.html#challenge-bite",
-    "title": "How-To: Vectors",
+    "title": "Vector Guide",
     "section": "Challenge Bite",
     "text": "Challenge Bite"
   },
   {
     "objectID": "EMOD_Guides/vector_guide.html#outbreaks",
     "href": "EMOD_Guides/vector_guide.html#outbreaks",
-    "title": "How-To: Vectors",
+    "title": "Vector Guide",
     "section": "Outbreaks",
     "text": "Outbreaks"
   },
   {
     "objectID": "EMOD_Guides/vector_guide.html#forced-eir",
     "href": "EMOD_Guides/vector_guide.html#forced-eir",
-    "title": "How-To: Vectors",
+    "title": "Vector Guide",
     "section": "Forced EIR",
     "text": "Forced EIR"
   },
   {
     "objectID": "EMOD_Guides/vector_guide.html#set-up-vector-genetics",
     "href": "EMOD_Guides/vector_guide.html#set-up-vector-genetics",
-    "title": "How-To: Vectors",
+    "title": "Vector Guide",
     "section": "Set up vector genetics",
     "text": "Set up vector genetics"
   },
   {
     "objectID": "EMOD_Guides/vector_guide.html#relate-vector-genotype-to-phenotype",
     "href": "EMOD_Guides/vector_guide.html#relate-vector-genotype-to-phenotype",
-    "title": "How-To: Vectors",
+    "title": "Vector Guide",
     "section": "Relate vector genotype to phenotype",
     "text": "Relate vector genotype to phenotype"
   },
   {
     "objectID": "EMOD_Guides/vector_guide.html#add-vector-control-with-specific-insecticide",
     "href": "EMOD_Guides/vector_guide.html#add-vector-control-with-specific-insecticide",
-    "title": "How-To: Vectors",
+    "title": "Vector Guide",
     "section": "Add vector control with specific insecticide",
     "text": "Add vector control with specific insecticide"
   },
@@ -144,7 +144,7 @@
     "href": "guides.html",
     "title": "How-To Guides",
     "section": "",
-    "text": "Demographics Guides\n\n\n\n\n\n\n\n\n\n\nHow-To: Climate\n\n\n\n\n\n\n\n\n\n\nHow-To: General EMOD\n\n\n\n\n\n\n\n\n\n\nHow-To: Reporters\n\n\n\n\n\n\n\n\n\n\nHow-To: Vectors\n\n\n\n\n\n\n\n\n\n\nSpatial Analyzer\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Analyzer Guide\n\n\n\n\n\n\n\n\n\n\nClimate Guide\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\nReports Guide\n\n\n\n\n\n\n\n\n\n\nSimulation Guide\n\n\n\n\n\n\n\n\n\n\nVector Guide\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",

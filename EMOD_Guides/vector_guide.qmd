@@ -1,5 +1,5 @@
 ---
-title: "How-To: Vectors"
+title: "Vector Guide"
 format: 
   html:
     toc: true

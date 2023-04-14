@@ -13,7 +13,6 @@ website:
       - href: index.qmd
         text: About
       - resources.qmd
-      - people.qmd
       - guides.qmd
 
 format:

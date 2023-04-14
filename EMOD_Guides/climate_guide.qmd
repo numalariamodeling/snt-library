@@ -1,5 +1,5 @@
 ---
-title: "How-To: Climate"
+title: "Climate Guide"
 format: 
   html:
     toc: true
