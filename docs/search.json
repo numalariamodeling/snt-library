@@ -275,9 +275,9 @@
   {
     "objectID": "guides/simulation_guide.html",
     "href": "guides/simulation_guide.html",
-    "title": "Simulation Guide",
+    "title": "Simulation Guides",
     "section": "",
-    "text": "Building Blocks of EMODpy"
+    "text": "Building blocks of EMOD simulations\n\n\n\n\n\n\n\n\n\n\n\nEMODpy Overview\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperiment Workflow\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "guides/simulation_guide.html#set-config-parameters",
@@ -389,7 +389,7 @@
     "href": "guides.html",
     "title": "How-To Guides",
     "section": "",
-    "text": "📁 Choose Category\n\n\n\n\n\n\n\n\n\n\n\nInstallation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntervention Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nReport Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzer Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "📁 Choose Category\n\n\n\n\n\n\n\n\n\n\n\nInstallation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntervention Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nReport Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzer Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -607,5 +607,187 @@
     "title": "Installation Guide",
     "section": "",
     "text": "Setup everything you need to use EMODpy"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/EMODpy_overview.html",
+    "href": "guides/simulation_guide_pages/EMODpy_overview.html",
+    "title": "EMODpy Overview",
+    "section": "",
+    "text": "Definitions and structures"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/EMODpy_overview.html",
+    "href": "docs/guides/simulation_guide_pages/EMODpy_overview.html",
+    "title": "EMODpy Overview",
+    "section": "",
+    "text": "Definitions and structures"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html",
+    "title": "Experiment Workflow",
+    "section": "",
+    "text": "Standard components used to generate simulations"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#set-config-parameters",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#set-config-parameters",
+    "title": "Experiment Workflow",
+    "section": "Set config parameters",
+    "text": "Set config parameters"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#sweep-config-parameters",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#sweep-config-parameters",
+    "title": "Experiment Workflow",
+    "section": "Sweep config parameters",
+    "text": "Sweep config parameters"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#build-campaign",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#build-campaign",
+    "title": "Experiment Workflow",
+    "section": "Build campaign",
+    "text": "Build campaign"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#sweep-campaign-parameters",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#sweep-campaign-parameters",
+    "title": "Experiment Workflow",
+    "section": "Sweep campaign parameters",
+    "text": "Sweep campaign parameters"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#serializing-configuration-parameters",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#serializing-configuration-parameters",
+    "title": "Experiment Workflow",
+    "section": "Serializing configuration parameters",
+    "text": "Serializing configuration parameters"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#serializing-campaign-parameters",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#serializing-campaign-parameters",
+    "title": "Experiment Workflow",
+    "section": "Serializing campaign parameters",
+    "text": "Serializing campaign parameters"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#platform",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#platform",
+    "title": "Experiment Workflow",
+    "section": "Platform",
+    "text": "Platform"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#emodtask",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#emodtask",
+    "title": "Experiment Workflow",
+    "section": "EMODTask",
+    "text": "EMODTask"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#builder",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#builder",
+    "title": "Experiment Workflow",
+    "section": "Builder",
+    "text": "Builder"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#reports",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#reports",
+    "title": "Experiment Workflow",
+    "section": "Reports",
+    "text": "Reports"
+  },
+  {
+    "objectID": "docs/guides/simulation_guide_pages/simulation_components.html#experiment",
+    "href": "docs/guides/simulation_guide_pages/simulation_components.html#experiment",
+    "title": "Experiment Workflow",
+    "section": "Experiment",
+    "text": "Experiment"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html",
+    "href": "guides/simulation_guide_pages/simulation_components.html",
+    "title": "Experiment Workflow",
+    "section": "",
+    "text": "Standard components used to generate simulations"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#set-config-parameters",
+    "href": "guides/simulation_guide_pages/simulation_components.html#set-config-parameters",
+    "title": "Experiment Workflow",
+    "section": "Set config parameters",
+    "text": "Set config parameters"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#sweep-config-parameters",
+    "href": "guides/simulation_guide_pages/simulation_components.html#sweep-config-parameters",
+    "title": "Experiment Workflow",
+    "section": "Sweep config parameters",
+    "text": "Sweep config parameters"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#build-campaign",
+    "href": "guides/simulation_guide_pages/simulation_components.html#build-campaign",
+    "title": "Experiment Workflow",
+    "section": "Build campaign",
+    "text": "Build campaign"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#sweep-campaign-parameters",
+    "href": "guides/simulation_guide_pages/simulation_components.html#sweep-campaign-parameters",
+    "title": "Experiment Workflow",
+    "section": "Sweep campaign parameters",
+    "text": "Sweep campaign parameters"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#serializing-configuration-parameters",
+    "href": "guides/simulation_guide_pages/simulation_components.html#serializing-configuration-parameters",
+    "title": "Experiment Workflow",
+    "section": "Serializing configuration parameters",
+    "text": "Serializing configuration parameters"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#serializing-campaign-parameters",
+    "href": "guides/simulation_guide_pages/simulation_components.html#serializing-campaign-parameters",
+    "title": "Experiment Workflow",
+    "section": "Serializing campaign parameters",
+    "text": "Serializing campaign parameters"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#platform",
+    "href": "guides/simulation_guide_pages/simulation_components.html#platform",
+    "title": "Experiment Workflow",
+    "section": "Platform",
+    "text": "Platform"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#emodtask",
+    "href": "guides/simulation_guide_pages/simulation_components.html#emodtask",
+    "title": "Experiment Workflow",
+    "section": "EMODTask",
+    "text": "EMODTask"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#builder",
+    "href": "guides/simulation_guide_pages/simulation_components.html#builder",
+    "title": "Experiment Workflow",
+    "section": "Builder",
+    "text": "Builder"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#reports",
+    "href": "guides/simulation_guide_pages/simulation_components.html#reports",
+    "title": "Experiment Workflow",
+    "section": "Reports",
+    "text": "Reports"
+  },
+  {
+    "objectID": "guides/simulation_guide_pages/simulation_components.html#experiment",
+    "href": "guides/simulation_guide_pages/simulation_components.html#experiment",
+    "title": "Experiment Workflow",
+    "section": "Experiment",
+    "text": "Experiment"
   }
 ]

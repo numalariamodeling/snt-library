@@ -1,47 +1,12 @@
 ---
-title: "Simulation Guide"
+title: "Simulation Guides"
 weight: 1
-format: 
-  html:
-    toc: true
-    toc-depth: 5
-    page-layout: full
+listing:
+  contents: "simulation_guide_pages/*.qmd"
+  type: grid
+  fields: [title, description]
+  sort: weight
+  grid-columns: 2
 ---
 
-Building Blocks of EMODpy
-
-# manifest.py
-
-# Configuration parameters
-
-## Set config parameters
-
-## Sweep config parameters
-
-# Campaign
-
-## Build campaign
-
-## Sweep campaign parameters
-
-# Serialization
-
-## Serializing configuration parameters
-
-## Serializing campaign parameters
-
-# Build demographics
-
-# General simulation
-
-## Platform
-
-## EMODTask
-
-## Builder
-
-## Reports
-
-## Experiment
-
-# Running Simulations
+Building blocks of EMOD simulations

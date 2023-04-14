@@ -1,0 +1,47 @@
+---
+title: "Experiment Workflow"
+weight: 2
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Standard components used to generate simulations
+
+# manifest.py
+
+# Configuration parameters
+
+## Set config parameters
+
+## Sweep config parameters
+
+# Campaign
+
+## Build campaign
+
+## Sweep campaign parameters
+
+# Serialization
+
+## Serializing configuration parameters
+
+## Serializing campaign parameters
+
+# Build demographics
+
+# General simulation
+
+## Platform
+
+## EMODTask
+
+## Builder
+
+## Reports
+
+## Experiment
+
+# Running Simulations
+

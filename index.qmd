@@ -5,4 +5,5 @@ listing:
   type: grid
   fields: [title]
   grid-columns: 2
+  grid-item-align: center
 ---

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Faculty Enrichment Program in Applied Malaria Modeling - Simulation Guide</title>
+<title>Faculty Enrichment Program in Applied Malaria Modeling - Simulation Guides</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,7 +60,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -124,16 +156,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Coding Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/Science Communication.html">
- <span class="dropdown-text">Scientific Communication</span></a>
+    <a class="dropdown-item" href="../resources/science_communication.html">
+ <span class="dropdown-text">Science Communication</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">2023</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-program" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">2023 Program</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-program">    
         <li>
     <a class="dropdown-item" href="../guides.html">
  <span class="dropdown-text">How-To Guides</span></a>
@@ -155,49 +187,18 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#manifest.py" id="toc-manifest.py" class="nav-link active" data-scroll-target="#manifest.py">manifest.py</a></li>
-  <li><a href="#configuration-parameters" id="toc-configuration-parameters" class="nav-link" data-scroll-target="#configuration-parameters">Configuration parameters</a>
-  <ul>
-  <li><a href="#set-config-parameters" id="toc-set-config-parameters" class="nav-link" data-scroll-target="#set-config-parameters">Set config parameters</a></li>
-  <li><a href="#sweep-config-parameters" id="toc-sweep-config-parameters" class="nav-link" data-scroll-target="#sweep-config-parameters">Sweep config parameters</a></li>
-  </ul></li>
-  <li><a href="#campaign" id="toc-campaign" class="nav-link" data-scroll-target="#campaign">Campaign</a>
-  <ul>
-  <li><a href="#build-campaign" id="toc-build-campaign" class="nav-link" data-scroll-target="#build-campaign">Build campaign</a></li>
-  <li><a href="#sweep-campaign-parameters" id="toc-sweep-campaign-parameters" class="nav-link" data-scroll-target="#sweep-campaign-parameters">Sweep campaign parameters</a></li>
-  </ul></li>
-  <li><a href="#serialization" id="toc-serialization" class="nav-link" data-scroll-target="#serialization">Serialization</a>
-  <ul>
-  <li><a href="#serializing-configuration-parameters" id="toc-serializing-configuration-parameters" class="nav-link" data-scroll-target="#serializing-configuration-parameters">Serializing configuration parameters</a></li>
-  <li><a href="#serializing-campaign-parameters" id="toc-serializing-campaign-parameters" class="nav-link" data-scroll-target="#serializing-campaign-parameters">Serializing campaign parameters</a></li>
-  </ul></li>
-  <li><a href="#build-demographics" id="toc-build-demographics" class="nav-link" data-scroll-target="#build-demographics">Build demographics</a></li>
-  <li><a href="#general-simulation" id="toc-general-simulation" class="nav-link" data-scroll-target="#general-simulation">General simulation</a>
-  <ul>
-  <li><a href="#platform" id="toc-platform" class="nav-link" data-scroll-target="#platform">Platform</a></li>
-  <li><a href="#emodtask" id="toc-emodtask" class="nav-link" data-scroll-target="#emodtask">EMODTask</a></li>
-  <li><a href="#builder" id="toc-builder" class="nav-link" data-scroll-target="#builder">Builder</a></li>
-  <li><a href="#reports" id="toc-reports" class="nav-link" data-scroll-target="#reports">Reports</a></li>
-  <li><a href="#experiment" id="toc-experiment" class="nav-link" data-scroll-target="#experiment">Experiment</a></li>
-  </ul></li>
-  <li><a href="#running-simulations" id="toc-running-simulations" class="nav-link" data-scroll-target="#running-simulations">Running Simulations</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Simulation Guide</h1>
+<h1 class="title">Simulation Guides</h1>
 </div>
 
 
@@ -212,65 +213,46 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Building Blocks of EMODpy</p>
-<section id="manifest.py" class="level1">
-<h1>manifest.py</h1>
-</section>
-<section id="configuration-parameters" class="level1">
-<h1>Configuration parameters</h1>
-<section id="set-config-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="set-config-parameters">Set config parameters</h2>
-</section>
-<section id="sweep-config-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="sweep-config-parameters">Sweep config parameters</h2>
-</section>
-</section>
-<section id="campaign" class="level1">
-<h1>Campaign</h1>
-<section id="build-campaign" class="level2">
-<h2 class="anchored" data-anchor-id="build-campaign">Build campaign</h2>
-</section>
-<section id="sweep-campaign-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="sweep-campaign-parameters">Sweep campaign parameters</h2>
-</section>
-</section>
-<section id="serialization" class="level1">
-<h1>Serialization</h1>
-<section id="serializing-configuration-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="serializing-configuration-parameters">Serializing configuration parameters</h2>
-</section>
-<section id="serializing-campaign-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="serializing-campaign-parameters">Serializing campaign parameters</h2>
-</section>
-</section>
-<section id="build-demographics" class="level1">
-<h1>Build demographics</h1>
-</section>
-<section id="general-simulation" class="level1">
-<h1>General simulation</h1>
-<section id="platform" class="level2">
-<h2 class="anchored" data-anchor-id="platform">Platform</h2>
-</section>
-<section id="emodtask" class="level2">
-<h2 class="anchored" data-anchor-id="emodtask">EMODTask</h2>
-</section>
-<section id="builder" class="level2">
-<h2 class="anchored" data-anchor-id="builder">Builder</h2>
-</section>
-<section id="reports" class="level2">
-<h2 class="anchored" data-anchor-id="reports">Reports</h2>
-</section>
-<section id="experiment" class="level2">
-<h2 class="anchored" data-anchor-id="experiment">Experiment</h2>
-</section>
-</section>
-<section id="running-simulations" class="level1">
-<h1>Running Simulations</h1>
+<p>Building blocks of EMOD simulations</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681488117843" data-listing-reading-time-sort="0.015">
+<a href="../guides/simulation_guide_pages/EMODpy_overview.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+EMODpy Overview
+</h5>
+<div class="card-text listing-description">
+Definitions and structures
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1681488270156" data-listing-reading-time-sort="0.19">
+<a href="../guides/simulation_guide_pages/simulation_components.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Experiment Workflow
+</h5>
+<div class="card-text listing-description">
+Standard components used to generate simulations
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,5 +1,5 @@
 ---
-title: "Our Team"
+title: Our Team
 format: 
   html:
     toc: true
