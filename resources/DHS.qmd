@@ -6,6 +6,8 @@ format:
     toc-depth: 5
 ---
 
+Demographic and Health Surveys
+
 # Understanding DHS Data
 
 ## DHS Surveys

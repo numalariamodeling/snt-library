@@ -133,8 +133,16 @@
     "items": [
       "/resources/articles.html",
       "/resources/coding_resources.html",
-      "/resources/DHS.html",
-      "/resources/Science Communication.html"
+      "/resources/science_communication.html",
+      "/resources/DHS.html"
+    ]
+  },
+  {
+    "listing": "/resources/science_communication.html",
+    "items": [
+      "/resources/science_communication/data_visualization.html",
+      "/resources/science_communication/presentations.html",
+      "/resources/science_communication/writing.html"
     ]
   }
 ]

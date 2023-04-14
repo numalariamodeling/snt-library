@@ -438,7 +438,7 @@
     "href": "resources/articles.html",
     "title": "Articles",
     "section": "",
-    "text": "Choose Category\n\n\n\n\n\n\n\n\n\n\n\nJournal Club\n\n\n\n\n\n\n\n\n\n\n\n\n\nEMOD\n\n\n\n\n\n\n\n\n\n\n\n\n\nOther Models\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence Base\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolicy Documents\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Selected readings related to applied malaria modeling\n\n\n\n\n\n\n\n\n\n\n\nJournal Club\n\n\n\n\n\n\n\n\n\n\n\n\n\nEMOD\n\n\n\n\n\n\n\n\n\n\n\n\n\nOther Models\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence Base\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolicy Documents\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/coding_resources/git_resources/git_tutorials.html",
@@ -501,7 +501,7 @@
     "href": "resources/coding_resources.html",
     "title": "Coding Resources",
     "section": "",
-    "text": "Choose Language\n\n\n\n\n\n\n\n\n\n\n\nGit\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\nQUEST\n\n\n\n\n\n\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "For python, R, github, and QUEST\n\n\n\n\n\n\n\n\n\n\n\nGit\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\nQUEST\n\n\n\n\n\n\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/DHS.html#using-the-dhs-portal",
@@ -543,6 +543,34 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Choose Category\n\n\n\n\n\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\nDHS\n\n\n\n\n\n\n\n\n\n\n\n\n\nScientific Communication\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Choose Category\n\n\n\n\n\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience Communication\n\n\n\n\n\n\n\n\n\n\n\n\n\nDHS\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/science_communication.html",
+    "href": "resources/science_communication.html",
+    "title": "Science Communication",
+    "section": "",
+    "text": "Resources for sharing your findings\n\n\n\n\n\n\n\n\n\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation Tips\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Tips\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/science_communication/data_visualization.html",
+    "href": "resources/science_communication/data_visualization.html",
+    "title": "Data Viz",
+    "section": "",
+    "text": "details"
+  },
+  {
+    "objectID": "resources/science_communication/presentations.html",
+    "href": "resources/science_communication/presentations.html",
+    "title": "Presentation Tips",
+    "section": "",
+    "text": "Talks & Posters\n\nResearch Talks\n\n\nResearch Posters"
+  },
+  {
+    "objectID": "resources/science_communication/writing.html",
+    "href": "resources/science_communication/writing.html",
+    "title": "Writing Tips",
+    "section": "",
+    "text": "Grants & Manuscripts\n\nGrant Applications\n\n\nManuscripts"
   }
 ]

@@ -20,7 +20,7 @@ website:
           - resources.qmd
           - resources/articles.qmd
           - resources/coding_resources.qmd
-          - resources/Science Communication.qmd
+          - resources/science_communication.qmd
       - text: "2023 Program"
         menu:
           - guides.qmd

@@ -5,6 +5,7 @@ listing:
   type: grid
   fields: [title, description]
   sort: weight
+  grid-columns: 2
 ---
 
 Choose Category

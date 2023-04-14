@@ -1,0 +1,13 @@
+---
+title: "Writing Tips"
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Grants & Manuscripts
+
+# Grant Applications
+
+# Manuscripts
