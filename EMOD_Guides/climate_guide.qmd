@@ -1,0 +1,12 @@
+---
+title: "How-To: Climate"
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+# Generate Climate Files
+
+# Edit Climate Files

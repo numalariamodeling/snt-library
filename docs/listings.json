@@ -1,0 +1,29 @@
+[
+  {
+    "listing": "/EMOD_Guides/demographics_guide.html",
+    "items": [
+      "/EMOD_Guides/demographics_guide_pages/demographics_guide.html"
+    ]
+  },
+  {
+    "listing": "/guides.html",
+    "items": [
+      "/EMOD_Guides/demographics_guide.html",
+      "/EMOD_Guides/climate_guide.html",
+      "/EMOD_Guides/simulation_guide.html",
+      "/EMOD_Guides/report_guide.html",
+      "/EMOD_Guides/vector_guide.html",
+      "/EMOD_Guides/analyzer_guide.html"
+    ]
+  },
+  {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/articles.html",
+      "/resources/Coding Tutorials.html",
+      "/resources/DHS.html",
+      "/resources/Program Materials.html",
+      "/resources/Science Communication.html"
+    ]
+  }
+]

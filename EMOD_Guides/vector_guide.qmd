@@ -1,0 +1,30 @@
+---
+title: "How-To: Vectors"
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+# Set up mosquito species
+
+# Change mosquito abundance
+
+# Add malaria
+
+## Challenge Bite
+
+## Outbreaks
+
+## Forced EIR
+
+# Set forced EIR
+
+# Add insecticide resistance
+
+## Set up vector genetics
+
+## Relate vector genotype to phenotype
+
+## Add vector control with specific insecticide

@@ -1,0 +1,23 @@
+---
+title: "Scientific Communication"
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+# Writing
+
+## Grant Applications
+
+## Manuscripts
+
+# Presentations
+
+## Research Talks
+
+## Figures & Visualizations
+
+## Poster Presentations
+
+

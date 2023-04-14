@@ -1,0 +1,6 @@
+---
+title: "Demographics Guides"
+listing:
+  contents: demographics_guide_pages
+  type: grid
+---

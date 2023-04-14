@@ -1,0 +1,9 @@
+---
+title: "How-To Guides"
+listing:
+  contents: "EMOD_Guides/*.qmd"
+  type: grid
+  fields: [title]
+---
+
+Choose Category

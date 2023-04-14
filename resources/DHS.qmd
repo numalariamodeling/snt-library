@@ -1,0 +1,21 @@
+---
+title: "DHS"
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+# Understanding DHS Data
+
+## DHS Surveys
+
+## Use Cases
+
+## Limitations
+
+# Accessing DHS Data 
+
+## Using the DHS Portal
+
+## Calling the DHS API
