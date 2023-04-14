@@ -4,3 +4,5 @@ listing:
   contents: demographics_guide_pages
   type: grid
 ---
+
+Detailed How-To's on creating and editing demographics files.
