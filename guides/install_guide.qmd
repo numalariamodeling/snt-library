@@ -1,0 +1,11 @@
+---
+title: "Installation Guide"
+weight: 0
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Setup everything you need to use EMODpy

@@ -62,6 +62,7 @@
   {
     "listing": "/guides.html",
     "items": [
+      "/guides/install_guide.html",
       "/guides/simulation_guide.html",
       "/guides/demographics_guide.html",
       "/guides/climate_guide.html",

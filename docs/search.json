@@ -389,7 +389,7 @@
     "href": "guides.html",
     "title": "How-To Guides",
     "section": "",
-    "text": "📁 Choose Category\n\n\n\n\n\n\n\n\n\n\n\nSimulation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntervention Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nReport Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzer Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "📁 Choose Category\n\n\n\n\n\n\n\n\n\n\n\nInstallation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntervention Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nReport Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzer Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -572,5 +572,40 @@
     "title": "Writing Tips",
     "section": "",
     "text": "Grants & Manuscripts\n\nGrant Applications\n\n\nManuscripts"
+  },
+  {
+    "objectID": "resources/DHS.html",
+    "href": "resources/DHS.html",
+    "title": "DHS",
+    "section": "",
+    "text": "Demographic and Health Surveys"
+  },
+  {
+    "objectID": "resources/DHS.html#dhs-surveys",
+    "href": "resources/DHS.html#dhs-surveys",
+    "title": "DHS",
+    "section": "DHS Surveys",
+    "text": "DHS Surveys"
+  },
+  {
+    "objectID": "resources/DHS.html#use-cases",
+    "href": "resources/DHS.html#use-cases",
+    "title": "DHS",
+    "section": "Use Cases",
+    "text": "Use Cases"
+  },
+  {
+    "objectID": "resources/DHS.html#limitations",
+    "href": "resources/DHS.html#limitations",
+    "title": "DHS",
+    "section": "Limitations",
+    "text": "Limitations"
+  },
+  {
+    "objectID": "guides/install_guide.html",
+    "href": "guides/install_guide.html",
+    "title": "Installation Guide",
+    "section": "",
+    "text": "Setup everything you need to use EMODpy"
   }
 ]
