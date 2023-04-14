@@ -1,0 +1,9 @@
+---
+title: "R"
+listing:
+  contents: "r_resources/*.qmd"
+  type: grid
+  fields: [title, description]
+---
+
+Select

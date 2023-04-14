@@ -3,8 +3,8 @@ title: "Resources"
 listing:
   contents: "resources/*.qmd"
   type: grid
-  fields: 
-    - title
+  fields: [title, description]
+  sort: weight
 ---
 
 Choose Category

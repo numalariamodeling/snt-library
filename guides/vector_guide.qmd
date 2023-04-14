@@ -1,0 +1,12 @@
+---
+title: "Vector Guides"
+weight: 4
+listing:
+  contents: vector_guide_pages
+  type: grid
+  fields: [title, description]
+  sort: weight
+  grid-columns: 2
+---
+
+All about vectors in EMOD. Different species, their habitats, and their abundance. 

@@ -1,0 +1,21 @@
+---
+title: "Spatial Reports"
+weight: 9
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Reports for multi-node simulations
+
+# SpatialReport
+
+# SpatialReportMalariaFiltered
+
+# Migration Tracking Reports
+
+## Human Migration
+
+## Vector Migration

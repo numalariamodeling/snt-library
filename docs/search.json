@@ -1,178 +1,507 @@
 [
   {
-    "objectID": "EMOD_Guides/climate_guide.html",
-    "href": "EMOD_Guides/climate_guide.html",
+    "objectID": "about/highlights.html",
+    "href": "about/highlights.html",
+    "title": "Program Highlights",
+    "section": "",
+    "text": "1. Multi-modal training in applied malaria modeling\n\n\n\nHands-on tutorials and exercises focused on model configuration and analysis, supplemented by lectures and journal clubs, to enable participants to independently carry out their focal projects. Participants will run models on Northwestern’s high performance computing cluster.\n\n\n\n\n\n\n\n\n2. Training in written and oral scientific communication\n\n\n\nIterative revisions of written Specific Aims and oral presentations, with feedback from program director, peers, and other Northwestern modelers.\n\n\n\n\n\n\n\n\n3. Dedicated mentorship\n\n\n\nWeekly 1-on-1 meetings with program director and an assigned partner from Northwestern’s team of modelers.\n\n\n\n\n\n\n\n\n4. Building connections with a global community of malaria modelers\n\n\n\nMembership and participation in the Applied Malaria Modeling Network (AMMnet); connections with faculty enrichment program alumni; attendance at the American Society of Tropical Medicine & Hygiene (ASTMH) 2023 Annual Meeting in Chicago"
+  },
+  {
+    "objectID": "about/mission.html",
+    "href": "about/mission.html",
+    "title": "Mission",
+    "section": "",
+    "text": "Malaria burden remains high in Sub-Saharan Africa despite two decades of intense intervention. Regular analysis and use of public health data will lead to more effective control through evidence-based decision making.\nOur long-term goal is to train a critical mass of modeling scientists who are:\n\n\n\n\n\n\n1. Retained within Sub-Saharan Africa\n\n\n\n\n\n\n\n\n\n\n\n\n2. Training the next generation of modelers\n\n\n\n\n\n\n\n\n\n\n\n\n3. Working closely with local malaria control programs to provide operational support\n\n\n\n\n\n\n\n\n\n\n\n\n4. Competitive in obtaining grants from international funding agencies\n\n\n\n\n\n\n\n\n\n\n\n\n5. Closely networked with each other across Africa and with international partners\n\n\n\n\n\n\nTo help achieve this goal, Northwestern University’s malaria modeling team is offering an 18-week intensive in-person training program in applied malaria modeling for Sub-Saharan African mathematical modeling faculty - with or without public health backgrounds - tailored to their experience and needs.\nTraining is focused on applied modeling with EMOD, an open-source malaria transmission modeling software that is currently used to support malaria programs. Participants will design their own research question and focal training project using EMOD that will form the basis of a Specific Aims page (grant proposal summary page) to be developed during the program."
+  },
+  {
+    "objectID": "about/people.html",
+    "href": "about/people.html",
+    "title": "Our Team",
+    "section": "",
+    "text": "Program People"
+  },
+  {
+    "objectID": "about/successes.html",
+    "href": "about/successes.html",
+    "title": "Successes",
+    "section": "",
+    "text": "Progress and projects so far"
+  },
+  {
+    "objectID": "curriculum/Program Materials.html",
+    "href": "curriculum/Program Materials.html",
+    "title": "Program Materials",
+    "section": "",
+    "text": "Program Handbook\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession Recordings\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Exercises\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow-To Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "curriculum/program_resources/example_exercises.html",
+    "href": "curriculum/program_resources/example_exercises.html",
+    "title": "Example Exercises",
+    "section": "",
+    "text": "Coming soon - start using EMOD right away with examples from our public repository"
+  },
+  {
+    "objectID": "curriculum/program_resources/program_faq.html",
+    "href": "curriculum/program_resources/program_faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "Answers to frequently asked questions about the program."
+  },
+  {
+    "objectID": "curriculum/program_resources/program_handbook.html",
+    "href": "curriculum/program_resources/program_handbook.html",
+    "title": "Program Handbook",
+    "section": "",
+    "text": "Coming soon - detailed program syllabus\nDescription of File - English\n- Frances\n- Português"
+  },
+  {
+    "objectID": "curriculum/program_resources/session_recordings.html",
+    "href": "curriculum/program_resources/session_recordings.html",
+    "title": "Session Recordings",
+    "section": "",
+    "text": "Coming soon - Recorded lectures, tutorials, and discussions"
+  },
+  {
+    "objectID": "curriculum.html",
+    "href": "curriculum.html",
+    "title": "Curriculum",
+    "section": "",
+    "text": "FAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgram Handbook\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession Recordings\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Exercises\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "guides/analyzer_guide.html",
+    "href": "guides/analyzer_guide.html",
+    "title": "Analyzer Guides",
+    "section": "",
+    "text": "Analyze reported outputs from a collection of a simulations.\n\n\n\n\n\n\n\n\n\n\n\nSimple\n\n\n\n\n\n\n\n\n\n\n\n\n\nBy Time and Age Bin\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-Node Analysis\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "guides/analyzer_guide_pages/event_analyzer.html",
+    "href": "guides/analyzer_guide_pages/event_analyzer.html",
+    "title": "Event Analysis",
+    "section": "",
+    "text": "Analyze ReportEventRecorder or ReportEventCounter"
+  },
+  {
+    "objectID": "guides/analyzer_guide_pages/InsetChart_analyzer.html",
+    "href": "guides/analyzer_guide_pages/InsetChart_analyzer.html",
+    "title": "Simple",
+    "section": "",
+    "text": "Analyze aggregated output data from a group of simulations."
+  },
+  {
+    "objectID": "guides/analyzer_guide_pages/MalariaSummaryReport_analyzer.html",
+    "href": "guides/analyzer_guide_pages/MalariaSummaryReport_analyzer.html",
+    "title": "By Time and Age Bin",
+    "section": "",
+    "text": "Analyze MalariaSummaryReport"
+  },
+  {
+    "objectID": "guides/analyzer_guide_pages/spatial_analyzer.html",
+    "href": "guides/analyzer_guide_pages/spatial_analyzer.html",
+    "title": "Multi-Node Analysis",
+    "section": "",
+    "text": "Analyze SpatialReport or SpatialReportMalariaFiltered"
+  },
+  {
+    "objectID": "guides/climate_guide.html",
+    "href": "guides/climate_guide.html",
     "title": "Climate Guide",
     "section": "",
-    "text": "Edit Climate Files"
+    "text": "All about weather files used in EMOD.\n\nGenerate Climate Files\n\n\nEdit Climate Files"
   },
   {
-    "objectID": "EMOD_Guides/demographics_guide.html",
-    "href": "EMOD_Guides/demographics_guide.html",
+    "objectID": "guides/demographics_guide.html",
+    "href": "guides/demographics_guide.html",
     "title": "Demographics Guides",
     "section": "",
-    "text": "No matching items"
+    "text": "Simulated settings and human populations.\n\n\n\n\n\n\n\n\n\n\n\nCreating Demographics Files\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndividual Properties\n\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-Node Demographics\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "EMOD_Guides/demographics_guide_pages/demographics_guide.html",
-    "href": "EMOD_Guides/demographics_guide_pages/demographics_guide.html",
-    "title": "How-To: Demographics",
+    "objectID": "guides/demographics_guide_pages/demographics_files.html",
+    "href": "guides/demographics_guide_pages/demographics_files.html",
+    "title": "Creating Demographics Files",
     "section": "",
-    "text": "The demographics file is a required input file for EMOD that specifies characteristics of the population in a simulation. This includes aspects like the population size, birth rates, non-malaria mortality rates, age structure, initial prevalence, and more. Full documentation on the demographics file can be found here.\nAt least one demographics file is required for every simulation unless you set the parameter Enable_Demographics_Builtin to 1 (one) in the configuration file. This setting does not represent a real location and is generally only used for testing and validating code.\nFor many applications, users often will reuse a standard demographics file and make modifications by hand or by script. In more complex simulations, creating a demographics file from scratch may be needed.\n\n\n\nParts of demographics file\n\nA demographics file is a JSON file organized into 4 main sections:\n\nMetadata\nNodeProperties\nDefaults\n\nParameters applied to all nodes in the simulation\n\nNodes: each node is a simulated location. Transmission within a node is well-mixed, and nodes are connected by human and/or vector migration.\n\nAllows node-specific parameters\nSpecified parameters override values in ‘Defaults’\n\n\n# Structure of Demographics File for a simulation with 1 node\n  {\n     \"Metadata\": {\n          \"DateCreated\": \"dateTime\",\n          \"Tool\": \"scriptUsedToGenerate\",\n          \"Author\": \"author\",\n          \"IdReference\": \"Gridded world grump2.5arcmin\",\n          \"NodeCount\": \"1\"\n     },\n     \"NodeProperties\": [\n          {...}\n     ],\n     \"Defaults\": {\n          \"NodeAttributes\": {\n            ...\n            \"BirthRateSource\": \"World Bank\",\n            \"CountryBirthRate\": 31.047,\n            \"World Bank Year\": \"2016\",\n            ...\n          },\n          \"IndividualAttributes\": {...},\n          \"IndividualProperties\": {...}\n     },\n     \"Nodes\": [{\n          \"NodeID\": 1,\n          \"NodeAttributes\": {\n            \"BirthRate\": 0.1190,\n            \"InitialPopulation\": 1400,\n            \"Village\": \"Obom\"\n          },\n          \"IndividualAttributes\": {...},\n          \"IndividualProperties\": {...}\n     }]\n  }\n\n\n\n\n\nCreating a demographics file\n\nFirst, create a file “my_node.csv” with the following columns:\n\n\n\n\n\n\n\nRequired\noptional\n\n\n\n\nnodeid (unique # >0)\nOther node-specific variables, if any, such as village name, latitude, and logitude\n\n\npopulation (starting size)\n\n\n\n\nExample:\n\n\n\nnodeid\npopulation\nVillage\nlat\nlon\n\n\n\n\n1\n1000\n“Obom”\n5.760759\n-0.4473415\n\n\n\nIn EMODpy, we generate the demographics file for each simulation using a standard build_demog() function.\ndef build_demog():\n    \"\"\"\n    This function builds a demographics input file for the DTK using emod_api.\n    \"\"\"\n    \n    # From template node #\n    ######################\n    # This snippet allows you to manually specify the node details instead of using a .csv\n#    demog = Demographics.from_template_node(lat=1, lon=2, pop=1000, name=\"Example_Site\")\n\n    # From input file csv #\n    #######################\n    demog = Demographics.from_csv(input_file = os.path.join(<path_to_file>,\"my_node.csv\"),\n                                  id_ref=\"indie_clusters\", \n                                  init_prev = 0.01, \n                                  include_biting_heterogeneity = True)\n    \n    demog.SetEquilibriumVitalDynamics()\n    age_distribution = Distributions.AgeDistribution_SSAfrica\n    demog.SetAgeDistribution(age_distribution)\n\n    return demog\n\n\n\n\n\n\n\n1. Generate Demographics\n\nTo run simultaneous simulations in multiple nodes, create an input file “my_nodes.csv” with one row for each node.\nEx. “my_nodes.csv”\n\n\n\nnodeid\nlat\nlon\npopulation\n\n\n\n\n1\n12.11\n-1.47\n1000\n\n\n2\n12.03\n-1.44\n1000\n\n\n3\n12.13\n-1.59\n1000\n\n\n17\n12.06\n-1.48\n1000\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nNode IDs must be positive whole numbers, but do not have to be sequential\nlat/lon values should represent real places with climates suitable for malaria transmission (if weather files are generated from demographics)\n\n\n\nThen, you can generate demographics for each node in every simulation, by adding this code to build_demog()\ndef build_demog():\n    \"\"\"\n    This function builds a demographics input file for the DTK using emod_api.\n    \"\"\"\n    \n    # From template node #\n    ######################\n    # This snippet allows you to manually specify the node details instead of using a .csv\n#    demog = Demographics.from_template_node(lat=1, lon=2, pop=1000, name=\"Example_Site\")\n\n    # From input file csv #\n    #######################\n    demog = Demographics.from_csv(input_file = os.path.join(<path_to_file>,\"my_nodes.csv\"),\n                                  id_ref='spatial_example', \n                                  init_prev = 0.01, \n                                  include_biting_heterogeneity = True)\n    \n    demog.SetEquilibriumVitalDynamics()\n    age_distribution = Distributions.AgeDistribution_SSAfrica\n    demog.SetAgeDistribution(age_distribution)\n\n    return demog\n\n\n\n\n\n2. Set Node-Specific Parameters\n\nSometimes we want to vary properties between nodes based on prior knowledge. For any NodeAttribute parameters, these can be created simply by specifying them in the my_nodes.csv as columns and setting load_other_columns_as_attributes=True in the call to DemographicsGenerator().\nTo set IndividualAttributes or IndividualProperties, see the following example. Imagine we know the proportion of “high-risk” individuals in each node and want to use this designation to target them for an intervention.\nFirst, we would add a column to our input file representing the high-risk proportion in each node.\nEx. “my_nodes.csv”\n\n\n\nnodeid\nlat\nlon\npopulation\nhigh_risk\n\n\n\n\n1\n12.11\n-1.47\n1000\n0.05\n\n\n2\n12.03\n-1.44\n1000\n0.10\n\n\n3\n12.13\n-1.59\n1000\n0.15\n\n\n17\n12.06\n-1.48\n1000\n0.50\n\n\n\nThen, when we can assign the “high_risk” property to individuals in each node with the probability listed in the table, by adding the following code to the end of the generate_demographics() function definition, before writing the .json file.\n\n\n\n\n\n\nComing Soon\n\n\n\n\n\n\n\n\n\n\n\nMulti-node simulations allow for the possibility that humans or vectors will move between nodes. EMOD allows 6 migration types for humans (Local, Regional, Sea, Air, Family, and campaign) and two for vectors (Local and Regional). Other than the campaign type, all other migration types are set via input files and scaling factors in config.json, and these migration rates will remain the same throughout the simulation: we will call these “ongoing migration” to distinguish from the “forced migration” that is set via campaigns.\nMultiple migration modes can be used for each agent type (human or vector) simultaneously. For example, we can set up a simulation using Local, Sea, and campaign migration for humans and Local and Regional migration for vectors.\n\n\n\n\n\nHuman Migration Example\n\n\n\n\n\n\nVector Migration Example\n\n\n\n\n\n\n\n\n\nA Single Migration Event\n\n\n\n\n\n\nPeriodic Migration\n\n\n\n\n\n\nPermanent Moves"
+    "text": "The demographics file is a required input file for EMOD that specifies characteristics of the population in a simulation. This includes aspects like the population size, birth rates, non-malaria mortality rates, age structure, initial prevalence, and more. Full documentation on the demographics file can be found here.\nAt least one demographics file is required for every simulation unless you set the parameter Enable_Demographics_Builtin to 1 (one) in the configuration file. This setting does not represent a real location and is generally only used for testing and validating code.\nFor many applications, users often will reuse a standard demographics file and make modifications by hand or by script. In more complex simulations, creating a demographics file from scratch may be needed.\n\n\nA demographics file is a JSON file organized into 4 main sections:\n\nMetadata\nNodeProperties\nDefaults\n\nParameters applied to all nodes in the simulation\n\nNodes: each node is a simulated location. Transmission within a node is well-mixed, and nodes are connected by human and/or vector migration.\n\nAllows node-specific parameters\nSpecified parameters override values in ‘Defaults’\n\n\n# Structure of Demographics File for a simulation with 1 node\n  {\n     \"Metadata\": {\n          \"DateCreated\": \"dateTime\",\n          \"Tool\": \"scriptUsedToGenerate\",\n          \"Author\": \"author\",\n          \"IdReference\": \"Gridded world grump2.5arcmin\",\n          \"NodeCount\": \"1\"\n     },\n     \"NodeProperties\": [\n          {...}\n     ],\n     \"Defaults\": {\n          \"NodeAttributes\": {\n            ...\n            \"BirthRateSource\": \"World Bank\",\n            \"CountryBirthRate\": 31.047,\n            \"World Bank Year\": \"2016\",\n            ...\n          },\n          \"IndividualAttributes\": {...},\n          \"IndividualProperties\": {...}\n     },\n     \"Nodes\": [{\n          \"NodeID\": 1,\n          \"NodeAttributes\": {\n            \"BirthRate\": 0.1190,\n            \"InitialPopulation\": 1400,\n            \"Village\": \"Obom\"\n          },\n          \"IndividualAttributes\": {...},\n          \"IndividualProperties\": {...}\n     }]\n  }\n\n\n\nFirst, create a file “my_node.csv” with the following columns:\n\n\n\n\n\n\n\nRequired\noptional\n\n\n\n\nnodeid (unique # >0)\nOther node-specific variables, if any, such as village name, latitude, and logitude\n\n\npopulation (starting size)\n\n\n\n\nExample:\n\n\n\nnodeid\npopulation\nVillage\nlat\nlon\n\n\n\n\n1\n1000\n“Obom”\n5.760759\n-0.4473415\n\n\n\nIn EMODpy, we generate the demographics file for each simulation using a standard build_demog() function.\ndef build_demog():\n    \"\"\"\n    This function builds a demographics input file for the DTK using emod_api.\n    \"\"\"\n    \n    # From template node #\n    ######################\n    # This snippet allows you to manually specify the node details instead of using a .csv\n#    demog = Demographics.from_template_node(lat=1, lon=2, pop=1000, name=\"Example_Site\")\n\n    # From input file csv #\n    #######################\n    demog = Demographics.from_csv(input_file = os.path.join(<path_to_file>,\"my_node.csv\"),\n                                  id_ref=\"indie_clusters\", \n                                  init_prev = 0.01, \n                                  include_biting_heterogeneity = True)\n    \n    demog.SetEquilibriumVitalDynamics()\n    age_distribution = Distributions.AgeDistribution_SSAfrica\n    demog.SetAgeDistribution(age_distribution)\n\n    return demog"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#set-config-parameters",
-    "href": "EMOD_Guides/simulation_guide.html#set-config-parameters",
+    "objectID": "guides/demographics_guide_pages/individual_properties.html",
+    "href": "guides/demographics_guide_pages/individual_properties.html",
+    "title": "Individual Properties",
+    "section": "",
+    "text": "Adding heterogeneity to populations"
+  },
+  {
+    "objectID": "guides/demographics_guide_pages/multinode_demographics.html",
+    "href": "guides/demographics_guide_pages/multinode_demographics.html",
+    "title": "Multi-Node Demographics",
+    "section": "",
+    "text": "To run simultaneous simulations in multiple nodes, create an input file “my_nodes.csv” with one row for each node.\nEx. “my_nodes.csv”\n\n\n\nnodeid\nlat\nlon\npopulation\n\n\n\n\n1\n12.11\n-1.47\n1000\n\n\n2\n12.03\n-1.44\n1000\n\n\n3\n12.13\n-1.59\n1000\n\n\n17\n12.06\n-1.48\n1000\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nNode IDs must be positive whole numbers, but do not have to be sequential\nlat/lon values should represent real places with climates suitable for malaria transmission (if weather files are generated from demographics)\n\n\n\nThen, you can generate demographics for each node in every simulation, by adding this code to build_demog()\ndef build_demog():\n    \"\"\"\n    This function builds a demographics input file for the DTK using emod_api.\n    \"\"\"\n    \n    # From template node #\n    ######################\n    # This snippet allows you to manually specify the node details instead of using a .csv\n#    demog = Demographics.from_template_node(lat=1, lon=2, pop=1000, name=\"Example_Site\")\n\n    # From input file csv #\n    #######################\n    demog = Demographics.from_csv(input_file = os.path.join(<path_to_file>,\"my_nodes.csv\"),\n                                  id_ref='spatial_example', \n                                  init_prev = 0.01, \n                                  include_biting_heterogeneity = True)\n    \n    demog.SetEquilibriumVitalDynamics()\n    age_distribution = Distributions.AgeDistribution_SSAfrica\n    demog.SetAgeDistribution(age_distribution)\n\n    return demog"
+  },
+  {
+    "objectID": "guides/demographics_guide_pages/multinode_demographics.html#ongoing-migration",
+    "href": "guides/demographics_guide_pages/multinode_demographics.html#ongoing-migration",
+    "title": "Multi-Node Demographics",
+    "section": "Ongoing Migration",
+    "text": "Ongoing Migration\n\nHuman Migration Example\n\n\nVector Migration Example"
+  },
+  {
+    "objectID": "guides/demographics_guide_pages/multinode_demographics.html#forced-migration",
+    "href": "guides/demographics_guide_pages/multinode_demographics.html#forced-migration",
+    "title": "Multi-Node Demographics",
+    "section": "Forced Migration",
+    "text": "Forced Migration\n\nA Single Migration Event\n\n\nPeriodic Migration\n\n\nPermanent Moves"
+  },
+  {
+    "objectID": "guides/diagnostic_guide.html",
+    "href": "guides/diagnostic_guide.html",
+    "title": "Diagnostic Guide",
+    "section": "",
+    "text": "Types of configurable tests to detect malaria in EMOD.\n\nPCR\n\n\nPfHRP2 Rapid Tests\n\n\nBlood Smear Microscopy\n\n\nFever"
+  },
+  {
+    "objectID": "guides/intervention_guide.html",
+    "href": "guides/intervention_guide.html",
+    "title": "Intervention Guides",
+    "section": "",
+    "text": "All about interventions and campaigns in EMODpy.\n\n\n\n\n\n\n\n\n\n\n\nDrug-Based\n\n\n\n\n\n\n\n\n\n\n\n\n\nVaccination\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector Control\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/Drug-Based.html",
+    "href": "guides/intervention_guide_pages/Drug-Based.html",
+    "title": "Drug-Based",
+    "section": "",
+    "text": "Treatment-Seeking, Mass Drug Campaigns, & Reactive Interventions"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/Drug-Based.html#uncomplicated-malaria",
+    "href": "guides/intervention_guide_pages/Drug-Based.html#uncomplicated-malaria",
+    "title": "Drug-Based",
+    "section": "Uncomplicated Malaria",
+    "text": "Uncomplicated Malaria"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/Drug-Based.html#severe-malaria",
+    "href": "guides/intervention_guide_pages/Drug-Based.html#severe-malaria",
+    "title": "Drug-Based",
+    "section": "Severe Malaria",
+    "text": "Severe Malaria"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/Drug-Based.html#reactive-or-event-triggered-interventions",
+    "href": "guides/intervention_guide_pages/Drug-Based.html#reactive-or-event-triggered-interventions",
+    "title": "Drug-Based",
+    "section": "Reactive or Event-Triggered Interventions",
+    "text": "Reactive or Event-Triggered Interventions\n\nFocal Mass Drug Administration (fMDA)\n\n\nReactive Case Detection (RCD)\n\n\nIntermittent Preventive Treatment in Pregancy (IPTp)"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/Vaccines.html",
+    "href": "guides/intervention_guide_pages/Vaccines.html",
+    "title": "Vaccination",
+    "section": "",
+    "text": "RTS,S and vaccSMC\n\nRTS,S"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/Vector Control.html",
+    "href": "guides/intervention_guide_pages/Vector Control.html",
+    "title": "Vector Control",
+    "section": "",
+    "text": "Bednets, IRS, & Larvicides"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/Vector Control.html#constant-usage",
+    "href": "guides/intervention_guide_pages/Vector Control.html#constant-usage",
+    "title": "Vector Control",
+    "section": "Constant Usage",
+    "text": "Constant Usage"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/Vector Control.html#seasonalleaky-usage",
+    "href": "guides/intervention_guide_pages/Vector Control.html#seasonalleaky-usage",
+    "title": "Vector Control",
+    "section": "Seasonal/Leaky Usage",
+    "text": "Seasonal/Leaky Usage"
+  },
+  {
+    "objectID": "guides/report_guide.html",
+    "href": "guides/report_guide.html",
+    "title": "Report Guides",
+    "section": "",
+    "text": "Reporting simulation data to output files\n\n\n\n\n\n\n\n\n\n\n\nInsetChart\n\n\n\n\n\n\n\n\n\n\n\n\n\nMalariaSummaryReport\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Reports\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Reports\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "guides/report_guide_pages/event_reports.html",
+    "href": "guides/report_guide_pages/event_reports.html",
+    "title": "Event Reports",
+    "section": "",
+    "text": "Report on broadcast events that occur during simulations\n\nReportEventCounter\n\n\nReportEventRecorder"
+  },
+  {
+    "objectID": "guides/report_guide_pages/InsetChart.html",
+    "href": "guides/report_guide_pages/InsetChart.html",
+    "title": "InsetChart",
+    "section": "",
+    "text": "Default reporting"
+  },
+  {
+    "objectID": "guides/report_guide_pages/MalariaSummaryReport.html",
+    "href": "guides/report_guide_pages/MalariaSummaryReport.html",
+    "title": "MalariaSummaryReport",
+    "section": "",
+    "text": "Reporting for specific time and age bins"
+  },
+  {
+    "objectID": "guides/report_guide_pages/spatial_reports.html",
+    "href": "guides/report_guide_pages/spatial_reports.html",
+    "title": "Spatial Reports",
+    "section": "",
+    "text": "Reports for multi-node simulations"
+  },
+  {
+    "objectID": "guides/report_guide_pages/spatial_reports.html#human-migration",
+    "href": "guides/report_guide_pages/spatial_reports.html#human-migration",
+    "title": "Spatial Reports",
+    "section": "Human Migration",
+    "text": "Human Migration"
+  },
+  {
+    "objectID": "guides/report_guide_pages/spatial_reports.html#vector-migration",
+    "href": "guides/report_guide_pages/spatial_reports.html#vector-migration",
+    "title": "Spatial Reports",
+    "section": "Vector Migration",
+    "text": "Vector Migration"
+  },
+  {
+    "objectID": "guides/simulation_guide.html",
+    "href": "guides/simulation_guide.html",
+    "title": "Simulation Guide",
+    "section": "",
+    "text": "Building Blocks of EMODpy"
+  },
+  {
+    "objectID": "guides/simulation_guide.html#set-config-parameters",
+    "href": "guides/simulation_guide.html#set-config-parameters",
     "title": "Simulation Guide",
     "section": "Set config parameters",
     "text": "Set config parameters"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#sweep-config-parameters",
-    "href": "EMOD_Guides/simulation_guide.html#sweep-config-parameters",
+    "objectID": "guides/simulation_guide.html#sweep-config-parameters",
+    "href": "guides/simulation_guide.html#sweep-config-parameters",
     "title": "Simulation Guide",
     "section": "Sweep config parameters",
     "text": "Sweep config parameters"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#build-campaign",
-    "href": "EMOD_Guides/simulation_guide.html#build-campaign",
+    "objectID": "guides/simulation_guide.html#build-campaign",
+    "href": "guides/simulation_guide.html#build-campaign",
     "title": "Simulation Guide",
     "section": "Build campaign",
     "text": "Build campaign"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#sweep-campaign-parameters",
-    "href": "EMOD_Guides/simulation_guide.html#sweep-campaign-parameters",
+    "objectID": "guides/simulation_guide.html#sweep-campaign-parameters",
+    "href": "guides/simulation_guide.html#sweep-campaign-parameters",
     "title": "Simulation Guide",
     "section": "Sweep campaign parameters",
     "text": "Sweep campaign parameters"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#serializing-configuration-parameters",
-    "href": "EMOD_Guides/simulation_guide.html#serializing-configuration-parameters",
+    "objectID": "guides/simulation_guide.html#serializing-configuration-parameters",
+    "href": "guides/simulation_guide.html#serializing-configuration-parameters",
     "title": "Simulation Guide",
     "section": "Serializing configuration parameters",
     "text": "Serializing configuration parameters"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#serializing-campaign-parameters",
-    "href": "EMOD_Guides/simulation_guide.html#serializing-campaign-parameters",
+    "objectID": "guides/simulation_guide.html#serializing-campaign-parameters",
+    "href": "guides/simulation_guide.html#serializing-campaign-parameters",
     "title": "Simulation Guide",
     "section": "Serializing campaign parameters",
     "text": "Serializing campaign parameters"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#platform",
-    "href": "EMOD_Guides/simulation_guide.html#platform",
+    "objectID": "guides/simulation_guide.html#platform",
+    "href": "guides/simulation_guide.html#platform",
     "title": "Simulation Guide",
     "section": "Platform",
     "text": "Platform"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#emodtask",
-    "href": "EMOD_Guides/simulation_guide.html#emodtask",
+    "objectID": "guides/simulation_guide.html#emodtask",
+    "href": "guides/simulation_guide.html#emodtask",
     "title": "Simulation Guide",
     "section": "EMODTask",
     "text": "EMODTask"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#builder",
-    "href": "EMOD_Guides/simulation_guide.html#builder",
+    "objectID": "guides/simulation_guide.html#builder",
+    "href": "guides/simulation_guide.html#builder",
     "title": "Simulation Guide",
     "section": "Builder",
     "text": "Builder"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#reports",
-    "href": "EMOD_Guides/simulation_guide.html#reports",
+    "objectID": "guides/simulation_guide.html#reports",
+    "href": "guides/simulation_guide.html#reports",
     "title": "Simulation Guide",
     "section": "Reports",
     "text": "Reports"
   },
   {
-    "objectID": "EMOD_Guides/simulation_guide.html#experiment",
-    "href": "EMOD_Guides/simulation_guide.html#experiment",
+    "objectID": "guides/simulation_guide.html#experiment",
+    "href": "guides/simulation_guide.html#experiment",
     "title": "Simulation Guide",
     "section": "Experiment",
     "text": "Experiment"
   },
   {
-    "objectID": "EMOD_Guides/vector_guide.html#challenge-bite",
-    "href": "EMOD_Guides/vector_guide.html#challenge-bite",
-    "title": "Vector Guide",
-    "section": "Challenge Bite",
-    "text": "Challenge Bite"
+    "objectID": "guides/vector_guide.html",
+    "href": "guides/vector_guide.html",
+    "title": "Vector Guides",
+    "section": "",
+    "text": "All about vectors in EMOD. Different species, their habitats, and their abundance.\n\n\n\n\n\n\n\n\n\n\n\nAdd Vector Species\n\n\n\n\n\n\n\n\n\n\n\n\n\nControlling Transmission\n\n\n\n\n\n\n\n\n\n\n\n\n\nChange Vector Abundance\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "EMOD_Guides/vector_guide.html#outbreaks",
-    "href": "EMOD_Guides/vector_guide.html#outbreaks",
-    "title": "Vector Guide",
-    "section": "Outbreaks",
-    "text": "Outbreaks"
+    "objectID": "guides/vector_guide_pages/infections.html",
+    "href": "guides/vector_guide_pages/infections.html",
+    "title": "Controlling Transmission",
+    "section": "",
+    "text": "Challenge Bite\n\n\nOutbreaks\n\n\nForced Entomological Inoculation Rate (EIR)\n\n\nInitial Prevalence"
   },
   {
-    "objectID": "EMOD_Guides/vector_guide.html#forced-eir",
-    "href": "EMOD_Guides/vector_guide.html#forced-eir",
-    "title": "Vector Guide",
-    "section": "Forced EIR",
-    "text": "Forced EIR"
+    "objectID": "guides/vector_guide_pages/vector_abundance.html",
+    "href": "guides/vector_guide_pages/vector_abundance.html",
+    "title": "Change Vector Abundance",
+    "section": "",
+    "text": "Universal scaling\n\n\nNode-specific scaling in demographics\n\n\nDynamic scaling during simulation"
   },
   {
-    "objectID": "EMOD_Guides/vector_guide.html#set-up-vector-genetics",
-    "href": "EMOD_Guides/vector_guide.html#set-up-vector-genetics",
-    "title": "Vector Guide",
-    "section": "Set up vector genetics",
-    "text": "Set up vector genetics"
-  },
-  {
-    "objectID": "EMOD_Guides/vector_guide.html#relate-vector-genotype-to-phenotype",
-    "href": "EMOD_Guides/vector_guide.html#relate-vector-genotype-to-phenotype",
-    "title": "Vector Guide",
-    "section": "Relate vector genotype to phenotype",
-    "text": "Relate vector genotype to phenotype"
-  },
-  {
-    "objectID": "EMOD_Guides/vector_guide.html#add-vector-control-with-specific-insecticide",
-    "href": "EMOD_Guides/vector_guide.html#add-vector-control-with-specific-insecticide",
-    "title": "Vector Guide",
-    "section": "Add vector control with specific insecticide",
-    "text": "Add vector control with specific insecticide"
+    "objectID": "guides/vector_guide_pages/vector_species.html",
+    "href": "guides/vector_guide_pages/vector_species.html",
+    "title": "Add Vector Species",
+    "section": "",
+    "text": "Single Species\n\n\nMultiple Species\n\n\nModify vector species parameters\n\n\nModify species habitat parameters"
   },
   {
     "objectID": "guides.html",
     "href": "guides.html",
     "title": "How-To Guides",
     "section": "",
-    "text": "Analyzer Guide\n\n\n\n\n\n\n\n\n\n\nClimate Guide\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\nReports Guide\n\n\n\n\n\n\n\n\n\n\nSimulation Guide\n\n\n\n\n\n\n\n\n\n\nVector Guide\n\n\n\n\n\n\n\nNo matching items"
+    "text": "📁 Choose Category\n\n\n\n\n\n\n\n\n\n\n\nSimulation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntervention Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nReport Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzer Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "2023 Faculty Enrichment Program in Applied Malaria Modeling",
+    "title": "Faculty Enrichment Program in Applied Malaria Modeling",
     "section": "",
-    "text": "Malaria burden remains high in Sub-Saharan Africa despite two decades of intense intervention. Regular analysis and use of public health data will lead to more effective control through evidence-based decision making.\nOur long-term goal is to train a critical mass of modeling scientists who are:\n\n\n\n\n\n\n1. Retained within Sub-Saharan Africa\n\n\n\n\n\n\n\n\n\n\n\n\n2. Training the next generation of modelers\n\n\n\n\n\n\n\n\n\n\n\n\n3. Working closely with local malaria control programs to provide operational support\n\n\n\n\n\n\n\n\n\n\n\n\n4. Competitive in obtaining grants from international funding agencies\n\n\n\n\n\n\n\n\n\n\n\n\n5. Closely networked with each other across Africa and with international partners\n\n\n\n\n\n\nTo help achieve this goal, Northwestern University’s malaria modeling team is offering an 18-week intensive in-person training program in applied malaria modeling for Sub-Saharan African mathematical modeling faculty - with or without public health backgrounds - tailored to their experience and needs.\nTraining is focused on applied modeling with EMOD, an open-source malaria transmission modeling software that is currently used to support malaria programs. Participants will design their own research question and focal training project using EMOD that will form the basis of a Specific Aims page (grant proposal summary page) to be developed during the program. Program highlights include:\n\n\n\n\n\n\n1. Multi-modal training in applied malaria modeling\n\n\n\nHands-on tutorials and exercises focused on model configuration and analysis, supplemented by lectures and journal clubs, to enable participants to independently carry out their focal projects. Participants will run models on Northwestern’s high performance computing cluster.\n\n\n\n\n\n\n\n\n2. Training in written and oral scientific communication\n\n\n\nIterative revisions of written Specific Aims and oral presentations, with feedback from program director, peers, and other Northwestern modelers.\n\n\n\n\n\n\n\n\n3. Dedicated mentorship\n\n\n\nWeekly 1-on-1 meetings with program director and an assigned partner from Northwestern’s team of modelers.\n\n\n\n\n\n\n\n\n4. Building connections with a global community of malaria modelers\n\n\n\nMembership and participation in the Applied Malaria Modeling Network (AMMnet); connections with faculty enrichment program alumni; attendance at the American Society of Tropical Medicine & Hygiene (ASTMH) 2023 Annual Meeting in Chicago"
+    "text": "Mission\n\n\n\n\n\n\n\n\n\n\nOur Team\n\n\n\n\n\n\n\n\n\n\nProgram Highlights\n\n\n\n\n\n\n\n\n\n\nSuccesses\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "Team",
+    "objectID": "resources/articles/emod.html",
+    "href": "resources/articles/emod.html",
+    "title": "EMOD",
     "section": "",
-    "text": "Program Director\n\nJaline Gerardin\n\nCurriculum\n\nAnne Stahlfeld\nTobias Holden\n\nInstructional Staff\n\nIsaiah Agorinya\nBenedicta Mensah\nKok Ben Toh"
+    "text": "Applications of EMOD in the literature"
+  },
+  {
+    "objectID": "resources/articles/evidence.html",
+    "href": "resources/articles/evidence.html",
+    "title": "Evidence Base",
+    "section": "",
+    "text": "The studies model parameters and assumptions are based on\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/articles/journal_club.html",
+    "href": "resources/articles/journal_club.html",
+    "title": "Journal Club",
+    "section": "",
+    "text": "Selected papers for 2023 program discussions\n\nA: Use of Mathematical Modeling in WHO Guidelines\n\nLo, N. C., Andrejko, K., Shukla, P., Baker, T., Sawin, V. I., Norris, S. L., & Lewnard, J. A. (2022).Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review. Epidemics, 39, 100570\n\n\n\n1: High-Burden High-Impact Modeling: Nigeria Case Study\n\nIfeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. Application of mathematical modeling to inform national malaria intervention planning in Nigeria. 06 December 2022, PREPRINT (Version 1) available at Research Square.\n\n\n\n2: Seasonality of Transmission and Interventions\n\nSelvaraj, P., Wenger, E.A. & Gerardin, J. Seasonality and heterogeneity of malaria transmission determine success of interventions in high-endemic settings: a modeling study. BMC Infect Dis 18, 413 (2018).\n\n(recommended) Nikolov, M., Bever, C. A., Upfill-Brown, A., Hamainza, B., Miller, J. M., Eckhoff, P. A., … & Gerardin, J. (2016). Malaria elimination campaigns in the Lake Kariba region of Zambia: a spatial dynamical model. PLoS computational biology, 12(11), e1005192.\n\n\n\n3: Intervention Combinations\n\nRunge M., Stahlfeld A., Abrose M., et al. Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis. 22 March 2023, PREPRINT (Version 1) available at ResearchSquare.\n\n(recommended) Ozodiegwu, I. D., Ambrose, M., Battle, K. E., Bever, C., Diallo, O., Galatas, B., … & Gerardin, J. (2021). Beyond national indicators: adapting the Demographic and Health Surveys’ sampling strategies and questions to better inform subnational malaria intervention policy. Malaria journal, 20(1), 1-7\n\n\n\n4: Efficiency of Intervention Allocation\n\nWalker, P. G., Griffin, J. T., Ferguson, N. M., & Ghani, A. C. (2016). Estimating the most efficient allocation of interventions to achieve reductions in Plasmodium falciparum malaria burden and transmission in Africa: a modelling study. The Lancet Global Health, 4(7), e474-e484.\n\n\n\n5: Subnational Tailoring in Tanzania\n\nRunge, M., Thawer, S.G., Molteni, F. et al. Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling. Malar J 21, 92 (2022).\n\n(recommended to review) Ifeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. Application of mathematical modeling to inform national malaria intervention planning in Nigeria. 06 December 2022, PREPRINT (Version 1) available at Research Square.\n\n\n\n6: Reactive Case Detection in Zambia\n\nGerardin, J., Bever, C.A., Bridenbecker, D. et al. Effectiveness of reactive case detection for malaria elimination in three archetypical transmission settings: a modelling study. Malar J 16, 248 (2017).\n\n\n\n7: Diagnostics for Malaria Elimination\n\nSlater, H., Ross, A., Ouédraogo, A. et al. Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies. Nature 528, S94–S101 (2015).\n(recommended) Gerardin, J., Ouédraogo, A.L., McCarthy, K.A. et al. Characterization of the infectious reservoir of malaria with an agent-based model calibrated to age-stratified parasite densities and infectiousness. Malar J 14, 231 (2015).\n\n\n\n8: Cross-Model Comparisons\n\nPenny, M. A., Verity, R., Bever, C. A., Sauboin, C., Galactionova, K., Flasche, S., … & Ghani, A. C. (2016). Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models.The Lancet, 387(10016), 367\n375\n(recommended) Smith, N.R., Trauer, J.M., Gambhir, M. et al. Agent-based models of malaria transmission: a systematic review. Malar J 17, 299 (2018)."
+  },
+  {
+    "objectID": "resources/articles/other_models.html",
+    "href": "resources/articles/other_models.html",
+    "title": "Other Models",
+    "section": "",
+    "text": "Examples from the literature using non-EMOD models"
+  },
+  {
+    "objectID": "resources/articles/policy.html",
+    "href": "resources/articles/policy.html",
+    "title": "Policy Documents",
+    "section": "",
+    "text": "Policy documents, white papers, and reports"
   },
   {
     "objectID": "resources/articles.html",
     "href": "resources/articles.html",
     "title": "Articles",
     "section": "",
-    "text": "Lo, N. C., Andrejko, K., Shukla, P., Baker, T., Sawin, V. I., Norris, S. L., & Lewnard, J. A. (2022).Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review. Epidemics, 39, 100570\n\n\n\n\n\nIfeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. Application of mathematical modeling to inform national malaria intervention planning in Nigeria. 06 December 2022, PREPRINT (Version 1) available at Research Square.\n\n\n\n\n\nSelvaraj, P., Wenger, E.A. & Gerardin, J. Seasonality and heterogeneity of malaria transmission determine success of interventions in high-endemic settings: a modeling study. BMC Infect Dis 18, 413 (2018).\n\n(recommended) Nikolov, M., Bever, C. A., Upfill-Brown, A., Hamainza, B., Miller, J. M., Eckhoff, P. A., … & Gerardin, J. (2016). Malaria elimination campaigns in the Lake Kariba region of Zambia: a spatial dynamical model. PLoS computational biology, 12(11), e1005192.\n\n\n\n\n\nRunge M., Stahlfeld A., Abrose M., et al. Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis. 22 March 2023, PREPRINT (Version 1) available at ResearchSquare.\n\n(recommended) Ozodiegwu, I. D., Ambrose, M., Battle, K. E., Bever, C., Diallo, O., Galatas, B., … & Gerardin, J. (2021). Beyond national indicators: adapting the Demographic and Health Surveys’ sampling strategies and questions to better inform subnational malaria intervention policy. Malaria journal, 20(1), 1-7\n\n\n\n\n\nWalker, P. G., Griffin, J. T., Ferguson, N. M., & Ghani, A. C. (2016). Estimating the most efficient allocation of interventions to achieve reductions in Plasmodium falciparum malaria burden and transmission in Africa: a modelling study. The Lancet Global Health, 4(7), e474-e484.\n\n\n\n\n\nRunge, M., Thawer, S.G., Molteni, F. et al. Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling. Malar J 21, 92 (2022).\n\n(recommended to review) Ifeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. Application of mathematical modeling to inform national malaria intervention planning in Nigeria. 06 December 2022, PREPRINT (Version 1) available at Research Square.\n\n\n\n\n\nGerardin, J., Bever, C.A., Bridenbecker, D. et al. Effectiveness of reactive case detection for malaria elimination in three archetypical transmission settings: a modelling study. Malar J 16, 248 (2017).\n\n\n\n\n\nSlater, H., Ross, A., Ouédraogo, A. et al. Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies. Nature 528, S94–S101 (2015).\n(recommended) Gerardin, J., Ouédraogo, A.L., McCarthy, K.A. et al. Characterization of the infectious reservoir of malaria with an agent-based model calibrated to age-stratified parasite densities and infectiousness. Malar J 14, 231 (2015).\n\n\n\n\n\nPenny, M. A., Verity, R., Bever, C. A., Sauboin, C., Galactionova, K., Flasche, S., … & Ghani, A. C. (2016). Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models.The Lancet, 387(10016), 367\n375\n(recommended) Smith, N.R., Trauer, J.M., Gambhir, M. et al. Agent-based models of malaria transmission: a systematic review. Malar J 17, 299 (2018)."
+    "text": "Choose Category\n\n\n\n\n\n\n\n\n\n\n\nJournal Club\n\n\n\n\n\n\n\n\n\n\n\n\n\nEMOD\n\n\n\n\n\n\n\n\n\n\n\n\n\nOther Models\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence Base\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolicy Documents\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "resources/Coding Tutorials.html",
-    "href": "resources/Coding Tutorials.html",
-    "title": "Coding Tutorials",
+    "objectID": "resources/coding_resources/git_resources/git_tutorials.html",
+    "href": "resources/coding_resources/git_resources/git_tutorials.html",
+    "title": "Code Academy",
     "section": "",
-    "text": "R\n\n\nLinux/SLURM"
+    "text": "Details"
+  },
+  {
+    "objectID": "resources/coding_resources/git_resources.html",
+    "href": "resources/coding_resources/git_resources.html",
+    "title": "Git",
+    "section": "",
+    "text": "Select\n\n\n\n\n\n\n\n\n\n\n\nCode Academy\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/coding_resources/python_resources/CodeAcademy.html",
+    "href": "resources/coding_resources/python_resources/CodeAcademy.html",
+    "title": "Code Academy",
+    "section": "",
+    "text": "Details"
+  },
+  {
+    "objectID": "resources/coding_resources/python_resources.html",
+    "href": "resources/coding_resources/python_resources.html",
+    "title": "Python",
+    "section": "",
+    "text": "Select\n\n\n\n\n\n\n\n\n\n\n\nCode Academy\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/coding_resources/quest_resources/nu_rcs_resources.html",
+    "href": "resources/coding_resources/quest_resources/nu_rcs_resources.html",
+    "title": "NU Research Computing",
+    "section": "",
+    "text": "Webinars and details."
+  },
+  {
+    "objectID": "resources/coding_resources/quest_resources.html",
+    "href": "resources/coding_resources/quest_resources.html",
+    "title": "QUEST",
+    "section": "",
+    "text": "Select\n\n\n\n\n\n\n\n\n\n\n\nNU Research Computing\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/coding_resources/r_resources/CodeAcademy.html",
+    "href": "resources/coding_resources/r_resources/CodeAcademy.html",
+    "title": "Code Academy",
+    "section": "",
+    "text": "Details"
+  },
+  {
+    "objectID": "resources/coding_resources/r_resources.html",
+    "href": "resources/coding_resources/r_resources.html",
+    "title": "R",
+    "section": "",
+    "text": "Select\n\n\n\n\n\n\n\n\n\n\n\nCode Academy\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/coding_resources.html",
+    "href": "resources/coding_resources.html",
+    "title": "Coding Resources",
+    "section": "",
+    "text": "Choose Language\n\n\n\n\n\n\n\n\n\n\n\nGit\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\nQUEST\n\n\n\n\n\n\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/DHS.html#using-the-dhs-portal",
@@ -187,13 +516,6 @@
     "title": "DHS",
     "section": "Calling the DHS API",
     "text": "Calling the DHS API"
-  },
-  {
-    "objectID": "resources/Program Materials.html",
-    "href": "resources/Program Materials.html",
-    "title": "Program Materials",
-    "section": "",
-    "text": "2023 Program Handbook\nDescription of File - English\n- Frances\n- Português\n\n\n2023 Lecture Recordings\n\n\n2023 Example Exercises"
   },
   {
     "objectID": "resources/Science Communication.html#research-talks",
@@ -221,6 +543,6 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Articles\n\n\n\n\n\n\n\n\n\n\nCoding Tutorials\n\n\n\n\n\n\n\n\n\n\nDHS\n\n\n\n\n\n\n\n\n\n\nProgram Materials\n\n\n\n\n\n\n\n\n\n\nScientific Communication\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Choose Category\n\n\n\n\n\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\nDHS\n\n\n\n\n\n\n\n\n\n\n\n\n\nScientific Communication\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,0 +1,9 @@
+---
+title: "Git"
+listing:
+  contents: "git_resources/*.qmd"
+  type: grid
+  fields: [title, description]
+---
+
+Select

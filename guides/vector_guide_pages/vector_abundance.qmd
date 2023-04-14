@@ -1,0 +1,17 @@
+---
+title: "Change Vector Abundance"
+weight: 2
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+
+# Universal scaling
+
+# Node-specific scaling in demographics
+
+# Dynamic scaling during simulation
+

@@ -1,0 +1,17 @@
+---
+title: "Controlling Transmission"
+weight: 2
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+# Challenge Bite
+
+# Outbreaks
+
+# Forced Entomological Inoculation Rate (EIR)
+
+# Initial Prevalence

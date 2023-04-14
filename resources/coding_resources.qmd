@@ -1,0 +1,10 @@
+---
+title: "Coding Resources"
+weight: 2
+listing:
+  contents: "coding_resources/*.qmd"
+  type: grid
+  fields: [title, description]
+---
+
+Choose Language

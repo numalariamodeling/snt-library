@@ -1,0 +1,53 @@
+---
+title: "Journal Club"
+weight: 1
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Selected papers for 2023 program discussions
+
+# A: Use of Mathematical Modeling in WHO Guidelines
+
+-   Lo, N. C., Andrejko, K., Shukla, P., Baker, T., Sawin, V. I., Norris, S. L., & Lewnard, J. A. (2022).[Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review](https://doi.org/10.1016/j.epidem.2022.100570). Epidemics, 39, 100570
+
+# 1: High-Burden High-Impact Modeling: Nigeria Case Study
+
+-   Ifeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. [Application of mathematical modeling to inform national malaria intervention planning in Nigeria](https://doi.org/10.21203/rs.3.rs-2335288/v1). 06 December 2022, PREPRINT (Version 1) available at Research Square.
+
+# 2: Seasonality of Transmission and Interventions
+
+-   Selvaraj, P., Wenger, E.A. & Gerardin, J. [Seasonality and heterogeneity of malaria transmission determine success of interventions in high-endemic settings: a modeling study](https://doi.org/10.1186/s12879-018-3319-y). BMC Infect Dis 18, 413 (2018).\
+-   (recommended) Nikolov, M., Bever, C. A., Upfill-Brown, A., Hamainza, B., Miller, J. M., Eckhoff, P. A., ... & Gerardin, J. (2016). [Malaria elimination campaigns in the Lake Kariba region of Zambia: a spatial dynamical model](https://doi.org/10.1371/journal.pcbi.1005192). PLoS computational biology, 12(11), e1005192.
+
+# 3: Intervention Combinations
+
+-   Runge M., Stahlfeld A., Abrose M., et al. [Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis](https://doi.org/10.21203/rs.3.rs-2710667/v1). 22 March 2023, PREPRINT (Version 1) available at ResearchSquare.\
+-   (recommended) Ozodiegwu, I. D., Ambrose, M., Battle, K. E., Bever, C., Diallo, O., Galatas, B., ... & Gerardin, J. (2021). [Beyond national indicators: adapting the Demographic and Health Surveys' sampling strategies and questions to better inform subnational malaria intervention policy](https://link.springer.com/article/10.1186/s12936-021-03646-w). Malaria journal, 20(1), 1-7
+
+# 4: Efficiency of Intervention Allocation
+
+-   Walker, P. G., Griffin, J. T., Ferguson, N. M., & Ghani, A. C. (2016). [Estimating the most efficient allocation of interventions to achieve reductions in Plasmodium falciparum malaria burden and transmission in Africa: a modelling study](https://doi.org/10.1016/S2214-109X(16)30073-0). The Lancet Global Health, 4(7), e474-e484.
+
+# 5: Subnational Tailoring in Tanzania
+
+-   Runge, M., Thawer, S.G., Molteni, F. et al. [Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling](https://doi-org.turing.library.northwestern.edu/10.1186/s12936-022-04099-5). Malar J 21, 92 (2022).\
+-   (recommended to review) Ifeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. [Application of mathematical modeling to inform national malaria intervention planning in Nigeria](https://doi.org/10.21203/rs.3.rs-2335288/v1). 06 December 2022, PREPRINT (Version 1) available at Research Square.
+
+# 6: Reactive Case Detection in Zambia
+
+-   Gerardin, J., Bever, C.A., Bridenbecker, D. et al. [Effectiveness of reactive case detection for malaria elimination in three archetypical transmission settings: a modelling study](https://doi-org.turing.library.northwestern.edu/10.1186/s12936-017-1903-z). Malar J 16, 248 (2017).
+
+# 7: Diagnostics for Malaria Elimination
+
+-   Slater, H., Ross, A., Ouédraogo, A. et al. [Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies](https://doi.org/10.1038/nature16040). Nature 528, S94--S101 (2015).
+-   (recommended) Gerardin, J., Ouédraogo, A.L., McCarthy, K.A. et al. [Characterization of the infectious reservoir of malaria with an agent-based model calibrated to age-stratified parasite densities and infectiousness](https://doi.org/10.1186/s12936-015-0751-y). Malar J 14, 231 (2015).
+
+# 8: Cross-Model Comparisons
+
+-   Penny, M. A., Verity, R., Bever, C. A., Sauboin, C., Galactionova, K., Flasche, S., ... & Ghani, A. C. (2016). [Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models.](https://www.sciencedirect.com/science/article/pii/S0140673615007254)The Lancet, 387(10016), 367\
+    375
+-   (recommended) Smith, N.R., Trauer, J.M., Gambhir, M. et al. [Agent-based models of malaria transmission: a systematic review](https://doi.org/10.1186/s12936-018-2442-y). Malar J 17, 299 (2018).
+

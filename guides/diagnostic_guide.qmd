@@ -1,0 +1,21 @@
+---
+title: "Diagnostic Guide"
+weight: 6
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Types of configurable tests to detect malaria in EMOD.
+
+# PCR
+
+# PfHRP2 Rapid Tests
+
+# Blood Smear Microscopy
+
+# Fever
+
+

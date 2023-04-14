@@ -1,0 +1,14 @@
+---
+title: "Program Materials"
+weight: 3
+listing:
+  contents: 
+    - "../guides.qmd"
+    - "program_resources/example_exercises.qmd"
+    - "program_resources/program_handbook.qmd"
+    - "program_resources/session_recordings.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title, description]
+  sort: weight
+---

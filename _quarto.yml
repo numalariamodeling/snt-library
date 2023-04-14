@@ -1,23 +1,38 @@
 project:
   type: website
   output-dir: docs
-  
-execute: 
-  freeze: auto
+
 
 website:
-  title: "2023 Faculty Enrichment Program in Applied Malaria Modeling"
+  title: "Faculty Enrichment Program in Applied Malaria Modeling"
   navbar:
     search: true
     left:
-      - href: index.qmd
-        text: About
-      - resources.qmd
-      - guides.qmd
+      - text: "Info"
+        menu: 
+          - curriculum.qmd
+          - curriculum/program_resources/program_faq.qmd
+          - curriculum/program_resources/program_handbook.qmd
+          - curriculum/program_resources/example_exercises.qmd
+          - curriculum/program_resources/session_recordings.qmd
+      - text: "Resources"
+        menu:
+          - resources.qmd
+          - resources/articles.qmd
+          - resources/coding_resources.qmd
+          - resources/Science Communication.qmd
+      - text: "2023 Program"
+        menu:
+          - guides.qmd
+          - resources/articles/journal_club.qmd
+          - curriculum/Program Materials.qmd
+  page-footer:
+    center: 
+      - text: "© NU Malaria Modeling 2023."
 
 format:
   html:
-    theme: pulse
+    theme: lux
     css: styles.css
     toc: true
 

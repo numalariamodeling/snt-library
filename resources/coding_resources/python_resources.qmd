@@ -1,0 +1,9 @@
+---
+title: "Python"
+listing:
+  contents: "python_resources/*.qmd"
+  type: grid
+  fields: [title, description]
+---
+
+Select

@@ -1,28 +1,139 @@
 [
   {
-    "listing": "/EMOD_Guides/demographics_guide.html",
+    "listing": "/curriculum/Program Materials.html",
     "items": [
-      "/EMOD_Guides/demographics_guide_pages/demographics_guide.html"
+      "/curriculum/program_resources/program_handbook.html",
+      "/curriculum/program_resources/session_recordings.html",
+      "/curriculum/program_resources/example_exercises.html",
+      "/guides.html"
+    ]
+  },
+  {
+    "listing": "/curriculum.html",
+    "items": [
+      "/curriculum/program_resources/program_faq.html",
+      "/curriculum/program_resources/program_handbook.html",
+      "/curriculum/program_resources/session_recordings.html",
+      "/curriculum/program_resources/example_exercises.html"
+    ]
+  },
+  {
+    "listing": "/guides/analyzer_guide.html",
+    "items": [
+      "/guides/analyzer_guide_pages/InsetChart_analyzer.html",
+      "/guides/analyzer_guide_pages/MalariaSummaryReport_analyzer.html",
+      "/guides/analyzer_guide_pages/event_analyzer.html",
+      "/guides/analyzer_guide_pages/spatial_analyzer.html"
+    ]
+  },
+  {
+    "listing": "/guides/demographics_guide.html",
+    "items": [
+      "/guides/demographics_guide_pages/demographics_files.html",
+      "/guides/demographics_guide_pages/individual_properties.html",
+      "/guides/demographics_guide_pages/multinode_demographics.html"
+    ]
+  },
+  {
+    "listing": "/guides/intervention_guide.html",
+    "items": [
+      "/guides/intervention_guide_pages/Drug-Based.html",
+      "/guides/intervention_guide_pages/Vaccines.html",
+      "/guides/intervention_guide_pages/Vector Control.html"
+    ]
+  },
+  {
+    "listing": "/guides/report_guide.html",
+    "items": [
+      "/guides/report_guide_pages/InsetChart.html",
+      "/guides/report_guide_pages/MalariaSummaryReport.html",
+      "/guides/report_guide_pages/event_reports.html",
+      "/guides/report_guide_pages/spatial_reports.html"
+    ]
+  },
+  {
+    "listing": "/guides/vector_guide.html",
+    "items": [
+      "/guides/vector_guide_pages/vector_species.html",
+      "/guides/vector_guide_pages/infections.html",
+      "/guides/vector_guide_pages/vector_abundance.html"
     ]
   },
   {
     "listing": "/guides.html",
     "items": [
-      "/EMOD_Guides/analyzer_guide.html",
-      "/EMOD_Guides/climate_guide.html",
-      "/EMOD_Guides/demographics_guide.html",
-      "/EMOD_Guides/report_guide.html",
-      "/EMOD_Guides/simulation_guide.html",
-      "/EMOD_Guides/vector_guide.html"
+      "/guides/simulation_guide.html",
+      "/guides/demographics_guide.html",
+      "/guides/climate_guide.html",
+      "/guides/vector_guide.html",
+      "/guides/intervention_guide.html",
+      "/guides/diagnostic_guide.html",
+      "/guides/report_guide.html",
+      "/guides/analyzer_guide.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about/mission.html",
+      "/about/people.html",
+      "/about/highlights.html",
+      "/about/successes.html"
+    ]
+  },
+  {
+    "listing": "/resources/articles/evidence.html",
+    "items": []
+  },
+  {
+    "listing": "/resources/articles.html",
+    "items": [
+      "/resources/articles/journal_club.html",
+      "/resources/articles/emod.html",
+      "/resources/articles/other_models.html",
+      "/resources/articles/evidence.html",
+      "/resources/articles/policy.html"
+    ]
+  },
+  {
+    "listing": "/resources/coding_resources/git_resources.html",
+    "items": [
+      "/resources/coding_resources/git_resources/git_tutorials.html"
+    ]
+  },
+  {
+    "listing": "/resources/coding_resources/python_resources.html",
+    "items": [
+      "/resources/coding_resources/python_resources/CodeAcademy.html"
+    ]
+  },
+  {
+    "listing": "/resources/coding_resources/quest_resources.html",
+    "items": [
+      "/resources/coding_resources/quest_resources/nu_rcs_resources.html"
+    ]
+  },
+  {
+    "listing": "/resources/coding_resources/r_resources.html",
+    "items": [
+      "/resources/coding_resources/r_resources/CodeAcademy.html"
+    ]
+  },
+  {
+    "listing": "/resources/coding_resources.html",
+    "items": [
+      "/resources/coding_resources/git_resources.html",
+      "/resources/coding_resources/python_resources.html",
+      "/resources/coding_resources/quest_resources.html",
+      "/resources/coding_resources/r_resources.html"
     ]
   },
   {
     "listing": "/resources.html",
     "items": [
       "/resources/articles.html",
-      "/resources/Coding Tutorials.html",
+      "/resources/coding_resources.html",
       "/resources/DHS.html",
-      "/resources/Program Materials.html",
       "/resources/Science Communication.html"
     ]
   }

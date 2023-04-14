@@ -1,9 +1,11 @@
 ---
 title: "How-To Guides"
 listing:
-  contents: "EMOD_Guides/*.qmd"
+  contents: "guides/*.qmd"
   type: grid
-  fields: [title]
+  fields: [title, description]
+  sort: "weight"
+  grid-columns: 2
 ---
 
-Choose Category
+📁 Choose Category

@@ -1,0 +1,12 @@
+---
+title: "By Time and Age Bin"
+weight: 2
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+    weight: 2
+---
+
+Analyze MalariaSummaryReport

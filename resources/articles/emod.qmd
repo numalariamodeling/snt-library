@@ -1,0 +1,10 @@
+---
+title: "EMOD"
+weight: 2
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Applications of EMOD in the literature

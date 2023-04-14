@@ -1,0 +1,12 @@
+---
+title: "Event Analysis"
+weight: 3
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+    weight: 3
+---
+
+Analyze ReportEventRecorder or ReportEventCounter

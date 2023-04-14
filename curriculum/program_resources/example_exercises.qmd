@@ -1,0 +1,10 @@
+---
+title: "Example Exercises"
+weight: 4
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Coming soon - start using EMOD right away with examples from our [public repository](https://github.com/numalariamodeling/FE-2023-examples)

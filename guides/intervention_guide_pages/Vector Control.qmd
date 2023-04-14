@@ -1,0 +1,20 @@
+---
+title: "Vector Control"
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Bednets, IRS, & Larvicides
+
+# Bednets (ITNs)
+
+## Constant Usage
+
+## Seasonal/Leaky Usage
+
+# Indoor-Residual Spraying (IRS)
+
+# Larvicides

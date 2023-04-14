@@ -1,0 +1,12 @@
+---
+title: "Demographics Guides"
+weight: 2
+listing:
+  contents: demographics_guide_pages
+  type: grid
+  fields: [title, description]
+  sort: "weight"
+  grid-columns: 2
+---
+
+Simulated settings and human populations.

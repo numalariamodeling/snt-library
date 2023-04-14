@@ -1,0 +1,10 @@
+---
+title: "Individual Properties"
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Adding heterogeneity to populations

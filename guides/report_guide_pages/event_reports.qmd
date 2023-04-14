@@ -1,0 +1,15 @@
+---
+title: "Event Reports"
+weight: 3
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Report on broadcast events that occur during simulations
+
+# ReportEventCounter
+
+# ReportEventRecorder
