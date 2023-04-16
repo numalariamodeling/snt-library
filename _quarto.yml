@@ -2,12 +2,15 @@ project:
   type: website
   output-dir: docs
 
-
 website:
-  title: "Faculty<br>Enrichment<br>Program<br>in<br>Applied<br>Malaria<br>Modeling"
+  title: "Faculty Enrichment Program in Applied Malaria Modeling"
+  reader-mode: true
+  favicon: numalaria_logo.png
   sidebar:
+    title: "Faculty Enrichment Program in Applied Malaria Modeling"
+    logo: numalaria_logo.png
     collapse-level: 1
-    background: primary
+    background: light
     search: true
     contents:
       - section: "Program Info"
@@ -35,7 +38,7 @@ website:
       - text: <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
 format:
   html:
-    theme: lux
+    theme: pulse
     css: styles.css
     toc: true
 

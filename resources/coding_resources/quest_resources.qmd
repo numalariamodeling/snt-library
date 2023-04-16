@@ -1,5 +1,6 @@
 ---
 title: "QUEST"
+weight: 4
 listing:
   contents: "quest_resources/*.qmd"
   type: grid

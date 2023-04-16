@@ -1,5 +1,6 @@
 ---
 title: "Git"
+weight: 3
 listing:
   contents: "git_resources/*.qmd"
   type: grid

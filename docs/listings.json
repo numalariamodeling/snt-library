@@ -47,10 +47,10 @@
   {
     "listing": "/resources/coding_resources.html",
     "items": [
-      "/resources/coding_resources/git_resources.html",
       "/resources/coding_resources/python_resources.html",
-      "/resources/coding_resources/quest_resources.html",
-      "/resources/coding_resources/r_resources.html"
+      "/resources/coding_resources/r_resources.html",
+      "/resources/coding_resources/git_resources.html",
+      "/resources/coding_resources/quest_resources.html"
     ]
   },
   {
@@ -84,7 +84,6 @@
   {
     "listing": "/resources/articles.html",
     "items": [
-      "/resources/articles/journal_club.html",
       "/resources/articles/emod.html",
       "/resources/articles/other_models.html",
       "/resources/articles/evidence.html",

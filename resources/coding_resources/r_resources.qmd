@@ -1,5 +1,6 @@
 ---
 title: "R"
+weight: 2
 listing:
   contents: "r_resources/*.qmd"
   type: grid

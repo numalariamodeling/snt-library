@@ -1,5 +1,6 @@
 ---
 title: "Python"
+weight: 1
 listing:
   contents: "python_resources/*.qmd"
   type: grid
