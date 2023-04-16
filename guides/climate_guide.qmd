@@ -1,15 +1,12 @@
 ---
-title: "Climate Guide"
+title: "Climate Guides"
 weight: 3
-format: 
-  html:
-    toc: true
-    toc-depth: 5
-    page-layout: full
+listing:
+  contents: climate_guide_pages
+  type: grid
+  fields: [title, description]
+  sort: weight
+  grid-columns: 1
 ---
 
 All about weather files used in EMOD.
-
-# Generate Climate Files
-
-# Edit Climate Files

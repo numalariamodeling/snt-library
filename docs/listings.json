@@ -110,9 +110,9 @@
   {
     "listing": "/guides/intervention_guide.html",
     "items": [
-      "/guides/intervention_guide_pages/Drug-Based.html",
-      "/guides/intervention_guide_pages/Vector Control.html",
-      "/guides/intervention_guide_pages/Vaccines.html"
+      "/guides/intervention_guide_pages/drug_based.html",
+      "/guides/intervention_guide_pages/vector_control.html",
+      "/guides/intervention_guide_pages/vaccines.html"
     ]
   },
   {
@@ -130,6 +130,39 @@
       "/guides/demographics_guide_pages/demographics_files.html",
       "/guides/demographics_guide_pages/individual_properties.html",
       "/guides/demographics_guide_pages/multinode_demographics.html"
+    ]
+  },
+  {
+    "listing": "/guides/intervention_guide_pages/vector_control.html",
+    "items": [
+      "/guides/intervention_guide_pages/vector_control_pages/bednets.html",
+      "/guides/intervention_guide_pages/vector_control_pages/indoor_residual_spraying.html",
+      "/guides/intervention_guide_pages/vector_control_pages/larvicides.html"
+    ]
+  },
+  {
+    "listing": "/guides/intervention_guide_pages/drug_based.html",
+    "items": [
+      "/guides/intervention_guide_pages/drug_based_pages/treatment_seeking.html",
+      "/guides/intervention_guide_pages/drug_based_pages/drug_campaigns.html",
+      "/guides/intervention_guide_pages/drug_based_pages/triggered_interventions.html",
+      "/guides/intervention_guide_pages/drug_based_pages/change_drug_adherence.html"
+    ]
+  },
+  {
+    "listing": "/guides/diagnostic_guide.html",
+    "items": [
+      "/guides/diagnostic_guide_pages/blood_smear_microscopy.html",
+      "/guides/diagnostic_guide_pages/pfhrp2_rdt.html",
+      "/guides/diagnostic_guide_pages/pcr.html",
+      "/guides/diagnostic_guide_pages/fever.html"
+    ]
+  },
+  {
+    "listing": "/guides/climate_guide.html",
+    "items": [
+      "/guides/climate_guide_pages/get_climate_files.html",
+      "/guides/climate_guide_pages/edit_climate_files.html"
     ]
   },
   {
@@ -166,7 +199,8 @@
       "/resources/articles.html",
       "/resources/coding_resources.html",
       "/resources/data_sources.html",
-      "/resources/science_communication.html"
+      "/resources/science_communication.html",
+      "/resources/AMMnet.html"
     ]
   }
 ]

@@ -1,0 +1,11 @@
+---
+title: "Customize Climate"
+weight: 2
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Edit weather files to control simulated climate

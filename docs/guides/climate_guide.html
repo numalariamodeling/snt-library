@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Faculty Enrichment Program in Applied Malaria Modeling - Climate Guide</title>
+<title>Faculty Enrichment Program in Applied Malaria Modeling - Climate Guides</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../numalaria_logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -70,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Climate Guide</h1>
+      <h1 class="quarto-secondary-nav-title">Climate Guides</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -78,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
@@ -161,12 +193,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guides/analyzer_guide.html" class="sidebar-item-text sidebar-link">Analyzer Guides</a>
+  <a href="../guides/install_guide.html" class="sidebar-item-text sidebar-link">Installation Guide</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guides/climate_guide.html" class="sidebar-item-text sidebar-link active">Climate Guide</a>
+  <a href="../guides/simulation_guide.html" class="sidebar-item-text sidebar-link">Simulation Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -176,12 +208,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guides/diagnostic_guide.html" class="sidebar-item-text sidebar-link">Diagnostic Guide</a>
+  <a href="../guides/climate_guide.html" class="sidebar-item-text sidebar-link active">Climate Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guides/install_guide.html" class="sidebar-item-text sidebar-link">Installation Guide</a>
+  <a href="../guides/vector_guide.html" class="sidebar-item-text sidebar-link">Vector Guides</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../guides/diagnostic_guide.html" class="sidebar-item-text sidebar-link">Diagnostic Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -196,12 +233,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guides/simulation_guide.html" class="sidebar-item-text sidebar-link">Simulation Guides</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guides/vector_guide.html" class="sidebar-item-text sidebar-link">Vector Guides</a>
+  <a href="../guides/analyzer_guide.html" class="sidebar-item-text sidebar-link">Analyzer Guides</a>
   </div>
 </li>
       </ul>
@@ -234,6 +266,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="../resources/science_communication.html" class="sidebar-item-text sidebar-link">Science Communication</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources/AMMnet.html" class="sidebar-item-text sidebar-link">AMMnet</a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -241,21 +278,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#generate-climate-files" id="toc-generate-climate-files" class="nav-link active" data-scroll-target="#generate-climate-files">Generate Climate Files</a></li>
-  <li><a href="#edit-climate-files" id="toc-edit-climate-files" class="nav-link" data-scroll-target="#edit-climate-files">Edit Climate Files</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Climate Guide</h1>
+<h1 class="title d-none d-lg-block">Climate Guides</h1>
 </div>
 
 
@@ -271,16 +301,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>All about weather files used in EMOD.</p>
-<section id="generate-climate-files" class="level1">
-<h1>Generate Climate Files</h1>
-</section>
-<section id="edit-climate-files" class="level1">
-<h1>Edit Climate Files</h1>
 <a href="https://www.numalariamodeling.org/">
+</a>
 
-</a></section><a href="https://www.numalariamodeling.org/">
 
-</a></main><a href="https://www.numalariamodeling.org/"> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing"><a href="https://www.numalariamodeling.org/">
+</a><div class="list grid quarto-listing-cols-1"><a href="https://www.numalariamodeling.org/">
+</a><div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681660299855" data-listing-reading-time-sort="0.035"><a href="https://www.numalariamodeling.org/">
+</a><a href="../guides/climate_guide_pages/get_climate_files.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Get Climate
+</h5>
+<div class="card-text listing-description">
+Request weather files from the climate API
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1681660463161" data-listing-reading-time-sort="0.035">
+<a href="../guides/climate_guide_pages/edit_climate_files.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Customize Climate
+</h5>
+<div class="card-text listing-description">
+Edit weather files to control simulated climate
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -414,13 +473,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</a></div><a href="https://www.numalariamodeling.org/"> <!-- /content -->
-</a><footer class="footer"><a href="https://www.numalariamodeling.org/">
-  </a><div class="nav-footer"><a href="https://www.numalariamodeling.org/">
-    </a><div class="nav-footer-right"><a href="https://www.numalariamodeling.org/">
-      </a><ul class="footer-items list-unstyled"><a href="https://www.numalariamodeling.org/">
-    </a><li class="nav-item"><a href="https://www.numalariamodeling.org/">
- </a><a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
   </a></li><a href="https://www.numalariamodeling.org/">  
 </a></ul><a href="https://www.numalariamodeling.org/">
     </a></div><a href="https://www.numalariamodeling.org/">

@@ -1,0 +1,19 @@
+---
+title: "Triggered Campaigns"
+weight: 3
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Treatment in response to non-symptom simulation event.
+
+# Reactive or Event-Triggered Interventions
+
+### Focal Mass Drug Administration (fMDA)
+
+### Reactive Case Detection (RCD)
+
+### Intermittent Preventive Treatment in Pregancy (IPTp)

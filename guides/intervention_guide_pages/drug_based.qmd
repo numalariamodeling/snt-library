@@ -1,0 +1,12 @@
+---
+title: "Drug-Based"
+weight: 1
+listing: 
+  type: grid
+  contents: drug_based_pages/*.qmd
+  sort: weight
+  fields: [title, description]
+  grid-columns: 1
+---
+
+Interventions centered on administration of antimalarial drugs

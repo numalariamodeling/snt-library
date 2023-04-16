@@ -2,7 +2,7 @@
 title: "Intervention Guides"
 weight: 5
 listing:
-  contents: intervention_guide_pages
+  contents: intervention_guide_pages/*.qmd
   type: grid
   fields: [title, description]
   sort: weight

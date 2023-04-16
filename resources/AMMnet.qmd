@@ -1,0 +1,19 @@
+---
+title: "AMMnet"
+weight: 5
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Applied Malaria Modeling Network
+
+
+### Overview
+
+### Activities
+
+### Membership
+
+### Join

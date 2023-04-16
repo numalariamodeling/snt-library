@@ -24,9 +24,23 @@ website:
           - program/program_resources/program_materials.qmd
           - program/program_resources/session_recordings.qmd
       - section: "EMOD How-To Guides"
-        contents: guides/*.qmd
+        contents: 
+          - guides/install_guide.qmd
+          - guides/simulation_guide.qmd
+          - guides/demographics_guide.qmd
+          - guides/climate_guide.qmd
+          - guides/vector_guide.qmd
+          - guides/diagnostic_guide.qmd
+          - guides/intervention_guide.qmd
+          - guides/report_guide.qmd
+          - guides/analyzer_guide.qmd
       - section: "Other Resources"            
-        contents: resources/*.qmd
+        contents: 
+          - resources/articles.qmd
+          - resources/coding_resources.qmd
+          - resources/data_sources.qmd
+          - resources/science_communication.qmd
+          - resources/AMMnet.qmd
     tools: 
       - icon: github
         menu: 

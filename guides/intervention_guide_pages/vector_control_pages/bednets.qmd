@@ -1,6 +1,6 @@
 ---
-title: "Vector Control"
-weight: 2
+title: "Bednets"
+weight: 1
 format: 
   html:
     toc: true
@@ -8,7 +8,7 @@ format:
     page-layout: full
 ---
 
-Bednets, IRS, & Larvicides
+ITNs with different usage patterns
 
 # Bednets (ITNs)
 
@@ -16,6 +16,3 @@ Bednets, IRS, & Larvicides
 
 ## Seasonal/Leaky Usage
 
-# Indoor-Residual Spraying (IRS)
-
-# Larvicides

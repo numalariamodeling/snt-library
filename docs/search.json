@@ -70,6 +70,13 @@
     "text": "The studies model parameters and assumptions are based on\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "resources/AMMnet.html",
+    "href": "resources/AMMnet.html",
+    "title": "AMMnet",
+    "section": "",
+    "text": "Applied Malaria Modeling Network\n\nOverview\n\n\nActivities\n\n\nMembership\n\n\nJoin"
+  },
+  {
     "objectID": "resources/coding_resources/python_resources.html",
     "href": "resources/coding_resources/python_resources.html",
     "title": "Python",
@@ -228,7 +235,7 @@
     "href": "guides.html",
     "title": "How-To Guides",
     "section": "",
-    "text": "📁 Choose Category\n\n\n\n\n\n\n\n\n\n\n\nInstallation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntervention Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nReport Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzer Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "📁 Choose Category\n\n\n\n\n\n\n\n\n\n\n\nInstallation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntervention Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nReport Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzer Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "program.html",
@@ -306,6 +313,20 @@
     "title": "Controlling Transmission",
     "section": "",
     "text": "Challenge Bite\n\n\nOutbreaks\n\n\nForced Entomological Inoculation Rate (EIR)\n\n\nInitial Prevalence"
+  },
+  {
+    "objectID": "guides/climate_guide_pages/edit_climate_files.html",
+    "href": "guides/climate_guide_pages/edit_climate_files.html",
+    "title": "Customize Climate",
+    "section": "",
+    "text": "Edit weather files to control simulated climate"
+  },
+  {
+    "objectID": "guides/climate_guide_pages/get_climate_files.html",
+    "href": "guides/climate_guide_pages/get_climate_files.html",
+    "title": "Get Climate",
+    "section": "",
+    "text": "Request weather files from the climate API"
   },
   {
     "objectID": "guides/vector_guide.html",
@@ -504,74 +525,116 @@
     "text": "Setup everything you need to use EMODpy"
   },
   {
-    "objectID": "guides/intervention_guide_pages/Vector Control.html",
-    "href": "guides/intervention_guide_pages/Vector Control.html",
+    "objectID": "guides/intervention_guide_pages/drug_based_pages/change_drug_adherence.html",
+    "href": "guides/intervention_guide_pages/drug_based_pages/change_drug_adherence.html",
+    "title": "Change Drug Adherence",
+    "section": "",
+    "text": "Vary adherence to the course of drugs prescribed\n\nChange Drug Adherence\nConfiguring adherence is not required. In the absence of specific configuration, adherence to the full treatment course is assumed to be 100%."
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/drug_based_pages/triggered_interventions.html",
+    "href": "guides/intervention_guide_pages/drug_based_pages/triggered_interventions.html",
+    "title": "Triggered Campaigns",
+    "section": "",
+    "text": "Treatment in response to non-symptom simulation event.\n\nReactive or Event-Triggered Interventions\n\nFocal Mass Drug Administration (fMDA)\n\n\nReactive Case Detection (RCD)\n\n\nIntermittent Preventive Treatment in Pregancy (IPTp)"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/drug_based_pages/drug_campaigns.html",
+    "href": "guides/intervention_guide_pages/drug_based_pages/drug_campaigns.html",
+    "title": "Drug Campaigns",
+    "section": "",
+    "text": "Population-wide programmatic treatment campaigns\n\nDrug Campaigns\n\nSeasonal/Perennial Malaria Chemoprophylaxis (SMC/PMC)\n\n\nMass Drug Administration (MDA)\n\n\nMass Screening/Testing and Treatment (MSAT/MTAT)"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/drug_based_pages/treatment_seeking.html",
+    "href": "guides/intervention_guide_pages/drug_based_pages/treatment_seeking.html",
+    "title": "Treatment-Seeking",
+    "section": "",
+    "text": "Management of symptomatic cases"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/drug_based_pages/treatment_seeking.html#uncomplicated-malaria",
+    "href": "guides/intervention_guide_pages/drug_based_pages/treatment_seeking.html#uncomplicated-malaria",
+    "title": "Treatment-Seeking",
+    "section": "Uncomplicated Malaria",
+    "text": "Uncomplicated Malaria"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/drug_based_pages/treatment_seeking.html#severe-malaria",
+    "href": "guides/intervention_guide_pages/drug_based_pages/treatment_seeking.html#severe-malaria",
+    "title": "Treatment-Seeking",
+    "section": "Severe Malaria",
+    "text": "Severe Malaria"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/vector_control.html",
+    "href": "guides/intervention_guide_pages/vector_control.html",
     "title": "Vector Control",
     "section": "",
-    "text": "Bednets, IRS, & Larvicides"
+    "text": "Bednets, IRS, & Larvicides\n\n\n\n\n\n\n\n\n\n\n\nBednets\n\n\n\n\n\n\n\n\n\n\n\n\n\nIRS\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarvicides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "guides/intervention_guide_pages/Vector Control.html#constant-usage",
-    "href": "guides/intervention_guide_pages/Vector Control.html#constant-usage",
-    "title": "Vector Control",
-    "section": "Constant Usage",
-    "text": "Constant Usage"
-  },
-  {
-    "objectID": "guides/intervention_guide_pages/Vector Control.html#seasonalleaky-usage",
-    "href": "guides/intervention_guide_pages/Vector Control.html#seasonalleaky-usage",
-    "title": "Vector Control",
-    "section": "Seasonal/Leaky Usage",
-    "text": "Seasonal/Leaky Usage"
-  },
-  {
-    "objectID": "guides/intervention_guide_pages/Vaccines.html",
-    "href": "guides/intervention_guide_pages/Vaccines.html",
+    "objectID": "guides/intervention_guide_pages/vaccines.html",
+    "href": "guides/intervention_guide_pages/vaccines.html",
     "title": "Vaccination",
     "section": "",
     "text": "RTS,S and vaccSMC\n\nRTS,S"
   },
   {
-    "objectID": "guides/intervention_guide_pages/Drug-Based.html",
-    "href": "guides/intervention_guide_pages/Drug-Based.html",
+    "objectID": "guides/intervention_guide_pages/drug_based.html",
+    "href": "guides/intervention_guide_pages/drug_based.html",
     "title": "Drug-Based",
     "section": "",
-    "text": "Treatment-Seeking, Mass Drug Campaigns, & Reactive Interventions"
+    "text": "Interventions centered on administration of antimalarial drugs\n\n\n\n\n\n\n\n\n\n\n\nTreatment-Seeking\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrug Campaigns\n\n\n\n\n\n\n\n\n\n\n\n\n\nTriggered Campaigns\n\n\n\n\n\n\n\n\n\n\n\n\n\nChange Drug Adherence\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "guides/intervention_guide_pages/Drug-Based.html#uncomplicated-malaria",
-    "href": "guides/intervention_guide_pages/Drug-Based.html#uncomplicated-malaria",
-    "title": "Drug-Based",
-    "section": "Uncomplicated Malaria",
-    "text": "Uncomplicated Malaria"
+    "objectID": "guides/intervention_guide_pages/vector_control_pages/larvicides.html",
+    "href": "guides/intervention_guide_pages/vector_control_pages/larvicides.html",
+    "title": "Larvicides",
+    "section": "",
+    "text": "Larvicides\n\nLarvicides"
   },
   {
-    "objectID": "guides/intervention_guide_pages/Drug-Based.html#severe-malaria",
-    "href": "guides/intervention_guide_pages/Drug-Based.html#severe-malaria",
-    "title": "Drug-Based",
-    "section": "Severe Malaria",
-    "text": "Severe Malaria"
+    "objectID": "guides/intervention_guide_pages/vector_control_pages/indoor_residual_spraying.html",
+    "href": "guides/intervention_guide_pages/vector_control_pages/indoor_residual_spraying.html",
+    "title": "IRS",
+    "section": "",
+    "text": "Indoor Residual Spraying\n\nIRS"
   },
   {
-    "objectID": "guides/intervention_guide_pages/Drug-Based.html#reactive-or-event-triggered-interventions",
-    "href": "guides/intervention_guide_pages/Drug-Based.html#reactive-or-event-triggered-interventions",
-    "title": "Drug-Based",
-    "section": "Reactive or Event-Triggered Interventions",
-    "text": "Reactive or Event-Triggered Interventions\n\nFocal Mass Drug Administration (fMDA)\n\n\nReactive Case Detection (RCD)\n\n\nIntermittent Preventive Treatment in Pregancy (IPTp)"
+    "objectID": "guides/intervention_guide_pages/vector_control_pages/bednets.html",
+    "href": "guides/intervention_guide_pages/vector_control_pages/bednets.html",
+    "title": "Bednets",
+    "section": "",
+    "text": "ITNs with different usage patterns"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/vector_control_pages/bednets.html#constant-usage",
+    "href": "guides/intervention_guide_pages/vector_control_pages/bednets.html#constant-usage",
+    "title": "Bednets",
+    "section": "Constant Usage",
+    "text": "Constant Usage"
+  },
+  {
+    "objectID": "guides/intervention_guide_pages/vector_control_pages/bednets.html#seasonalleaky-usage",
+    "href": "guides/intervention_guide_pages/vector_control_pages/bednets.html#seasonalleaky-usage",
+    "title": "Bednets",
+    "section": "Seasonal/Leaky Usage",
+    "text": "Seasonal/Leaky Usage"
   },
   {
     "objectID": "guides/diagnostic_guide.html",
     "href": "guides/diagnostic_guide.html",
-    "title": "Diagnostic Guide",
+    "title": "Diagnostic Guides",
     "section": "",
-    "text": "Types of configurable tests to detect malaria in EMOD.\n\nPCR\n\n\nPfHRP2 Rapid Tests\n\n\nBlood Smear Microscopy\n\n\nFever"
+    "text": "Types of configurable tests to detect malaria in EMOD.\n\n\n\n\n\n\n\n\n\n\n\nBlood Smear Microscopy\n\n\n\n\n\n\n\n\n\n\n\n\n\nHRP2-Based Rapid Test\n\n\n\n\n\n\n\n\n\n\n\n\n\nPCR\n\n\n\n\n\n\n\n\n\n\n\n\n\nFever\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "guides/climate_guide.html",
     "href": "guides/climate_guide.html",
-    "title": "Climate Guide",
+    "title": "Climate Guides",
     "section": "",
-    "text": "All about weather files used in EMOD.\n\nGenerate Climate Files\n\n\nEdit Climate Files"
+    "text": "All about weather files used in EMOD.\n\n\n\n\n\n\n\n\n\n\n\nGet Climate\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustomize Climate\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "program/program_resources/example_exercises.html",
@@ -697,6 +760,6 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Choose Category\n\n\n\n\n\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Sources\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience Communication\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Choose Category\n\n\n\n\n\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Sources\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience Communication\n\n\n\n\n\n\n\n\n\n\n\n\n\nAMMnet\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
