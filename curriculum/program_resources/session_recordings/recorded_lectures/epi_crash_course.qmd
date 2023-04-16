@@ -1,0 +1,10 @@
+---
+title: "Epidemiology Crash Course"
+date: 2023-06-21
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Brush up on some fundamental concepts needed to study - and model - malaria transmission

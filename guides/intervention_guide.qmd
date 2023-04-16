@@ -5,8 +5,8 @@ listing:
   contents: intervention_guide_pages
   type: grid
   fields: [title, description]
-  sort: "weight"
-  grid-columns: 2
+  sort: weight
+  grid-columns: 1
 ---
 
 All about interventions and campaigns in EMODpy.

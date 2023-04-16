@@ -1,5 +1,6 @@
 ---
 title: "Individual Properties"
+weight: 2
 format: 
   html:
     toc: true

@@ -1,10 +1,12 @@
 ---
 title: "Session Recordings"
 weight: 3
-format: 
-  html: 
-    toc: true
-    toc-depth: 5
+listing: 
+  type: grid
+  grid-columns: 1
+  grid-item-border: true
+  contents: session_recordings/*.qmd
+  sort: weight
 ---
 
-Coming soon - Recorded lectures, tutorials, and discussions
+Recorded lectures, tutorials, and discussions

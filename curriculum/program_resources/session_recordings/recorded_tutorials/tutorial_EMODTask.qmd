@@ -1,0 +1,10 @@
+---
+title: "EMODTask - Running Simulations"
+date: 2023-07-05
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+EMODTask controls the basic building of simulations so is necessary for running EMOD. 

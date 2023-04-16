@@ -1,0 +1,12 @@
+---
+title: "Tutorials"
+weight: 2
+listing: 
+  type: grid
+  grid-columns: 1
+  contents: recorded_tutorials/*.qmd
+  sort: -date
+  page-size: 10
+---
+
+Hands-on coding sessions with live problem-solving and debugging

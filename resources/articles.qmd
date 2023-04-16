@@ -6,6 +6,7 @@ listing:
   type: grid
   fields: [title, description]
   sort: weight
+  grid-columns: 1
 ---
 
 Selected readings related to applied malaria modeling

@@ -1,0 +1,10 @@
+---
+title: "Intro to EMOD"
+date: 2023-06-28
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+An overview of EMOD, the agent-based modeling platform we will use througout the program, and how it differs from simpler epidemiological models

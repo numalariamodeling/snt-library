@@ -5,6 +5,8 @@ listing:
   contents: "science_communication/*.qmd"
   type: grid
   fields: [title, description]
+  grid-columns: 1
+  sort: weight
 ---
 
 Resources for sharing your findings

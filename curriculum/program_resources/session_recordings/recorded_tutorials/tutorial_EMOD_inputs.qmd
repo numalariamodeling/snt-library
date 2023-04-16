@@ -1,0 +1,10 @@
+---
+title: "EMOD Inputs"
+date: 2023-07-06
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Demographics, climate, and configuration files. 

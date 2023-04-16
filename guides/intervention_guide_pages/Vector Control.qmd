@@ -1,5 +1,6 @@
 ---
 title: "Vector Control"
+weight: 2
 format: 
   html:
     toc: true

@@ -5,6 +5,7 @@ listing:
   contents: "coding_resources/*.qmd"
   type: grid
   fields: [title, description]
+  grid-columns: 1
 ---
 
 For python, R, github, and QUEST

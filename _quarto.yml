@@ -4,32 +4,34 @@ project:
 
 
 website:
-  title: "Faculty Enrichment Program in Applied Malaria Modeling"
-  navbar:
+  title: "Faculty<br>Enrichment<br>Program<br>in<br>Applied<br>Malaria<br>Modeling"
+  sidebar:
+    background: primary
     search: true
-    left:
-      - text: "Info"
-        menu: 
-          - curriculum.qmd
+    contents:
+      - section: "Program Info"
+        contents: 
+          - text: Example Exercises
+            href: https://github.com/numalariamodeling/FE-2023-examples
           - curriculum/program_resources/program_faq.qmd
-          - curriculum/program_resources/program_handbook.qmd
-          - curriculum/program_resources/example_exercises.qmd
-          - curriculum/program_resources/session_recordings.qmd
-      - text: "Resources"
-        menu:
-          - resources.qmd
-          - resources/articles.qmd
-          - resources/coding_resources.qmd
-          - resources/science_communication.qmd
-      - text: "2023 Program"
-        menu:
-          - guides.qmd
           - resources/articles/journal_club.qmd
-          - curriculum/Program Materials.qmd
-  page-footer:
-    center: 
-      - text: "© NU Malaria Modeling 2023."
+          - curriculum/program_resources/program_handbook.qmd
+          - curriculum/program_resources/session_recordings.qmd
 
+      - section: "EMOD How-To Guides"
+        contents: guides/*.qmd
+      - section: "Other Resources"            
+        contents: resources/*.qmd
+    tools: 
+      - icon: github
+        menu: 
+          - text: Website Source Code
+            url: https://github.com/numalariamodeling/FE-2023-quarto-website
+          - text: Example Exercises
+            url: https://github.com/numalariamodeling/FE-2023-examples
+  page-footer:
+    right: 
+      - text: <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
 format:
   html:
     theme: lux
