@@ -235,7 +235,7 @@
     "href": "program.html",
     "title": "Program",
     "section": "",
-    "text": "FAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgram Handbook\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession Recordings\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Exercises\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "FAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgram Materials\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession Recordings\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Exercises\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "guides/analyzer_guide.html",
@@ -574,13 +574,6 @@
     "text": "All about weather files used in EMOD.\n\nGenerate Climate Files\n\n\nEdit Climate Files"
   },
   {
-    "objectID": "program/Program Materials.html",
-    "href": "program/Program Materials.html",
-    "title": "Program Materials",
-    "section": "",
-    "text": "Program Handbook\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession Recordings\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Exercises\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow-To Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "program/program_resources/example_exercises.html",
     "href": "program/program_resources/example_exercises.html",
     "title": "Example Exercises",
@@ -593,6 +586,13 @@
     "title": "Session Recordings",
     "section": "",
     "text": "Recorded lectures, tutorials, and discussions\n\n\n\n\n\n\n\n\n\n\n\nLectures\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscussions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "program/program_resources/program_materials.html",
+    "href": "program/program_resources/program_materials.html",
+    "title": "Program Materials",
+    "section": "",
+    "text": "Best Practices, Handbook, and Cheat-Sheets\n\nPre-Program Checklist\n\n\nTeam Best Practices\n\n\n2023 Program Handbook\n\n\nCheat Sheets"
   },
   {
     "objectID": "program/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html",
@@ -656,13 +656,6 @@
     "title": "EMOD Outputs & Analyzers",
     "section": "",
     "text": "Track and report data from simulations."
-  },
-  {
-    "objectID": "program/program_resources/program_handbook.html",
-    "href": "program/program_resources/program_handbook.html",
-    "title": "Program Handbook",
-    "section": "",
-    "text": "Coming soon - detailed program syllabus\nDescription of File - English\n- Frances\n- Português"
   },
   {
     "objectID": "program/program_resources/program_faq.html",

@@ -78,7 +78,7 @@
     "listing": "/program.html",
     "items": [
       "/program/program_resources/program_faq.html",
-      "/program/program_resources/program_handbook.html",
+      "/program/program_resources/program_materials.html",
       "/program/program_resources/session_recordings.html",
       "/program/program_resources/example_exercises.html"
     ]
@@ -130,15 +130,6 @@
       "/guides/demographics_guide_pages/demographics_files.html",
       "/guides/demographics_guide_pages/individual_properties.html",
       "/guides/demographics_guide_pages/multinode_demographics.html"
-    ]
-  },
-  {
-    "listing": "/program/Program Materials.html",
-    "items": [
-      "/program/program_resources/program_handbook.html",
-      "/program/program_resources/session_recordings.html",
-      "/program/program_resources/example_exercises.html",
-      "/guides.html"
     ]
   },
   {

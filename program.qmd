@@ -1,8 +1,7 @@
 ---
 title: "Program"
 listing:
-  contents: 
-    - "program/*/*.qmd"
+  contents: program/*/*.qmd
   type: grid
   fields: [title, description]
   sort: weight
