@@ -6,6 +6,7 @@ project:
 website:
   title: "Faculty<br>Enrichment<br>Program<br>in<br>Applied<br>Malaria<br>Modeling"
   sidebar:
+    collapse-level: 1
     background: primary
     search: true
     contents:
