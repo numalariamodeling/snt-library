@@ -7,7 +7,7 @@ website:
   reader-mode: true
   favicon: numalaria_logo.png
   sidebar: 
-    style: "floating"    
+    style: floating   
     title: "Faculty Enrichment Program in Applied Malaria Modeling"
     logo: numalaria_logo.png
     background: light
@@ -53,7 +53,7 @@ website:
       - text: <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
 format:
   html:
-    theme: pulse
+    theme: lux
     css: styles.css
     toc: true
 

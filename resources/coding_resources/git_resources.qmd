@@ -5,6 +5,8 @@ listing:
   contents: "git_resources/*.qmd"
   type: grid
   fields: [title, description]
+  sort: weight
+  grid-columns: 1
 ---
 
-Select
+Git is a popular version control software to manage codes, especially in a collaborative environment. 

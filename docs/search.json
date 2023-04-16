@@ -81,28 +81,35 @@
     "href": "resources/coding_resources/python_resources.html",
     "title": "Python",
     "section": "",
-    "text": "Select\n\n\n\n\n\n\n\n\n\n\n\nCode Academy\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Python is a high-level, general-purpose programming language.\n\n\n\n\n\n\n\n\n\n\n\nCode Academy\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/coding_resources/git_resources/git_intro_old.html",
+    "href": "resources/coding_resources/git_resources/git_intro_old.html",
+    "title": "Intro to Git (2022)",
+    "section": "",
+    "text": "Git is a popular version control software to manage codes, especially in a collaborative environment.\nHere is a comic from “Piled Higher and Deeper” by Jorge Cham regarding version control:\n Git allows us to make changes to our code, and say if we didn’t like the changes, we can always go back to the older versions of the code. In a collaborative environment, our colleagues can make changes to our codes, and we can track who’s made what changes to the code, and undo it if necessary. If all of these sounds familiar, yes it does feel like we that track changes function in say Microsoft Word, or the version control function available in Dropbox. The difference is that you can designate a folder as your “Git repository”, and you decide which file inside this folder get version controlled.\nWhile Git is a software that lives inside your computer, GitHub is an internet hosting provider that can host your Git repository. For example, a git repository containing the dtk-tools Python package is hosted on GitHub. This package is important for us to use EMOD, and is developed by IDM. To obtain the package, we can (1) get granted access to the repository that lives in GitHub, and (2) “clone” the package from GitHub to our local computer. We can then look into the package and find out who has made what changes to the source code of the package. This has made it very easy for coding projects and packages to be shared to others.\nGit can get complicated and difficult to use at times… However, in this section, we focus only on the simple steps of getting the packages to your computer.\n\nThings you’ll need\n\nInstall GitHub Desktop\nGet a GitHub account if you don’t already have.\nGet the access to the repository dtk-tools and dtk-tools-malaria if you don’t already have them\n\n\n\nGitHub Desktop\nThis is an app that provides graphic user interface to GitHub. Note that you do not necessarily need to use this app to interface with Git or GitHub. There are other app such as Sourcetree or commandline that does similar and wonderful job. However for this tutorial, we use GitHub Desktop because it’s easier to set things up.\nTo “download” the package, we “Clone repository” from GitHub, which can be access from “File” at the top bar. If you already connected your GitHub account to the app, you should be able to choose the dtk-tools repository in the pop-up window. Then you would specify a “Local path” of your choice (you do not need to add “dtk-tools” to that path.) When you click “Clone”, the app would download the package into a folder called dtk-tools and put it onto the path you specified.\nDo the same thing for dtk-tools-malaria!\n\n\nMore Git?\nOf course, there are more to git than what we have just done. During the tutorial, some of the basic function of git, such as commit, push and pull will be demonstrated. These functions will be important when you start developing your own project. Depending on what software you use to code (e.g., PyCharm, VS Code), git functions are often incorporated into them already, so the experience is bound to be slightly different.\nIf you’re planning to use git through command line (e.g., Powershell, Bash etc.) then this is a good tutorial for you to learn more about git."
   },
   {
     "objectID": "resources/coding_resources/git_resources/git_tutorials.html",
     "href": "resources/coding_resources/git_resources/git_tutorials.html",
-    "title": "Code Academy",
+    "title": "Git Tutorials",
     "section": "",
-    "text": "Details"
+    "text": "Details\nList:"
   },
   {
     "objectID": "resources/coding_resources/r_resources.html",
     "href": "resources/coding_resources/r_resources.html",
     "title": "R",
     "section": "",
-    "text": "Select\n\n\n\n\n\n\n\n\n\n\n\nCode Academy\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "R is a programming language for statistical computing and graphics.\n\n\n\n\n\n\n\n\n\n\n\nCode Academy\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/coding_resources/quest_resources.html",
     "href": "resources/coding_resources/quest_resources.html",
     "title": "QUEST",
     "section": "",
-    "text": "Select\n\n\n\n\n\n\n\n\n\n\n\nNU Research Computing\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Northwestern’s High-Performance Computing (HPC) cluster is ideal to run compute-intensive and data-intensive applications.\n\n\n\n\n\n\n\n\n\n\n\nNU Research Computing\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/coding_resources/python_resources/CodeAcademy.html",
@@ -130,7 +137,7 @@
     "href": "resources/coding_resources/git_resources.html",
     "title": "Git",
     "section": "",
-    "text": "Select\n\n\n\n\n\n\n\n\n\n\n\nCode Academy\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Git is a popular version control software to manage codes, especially in a collaborative environment.\n\n\n\n\n\n\n\n\n\n\n\nIntro to Git (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit Tutorials\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/data_sources/DHS.html",

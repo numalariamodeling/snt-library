@@ -7,7 +7,6 @@ listing:
   fields: [title, description]
   sort: weight
   grid-columns: 1
-page-layout: full
 ---
 
 Analyze reported outputs from a collection of a simulations.
