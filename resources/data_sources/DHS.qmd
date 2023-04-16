@@ -1,0 +1,24 @@
+---
+title: "DHS"
+weight: 1
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Demographic and Health Surveys
+
+# Understanding DHS Data
+
+## DHS Surveys
+
+## Use Cases
+
+## Limitations
+
+# Accessing DHS Data 
+
+## Using the DHS Portal
+
+## Calling the DHS API

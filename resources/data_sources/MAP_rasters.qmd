@@ -1,0 +1,16 @@
+---
+title: "MAP Rasters"
+weight: 2
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+
+
+# Understanding Raster Data
+
+
+# Accessing MAP Data 
+

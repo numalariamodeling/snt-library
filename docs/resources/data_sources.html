@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-06-21">
 
-<title>Faculty Enrichment Program in Applied Malaria Modeling - Epidemiology Crash Course</title>
+<title>Faculty Enrichment Program in Applied Malaria Modeling - Data Sources</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../../">
-<link href="../../../../numalaria_logo.png" rel="icon" type="image/png">
-<script src="../../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../numalaria_logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -60,9 +61,39 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../../../styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -71,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Epidemiology Crash Course</h1>
+      <h1 class="quarto-secondary-nav-title">Data Sources</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -83,11 +114,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../../../index.html" class="sidebar-logo-link">
-      <img src="../../../../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="../../../../">Faculty Enrichment Program in Applied Malaria Modeling</a> 
+      <a href="../">Faculty Enrichment Program in Applied Malaria Modeling</a> 
         <div class="sidebar-tools-main">
     <a href="" title="" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-github"></i></a>
     <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
@@ -119,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">Program Info</a>
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">2023 Program</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -132,22 +163,22 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../curriculum/program_resources/program_faq.html" class="sidebar-item-text sidebar-link">FAQ</a>
+  <a href="../program/program_resources/program_faq.html" class="sidebar-item-text sidebar-link">FAQ</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../resources/articles/journal_club.html" class="sidebar-item-text sidebar-link">Journal Club</a>
+  <a href="../resources/articles/journal_club.html" class="sidebar-item-text sidebar-link">Journal Club</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../curriculum/program_resources/program_handbook.html" class="sidebar-item-text sidebar-link">Program Handbook</a>
+  <a href="../program/program_resources/program_handbook.html" class="sidebar-item-text sidebar-link">Program Handbook</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../curriculum/program_resources/session_recordings.html" class="sidebar-item-text sidebar-link">Session Recordings</a>
+  <a href="../program/program_resources/session_recordings.html" class="sidebar-item-text sidebar-link">Session Recordings</a>
   </div>
 </li>
       </ul>
@@ -162,77 +193,77 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../guides/analyzer_guide.html" class="sidebar-item-text sidebar-link">Analyzer Guides</a>
+  <a href="../guides/analyzer_guide.html" class="sidebar-item-text sidebar-link">Analyzer Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../guides/climate_guide.html" class="sidebar-item-text sidebar-link">Climate Guide</a>
+  <a href="../guides/climate_guide.html" class="sidebar-item-text sidebar-link">Climate Guide</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../guides/demographics_guide.html" class="sidebar-item-text sidebar-link">Demographics Guides</a>
+  <a href="../guides/demographics_guide.html" class="sidebar-item-text sidebar-link">Demographics Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../guides/diagnostic_guide.html" class="sidebar-item-text sidebar-link">Diagnostic Guide</a>
+  <a href="../guides/diagnostic_guide.html" class="sidebar-item-text sidebar-link">Diagnostic Guide</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../guides/install_guide.html" class="sidebar-item-text sidebar-link">Installation Guide</a>
+  <a href="../guides/install_guide.html" class="sidebar-item-text sidebar-link">Installation Guide</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../guides/intervention_guide.html" class="sidebar-item-text sidebar-link">Intervention Guides</a>
+  <a href="../guides/intervention_guide.html" class="sidebar-item-text sidebar-link">Intervention Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../guides/report_guide.html" class="sidebar-item-text sidebar-link">Report Guides</a>
+  <a href="../guides/report_guide.html" class="sidebar-item-text sidebar-link">Report Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../guides/simulation_guide.html" class="sidebar-item-text sidebar-link">Simulation Guides</a>
+  <a href="../guides/simulation_guide.html" class="sidebar-item-text sidebar-link">Simulation Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../guides/vector_guide.html" class="sidebar-item-text sidebar-link">Vector Guides</a>
+  <a href="../guides/vector_guide.html" class="sidebar-item-text sidebar-link">Vector Guides</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Other Resources</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Other Resources</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../resources/articles.html" class="sidebar-item-text sidebar-link">Articles</a>
+  <a href="../resources/articles.html" class="sidebar-item-text sidebar-link">Articles</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../resources/coding_resources.html" class="sidebar-item-text sidebar-link">Coding Resources</a>
+  <a href="../resources/coding_resources.html" class="sidebar-item-text sidebar-link">Coding Resources</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../resources/DHS.html" class="sidebar-item-text sidebar-link">DHS</a>
+  <a href="../resources/data_sources.html" class="sidebar-item-text sidebar-link active">Data Sources</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../resources/science_communication.html" class="sidebar-item-text sidebar-link">Science Communication</a>
+  <a href="../resources/science_communication.html" class="sidebar-item-text sidebar-link">Science Communication</a>
   </div>
 </li>
       </ul>
@@ -249,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Epidemiology Crash Course</h1>
+<h1 class="title d-none d-lg-block">Data Sources</h1>
 </div>
 
 
@@ -257,12 +288,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 21, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -270,11 +295,46 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Brush up on some fundamental concepts needed to study - and model - malaria transmission</p>
+<p>DHS, MAP, etc.</p>
 <a href="https://www.numalariamodeling.org/">
+</a>
 
 
-</a></main><a href="https://www.numalariamodeling.org/"> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing"><a href="https://www.numalariamodeling.org/">
+</a><div class="list grid quarto-listing-cols-1"><a href="https://www.numalariamodeling.org/">
+</a><div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681654525485" data-listing-reading-time-sort="0.105"><a href="https://www.numalariamodeling.org/">
+</a><a href="../resources/data_sources/DHS.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DHS
+</h5>
+<div class="card-text listing-description">
+Demographic and Health Surveys
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1681654518879" data-listing-reading-time-sort="0.025">
+<a href="../resources/data_sources/MAP_rasters.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+MAP Rasters
+</h5>
+<div class="card-text listing-description">
+
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -408,13 +468,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</a></div><a href="https://www.numalariamodeling.org/"> <!-- /content -->
-</a><footer class="footer"><a href="https://www.numalariamodeling.org/">
-  </a><div class="nav-footer"><a href="https://www.numalariamodeling.org/">
-    </a><div class="nav-footer-right"><a href="https://www.numalariamodeling.org/">
-      </a><ul class="footer-items list-unstyled"><a href="https://www.numalariamodeling.org/">
-    </a><li class="nav-item"><a href="https://www.numalariamodeling.org/">
- </a><a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
   </a></li><a href="https://www.numalariamodeling.org/">  
 </a></ul><a href="https://www.numalariamodeling.org/">
     </a></div><a href="https://www.numalariamodeling.org/">

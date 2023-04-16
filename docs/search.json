@@ -1,178 +1,10 @@
 [
   {
-    "objectID": "curriculum/Program Materials.html",
-    "href": "curriculum/Program Materials.html",
-    "title": "Program Materials",
-    "section": "",
-    "text": "Program Handbook\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession Recordings\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Exercises\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow-To Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "curriculum/program_resources/example_exercises.html",
-    "href": "curriculum/program_resources/example_exercises.html",
-    "title": "Example Exercises",
-    "section": "",
-    "text": "Coming soon - start using EMOD right away with examples from our public repository"
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings.html",
-    "href": "curriculum/program_resources/session_recordings.html",
-    "title": "Session Recordings",
-    "section": "",
-    "text": "Recorded lectures, tutorials, and discussions\n\n\n\n\n\n\n\n\n\n\n\nLectures\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscussions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html",
-    "href": "curriculum/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html",
-    "title": "What is Applied Malaria Modeling?",
-    "section": "",
-    "text": "A broad overview of the concepts behind the practice of applied malaria modeling"
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings/recorded_lectures/epi_crash_course.html",
-    "href": "curriculum/program_resources/session_recordings/recorded_lectures/epi_crash_course.html",
-    "title": "Epidemiology Crash Course",
-    "section": "",
-    "text": "Brush up on some fundamental concepts needed to study - and model - malaria transmission"
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings/recorded_lectures/intro_to_emod.html",
-    "href": "curriculum/program_resources/session_recordings/recorded_lectures/intro_to_emod.html",
-    "title": "Intro to EMOD",
-    "section": "",
-    "text": "An overview of EMOD, the agent-based modeling platform we will use througout the program, and how it differs from simpler epidemiological models"
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings/recorded_tutorials.html",
-    "href": "curriculum/program_resources/session_recordings/recorded_tutorials.html",
-    "title": "Tutorials",
-    "section": "",
-    "text": "Hands-on coding sessions with live problem-solving and debugging\n\n\n\n\n\n\n\n\n\n\n\nEMODTask - Running Simulations\n\n\n\n\n\n\n\n\n\nJul 5, 2023\n\n\n\n\n\n\n\n\n\n\n\nEMOD Inputs\n\n\n\n\n\n\n\n\n\nJul 6, 2023\n\n\n\n\n\n\n\n\n\n\n\nEMOD Outputs & Analyzers\n\n\n\n\n\n\n\n\n\nJul 7, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings/recorded_discussions.html",
-    "href": "curriculum/program_resources/session_recordings/recorded_discussions.html",
-    "title": "Discussions",
-    "section": "",
-    "text": "Roundtable discussions and other informal sessions.\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings/recorded_lectures.html",
-    "href": "curriculum/program_resources/session_recordings/recorded_lectures.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "Sit back and listen…\n\n\n\n\n\n\n\n\n\n\n\nEpidemiology Crash Course\n\n\n\n\n\n\n\n\n\nJun 21, 2023\n\n\n\n\n\n\n\n\n\n\n\nIntro to EMOD\n\n\n\n\n\n\n\n\n\nJun 28, 2023\n\n\n\n\n\n\n\n\n\n\n\nWhat is Applied Malaria Modeling?\n\n\n\n\n\n\n\n\n\nJun 27, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
-    "href": "curriculum/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
-    "title": "EMODTask - Running Simulations",
-    "section": "",
-    "text": "EMODTask controls the basic building of simulations so is necessary for running EMOD."
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html",
-    "href": "curriculum/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html",
-    "title": "EMOD Inputs",
-    "section": "",
-    "text": "Demographics, climate, and configuration files."
-  },
-  {
-    "objectID": "curriculum/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html",
-    "href": "curriculum/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html",
-    "title": "EMOD Outputs & Analyzers",
-    "section": "",
-    "text": "Track and report data from simulations."
-  },
-  {
-    "objectID": "curriculum/program_resources/program_handbook.html",
-    "href": "curriculum/program_resources/program_handbook.html",
-    "title": "Program Handbook",
-    "section": "",
-    "text": "Coming soon - detailed program syllabus\nDescription of File - English\n- Frances\n- Português"
-  },
-  {
-    "objectID": "curriculum/program_resources/program_faq.html",
-    "href": "curriculum/program_resources/program_faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "Answers to frequently asked questions about the program."
-  },
-  {
-    "objectID": "curriculum/program_resources/program_faq.html#eligibility-applications",
-    "href": "curriculum/program_resources/program_faq.html#eligibility-applications",
-    "title": "FAQ",
-    "section": "Eligibility & Applications",
-    "text": "Eligibility & Applications\n\nAm I eligible to participate?\n\n\nI can’t travel to the United States. Can I participate?\n\n\nHow do I apply?\n\n\nHow much does it cost to apply?\n\n\nI’m not eligible for the program / can’t attend. How can I learn to use EMOD for malaria modeling?"
-  },
-  {
-    "objectID": "curriculum/program_resources/program_faq.html#funding",
-    "href": "curriculum/program_resources/program_faq.html#funding",
-    "title": "FAQ",
-    "section": "Funding",
-    "text": "Funding\n\nHow much does the program cost?\n\n\nHow can I get funding to support my participation in the program?"
-  },
-  {
-    "objectID": "curriculum/program_resources/program_faq.html#logistics",
-    "href": "curriculum/program_resources/program_faq.html#logistics",
-    "title": "FAQ",
-    "section": "Logistics",
-    "text": "Logistics\n\nWhen does the program start?\n\n\nWhat are the pre-program requirements?\n\n\nWhere will I live and work during the program?\n\n\nHow do I register for ASTMH?"
-  },
-  {
-    "objectID": "curriculum/program_resources/program_faq.html#program-milestones",
-    "href": "curriculum/program_resources/program_faq.html#program-milestones",
-    "title": "FAQ",
-    "section": "Program Milestones",
-    "text": "Program Milestones\n\nWhat is expected from each oral presentation?\n\n\nWhat does it mean to ‘facilitate’ journal club?"
-  },
-  {
     "objectID": "resources/science_communication.html",
     "href": "resources/science_communication.html",
     "title": "Science Communication",
     "section": "",
     "text": "Resources for sharing your findings\n\n\n\n\n\n\n\n\n\n\n\nWriting Tips\n\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation Tips\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualization Tips\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "resources/DHS.html",
-    "href": "resources/DHS.html",
-    "title": "DHS",
-    "section": "",
-    "text": "Demographic and Health Surveys"
-  },
-  {
-    "objectID": "resources/DHS.html#dhs-surveys",
-    "href": "resources/DHS.html#dhs-surveys",
-    "title": "DHS",
-    "section": "DHS Surveys",
-    "text": "DHS Surveys"
-  },
-  {
-    "objectID": "resources/DHS.html#use-cases",
-    "href": "resources/DHS.html#use-cases",
-    "title": "DHS",
-    "section": "Use Cases",
-    "text": "Use Cases"
-  },
-  {
-    "objectID": "resources/DHS.html#limitations",
-    "href": "resources/DHS.html#limitations",
-    "title": "DHS",
-    "section": "Limitations",
-    "text": "Limitations"
-  },
-  {
-    "objectID": "resources/DHS.html#using-the-dhs-portal",
-    "href": "resources/DHS.html#using-the-dhs-portal",
-    "title": "DHS",
-    "section": "Using the DHS Portal",
-    "text": "Using the DHS Portal"
-  },
-  {
-    "objectID": "resources/DHS.html#calling-the-dhs-api",
-    "href": "resources/DHS.html#calling-the-dhs-api",
-    "title": "DHS",
-    "section": "Calling the DHS API",
-    "text": "Calling the DHS API"
   },
   {
     "objectID": "resources/science_communication/data_visualization.html",
@@ -294,11 +126,67 @@
     "text": "Select\n\n\n\n\n\n\n\n\n\n\n\nCode Academy\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "resources/data_sources/DHS.html",
+    "href": "resources/data_sources/DHS.html",
+    "title": "DHS",
+    "section": "",
+    "text": "Demographic and Health Surveys"
+  },
+  {
+    "objectID": "resources/data_sources/DHS.html#dhs-surveys",
+    "href": "resources/data_sources/DHS.html#dhs-surveys",
+    "title": "DHS",
+    "section": "DHS Surveys",
+    "text": "DHS Surveys"
+  },
+  {
+    "objectID": "resources/data_sources/DHS.html#use-cases",
+    "href": "resources/data_sources/DHS.html#use-cases",
+    "title": "DHS",
+    "section": "Use Cases",
+    "text": "Use Cases"
+  },
+  {
+    "objectID": "resources/data_sources/DHS.html#limitations",
+    "href": "resources/data_sources/DHS.html#limitations",
+    "title": "DHS",
+    "section": "Limitations",
+    "text": "Limitations"
+  },
+  {
+    "objectID": "resources/data_sources/DHS.html#using-the-dhs-portal",
+    "href": "resources/data_sources/DHS.html#using-the-dhs-portal",
+    "title": "DHS",
+    "section": "Using the DHS Portal",
+    "text": "Using the DHS Portal"
+  },
+  {
+    "objectID": "resources/data_sources/DHS.html#calling-the-dhs-api",
+    "href": "resources/data_sources/DHS.html#calling-the-dhs-api",
+    "title": "DHS",
+    "section": "Calling the DHS API",
+    "text": "Calling the DHS API"
+  },
+  {
+    "objectID": "resources/data_sources/MAP_rasters.html",
+    "href": "resources/data_sources/MAP_rasters.html",
+    "title": "MAP Rasters",
+    "section": "",
+    "text": "Understanding Raster Data\n\n\nAccessing MAP Data"
+  },
+  {
     "objectID": "resources/articles.html",
     "href": "resources/articles.html",
     "title": "Articles",
     "section": "",
     "text": "Selected readings related to applied malaria modeling\n\n\n\n\n\n\n\n\n\n\n\nEMOD\n\n\n\n\n\n\n\n\n\n\n\n\n\nOther Models\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence Base\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolicy Documents\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/data_sources.html",
+    "href": "resources/data_sources.html",
+    "title": "Data Sources",
+    "section": "",
+    "text": "DHS, MAP, etc.\n\n\n\n\n\n\n\n\n\n\n\nDHS\n\n\n\n\n\n\n\n\n\n\n\n\n\nMAP Rasters\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about/mission.html",
@@ -341,6 +229,13 @@
     "title": "How-To Guides",
     "section": "",
     "text": "📁 Choose Category\n\n\n\n\n\n\n\n\n\n\n\nInstallation Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDemographics Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntervention Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\nReport Guides\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzer Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "program.html",
+    "href": "program.html",
+    "title": "Program",
+    "section": "",
+    "text": "FAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgram Handbook\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession Recordings\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Exercises\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "guides/analyzer_guide.html",
@@ -679,17 +574,136 @@
     "text": "All about weather files used in EMOD.\n\nGenerate Climate Files\n\n\nEdit Climate Files"
   },
   {
-    "objectID": "curriculum.html",
-    "href": "curriculum.html",
-    "title": "Curriculum",
+    "objectID": "program/Program Materials.html",
+    "href": "program/Program Materials.html",
+    "title": "Program Materials",
     "section": "",
-    "text": "FAQ\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgram Handbook\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession Recordings\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Exercises\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Program Handbook\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession Recordings\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Exercises\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow-To Guides\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "program/program_resources/example_exercises.html",
+    "href": "program/program_resources/example_exercises.html",
+    "title": "Example Exercises",
+    "section": "",
+    "text": "Coming soon - start using EMOD right away with examples from our public repository"
+  },
+  {
+    "objectID": "program/program_resources/session_recordings.html",
+    "href": "program/program_resources/session_recordings.html",
+    "title": "Session Recordings",
+    "section": "",
+    "text": "Recorded lectures, tutorials, and discussions\n\n\n\n\n\n\n\n\n\n\n\nLectures\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscussions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "program/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html",
+    "href": "program/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html",
+    "title": "What is Applied Malaria Modeling?",
+    "section": "",
+    "text": "A broad overview of the concepts behind the practice of applied malaria modeling"
+  },
+  {
+    "objectID": "program/program_resources/session_recordings/recorded_lectures/epi_crash_course.html",
+    "href": "program/program_resources/session_recordings/recorded_lectures/epi_crash_course.html",
+    "title": "Epidemiology Crash Course",
+    "section": "",
+    "text": "Brush up on some fundamental concepts needed to study - and model - malaria transmission"
+  },
+  {
+    "objectID": "program/program_resources/session_recordings/recorded_lectures/intro_to_emod.html",
+    "href": "program/program_resources/session_recordings/recorded_lectures/intro_to_emod.html",
+    "title": "Intro to EMOD",
+    "section": "",
+    "text": "An overview of EMOD, the agent-based modeling platform we will use througout the program, and how it differs from simpler epidemiological models"
+  },
+  {
+    "objectID": "program/program_resources/session_recordings/recorded_tutorials.html",
+    "href": "program/program_resources/session_recordings/recorded_tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Hands-on coding sessions with live problem-solving and debugging\n\n\n\n\n\n\n\n\n\n\n\nEMODTask - Running Simulations\n\n\n\n\n\n\n\n\n\nJul 5, 2023\n\n\n\n\n\n\n\n\n\n\n\nEMOD Inputs\n\n\n\n\n\n\n\n\n\nJul 6, 2023\n\n\n\n\n\n\n\n\n\n\n\nEMOD Outputs & Analyzers\n\n\n\n\n\n\n\n\n\nJul 7, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "program/program_resources/session_recordings/recorded_discussions.html",
+    "href": "program/program_resources/session_recordings/recorded_discussions.html",
+    "title": "Discussions",
+    "section": "",
+    "text": "Roundtable discussions and other informal sessions.\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "program/program_resources/session_recordings/recorded_lectures.html",
+    "href": "program/program_resources/session_recordings/recorded_lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Sit back and listen…\n\n\n\n\n\n\n\n\n\n\n\nEpidemiology Crash Course\n\n\n\n\n\n\n\n\n\nJun 21, 2023\n\n\n\n\n\n\n\n\n\n\n\nIntro to EMOD\n\n\n\n\n\n\n\n\n\nJun 28, 2023\n\n\n\n\n\n\n\n\n\n\n\nWhat is Applied Malaria Modeling?\n\n\n\n\n\n\n\n\n\nJun 27, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "program/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
+    "href": "program/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
+    "title": "EMODTask - Running Simulations",
+    "section": "",
+    "text": "EMODTask controls the basic building of simulations so is necessary for running EMOD."
+  },
+  {
+    "objectID": "program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html",
+    "href": "program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html",
+    "title": "EMOD Inputs",
+    "section": "",
+    "text": "Demographics, climate, and configuration files."
+  },
+  {
+    "objectID": "program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html",
+    "href": "program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html",
+    "title": "EMOD Outputs & Analyzers",
+    "section": "",
+    "text": "Track and report data from simulations."
+  },
+  {
+    "objectID": "program/program_resources/program_handbook.html",
+    "href": "program/program_resources/program_handbook.html",
+    "title": "Program Handbook",
+    "section": "",
+    "text": "Coming soon - detailed program syllabus\nDescription of File - English\n- Frances\n- Português"
+  },
+  {
+    "objectID": "program/program_resources/program_faq.html",
+    "href": "program/program_resources/program_faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "Answers to frequently asked questions about the program."
+  },
+  {
+    "objectID": "program/program_resources/program_faq.html#eligibility-applications",
+    "href": "program/program_resources/program_faq.html#eligibility-applications",
+    "title": "FAQ",
+    "section": "Eligibility & Applications",
+    "text": "Eligibility & Applications\n\nAm I eligible to participate?\n\n\nI can’t travel to the United States. Can I participate?\n\n\nHow do I apply?\n\n\nHow much does it cost to apply?\n\n\nI’m not eligible for the program / can’t attend. How can I learn to use EMOD for malaria modeling?"
+  },
+  {
+    "objectID": "program/program_resources/program_faq.html#funding",
+    "href": "program/program_resources/program_faq.html#funding",
+    "title": "FAQ",
+    "section": "Funding",
+    "text": "Funding\n\nHow much does the program cost?\n\n\nHow can I get funding to support my participation in the program?"
+  },
+  {
+    "objectID": "program/program_resources/program_faq.html#logistics",
+    "href": "program/program_resources/program_faq.html#logistics",
+    "title": "FAQ",
+    "section": "Logistics",
+    "text": "Logistics\n\nWhen does the program start?\n\n\nWhat are the pre-program requirements?\n\n\nWhere will I live and work during the program?\n\n\nHow do I register for ASTMH?"
+  },
+  {
+    "objectID": "program/program_resources/program_faq.html#program-milestones",
+    "href": "program/program_resources/program_faq.html#program-milestones",
+    "title": "FAQ",
+    "section": "Program Milestones",
+    "text": "Program Milestones\n\nWhat is expected from each oral presentation?\n\n\nWhat does it mean to ‘facilitate’ journal club?"
   },
   {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Choose Category\n\n\n\n\n\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience Communication\n\n\n\n\n\n\n\n\n\n\n\n\n\nDHS\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Choose Category\n\n\n\n\n\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Sources\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience Communication\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

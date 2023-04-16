@@ -1,0 +1,12 @@
+---
+title: "Data Sources"
+weight: 3
+listing:
+  contents: data_sources/*.qmd
+  type: grid
+  fields: [title, description]
+  grid-columns: 1
+  sort: weight
+---
+
+DHS, MAP, etc.

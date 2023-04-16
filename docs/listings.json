@@ -1,42 +1,5 @@
 [
   {
-    "listing": "/curriculum/Program Materials.html",
-    "items": [
-      "/curriculum/program_resources/program_handbook.html",
-      "/curriculum/program_resources/session_recordings.html",
-      "/curriculum/program_resources/example_exercises.html",
-      "/guides.html"
-    ]
-  },
-  {
-    "listing": "/curriculum/program_resources/session_recordings.html",
-    "items": [
-      "/curriculum/program_resources/session_recordings/recorded_lectures.html",
-      "/curriculum/program_resources/session_recordings/recorded_tutorials.html",
-      "/curriculum/program_resources/session_recordings/recorded_discussions.html"
-    ]
-  },
-  {
-    "listing": "/curriculum/program_resources/session_recordings/recorded_tutorials.html",
-    "items": [
-      "/curriculum/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
-      "/curriculum/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html",
-      "/curriculum/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html"
-    ]
-  },
-  {
-    "listing": "/curriculum/program_resources/session_recordings/recorded_discussions.html",
-    "items": []
-  },
-  {
-    "listing": "/curriculum/program_resources/session_recordings/recorded_lectures.html",
-    "items": [
-      "/curriculum/program_resources/session_recordings/recorded_lectures/epi_crash_course.html",
-      "/curriculum/program_resources/session_recordings/recorded_lectures/intro_to_emod.html",
-      "/curriculum/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html"
-    ]
-  },
-  {
     "listing": "/resources/science_communication.html",
     "items": [
       "/resources/science_communication/writing.html",
@@ -91,6 +54,13 @@
     ]
   },
   {
+    "listing": "/resources/data_sources.html",
+    "items": [
+      "/resources/data_sources/DHS.html",
+      "/resources/data_sources/MAP_rasters.html"
+    ]
+  },
+  {
     "listing": "/guides.html",
     "items": [
       "/guides/install_guide.html",
@@ -102,6 +72,15 @@
       "/guides/diagnostic_guide.html",
       "/guides/report_guide.html",
       "/guides/analyzer_guide.html"
+    ]
+  },
+  {
+    "listing": "/program.html",
+    "items": [
+      "/program/program_resources/program_faq.html",
+      "/program/program_resources/program_handbook.html",
+      "/program/program_resources/session_recordings.html",
+      "/program/program_resources/example_exercises.html"
     ]
   },
   {
@@ -154,12 +133,40 @@
     ]
   },
   {
-    "listing": "/curriculum.html",
+    "listing": "/program/Program Materials.html",
     "items": [
-      "/curriculum/program_resources/program_faq.html",
-      "/curriculum/program_resources/program_handbook.html",
-      "/curriculum/program_resources/session_recordings.html",
-      "/curriculum/program_resources/example_exercises.html"
+      "/program/program_resources/program_handbook.html",
+      "/program/program_resources/session_recordings.html",
+      "/program/program_resources/example_exercises.html",
+      "/guides.html"
+    ]
+  },
+  {
+    "listing": "/program/program_resources/session_recordings.html",
+    "items": [
+      "/program/program_resources/session_recordings/recorded_lectures.html",
+      "/program/program_resources/session_recordings/recorded_tutorials.html",
+      "/program/program_resources/session_recordings/recorded_discussions.html"
+    ]
+  },
+  {
+    "listing": "/program/program_resources/session_recordings/recorded_tutorials.html",
+    "items": [
+      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
+      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html",
+      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html"
+    ]
+  },
+  {
+    "listing": "/program/program_resources/session_recordings/recorded_discussions.html",
+    "items": []
+  },
+  {
+    "listing": "/program/program_resources/session_recordings/recorded_lectures.html",
+    "items": [
+      "/program/program_resources/session_recordings/recorded_lectures/epi_crash_course.html",
+      "/program/program_resources/session_recordings/recorded_lectures/intro_to_emod.html",
+      "/program/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html"
     ]
   },
   {
@@ -167,8 +174,8 @@
     "items": [
       "/resources/articles.html",
       "/resources/coding_resources.html",
-      "/resources/science_communication.html",
-      "/resources/DHS.html"
+      "/resources/data_sources.html",
+      "/resources/science_communication.html"
     ]
   }
 ]

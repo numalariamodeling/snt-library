@@ -1,8 +1,8 @@
 ---
-title: "Curriculum"
+title: "Program"
 listing:
   contents: 
-    - "curriculum/*/*.qmd"
+    - "program/*/*.qmd"
   type: grid
   fields: [title, description]
   sort: weight

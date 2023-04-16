@@ -15,15 +15,14 @@ website:
     collapse-level: 1
     search: true
     contents:
-      - section: "Program Info"
+      - section: "2023 Program"
         contents: 
           - text: Example Exercises
             href: https://github.com/numalariamodeling/FE-2023-examples
-          - curriculum/program_resources/program_faq.qmd
+          - program/program_resources/program_faq.qmd
           - resources/articles/journal_club.qmd
-          - curriculum/program_resources/program_handbook.qmd
-          - curriculum/program_resources/session_recordings.qmd
-
+          - program/program_resources/program_handbook.qmd
+          - program/program_resources/session_recordings.qmd
       - section: "EMOD How-To Guides"
         contents: guides/*.qmd
       - section: "Other Resources"            
