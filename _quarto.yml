@@ -6,11 +6,13 @@ website:
   title: "Faculty Enrichment Program in Applied Malaria Modeling"
   reader-mode: true
   favicon: numalaria_logo.png
-  sidebar:
+  sidebar: 
+    style: "floating"    
     title: "Faculty Enrichment Program in Applied Malaria Modeling"
     logo: numalaria_logo.png
-    collapse-level: 1
     background: light
+    foreground: dark
+    collapse-level: 1
     search: true
     contents:
       - section: "Program Info"
