@@ -1,0 +1,12 @@
+---
+title: "A malaria transmission-directed model of mosquito life cycle and ecology"
+author: 
+  - Philip A. Echkhoff
+journal name: "Malaria Journal"
+subtitle: "Malaria Journal"
+date: 2011-10-17
+doi: https://doi.org/10.1186/1475-2875-10-303
+abstract: "A new model is presented for mosquito population dynamics, effects of weather, and impacts of multiple simultaneous interventions. This model is then embedded in a large-scale individual-based simulation and results for local elimination of malaria are discussed. Mosquito population behaviours, such as anthropophily and indoor feeding, are included to study their effect upon the efficacy of vector control-based elimination campaigns."
+category: Vectors
+type: Model Development
+---

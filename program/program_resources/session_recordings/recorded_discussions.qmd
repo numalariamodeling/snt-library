@@ -1,0 +1,10 @@
+---
+title: "Discussions"
+weight: 3
+listing: 
+  type: grid
+  grid-columns: 3
+  contents: recorded_discussions/*.qmd
+---
+
+Roundtable discussions and other informal sessions.

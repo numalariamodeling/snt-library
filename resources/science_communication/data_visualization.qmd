@@ -1,5 +1,6 @@
 ---
-title: "Data Viz"
+title: "Data Visualization Tips"
+weight: 3
 format: 
   html: 
     toc: true

@@ -1,9 +1,12 @@
 ---
 title: "QUEST"
+weight: 4
 listing:
   contents: "quest_resources/*.qmd"
   type: grid
   fields: [title, description]
+  grid-columns: 1
+  sort: weight
 ---
 
-Select
+Northwestern’s High-Performance Computing (HPC) cluster is ideal to run compute-intensive and data-intensive applications.

@@ -2,10 +2,16 @@
 title: "Evidence Base"
 weight: 4
 listing:
-  contents: "resources/*.qmd"
-  type: grid
-  fields: 
-    - title
+  contents: evidence_articles/*.qmd
+  type: table
+  fields: [title, journal name, type, category]
+  categories: true
+  sort-ui: false
+  table-striped: true
+  page-size: 10
+  sort: date
+page-layout: full
 ---
+
 
 The studies model parameters and assumptions are based on

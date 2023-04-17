@@ -1,0 +1,12 @@
+---
+title: "Vector Control"
+weight: 2
+listing: 
+  type: grid
+  contents: vector_control_pages/*.qmd
+  sort: weight
+  fields: [title, description]
+  grid-columns: 1
+---
+
+Bednets, IRS, & Larvicides

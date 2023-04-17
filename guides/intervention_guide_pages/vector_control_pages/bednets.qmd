@@ -1,0 +1,18 @@
+---
+title: "Bednets"
+weight: 1
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+ITNs with different usage patterns
+
+# Bednets (ITNs)
+
+## Constant Usage
+
+## Seasonal/Leaky Usage
+

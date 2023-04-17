@@ -1,0 +1,38 @@
+---
+title: "Implementation and applications of EMOD, an individual-based multi-disease modeling platform"
+author: 
+  - Anna Bershtyn
+  - Jaline Gerardin
+  - Daniel Bridenbecker
+  - Christopher W. Lorton
+  - Jonathan Bloedow
+  - Robert S. Baker
+  - Guillaume Chabot-Couture
+  - Ye Chen
+  - Thomas Fischle
+  - Kurt Frey
+  - Jillian S. Gauld
+  - Hao Hu
+  - Amanda S. Izzo
+  - Daniel J. Klein
+  - Dejan Lukacevic
+  - Kevin A. McCarthy
+  - Joel C. Miller
+  - Andre Lin Ouedraogo
+  - T. Alex Perkins
+  - Jeffrey Steinkraus
+  - Quirine A ten Bosch
+  - Hung-Fu Ting
+  - Svetlana Titova
+  - Bradley G. Wagner
+  - Phillip A. Welkhoff
+  - Edward A. Wenger
+  - Christian N. Wiswell
+journal name: "Pathogens and Disease"
+subtitle: "Pathogens and Disease"
+date: 2018-07-06
+doi: https://doi.org/10.1093/femspd/fty059
+abstract: "The epidemiological modeling software, EMOD, has undergone a decade of software development. It is structured so that a majority of code is shared across disease modeling including malaria, HIV, tuberculosis, dengue, polio and typhoid. In additional to implementation efficiency, the sharing increases code usage and testing. The freely available codebase also includes hundreds of regression tests, scientific feature tests and component tests to help verify functionality and avoid inadvertent changes to functionality during future development. Here we describe the levels of detail, flexible configurability and modularity enabled by EMOD and the role of software development principles and processes in its development."
+category: Software Design
+type: Review
+---

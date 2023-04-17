@@ -1,9 +1,0 @@
----
-title: "Curriculum"
-listing:
-  contents: 
-    - "curriculum/*/*.qmd"
-  type: grid
-  fields: [title, description]
-  sort: weight
----

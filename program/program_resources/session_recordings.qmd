@@ -1,0 +1,12 @@
+---
+title: "Session Recordings"
+weight: 3
+listing: 
+  type: grid
+  grid-columns: 1
+  grid-item-border: true
+  contents: session_recordings/*.qmd
+  sort: weight
+---
+
+Recorded lectures, tutorials, and discussions

@@ -1,13 +1,11 @@
 ---
 title: "Writing Tips"
-format: 
-  html: 
-    toc: true
-    toc-depth: 5
+weight: 1
+listing:
+  type: grid
+  grid-columns: 1
+  contents: writing_pages/*.qmd
+  sort: weight
 ---
 
 Grants & Manuscripts
-
-# Grant Applications
-
-# Manuscripts

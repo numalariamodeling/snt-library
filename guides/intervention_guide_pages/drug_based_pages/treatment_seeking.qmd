@@ -1,0 +1,17 @@
+---
+title: "Treatment-Seeking"
+weight: 1
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Management of symptomatic cases
+
+# Treatment-Seeking
+
+## Uncomplicated Malaria
+
+## Severe Malaria

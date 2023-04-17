@@ -1,0 +1,14 @@
+---
+topic: "0. Use of Mathematical Modeling in WHO Guidelines"
+title: "Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review"
+author: 
+  -  Lo, N. C. 
+  -  Andrejko, K.
+  -  Shukla, P.
+  -  Baker, T.
+  -  Sawin, V. I.
+  -  Norris, S. L.
+  -  Lewnard, J. A.
+doi: https://doi.org/10.21203/rs.3.rs-2335288/v1
+---
+

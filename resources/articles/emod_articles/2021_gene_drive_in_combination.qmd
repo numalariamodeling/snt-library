@@ -1,0 +1,16 @@
+---
+title: "Modeling impact and cost-effectiveness of driving-Y gene drives for malaria elimination in the Democratic Republic of the Congo"
+author: 
+  - Nawapan Metchanun
+  - Christian Borgemeister
+  - Gaston Amzati
+  - Joachim von Braun
+  - Milen Nikolov
+journal name: "Evolutionary Applications"
+subtitle: "Evolutionary Applications"
+date: 2021-12-07
+doi: https://doi.org/10.1111/eva.13331
+abstract: "Malaria elimination will be challenging in countries that currently continue to bear high malaria burden. Sex-ratio-distorting gene drives, such as driving-Y, could play a role in an integrated elimination strategy if they can effectively suppress vector populations. Using a spatially explicit, agent-based model of malaria transmission in eight provinces spanning the range of transmission intensities across the Democratic Republic of the Congo, we predict the impact and cost-effectiveness of integrating driving-Y gene drive mosquitoes in malaria elimination strategies that include existing interventions such as insecticide-treated nets and case management of symptomatic malaria. Gene drive mosquitoes could eliminate malaria and were the most cost-effective intervention overall if the drive component was highly effective with at least 95% X-shredder efficiency at relatively low fertility cost, and associated cost of deployment below 7.17 $int per person per year. Suppression gene drive could be a cost-effective supplemental intervention for malaria elimination, but tight constraints on drive effectiveness and cost ceilings may limit its feasibility."
+category: Vector Control
+type: Modeling Study
+---

@@ -2,10 +2,13 @@
 title: "Articles"
 weight: 1
 listing:
-  contents: "articles/*.qmd"
+  contents: 
+    - articles/*.qmd
+    - "!articles/journal_club.qmd"
   type: grid
   fields: [title, description]
   sort: weight
+  grid-columns: 1
 ---
 
 Selected readings related to applied malaria modeling

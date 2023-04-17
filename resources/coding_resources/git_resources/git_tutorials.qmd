@@ -1,5 +1,6 @@
 ---
-title: "Code Academy"
+title: "Git Tutorials"
+weight: 2
 format: 
   html: 
     toc: true
@@ -7,3 +8,8 @@ format:
 ---
 
 Details
+
+List:
+
+*   
+* 

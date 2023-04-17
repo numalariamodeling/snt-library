@@ -1,9 +1,12 @@
 ---
 title: "R"
+weight: 2
 listing:
   contents: "r_resources/*.qmd"
   type: grid
   fields: [title, description]
+  grid-columns: 1
+  sort: weight
 ---
 
-Select
+R is a programming language for statistical computing and graphics.

@@ -1,0 +1,16 @@
+---
+topic: "8. Cross-Model Comparisons"
+title: "Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models."
+author: 
+  -  Penny, M. A. 
+  -  Verity, R. 
+  -  Bever, C. A. 
+  -  et al. 
+doi: https://www.sciencedirect.com/science/article/pii/S0140673615007254
+---
+
+
+#### Recommended further reading
+
+-  Smith, N.R., Trauer, J.M., Gambhir, M. et al. [Agent-based models of malaria transmission: a systematic review](https://doi.org/10.1186/s12936-018-2442-y). Malar J 17, 299 (2018).
+

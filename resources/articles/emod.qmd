@@ -1,10 +1,16 @@
 ---
 title: "EMOD"
 weight: 2
-format: 
-  html: 
-    toc: true
-    toc-depth: 5
+listing:
+  contents: emod_articles/*.qmd
+  type: table
+  fields: [title, journal name, type, category]
+  categories: false
+  sort-ui: false
+  table-striped: true
+  page-size: 10
+  sort: date
+page-layout: full
 ---
 
 Applications of EMOD in the literature

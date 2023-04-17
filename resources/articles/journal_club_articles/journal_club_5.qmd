@@ -1,0 +1,14 @@
+---
+topic: "5. Subnational Tailoring in Tanzania"
+title: "Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling"
+author: 
+  -  Runge, M.
+  -  Thawer, S.G.
+  -  Molteni, F. 
+  -  et al. 
+doi: https://doi-org.turing.library.northwestern.edu/10.1186/s12936-022-04099-5
+---
+
+#### Recommended additional reading
+
+-   Ifeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. [Application of mathematical modeling to inform national malaria intervention planning in Nigeria](https://doi.org/10.21203/rs.3.rs-2335288/v1). 06 December 2022, PREPRINT (Version 1) available at Research Square.

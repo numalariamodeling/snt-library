@@ -1,0 +1,12 @@
+---
+title: "MAP Rasters"
+weight: 2
+listing:
+  type: grid
+  grid-columns: 1
+  contents: MAP_pages/*.qmd
+  sort: weight
+---
+
+Estimates from Malaria Atlas Project
+

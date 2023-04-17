@@ -1,0 +1,10 @@
+---
+title: "What is Applied Malaria Modeling?"
+date: 2023-06-27
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+A broad overview of the concepts behind the practice of applied malaria modeling

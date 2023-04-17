@@ -1,9 +1,12 @@
 ---
 title: "Python"
+weight: 1
 listing:
   contents: "python_resources/*.qmd"
   type: grid
   fields: [title, description]
+  sort: weight
+  grid-columns: 1
 ---
 
-Select
+Python is a high-level, general-purpose programming language.

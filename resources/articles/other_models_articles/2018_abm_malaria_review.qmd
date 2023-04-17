@@ -1,0 +1,17 @@
+---
+title: "Agent-based models of malaria transmission: a systematic review"
+author: 
+  - Neal R. Smith
+  - James M. Trauer
+  - Manoj Gambhir
+  - Jack S. Richards
+  - Richard J. Maude
+  - Jonathan M. Keith
+  - Jennifer A. Flegg
+subtitle: Malaria Journal
+journal name: Malaria Journal
+date: 2018-08-17
+doi: https://doi.org/10.1186/s12936-018-2442-y
+abstract: "A systematic review of 90 articles published between 1998 and May 2018 was performed, characterizing agent-based models (ABMs) relevant to malaria transmission. The review provides an overview of approaches used to date, determines the advantages of these approaches, and proposes ideas for progressing the field."
+type: Review
+---

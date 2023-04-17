@@ -1,0 +1,15 @@
+---
+title: "Change Drug Adherence"
+weight: 4
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Vary adherence to the course of drugs prescribed
+
+# Change Drug Adherence
+
+Configuring adherence is not required. In the absence of specific configuration, adherence to the full treatment course is assumed to be 100%.

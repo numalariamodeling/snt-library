@@ -1,0 +1,19 @@
+---
+title: "Drug Campaigns"
+weight: 2
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+---
+
+Population-wide programmatic treatment campaigns
+
+# Drug Campaigns
+
+### Seasonal/Perennial Malaria Chemoprophylaxis (SMC/PMC)
+
+### Mass Drug Administration (MDA)
+
+### Mass Screening/Testing and Treatment (MSAT/MTAT)
