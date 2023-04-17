@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
@@ -256,13 +256,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#part-0.-get-a-copy-of-the-example-data" id="toc-part-0.-get-a-copy-of-the-example-data" class="nav-link" data-scroll-target="#part-0.-get-a-copy-of-the-example-data">Part 0. Get a copy of the example data</a></li>
   <li><a href="#part-1.-python---analyze-example-data" id="toc-part-1.-python---analyze-example-data" class="nav-link" data-scroll-target="#part-1.-python---analyze-example-data">Part 1. Python - analyze example data</a></li>
   <li><a href="#part-2.-r---transform-and-visualize-output" id="toc-part-2.-r---transform-and-visualize-output" class="nav-link" data-scroll-target="#part-2.-r---transform-and-visualize-output">Part 2. R - transform and visualize output</a></li>
-  <li><a href="#part-3.-git---add-files-to-your-own-branch" id="toc-part-3.-git---add-files-to-your-own-branch" class="nav-link" data-scroll-target="#part-3.-git---add-files-to-your-own-branch">Part 3. Git - add files to your own branch</a></li>
+  <li><a href="#part-3.-submit-to-slack" id="toc-part-3.-submit-to-slack" class="nav-link" data-scroll-target="#part-3.-submit-to-slack">Part 3. Submit to Slack</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -285,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="pre-requisites" class="level3">
 <h3 class="anchored" data-anchor-id="pre-requisites">Pre-Requisites</h3>
 <p>Despite having a variety of backgrounds, we aim for all participants to arrive familiar with certain programming skills, most of which are needed to complete the pre-program Coding Assignment.</p>
-<p><span style="color:black;font-weight:bold">If you are unfamiliar with any of the prerequisite skills in the table below, please review the self-led tutorials at the links provided to learn.</span></p>
+<p><span style="color:black;font-weight:bold">If you are unfamiliar with any of the skills in the table below, please review the self-led tutorials at the links provided to learn.</span></p>
 <table class="table">
 <thead>
 <tr class="header">
@@ -299,7 +299,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Variables and Types</p></li>
 <li><p>Lists</p></li>
 <li><p>Basic Operators</p></li>
-<li><p>String formatting - slicing, splitting, case</p></li>
+<li><p>Strings - slicing, splitting, case</p></li>
 <li><p>Conditions - <code>and</code>, <code>or</code>, <code>in</code>, <code>is</code>, <code>not</code></p></li>
 <li><p>Loops - <code>for</code> and <code>while</code></p></li>
 <li><p>Functions</p></li>
@@ -311,7 +311,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></td>
 <td><ul>
 <li><p>Basic Syntax</p></li>
-<li><p>(Data Frames</p></li>
+<li><p>Data Frames</p></li>
 <li><p>Data Cleaning - <code>tidyr</code></p></li>
 <li><p>Data Visualization - <code>ggplot2</code></p></li>
 <li><p>Aggregate Functions</p></li>
@@ -333,8 +333,9 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Go to the <a href="">coding assignment repository</a></p></li>
 <li><p>Obtain a local copy of the <code>example_data/</code> folder</p>
-<p><em>Option 1:</em> Git clone the repository to a new folder on your computer, …<code>/project_dir</code></p>
-<p><em>Option 2:</em> Download and unzip the folder to a new folder on your computer, …<code>/project_dir</code></p></li>
+<ul>
+<li>Download and unzip the folder to a new folder on your computer, …<code>/project_dir</code></li>
+</ul></li>
 <li><p>Examine a sample <code>output.csv</code> file from the example data.<br>
 You will have to click through <code>experiment &gt; simulation_## &gt; outputs</code> to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!</p>
 <ul>
@@ -353,13 +354,13 @@ You will have to click through <code>experiment &gt; simulation_## &gt; outputs<
 <li><p>Create a new <code>my_script.py</code> file in the same <code>/project_dir</code> where you saved the <code>example_data</code> folder</p>
 <p>Your directory structure should be:</p>
 <ul>
-<li><p><code>project_dir/</code></p>
+<li><code>project_dir/</code>
 <ul>
-<li><p><code>example_data/</code></p>
+<li><code>example_data/</code>
 <ul>
 <li>…</li>
 </ul></li>
-<li><p><code>my_script.py</code></p></li>
+<li><code>my_script.py</code></li>
 </ul></li>
 </ul></li>
 <li><p>Import the following modules: <code>pandas</code>, <code>numpy</code></p></li>
@@ -409,22 +410,27 @@ Did you generate the output from Part 1?
 <ul>
 <li><p>Read in output_cleaned.csv</p></li>
 <li><p>Aggregate the mean prevalence by Blood Smear, PCR, and PfHRP2 (separately) on each day for a given Treatment_Rate</p></li>
-<li><p>Use <code>ggplot2</code> to produce plots of the timeseries</p>
+<li><p>Use <code>ggplot2</code> to produce plots of the data:</p>
 <ul>
 <li><p>Time on the x-axis, prevalence on the y-axis</p></li>
 <li><p>Separate lines and colors for each value of Treatment_Rate</p></li>
-<li><p>Separate facets/panels/plots for each diagnostic (PCR, Blood Smear, and PfHRP2)</p></li>
+<li><p>Separate facets/panels/sub-plots for each diagnostic (PCR, Blood Smear, and PfHRP2)</p></li>
 <li><p>An informative title, labels, legend, color palette etc.</p>
 <ul>
 <li>You don’t need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings</li>
 </ul></li>
 </ul></li>
-<li><p>Save your plot(s) as <code>.png</code> file(s) in <code>project_dir/</code> with an informative filename (ex. “prevalence_by_treatment_rate.png”</p></li>
+<li><p>Save your plot(s) as <code>.png</code> file(s) in <code>project_dir/</code> with an informative file name (ex. “prevalence_by_treatment_rate.png”)</p></li>
 </ul></li>
 </ol>
 </section>
-<section id="part-3.-git---add-files-to-your-own-branch" class="level4">
-<h4 class="anchored" data-anchor-id="part-3.-git---add-files-to-your-own-branch">Part 3. Git - add files to your own branch</h4>
+<section id="part-3.-submit-to-slack" class="level4">
+<h4 class="anchored" data-anchor-id="part-3.-submit-to-slack">Part 3. Submit to Slack</h4>
+<p>Post your plot(s) to the slack channel for feedback.</p>
+<ul>
+<li><p>How does it compare to others?</p></li>
+<li><p>If something looks off, what do you think is causing it?</p></li>
+</ul>
 <a href="https://www.numalariamodeling.org/">
 
 </a></section><a href="https://www.numalariamodeling.org/">

@@ -55,7 +55,7 @@ def build_demog():
     return demog
 ```
 
-# Set Node-Specific Parameters 
+# Set Node-Specific Parameters
 
 Sometimes we want to vary properties between nodes based on prior knowledge. For any `NodeAttribute` parameters, these can be created simply by specifying them in the `my_nodes.csv` as columns and setting `load_other_columns_as_attributes=True` in the call to `DemographicsGenerator()`.
 
@@ -77,7 +77,6 @@ Then, when we can assign the "high_risk" property to individuals in each node wi
 ::: callout-caution
 ## Coming Soon
 :::
-
 
 # Add migration between nodes
 

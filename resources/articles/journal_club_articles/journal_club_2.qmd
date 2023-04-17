@@ -1,0 +1,14 @@
+---
+topic: "2. Seasonality of Transmission and Interventions"
+title: "Seasonality and heterogeneity of malaria transmission determine success of interventions in high-endemic settings: a modeling study"
+author: 
+  -  Selvaraj, P. 
+  -  Wenger, E.A. 
+  -  Gerardin, J.
+doi: https://doi.org/10.1186/s12879-018-3319-y
+---
+
+
+### Recommended additional reading
+
+-   Nikolov, M., Bever, C. A., Upfill-Brown, A., Hamainza, B., Miller, J. M., Eckhoff, P. A., ... & Gerardin, J. (2016). [Malaria elimination campaigns in the Lake Kariba region of Zambia: a spatial dynamical model](https://doi.org/10.1371/journal.pcbi.1005192). PLoS computational biology, 12(11), e1005192.

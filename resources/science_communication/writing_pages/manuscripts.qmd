@@ -1,0 +1,10 @@
+---
+title: "Writing Manuscripts"
+weight: 2
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Details

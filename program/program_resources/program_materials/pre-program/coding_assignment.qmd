@@ -5,6 +5,7 @@ format:
   html: 
     toc: true
     toc-depth: 5
+page-layout: full
 ---
 
 Complete and submit the pre-program Coding Assignment to (re)familiarize yourself with some basics in `R` and `python`.
@@ -13,18 +14,18 @@ Complete and submit the pre-program Coding Assignment to (re)familiarize yoursel
 
 Despite having a variety of backgrounds, we aim for all participants to arrive familiar with certain programming skills, most of which are needed to complete the pre-program Coding Assignment.
 
-[If you are unfamiliar with any of the prerequisite skills in the table below, please review the self-led tutorials at the links provided to learn.]{style="color:black;font-weight:bold"}
+[If you are unfamiliar with any of the skills in the table below, please review the self-led tutorials at the links provided to learn.]{style="color:black;font-weight:bold"}
 
 +--------------------------------------------------------------------------------+--------------------------------------------------------------------------+
 | Python                                                                         | R                                                                        |
 +================================================================================+==========================================================================+
 | -   Variables and Types                                                        | -   Basic Syntax                                                         |
 |                                                                                |                                                                          |
-| -   Lists                                                                      | -   (Data Frames                                                         |
+| -   Lists                                                                      | -   Data Frames                                                          |
 |                                                                                |                                                                          |
 | -   Basic Operators                                                            | -   Data Cleaning - `tidyr`                                              |
 |                                                                                |                                                                          |
-| -   String formatting - slicing, splitting, case                               | -   Data Visualization - `ggplot2`                                       |
+| -   Strings - slicing, splitting, case                                         | -   Data Visualization - `ggplot2`                                       |
 |                                                                                |                                                                          |
 | -   Conditions - `and`, `or`, `in`, `is`, `not`                                | -   Aggregate Functions                                                  |
 |                                                                                |                                                                          |
@@ -55,11 +56,9 @@ Despite having a variety of backgrounds, we aim for all participants to arrive f
 
 2.  Obtain a local copy of the `example_data/` folder
 
-    *Option 1:* Git clone the repository to a new folder on your computer, ...`/project_dir`
+    -   Download and unzip the folder to a new folder on your computer, ...`/project_dir`
 
-    *Option 2:* Download and unzip the folder to a new folder on your computer, ...`/project_dir`
-
-3.  Examine a sample `output.csv` file from the example data. \
+3.  Examine a sample `output.csv` file from the example data.\
     You will have to click through `experiment > simulation_## > outputs` to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!
 
     -   In reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we've created "fake" output files that already in a form that is easier to work with.
@@ -74,11 +73,8 @@ Despite having a variety of backgrounds, we aim for all participants to arrive f
     Your directory structure should be:
 
     -   `project_dir/`
-
         -   `example_data/`
-
             -   ...
-
         -   `my_script.py`
 
 2.  Import the following modules: `pandas`, `numpy`
@@ -118,18 +114,24 @@ Your directory structure should now be:
 
     -   Aggregate the mean prevalence by Blood Smear, PCR, and PfHRP2 (separately) on each day for a given Treatment_Rate
 
-    -   Use `ggplot2` to produce plots of the timeseries
+    -   Use `ggplot2` to produce plots of the data:
 
         -   Time on the x-axis, prevalence on the y-axis
 
         -   Separate lines and colors for each value of Treatment_Rate
 
-        -   Separate facets/panels/plots for each diagnostic (PCR, Blood Smear, and PfHRP2)
+        -   Separate facets/panels/sub-plots for each diagnostic (PCR, Blood Smear, and PfHRP2)
 
         -   An informative title, labels, legend, color palette etc.
 
             -   You don't need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings
 
-    -   Save your plot(s) as `.png` file(s) in `project_dir/` with an informative filename (ex. "prevalence_by_treatment_rate.png"
+    -   Save your plot(s) as `.png` file(s) in `project_dir/` with an informative file name (ex. "prevalence_by_treatment_rate.png")
 
-#### Part 3. Git - add files to your own branch
+#### Part 3. Submit to Slack
+
+Post your plot(s) to the slack channel for feedback.
+
+-   How does it compare to others?
+
+-   If something looks off, what do you think is causing it?

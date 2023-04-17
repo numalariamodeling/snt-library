@@ -14,11 +14,25 @@
     "text": "details"
   },
   {
+    "objectID": "resources/science_communication/writing_pages/grants.html",
+    "href": "resources/science_communication/writing_pages/grants.html",
+    "title": "Applying for Grants",
+    "section": "",
+    "text": "Details"
+  },
+  {
+    "objectID": "resources/science_communication/writing_pages/manuscripts.html",
+    "href": "resources/science_communication/writing_pages/manuscripts.html",
+    "title": "Writing Manuscripts",
+    "section": "",
+    "text": "Details"
+  },
+  {
     "objectID": "resources/science_communication/writing.html",
     "href": "resources/science_communication/writing.html",
     "title": "Writing Tips",
     "section": "",
-    "text": "Grants & Manuscripts\n\nGrant Applications\n\n\nManuscripts"
+    "text": "Grants & Manuscripts\n\n\n\n\n\n\n\n\n\n\n\nApplying for Grants\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Manuscripts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/science_communication/presentations.html",
@@ -39,7 +53,7 @@
     "href": "resources/articles/journal_club.html",
     "title": "Journal Club",
     "section": "",
-    "text": "Selected papers for 2023 program discussions\n\nA: Use of Mathematical Modeling in WHO Guidelines\n\nLo, N. C., Andrejko, K., Shukla, P., Baker, T., Sawin, V. I., Norris, S. L., & Lewnard, J. A. (2022).Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review. Epidemics, 39, 100570\n\n\n\n1: High-Burden High-Impact Modeling: Nigeria Case Study\n\nIfeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. Application of mathematical modeling to inform national malaria intervention planning in Nigeria. 06 December 2022, PREPRINT (Version 1) available at Research Square.\n\n\n\n2: Seasonality of Transmission and Interventions\n\nSelvaraj, P., Wenger, E.A. & Gerardin, J. Seasonality and heterogeneity of malaria transmission determine success of interventions in high-endemic settings: a modeling study. BMC Infect Dis 18, 413 (2018).\n\n(recommended) Nikolov, M., Bever, C. A., Upfill-Brown, A., Hamainza, B., Miller, J. M., Eckhoff, P. A., … & Gerardin, J. (2016). Malaria elimination campaigns in the Lake Kariba region of Zambia: a spatial dynamical model. PLoS computational biology, 12(11), e1005192.\n\n\n\n3: Intervention Combinations\n\nRunge M., Stahlfeld A., Abrose M., et al. Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis. 22 March 2023, PREPRINT (Version 1) available at ResearchSquare.\n\n(recommended) Ozodiegwu, I. D., Ambrose, M., Battle, K. E., Bever, C., Diallo, O., Galatas, B., … & Gerardin, J. (2021). Beyond national indicators: adapting the Demographic and Health Surveys’ sampling strategies and questions to better inform subnational malaria intervention policy. Malaria journal, 20(1), 1-7\n\n\n\n4: Efficiency of Intervention Allocation\n\nWalker, P. G., Griffin, J. T., Ferguson, N. M., & Ghani, A. C. (2016). Estimating the most efficient allocation of interventions to achieve reductions in Plasmodium falciparum malaria burden and transmission in Africa: a modelling study. The Lancet Global Health, 4(7), e474-e484.\n\n\n\n5: Subnational Tailoring in Tanzania\n\nRunge, M., Thawer, S.G., Molteni, F. et al. Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling. Malar J 21, 92 (2022).\n\n(recommended to review) Ifeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. Application of mathematical modeling to inform national malaria intervention planning in Nigeria. 06 December 2022, PREPRINT (Version 1) available at Research Square.\n\n\n\n6: Reactive Case Detection in Zambia\n\nGerardin, J., Bever, C.A., Bridenbecker, D. et al. Effectiveness of reactive case detection for malaria elimination in three archetypical transmission settings: a modelling study. Malar J 16, 248 (2017).\n\n\n\n7: Diagnostics for Malaria Elimination\n\nSlater, H., Ross, A., Ouédraogo, A. et al. Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies. Nature 528, S94–S101 (2015).\n(recommended) Gerardin, J., Ouédraogo, A.L., McCarthy, K.A. et al. Characterization of the infectious reservoir of malaria with an agent-based model calibrated to age-stratified parasite densities and infectiousness. Malar J 14, 231 (2015).\n\n\n\n8: Cross-Model Comparisons\n\nPenny, M. A., Verity, R., Bever, C. A., Sauboin, C., Galactionova, K., Flasche, S., … & Ghani, A. C. (2016). Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models.The Lancet, 387(10016), 367\n375\n(recommended) Smith, N.R., Trauer, J.M., Gambhir, M. et al. Agent-based models of malaria transmission: a systematic review. Malar J 17, 299 (2018)."
+    "text": "Selected papers for 2023 program discussions\n\n\n\n\n\n\n\n\n\n\n\n\ntopic\n\n\n\n\n\n\n\nUse of Mathematical Modeling in WHO Guidelines\n\n\n\n\n\n\nHigh-Burden High-Impact Modeling: Nigeria Case Study\n\n\n\n\n\n\nSeasonality of Transmission and Interventions\n\n\n\n\n\n\nIntervention Mixing\n\n\n\n\n\n\nEfficiency of Intervention Allocation\n\n\n\n\n\n\nSubnational Tailoring in Tanzania\n\n\n\n\n\n\nReactive Case Detection in Zambia\n\n\n\n\n\n\nDiagnostics for Malaria Elimination\n\n\n\n\n\n\nCross-Model Comparisons\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/articles/policy.html",
@@ -68,6 +82,41 @@
     "title": "Evidence Base",
     "section": "",
     "text": "The studies model parameters and assumptions are based on\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\njournal name\n\n\ntype\n\n\ncategory\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/articles/journal_club_articles/journal_club_2.html",
+    "href": "resources/articles/journal_club_articles/journal_club_2.html",
+    "title": "Seasonality and heterogeneity of malaria transmission determine success of interventions in high-endemic settings: a modeling study",
+    "section": "",
+    "text": "Recommended additional reading\n\nNikolov, M., Bever, C. A., Upfill-Brown, A., Hamainza, B., Miller, J. M., Eckhoff, P. A., … & Gerardin, J. (2016). Malaria elimination campaigns in the Lake Kariba region of Zambia: a spatial dynamical model. PLoS computational biology, 12(11), e1005192."
+  },
+  {
+    "objectID": "resources/articles/journal_club_articles/journal_club_3.html",
+    "href": "resources/articles/journal_club_articles/journal_club_3.html",
+    "title": "Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis",
+    "section": "",
+    "text": "Recommended further reading\n\nOzodiegwu, I. D., Ambrose, M., Battle, K. E., Bever, C., Diallo, O., Galatas, B., … & Gerardin, J. (2021). Beyond national indicators: adapting the Demographic and Health Surveys’ sampling strategies and questions to better inform subnational malaria intervention policy. Malaria journal, 20(1), 1-7"
+  },
+  {
+    "objectID": "resources/articles/journal_club_articles/journal_club_7.html",
+    "href": "resources/articles/journal_club_articles/journal_club_7.html",
+    "title": "Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies",
+    "section": "",
+    "text": "Recommended further reading\n\nGerardin, J., Ouédraogo, A.L., McCarthy, K.A. et al. Characterization of the infectious reservoir of malaria with an agent-based model calibrated to age-stratified parasite densities and infectiousness. Malar J 14, 231 (2015)."
+  },
+  {
+    "objectID": "resources/articles/journal_club_articles/journal_club_5.html",
+    "href": "resources/articles/journal_club_articles/journal_club_5.html",
+    "title": "Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling",
+    "section": "",
+    "text": "Recommended additional reading\n\nIfeoma D. Ozodiegwu, Monique Ambrose, Beatriz Galatas et al. Application of mathematical modeling to inform national malaria intervention planning in Nigeria. 06 December 2022, PREPRINT (Version 1) available at Research Square."
+  },
+  {
+    "objectID": "resources/articles/journal_club_articles/journal_club_8.html",
+    "href": "resources/articles/journal_club_articles/journal_club_8.html",
+    "title": "Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models.",
+    "section": "",
+    "text": "Recommended further reading\n\nSmith, N.R., Trauer, J.M., Gambhir, M. et al. Agent-based models of malaria transmission: a systematic review. Malar J 17, 299 (2018)."
   },
   {
     "objectID": "resources/AMMnet.html",
@@ -140,53 +189,81 @@
     "text": "Git is a popular version control software to manage codes, especially in a collaborative environment.\n\n\n\n\n\n\n\n\n\n\n\nIntro to Git (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit Tutorials\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "resources/data_sources/DHS.html",
-    "href": "resources/data_sources/DHS.html",
-    "title": "DHS",
+    "objectID": "resources/data_sources/MAP_pages/MAP_rasters_walkthrough.html",
+    "href": "resources/data_sources/MAP_pages/MAP_rasters_walkthrough.html",
+    "title": "MAP Rasters Walkthrough",
     "section": "",
-    "text": "Demographic and Health Surveys"
+    "text": "In this page, we demonstrate how to extract values from maps using R. Often we have maps showing values for each pixels, for example, ITN access and usage map with 5km x 5km resolutions or Population counts with 1km x 1km resolutions. To convert these maps to useful estimates for our model, we need to extract the values underlying each pixel in the map, within the geographical area of interest. For example, if the map covers the entire Sub-Saharan Africa, and all we need is values from Burkina Faso, we will need to only extract the pixels within the country’s boundary. Then we would need to aggregate the values of the pixels, to obtain some form of country-wide estimate. Similar analogy is applicable to region, district and province.\nWe use the sp and raster packages in R to achieve this. For the first example, we will walk through extracting ITN usage estimate for a Burkina Faso district of Kampti."
   },
   {
-    "objectID": "resources/data_sources/DHS.html#dhs-surveys",
-    "href": "resources/data_sources/DHS.html#dhs-surveys",
-    "title": "DHS",
-    "section": "DHS Surveys",
-    "text": "DHS Surveys"
-  },
-  {
-    "objectID": "resources/data_sources/DHS.html#use-cases",
-    "href": "resources/data_sources/DHS.html#use-cases",
-    "title": "DHS",
-    "section": "Use Cases",
-    "text": "Use Cases"
-  },
-  {
-    "objectID": "resources/data_sources/DHS.html#limitations",
-    "href": "resources/data_sources/DHS.html#limitations",
-    "title": "DHS",
-    "section": "Limitations",
-    "text": "Limitations"
-  },
-  {
-    "objectID": "resources/data_sources/DHS.html#using-the-dhs-portal",
-    "href": "resources/data_sources/DHS.html#using-the-dhs-portal",
-    "title": "DHS",
-    "section": "Using the DHS Portal",
-    "text": "Using the DHS Portal"
-  },
-  {
-    "objectID": "resources/data_sources/DHS.html#calling-the-dhs-api",
-    "href": "resources/data_sources/DHS.html#calling-the-dhs-api",
-    "title": "DHS",
-    "section": "Calling the DHS API",
-    "text": "Calling the DHS API"
+    "objectID": "resources/data_sources/MAP_pages/MAP_rasters_walkthrough.html#example-itn-usage-of-kampti-district",
+    "href": "resources/data_sources/MAP_pages/MAP_rasters_walkthrough.html#example-itn-usage-of-kampti-district",
+    "title": "MAP Rasters Walkthrough",
+    "section": "Example: ITN usage of Kampti District",
+    "text": "Example: ITN usage of Kampti District\nTo achieve this, it is important to look at the “ingredients” needed: - Shape file for Burkina Faso and its district (You need to unzip this) - 2016 ITN usage map (note that this is originally covering the entire of SSA, but is cropped to reduce filesize) - 2016 estimated population distrbution map of Burkina Faso\nShape file serves as a “cookie cutter” such that we can ensure to extract values within the boundary of a district or area of interest. We will discuss about the use of population distribution map later.\nHere are the code walkthrough. First we import the libraries, and load the input using raster() and shapefile() functions.\n\nlibrary(sp)\nlibrary(raster)\n\nshp <- shapefile(\"data/burkina_70DS.shp\")\nshp\n\nclass       : SpatialPolygonsDataFrame \nfeatures    : 70 \nextent      : 224822.8, 1088963, 1040345, 1669090  (xmin, xmax, ymin, ymax)\ncrs         : +proj=utm +zone=30 +datum=WGS84 +units=m +no_defs \nvariables   : 11\nnames       : OBJECTID,  NOMDEP, SinistreIn, Innonde, NOMPROVINC,         NOMREGION, CommuneCib, CoomuneRis,    Shape_Leng,    Shape_Area, DS \nmin values  :        7, BANFORA,          0,       0,       BALE, BOUCLE DU MOUHOUN,          0,          0,  22326.136677, 28397716.1216,  0 \nmax values  :      107,  ZORGHO,       3179,       1, ZOUNDWEOGO,         SUD-OUEST,          1,          1, 656058.771223, 14845528347.3, 69 \n\nitn_raster <- raster(\"data/ITN2016.tif\")\nitn_raster\n\nclass      : RasterLayer \ndimensions : 156, 216, 33696  (nrow, ncol, ncell)\nresolution : 0.04166665, 0.04166665  (x, y)\nextent     : -6.00007, 2.999927, 8.999972, 15.49997  (xmin, xmax, ymin, ymax)\ncrs        : +proj=longlat +datum=WGS84 +no_defs \nsource     : ITN2016.tif \nnames      : ITN2016 \nvalues     : 0.09760008, 0.8092381  (min, max)\n\npop_raster <- raster(\"data/bfa_ppp_2016_1km_Aggregated_UNadj.tif\")\npop_raster\n\nclass      : RasterLayer \ndimensions : 682, 951, 648582  (nrow, ncol, ncell)\nresolution : 0.008333333, 0.008333333  (x, y)\nextent     : -5.517917, 2.407083, 9.407917, 15.09125  (xmin, xmax, ymin, ymax)\ncrs        : +proj=longlat +datum=WGS84 +no_defs \nsource     : bfa_ppp_2016_1km_Aggregated_UNadj.tif \nnames      : bfa_ppp_2016_1km_Aggregated_UNadj \nvalues     : 0.2217675, 6855.859  (min, max)\n\n\nThe summaries for each of the object suggests that shp has a different CRS (Coordinate Reference System) than others. The CRS of all objects must align for our work here, and it’s easier to convert CRS in shp to that of other raster objects.\n\nlibrary(rgdal)\n\nPlease note that rgdal will be retired during 2023,\nplan transition to sf/stars/terra functions using GDAL and PROJ\nat your earliest convenience.\nSee https://r-spatial.org/r/2022/04/12/evolution.html and https://github.com/r-spatial/evolution\nrgdal: version: 1.6-5, (SVN revision 1199)\nGeospatial Data Abstraction Library extensions to R successfully loaded\nLoaded GDAL runtime: GDAL 3.4.2, released 2022/03/08\nPath to GDAL shared files: /Library/Frameworks/R.framework/Versions/4.2/Resources/library/rgdal/gdal\nGDAL binary built with GEOS: FALSE \nLoaded PROJ runtime: Rel. 8.2.1, January 1st, 2022, [PJ_VERSION: 821]\nPath to PROJ shared files: /Library/Frameworks/R.framework/Versions/4.2/Resources/library/rgdal/proj\nPROJ CDN enabled: FALSE\nLinking to sp version:1.6-0\nTo mute warnings of possible GDAL/OSR exportToProj4() degradation,\nuse options(\"rgdal_show_exportToProj4_warnings\"=\"none\") before loading sp or rgdal.\n\nshp <- spTransform(shp, crs(itn_raster))\n\nWarning: PROJ support is provided by the sf and terra packages among others\n\n\nNow we can plot and see the raster and shapes. Here’s ITN raster.\n\nplot(itn_raster)\nplot(shp, add=T)\n\n\n\n\nAnd here’s population raster. There are a little misalignment in the north for this raster, but for our purpose, this problem is not too big.\n\nplot(pop_raster)\nplot(shp, add=T)\n\n\n\n\n\nNaïve Extraction\nThe most naïve way of extracting values for each district here is to directly use the extract() function. When supplied with a set of polygons (shapes), the function pull the values underlying all the pixels within the shapes, and aggregate them, say by taking means. The function can be supplied by a set of points too.\n\ndf <- shp@data # Pull data out of shapefiles (District names etc.)\n\n# Extract and aggregate using mean function\ndf$itn_cov <- extract(itn_raster, shp, fun=mean)\n\n# Look at values for Bittou district\ndf[df$NOMDEP=='BITTOU', c('NOMDEP', 'NOMREGION', 'itn_cov')]\n\n   NOMDEP  NOMREGION   itn_cov\n54 BITTOU CENTRE-EST 0.7512201\n\n\n\n\nPopulation-weighted extraction\nSometimes averaging each pixel without weights doesn’t feel quite “right”: Pixels inside uninhabited forests aren’t the same as pixels inside a crowded town when we care about ITN coverage. Therefore, we may elect to use population map to weight the pixels and obtain a population-weighted estimate for each district.\n\n# First try to stack the ITN and Population map\n## To do so, need to ensure two maps cover same area\n## Crop ITN raster according to Population raster\nitn_raster_cr <- crop(itn_raster, pop_raster)\n## Lower resolution of Population raster to the level of ITN raster\npop_raster_res <- resample(pop_raster, itn_raster_cr, )\n\n## Stacking the raster\nitn_pop_stack <- stack(itn_raster_cr, pop_raster_res)\n\n# Extract the raster stack according to the shapes, no aggregation\nout <- extract(itn_pop_stack, shp)\n\n# Define functions to calculate weighted average from output matrix\nweighted_avg <- function (x, w) sum(x * w) / sum(w)\nestim_from_matrix <- function (mat) {\n  mat <- na.omit(mat)\n  return(weighted_avg(mat[,1], mat[,2]))\n}\n\nWithout specifying the aggregating function for extract(), the function pull every single pixel out of the raster stack. Result is a list of matrices, first column is ITN coverage, second column is population count. So we define a function estim_from_matrix() that would calculate weighted average of first column according to second column. sapply() applies the function to each element (matrix) of the list, and combine the output nicely into a vector.\n\ndf2 <- shp@data\ndf2$itn_cov <- sapply(out, estim_from_matrix)\n\ndf2[df2$NOMDEP=='BITTOU', c('NOMDEP', 'NOMREGION', 'itn_cov')]\n\n   NOMDEP  NOMREGION   itn_cov\n54 BITTOU CENTRE-EST 0.7475682\n\n\nThe ITN coverage estimates from population-weighted method is almost the same as the naive method. This is potentially due to the ITN estimates within the district being relatively homogeneous."
   },
   {
     "objectID": "resources/data_sources/MAP_rasters.html",
     "href": "resources/data_sources/MAP_rasters.html",
     "title": "MAP Rasters",
     "section": "",
-    "text": "Estimates from Malaria Atlas Project\n\nUnderstanding Raster Data\n\n\nAccessing MAP Data"
+    "text": "Estimates from Malaria Atlas Project\n\n\n\n\n\n\n\n\n\n\n\nMAP Rasters Walkthrough\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/data_sources/DHS_pages/DHS Surveys.html",
+    "href": "resources/data_sources/DHS_pages/DHS Surveys.html",
+    "title": "DHS Surveys",
+    "section": "",
+    "text": "Understanding the Demographic and Health Surveys"
+  },
+  {
+    "objectID": "resources/data_sources/DHS_pages/DHS Surveys.html#dhs-surveys",
+    "href": "resources/data_sources/DHS_pages/DHS Surveys.html#dhs-surveys",
+    "title": "DHS Surveys",
+    "section": "DHS Surveys",
+    "text": "DHS Surveys"
+  },
+  {
+    "objectID": "resources/data_sources/DHS_pages/DHS Surveys.html#use-cases",
+    "href": "resources/data_sources/DHS_pages/DHS Surveys.html#use-cases",
+    "title": "DHS Surveys",
+    "section": "Use Cases",
+    "text": "Use Cases"
+  },
+  {
+    "objectID": "resources/data_sources/DHS_pages/DHS Surveys.html#limitations",
+    "href": "resources/data_sources/DHS_pages/DHS Surveys.html#limitations",
+    "title": "DHS Surveys",
+    "section": "Limitations",
+    "text": "Limitations"
+  },
+  {
+    "objectID": "resources/data_sources/DHS_pages/DHS Portal.html",
+    "href": "resources/data_sources/DHS_pages/DHS Portal.html",
+    "title": "DHS Portal",
+    "section": "",
+    "text": "Access DHS data through an online portal"
+  },
+  {
+    "objectID": "resources/data_sources/DHS_pages/DHS Portal.html#using-the-dhs-portal",
+    "href": "resources/data_sources/DHS_pages/DHS Portal.html#using-the-dhs-portal",
+    "title": "DHS Portal",
+    "section": "Using the DHS Portal",
+    "text": "Using the DHS Portal"
+  },
+  {
+    "objectID": "resources/data_sources/DHS_pages/DHS via API.html",
+    "href": "resources/data_sources/DHS_pages/DHS via API.html",
+    "title": "Querying the DHS API in R",
+    "section": "",
+    "text": "Call the DHS application program interface (API) from R\n\nWalkthrough\n\nLoad Packages\nknitr::opts_chunk$set(echo = TRUE)\nlibrary(data.table)\nlibrary(jsonlite)\nlibrary(tidyverse)\nlibrary(DT)\n\n\nSet up query\n# Abbreviated country code, check list here:\n# https://dhsprogram.com/data/File-Types-and-Names.cfm#CP_JUMP_10136\n\ncountryIds=c('BF') # countryIDs in quotes, separated by commas if multiple\n\n# Level of stratification ('national' or 'subnational')\n\nbreakdown=c('subnational')\n\n# Indicator(s) of interest. For a full list of 3,785 DHS indicators, look here:\n# https://api.dhsprogram.com/rest/dhs/indicators?returnFields=IndicatorId,Label,Definition&f=html\n#  \n# Example malaria indicators:\n# - CH_FEVR_C_FEV = % of children U5 (or U3) with fever in the 2 weeks preceding the survey\n# - ML_FEVT_C_ADV   = % of children U5 with recent (<2wk) fever for whom advice/treatment was sought\n# - ML_NETP_H_ITN = % of households with at least 1 ITN\n# - ML_IRSM_H_IRS = % of households with IRS in the last 12 months\n# - ML_PMAL_C_RDT = Malaria prevalence among children age 6-59 months tested by RDT \n# - ML_PMAL_C_RDL = Lower limit of 95% CI for ML_PMAL_C_RDT\n# - ML_PMAL_C_RDU = Upper limit of 95% CI for ML_PMAL_C_RDT\n#\n# Note: some indicators may not apply to all countries/districts/surveys\n\nindicatorIds=c('ML_IRSM_H_IRS','ML_NETP_H_ITN','ML_FEVT_C_ADV','ML_PMAL_C_RDT', 'ML_PMAL_C_RDL', 'ML_PMAL_C_RDU')\n\n\nExecute query & plot results\n#### Build API Query ####\n\nbase_url <- \"http://api.dhsprogram.com/rest/dhs/data?f=json&surveyid=all\"\nend_url <- \"&lang=en&f=json\"\nurl <- paste(base_url,\n             \"&countryIds=\",paste(countryIds,collapse=','),\n             \"&breakdown=\",breakdown,\n             \"&indicatorIds=\",paste(indicatorIds,collapse=','),\n             end_url,\n             sep = '')\nurl <- (url)\n\n\n#### Call API ####\n\ndhs_data <- fromJSON(url) # get page\ndhs_data <- dhs_data$Data # save dataframe\n\n\n#### Plot Results ###\n\n# Trends in intervention indicators by country-region \ndhs_data %>% \n  filter(!IndicatorId %in% c('ML_PMAL_C_RDT', 'ML_PMAL_C_RDL', 'ML_PMAL_C_RDU')) %>%\n  ggplot(aes(x=SurveyYear, y=Value, color = Indicator)) +\n  geom_line(size=1) +\n  geom_point(size=2, shape=21, fill=\"white\") +\n  facet_wrap(~paste(CountryName,CharacteristicLabel,sep='-'), ncol=5) +\n  theme_minimal() +\n  theme(legend.position=\"bottom\",\n        legend.justification = c(0,0),\n        axis.text.x=element_text(angle=90, vjust=0.5),\n        panel.grid.minor.x = element_blank()) +\n  scale_x_continuous(breaks=seq(2000,2020,1)) +\n  guides(color=guide_legend(direction = \"vertical\")) +\n  labs(color=NULL)\n\n# RDT Prevalence trends by country-region (where available)\ndhs_data %>% \n  filter(IndicatorId %in% c('ML_PMAL_C_RDT', 'ML_PMAL_C_RDL', 'ML_PMAL_C_RDU')) %>%\n  ggplot(aes(x=SurveyYear, y=Value)) +\n  geom_line(aes(group=SurveyYear)) +\n  geom_line(data=dhs_data[dhs_data$IndicatorId==\"ML_PMAL_C_RDT\",],\n            size=1) +\n  geom_point(size=2, shape=21, fill=\"white\") +\n  facet_wrap(~paste(CountryName,CharacteristicLabel,sep='-'), ncol=5) +\n  theme_minimal() +\n  theme(legend.position=\"bottom\",\n        legend.justification = c(0,0),\n        axis.text.x=element_text(angle=90, vjust=0.5),\n        panel.grid.minor.x = element_blank()) +\n  scale_x_continuous(breaks=seq(2000,2025,1)) +\n  guides(color=guide_legend(direction = \"vertical\")) +\n  ylab(\"Malaria Prevalence by RDT (U5)\") +\n  labs(color=NULL) \n\n\n\nGet list of available indicators\nThis section generates an interactive table of indicators at the subnational level for selected surveys/countries/indicators. As written, this code is useful for seeing which indicators were reported and when, for a given area.\n\n\n\n\n\n\nThis code is very slow!\n\n\n\n\n\n\n##########################################################\n### View sample of available data for select countries ###\n##########################################################\n\n\n# 1. Get list of surveys from selected countries\n################################################\n\ncountryIds=c('BF') # selected country\n\n### Build Query ###\nbase_url <- \"http://api.dhsprogram.com/rest/dhs/surveys?f=json\"\n\nurl <- paste(base_url,\n             \"&countryIds=\",paste(countryIds,collapse=','),\n             end_url,\n             sep = '')\nurl <- (url)\n\n### Call API ###\nsurveys <- fromJSON(url) # get page\nsurveys <- surveys$Data # save dataframe\n\nsurveyIds <- surveys$SurveyId\n\n# 2. Set list of indicators\n###############################################\n\n# You can use all of the malaria indicators below, or a subset, or create a list of any indicators (including non-malaria).\n\nmalaria_indicators <- c(\"ML_NETP_H_MOS\",\"ML_NETP_H_ITN\",\"ML_NETP_H_LLN\",\"ML_NETP_H_MNM\",\"ML_NETP_H_MNI\",\"ML_NETP_H_MNL\",\"ML_NETP_H_NUM\",\"ML_NETP_H_UNW\",\"ML_NETP_H_MS2\",\"ML_NETP_H_IT2\",\"ML_NETP_H_LL2\",\"ML_NETP_H_NM2\",\"ML_NETP_H_UN2\",\"ML_IRSM_H_IRS\",\"ML_IRSM_H_IIR\",\"ML_IRSM_H_I2I\",\"ML_IRSM_H_NUM\",\"ML_IRSM_H_UNW\",\"ML_ITNA_P_NUM\",\"ML_ITNA_P_UNW\",\"ML_ITNA_P_ACC\",\"ML_NETU_P_ANY\",\"ML_NETU_P_ITN\",\"ML_NETU_P_LLN\",\"ML_NETU_P_ITI\",\"ML_NETU_P_NUM\",\"ML_NETU_P_UNW\",\"ML_NETU_P_IT1\",\"ML_NETU_P_NM1\",\"ML_NETU_P_UN1\",\"ML_ITNU_N_ITN\",\"ML_ITNU_N_NUM\",\"ML_ITNU_N_UNW\",\"ML_NETC_C_ANY\",\"ML_NETC_C_ITN\",\"ML_NETC_C_LLN\",\"ML_NETC_C_ITI\",\"ML_NETC_C_NUM\",\"ML_NETC_C_UNW\",\"ML_NETC_C_IT1\",\"ML_NETC_C_NM1\",\"ML_NETC_C_UN1\",\"ML_NETW_W_ANY\",\"ML_NETW_W_ITN\",\"ML_NETW_W_LLN\",\"ML_NETW_W_ITI\",\"ML_NETW_W_NUM\",\"ML_NETW_W_UNW\",\"ML_NETW_W_IT1\",\"ML_NETW_W_NM1\",\"ML_NETW_W_UN1\",\"ML_IPTP_W_SPF\",\"ML_IPTP_W_2SP\",\"ML_IPTP_W_3SP\",\"ML_IPTP_W_SPA\",\"ML_IPTP_W_2SA\",\"ML_IPTP_W_3SA\",\"ML_IPTP_W_NUM\",\"ML_IPTP_W_UNW\",\"ML_FEVR_C_FEV\",\"ML_FEVR_C_NUM\",\"ML_FEVR_C_UNW\",\"ML_FEVT_C_ADV\",\"ML_FEVT_C_BLD\",\"ML_FEVT_C_ACT\",\"ML_FEVT_C_ACS\",\"ML_FEVT_C_AML\",\"ML_FEVT_C_AMS\",\"ML_FEVT_C_NUM\",\"ML_FEVT_C_UNW\",\"ML_AMLD_C_ACT\",\"ML_AMLD_C_QNN\",\"ML_AMLD_C_SPF\",\"ML_AMLD_C_CHL\",\"ML_AMLD_C_AMQ\",\"ML_AMLD_C_NUM\",\"ML_AMLD_C_OAM\",\"ML_AMLD_C_UNW\",\"ML_CMLT_C_ANM\",\"ML_CMLT_C_RDT\",\"ML_CMLT_C_MSY\",\"ML_CMLT_C_NUM\",\"ML_HEMO_C_HL8\",\"ML_HEMO_C_NUM\",\"ML_HEMO_C_UNW\",\"ML_PMAL_C_RDT\",\"ML_PMAL_C_RDE\",\"ML_PMAL_C_RDR\",\"ML_PMAL_C_RDL\",\"ML_PMAL_C_RDU\",\"ML_PMAL_C_NMR\",\"ML_PMAL_C_UNR\",\"ML_PMAL_C_UER\",\"ML_PMAL_C_MSY\",\"ML_PMAL_C_MSE\",\"ML_PMAL_C_MSR\",\"ML_PMAL_C_MSL\",\"ML_PMAL_C_MSU\",\"ML_PMAL_C_NMM\",\"ML_PMAL_C_UNM\",\"ML_PMAL_C_UEM\",\"ML_NSRC_N_MDC\",\"ML_NSRC_N_ANC\",\"ML_NSRC_N_IMM\",\"ML_NSRC_N_GHF\",\"ML_NSRC_N_PHF\",\"ML_NSRC_N_PHM\",\"ML_NSRC_N_SHP\",\"ML_NSRC_N_CHW\",\"ML_NSRC_N_REL\",\"ML_NSRC_N_SCL\",\"ML_NSRC_N_OTH\",\"ML_NSRC_N_DKM\",\"ML_NSRC_N_TOT\",\"ML_NSRC_N_NUM\",\"ML_FEVT_C_ADS\",\"ML_AMLD_C_ART\")\n\nindicatorIds= malaria_indicators    # An empty string '' will query ALL indicators (probably very slow)\n\ncounter=0\nfor(survey in surveyIds)\n{\n  for(indicator in indicatorIds)\n  {\n    ### Build Query ###\n    base_url <- \"http://api.dhsprogram.com/rest/dhs/data?f=json\"\n\n    url <- paste(base_url,\n                 \"&surveyIds=\",survey,\n                 \"&breakdown=\",breakdown,\n                 \"&indicatorIds=\",indicator,\n                 end_url,\n                 sep = '')\n    url <- (url)\n    \n    ### Call API ###\n    indicators_temp <- fromJSON(url) # get page\n    if(!is_empty(indicators_temp$Data))\n    {\n      if(counter==0)\n      {\n        indicators <- indicators_temp$Data\n      }\n      else\n      {\n        indicators <- rbind.data.frame(indicators,indicators_temp$Data)\n      }\n      counter <- counter+1\n    }\n  }\n}\n\n### Inspect Available Data ### \n\n#summary(dhs_data)\n\nindicators %>%\n  select(SurveyId, IndicatorId, Indicator, IsPreferred, Value,CharacteristicLabel, ByVariableLabel) %>%\n  datatable(filter=\"top\", options = list(pageLength = 20, dom = 'ftlip'))"
+  },
+  {
+    "objectID": "resources/data_sources/DHS_surveys.html",
+    "href": "resources/data_sources/DHS_surveys.html",
+    "title": "DHS Surveys",
+    "section": "",
+    "text": "Understanding the Demographic & Health Surveys\n\n\n\n\n\n\n\n\n\n\n\nDHS Surveys\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDHS Portal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuerying the DHS API in R\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/articles.html",
@@ -200,7 +277,7 @@
     "href": "resources/data_sources.html",
     "title": "Data Sources",
     "section": "",
-    "text": "DHS, MAP, etc.\n\n\n\n\n\n\n\n\n\n\n\nDHS\n\n\n\n\n\n\n\n\n\n\n\n\n\nMAP Rasters\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "DHS, MAP, etc.\n\n\n\n\n\n\n\n\n\n\n\nDHS Surveys\n\n\n\n\n\n\n\n\n\n\n\n\n\nMAP Rasters\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about/mission.html",
@@ -690,7 +767,7 @@
     "href": "program/program_resources/program_materials/pre-program/journal_club_0.html",
     "title": "Journal Club 0",
     "section": "",
-    "text": "Read the assigned article and prepare to discuss at the first (remote) Journal Club"
+    "text": "Read the assigned article and prepare to discuss at the first (remote) Journal Club\nGuiding questions:\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\n\n\n\n\nContribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "program/program_resources/program_materials/pre-program/epi_crash_course.html",
@@ -704,7 +781,7 @@
     "href": "program/program_resources/program_materials/pre-program/coding_assignment.html",
     "title": "Coding Assignment",
     "section": "",
-    "text": "Complete and submit the pre-program Coding Assignment to (re)familiarize yourself with some basics in R and python.\n\nPre-Requisites\nDespite having a variety of backgrounds, we aim for all participants to arrive familiar with certain programming skills, most of which are needed to complete the pre-program Coding Assignment.\nIf you are unfamiliar with any of the prerequisite skills in the table below, please review the self-led tutorials at the links provided to learn.\n\n\n\nPython\nR\n\n\n\n\n\nVariables and Types\nLists\nBasic Operators\nString formatting - slicing, splitting, case\nConditions - and, or, in, is, not\nLoops - for and while\nFunctions\nClasses and Objects\nDictionaries\nModules and Packages\nNumpy Arrays\nPandas Basics\n\n\nBasic Syntax\n(Data Frames\nData Cleaning - tidyr\nData Visualization - ggplot2\nAggregate Functions\nJoining Tables - dplyr\n\n\n\nSelf-led “Intro to Python” Tutorials\nSelf-led “Learn R” Tutorials\n\n\n\n\n\nInstructions\nThe assignment is due at the end of Week 0. We will hold (virtual) Office Hours in Week 0 to answer questions and troubleshoot problems if you get stuck while working on it.\n\nPart 0. Get a copy of the example data\n\nGo to the coding assignment repository\nObtain a local copy of the example_data/ folder\nOption 1: Git clone the repository to a new folder on your computer, …/project_dir\nOption 2: Download and unzip the folder to a new folder on your computer, …/project_dir\nExamine a sample output.csv file from the example data.\nYou will have to click through experiment > simulation_## > outputs to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!\n\nIn reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we’ve created “fake” output files that already in a form that is easier to work with.\nEach output.csv file contains daily timeseries corresponding to a simulation with a unique combination of the parameters:\n\nTreatment_Rate: probability that uncomplicated malaria cases seek (and receive) treatment with Artemether-Lumefantrine.\nRun_Number: random “seed” adding stochastic variation between simulations with otherwise identical parameters.\n\n\n\n\n\nPart 1. Python - analyze example data\n\nCreate a new my_script.py file in the same /project_dir where you saved the example_data folder\nYour directory structure should be:\n\nproject_dir/\n\nexample_data/\n\n…\n\nmy_script.py\n\n\nImport the following modules: pandas, numpy\nCombine data from the output.csv file in each example_data/simulation/ sub-folder into a single DataFrame, with the following modifications:\n\nGroup by Day, Run_Number, and Treatment_Rate\nRestrict to include only values in the last 365 Days\nSave the values for “Blood_Smear_Parasite_Prevalence”, “PCR_Parasite_Prevalence” and “PfHRP2_Prevalence” in each group\n\nDo not save the values for any other variables that may have been in output.csv !\n\nAppend to results from all simulations together.\n\nSave the resulting DataFrame as output_cleaned.csv\n\n\n\nPart 2. R - transform and visualize output\n\n\n\n\n\n\nDid you generate the output from Part 1?\n\n\n\nThis must be done before starting Part 2.\nYour directory structure should now be:\n\nproject_dir/\n\nexample_data/\n\n…\n\nmy_script.py\noutput_cleaned.csv\n\n\n\n\n\nOpen Rstudio: File > New Project > Existing Directory > project_dir\nCreate a new .Rmd file or .R script inside project_dir to do the following:\n\nRead in output_cleaned.csv\nAggregate the mean prevalence by Blood Smear, PCR, and PfHRP2 (separately) on each day for a given Treatment_Rate\nUse ggplot2 to produce plots of the timeseries\n\nTime on the x-axis, prevalence on the y-axis\nSeparate lines and colors for each value of Treatment_Rate\nSeparate facets/panels/plots for each diagnostic (PCR, Blood Smear, and PfHRP2)\nAn informative title, labels, legend, color palette etc.\n\nYou don’t need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings\n\n\nSave your plot(s) as .png file(s) in project_dir/ with an informative filename (ex. “prevalence_by_treatment_rate.png”\n\n\n\n\nPart 3. Git - add files to your own branch"
+    "text": "Complete and submit the pre-program Coding Assignment to (re)familiarize yourself with some basics in R and python.\n\nPre-Requisites\nDespite having a variety of backgrounds, we aim for all participants to arrive familiar with certain programming skills, most of which are needed to complete the pre-program Coding Assignment.\nIf you are unfamiliar with any of the skills in the table below, please review the self-led tutorials at the links provided to learn.\n\n\n\nPython\nR\n\n\n\n\n\nVariables and Types\nLists\nBasic Operators\nStrings - slicing, splitting, case\nConditions - and, or, in, is, not\nLoops - for and while\nFunctions\nClasses and Objects\nDictionaries\nModules and Packages\nNumpy Arrays\nPandas Basics\n\n\nBasic Syntax\nData Frames\nData Cleaning - tidyr\nData Visualization - ggplot2\nAggregate Functions\nJoining Tables - dplyr\n\n\n\nSelf-led “Intro to Python” Tutorials\nSelf-led “Learn R” Tutorials\n\n\n\n\n\nInstructions\nThe assignment is due at the end of Week 0. We will hold (virtual) Office Hours in Week 0 to answer questions and troubleshoot problems if you get stuck while working on it.\n\nPart 0. Get a copy of the example data\n\nGo to the coding assignment repository\nObtain a local copy of the example_data/ folder\n\nDownload and unzip the folder to a new folder on your computer, …/project_dir\n\nExamine a sample output.csv file from the example data.\nYou will have to click through experiment > simulation_## > outputs to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!\n\nIn reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we’ve created “fake” output files that already in a form that is easier to work with.\nEach output.csv file contains daily timeseries corresponding to a simulation with a unique combination of the parameters:\n\nTreatment_Rate: probability that uncomplicated malaria cases seek (and receive) treatment with Artemether-Lumefantrine.\nRun_Number: random “seed” adding stochastic variation between simulations with otherwise identical parameters.\n\n\n\n\n\nPart 1. Python - analyze example data\n\nCreate a new my_script.py file in the same /project_dir where you saved the example_data folder\nYour directory structure should be:\n\nproject_dir/\n\nexample_data/\n\n…\n\nmy_script.py\n\n\nImport the following modules: pandas, numpy\nCombine data from the output.csv file in each example_data/simulation/ sub-folder into a single DataFrame, with the following modifications:\n\nGroup by Day, Run_Number, and Treatment_Rate\nRestrict to include only values in the last 365 Days\nSave the values for “Blood_Smear_Parasite_Prevalence”, “PCR_Parasite_Prevalence” and “PfHRP2_Prevalence” in each group\n\nDo not save the values for any other variables that may have been in output.csv !\n\nAppend to results from all simulations together.\n\nSave the resulting DataFrame as output_cleaned.csv\n\n\n\nPart 2. R - transform and visualize output\n\n\n\n\n\n\nDid you generate the output from Part 1?\n\n\n\nThis must be done before starting Part 2.\nYour directory structure should now be:\n\nproject_dir/\n\nexample_data/\n\n…\n\nmy_script.py\noutput_cleaned.csv\n\n\n\n\n\nOpen Rstudio: File > New Project > Existing Directory > project_dir\nCreate a new .Rmd file or .R script inside project_dir to do the following:\n\nRead in output_cleaned.csv\nAggregate the mean prevalence by Blood Smear, PCR, and PfHRP2 (separately) on each day for a given Treatment_Rate\nUse ggplot2 to produce plots of the data:\n\nTime on the x-axis, prevalence on the y-axis\nSeparate lines and colors for each value of Treatment_Rate\nSeparate facets/panels/sub-plots for each diagnostic (PCR, Blood Smear, and PfHRP2)\nAn informative title, labels, legend, color palette etc.\n\nYou don’t need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings\n\n\nSave your plot(s) as .png file(s) in project_dir/ with an informative file name (ex. “prevalence_by_treatment_rate.png”)\n\n\n\n\nPart 3. Submit to Slack\nPost your plot(s) to the slack channel for feedback.\n\nHow does it compare to others?\nIf something looks off, what do you think is causing it?"
   },
   {
     "objectID": "program/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html",

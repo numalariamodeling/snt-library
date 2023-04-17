@@ -1,16 +1,12 @@
 ---
 title: "MAP Rasters"
 weight: 2
-format: 
-  html: 
-    toc: true
-    toc-depth: 5
+listing:
+  type: grid
+  grid-columns: 1
+  contents: MAP_pages/*.qmd
+  sort: weight
 ---
 
 Estimates from Malaria Atlas Project
-
-# Understanding Raster Data
-
-
-# Accessing MAP Data 
 

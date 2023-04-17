@@ -1,0 +1,12 @@
+---
+title: "DHS Portal"
+weight: 2
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Access DHS data through an [online portal](https://dhsprogram.com/data/dataset_admin/login_main.cfm)
+
+## Using the DHS Portal

@@ -1,11 +1,12 @@
 ---
 title: "Journal Club 0"
 weight: 3
-format: 
-  html: 
-    toc: true
-    toc-depth: 5
+listing:
+  type: table
+  fields: [title, subtitle]
+  contents: "../../../../resources/articles/journal_club_articles/journal_club_0.qmd"
 ---
 
 Read the assigned article and prepare to discuss at the first (remote) Journal Club 
 
+Guiding questions:

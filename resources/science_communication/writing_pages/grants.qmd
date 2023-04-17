@@ -1,0 +1,10 @@
+---
+title: "Applying for Grants"
+weight: 1
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Details
