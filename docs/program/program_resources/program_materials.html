@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../numalaria_logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -246,16 +278,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#pre-program-checklist" id="toc-pre-program-checklist" class="nav-link active" data-scroll-target="#pre-program-checklist">Pre-Program Checklist</a></li>
-  <li><a href="#team-best-practices" id="toc-team-best-practices" class="nav-link" data-scroll-target="#team-best-practices">Team Best Practices</a></li>
-  <li><a href="#program-handbook" id="toc-program-handbook" class="nav-link" data-scroll-target="#program-handbook">2023 Program Handbook</a></li>
-  <li><a href="#cheat-sheets" id="toc-cheat-sheets" class="nav-link" data-scroll-target="#cheat-sheets">Cheat Sheets</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -277,23 +300,75 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Best Practices, Handbook, and Cheat-Sheets</p>
-<section id="pre-program-checklist" class="level3">
-<h3 class="anchored" data-anchor-id="pre-program-checklist">Pre-Program Checklist</h3>
-</section>
-<section id="team-best-practices" class="level3">
-<h3 class="anchored" data-anchor-id="team-best-practices">Team Best Practices</h3>
-</section>
-<section id="program-handbook" class="level3">
-<h3 class="anchored" data-anchor-id="program-handbook">2023 Program Handbook</h3>
-</section>
-<section id="cheat-sheets" class="level3">
-<h3 class="anchored" data-anchor-id="cheat-sheets">Cheat Sheets</h3>
+<p>Suggested preparation, Program Handbook, and team best practices</p>
 <a href="https://www.numalariamodeling.org/">
+</a>
 
-</a></section><a href="https://www.numalariamodeling.org/">
 
-</a></main><a href="https://www.numalariamodeling.org/"> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing"><a href="https://www.numalariamodeling.org/">
+</a><div class="list grid quarto-listing-cols-1"><a href="https://www.numalariamodeling.org/">
+</a><div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681706677890" data-listing-reading-time-sort="0.045"><a href="https://www.numalariamodeling.org/">
+</a><a href="../../program/program_resources/program_materials/pre_program_checklist.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pre-Program Checklist
+</h5>
+<div class="card-text listing-description">
+Come prepared to make the most of the program
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1681694527866" data-listing-reading-time-sort="0.05">
+<a href="../../program/program_resources/program_materials/2023_program_handbook.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2023 Program Handbook
+</h5>
+<div class="card-text listing-description">
+A comprehensive guide to this year’s curriculum and learning objectives
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1681694523983" data-listing-reading-time-sort="0.375">
+<a href="../../program/program_resources/program_materials/nu_team_best_practices.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Best Practices
+</h5>
+<div class="card-text listing-description">
+How to work together better, because we work better together
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -427,13 +502,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</a></div><a href="https://www.numalariamodeling.org/"> <!-- /content -->
-</a><footer class="footer"><a href="https://www.numalariamodeling.org/">
-  </a><div class="nav-footer"><a href="https://www.numalariamodeling.org/">
-    </a><div class="nav-footer-right"><a href="https://www.numalariamodeling.org/">
-      </a><ul class="footer-items list-unstyled"><a href="https://www.numalariamodeling.org/">
-    </a><li class="nav-item"><a href="https://www.numalariamodeling.org/">
- </a><a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
   </a></li><a href="https://www.numalariamodeling.org/">  
 </a></ul><a href="https://www.numalariamodeling.org/">
     </a></div><a href="https://www.numalariamodeling.org/">

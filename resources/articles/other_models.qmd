@@ -5,7 +5,7 @@ listing:
   contents: other_models_articles/*.qmd
   type: table
   fields: [title, journal name, type, category]
-  categories: true
+  categories: false
   sort-ui: false
   table-striped: true
   page-size: 10

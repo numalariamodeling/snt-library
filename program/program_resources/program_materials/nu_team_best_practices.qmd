@@ -1,0 +1,67 @@
+---
+title: "Best Practices"
+weight: 3
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+How to work together better, because we work better together
+
+### Conduct, ethics, and team culture
+
+#### General conduct
+
+#### Ethical conduct of research
+
+#### Culture of engagement and professional critique
+
+#### Culture of teamwork
+
+### Team communication
+
+#### Slack
+
+#### University email
+
+#### Calendars
+
+#### Meetings
+
+#### Asking for help
+
+### Code standards
+
+#### Version control
+
+#### Documentation
+
+#### Troubleshooting
+
+#### Managing your project
+
+### Simulation standards
+
+#### Experiment design
+
+#### Reviewing input & output files
+
+#### Diagnostic plots
+
+#### QUEST etiquette
+
+### Scientific communication standards
+
+#### Writing 
+
+##### Specific aims
+
+##### Peer editing hour
+
+#### Presentations & talks
+
+#### Plots and figures
+
+### Journal Club
+

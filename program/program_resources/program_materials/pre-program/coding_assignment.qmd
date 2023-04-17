@@ -1,0 +1,135 @@
+---
+title: "Coding Assignment"
+weight: 2
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Complete and submit the pre-program Coding Assignment to (re)familiarize yourself with some basics in `R` and `python`.
+
+### Pre-Requisites
+
+Despite having a variety of backgrounds, we aim for all participants to arrive familiar with certain programming skills, most of which are needed to complete the pre-program Coding Assignment.
+
+[If you are unfamiliar with any of the prerequisite skills in the table below, please review the self-led tutorials at the links provided to learn.]{style="color:black;font-weight:bold"}
+
++--------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+| Python                                                                         | R                                                                        |
++================================================================================+==========================================================================+
+| -   Variables and Types                                                        | -   Basic Syntax                                                         |
+|                                                                                |                                                                          |
+| -   Lists                                                                      | -   (Data Frames                                                         |
+|                                                                                |                                                                          |
+| -   Basic Operators                                                            | -   Data Cleaning - `tidyr`                                              |
+|                                                                                |                                                                          |
+| -   String formatting - slicing, splitting, case                               | -   Data Visualization - `ggplot2`                                       |
+|                                                                                |                                                                          |
+| -   Conditions - `and`, `or`, `in`, `is`, `not`                                | -   Aggregate Functions                                                  |
+|                                                                                |                                                                          |
+| -   Loops - `for` and `while`                                                  | -   Joining Tables - `dplyr`                                             |
+|                                                                                |                                                                          |
+| -   Functions                                                                  |                                                                          |
+|                                                                                |                                                                          |
+| -   Classes and Objects                                                        |                                                                          |
+|                                                                                |                                                                          |
+| -   Dictionaries                                                               |                                                                          |
+|                                                                                |                                                                          |
+| -   Modules and Packages                                                       |                                                                          |
+|                                                                                |                                                                          |
+| -   Numpy Arrays                                                               |                                                                          |
+|                                                                                |                                                                          |
+| -   Pandas Basics                                                              |                                                                          |
++--------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+| [Self-led "Intro to Python" Tutorials](https://www.learnpython.org/en/Welcome) | [Self-led "Learn R" Tutorials](https://www.codecademy.com/learn/learn-r) |
++--------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+
+### Instructions
+
+[The assignment is due at the end of Week 0.]{style="color:red;font-weight:bold"} We will hold (virtual) Office Hours in Week 0 to answer questions and troubleshoot problems if you get stuck while working on it.
+
+#### Part 0. Get a copy of the example data
+
+1.  Go to the [coding assignment repository]()
+
+2.  Obtain a local copy of the `example_data/` folder
+
+    *Option 1:* Git clone the repository to a new folder on your computer, ...`/project_dir`
+
+    *Option 2:* Download and unzip the folder to a new folder on your computer, ...`/project_dir`
+
+3.  Examine a sample `output.csv` file from the example data. \
+    You will have to click through `experiment > simulation_## > outputs` to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!
+
+    -   In reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we've created "fake" output files that already in a form that is easier to work with.
+    -   Each output.csv file contains daily timeseries corresponding to a simulation with a unique combination of the parameters:
+        -   Treatment_Rate: probability that uncomplicated malaria cases seek (and receive) treatment with Artemether-Lumefantrine.
+        -   Run_Number: random "seed" adding stochastic variation between simulations with otherwise identical parameters.
+
+#### Part 1. Python - analyze example data
+
+1.  Create a new `my_script.py` file in the same `/project_dir` where you saved the `example_data` folder
+
+    Your directory structure should be:
+
+    -   `project_dir/`
+
+        -   `example_data/`
+
+            -   ...
+
+        -   `my_script.py`
+
+2.  Import the following modules: `pandas`, `numpy`
+
+3.  Combine data from the `output.csv` file in each `example_data/simulation/` sub-folder into a single DataFrame, with the following modifications:
+
+    -   Group by Day, Run_Number, and Treatment_Rate
+    -   Restrict to include only values in the last 365 Days
+    -   Save the values for "Blood_Smear_Parasite_Prevalence", "PCR_Parasite_Prevalence" and "PfHRP2_Prevalence" in each group
+        -   Do not save the values for any other variables that may have been in `output.csv` !
+    -   Append to results from all simulations together.
+
+4.  Save the resulting DataFrame as `output_cleaned.csv`
+
+#### Part 2. R - transform and visualize output
+
+::: callout-warning
+## Did you generate the output from Part 1?
+
+This must be done before starting Part 2.
+
+Your directory structure should now be:
+
+-   `project_dir/`
+    -   `example_data/`
+
+        -   ...
+
+    -   `my_script.py`
+
+    -   `output_cleaned.csv`
+:::
+
+1.  Open Rstudio: File \> New Project \> Existing Directory \> `project_dir`
+2.  Create a new `.Rmd` file or `.R` script inside `project_dir` to do the following:
+    -   Read in output_cleaned.csv
+
+    -   Aggregate the mean prevalence by Blood Smear, PCR, and PfHRP2 (separately) on each day for a given Treatment_Rate
+
+    -   Use `ggplot2` to produce plots of the timeseries
+
+        -   Time on the x-axis, prevalence on the y-axis
+
+        -   Separate lines and colors for each value of Treatment_Rate
+
+        -   Separate facets/panels/plots for each diagnostic (PCR, Blood Smear, and PfHRP2)
+
+        -   An informative title, labels, legend, color palette etc.
+
+            -   You don't need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings
+
+    -   Save your plot(s) as `.png` file(s) in `project_dir/` with an informative filename (ex. "prevalence_by_treatment_rate.png"
+
+#### Part 3. Git - add files to your own branch

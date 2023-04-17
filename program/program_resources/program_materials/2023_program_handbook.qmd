@@ -1,0 +1,12 @@
+---
+title: "2023 Program Handbook"
+weight: 2
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+A comprehensive guide to this year's curriculum and learning objectives
+
+### 2023 Program Handbook

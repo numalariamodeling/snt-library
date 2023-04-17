@@ -662,7 +662,49 @@
     "href": "program/program_resources/program_materials.html",
     "title": "Program Materials",
     "section": "",
-    "text": "Best Practices, Handbook, and Cheat-Sheets\n\nPre-Program Checklist\n\n\nTeam Best Practices\n\n\n2023 Program Handbook\n\n\nCheat Sheets"
+    "text": "Suggested preparation, Program Handbook, and team best practices\n\n\n\n\n\n\n\n\n\n\n\nPre-Program Checklist\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Program Handbook\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBest Practices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "program/program_resources/program_materials/2023_program_handbook.html",
+    "href": "program/program_resources/program_materials/2023_program_handbook.html",
+    "title": "2023 Program Handbook",
+    "section": "",
+    "text": "A comprehensive guide to this year’s curriculum and learning objectives\n\n2023 Program Handbook"
+  },
+  {
+    "objectID": "program/program_resources/program_materials/pre_program_checklist.html",
+    "href": "program/program_resources/program_materials/pre_program_checklist.html",
+    "title": "Pre-Program Checklist",
+    "section": "",
+    "text": "Come prepared to make the most of the program\n\n\n\n\n\n\n\n\n\n\n\nMalaria Epidemiology Crash Course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding Assignment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJournal Club 0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "program/program_resources/program_materials/nu_team_best_practices.html",
+    "href": "program/program_resources/program_materials/nu_team_best_practices.html",
+    "title": "Best Practices",
+    "section": "",
+    "text": "How to work together better, because we work better together\n\nConduct, ethics, and team culture\n\nGeneral conduct\n\n\nEthical conduct of research\n\n\nCulture of engagement and professional critique\n\n\nCulture of teamwork\n\n\n\nTeam communication\n\nSlack\n\n\nUniversity email\n\n\nCalendars\n\n\nMeetings\n\n\nAsking for help\n\n\n\nCode standards\n\nVersion control\n\n\nDocumentation\n\n\nTroubleshooting\n\n\nManaging your project\n\n\n\nSimulation standards\n\nExperiment design\n\n\nReviewing input & output files\n\n\nDiagnostic plots\n\n\nQUEST etiquette\n\n\n\nScientific communication standards\n\nWriting\n\nSpecific aims\n\n\nPeer editing hour\n\n\n\nPresentations & talks\n\n\nPlots and figures\n\n\n\nJournal Club"
+  },
+  {
+    "objectID": "program/program_resources/program_materials/pre-program/journal_club_0.html",
+    "href": "program/program_resources/program_materials/pre-program/journal_club_0.html",
+    "title": "Journal Club 0",
+    "section": "",
+    "text": "Read the assigned article and prepare to discuss at the first (remote) Journal Club"
+  },
+  {
+    "objectID": "program/program_resources/program_materials/pre-program/epi_crash_course.html",
+    "href": "program/program_resources/program_materials/pre-program/epi_crash_course.html",
+    "title": "Malaria Epidemiology Crash Course",
+    "section": "",
+    "text": "Make sure you’re familiar with these fundamental concepts of malaria epidemiology.\n\nCrash Course Objectives\nDuring Week 0, we will host a malaria epidemiology crash course, focused on these learning objectives:\n- Objective 1\n- Objective 2\n\n\nPre-Requisites\nThe crash course will assume familiarity with the concepts covered in the review articles below:\n\nStudy Design\n\n\nMosquito Biology\n\n\nMalaria Disease\n\n\nMalaria Epidemiology"
+  },
+  {
+    "objectID": "program/program_resources/program_materials/pre-program/coding_assignment.html",
+    "href": "program/program_resources/program_materials/pre-program/coding_assignment.html",
+    "title": "Coding Assignment",
+    "section": "",
+    "text": "Complete and submit the pre-program Coding Assignment to (re)familiarize yourself with some basics in R and python.\n\nPre-Requisites\nDespite having a variety of backgrounds, we aim for all participants to arrive familiar with certain programming skills, most of which are needed to complete the pre-program Coding Assignment.\nIf you are unfamiliar with any of the prerequisite skills in the table below, please review the self-led tutorials at the links provided to learn.\n\n\n\nPython\nR\n\n\n\n\n\nVariables and Types\nLists\nBasic Operators\nString formatting - slicing, splitting, case\nConditions - and, or, in, is, not\nLoops - for and while\nFunctions\nClasses and Objects\nDictionaries\nModules and Packages\nNumpy Arrays\nPandas Basics\n\n\nBasic Syntax\n(Data Frames\nData Cleaning - tidyr\nData Visualization - ggplot2\nAggregate Functions\nJoining Tables - dplyr\n\n\n\nSelf-led “Intro to Python” Tutorials\nSelf-led “Learn R” Tutorials\n\n\n\n\n\nInstructions\nThe assignment is due at the end of Week 0. We will hold (virtual) Office Hours in Week 0 to answer questions and troubleshoot problems if you get stuck while working on it.\n\nPart 0. Get a copy of the example data\n\nGo to the coding assignment repository\nObtain a local copy of the example_data/ folder\nOption 1: Git clone the repository to a new folder on your computer, …/project_dir\nOption 2: Download and unzip the folder to a new folder on your computer, …/project_dir\nExamine a sample output.csv file from the example data.\nYou will have to click through experiment > simulation_## > outputs to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!\n\nIn reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we’ve created “fake” output files that already in a form that is easier to work with.\nEach output.csv file contains daily timeseries corresponding to a simulation with a unique combination of the parameters:\n\nTreatment_Rate: probability that uncomplicated malaria cases seek (and receive) treatment with Artemether-Lumefantrine.\nRun_Number: random “seed” adding stochastic variation between simulations with otherwise identical parameters.\n\n\n\n\n\nPart 1. Python - analyze example data\n\nCreate a new my_script.py file in the same /project_dir where you saved the example_data folder\nYour directory structure should be:\n\nproject_dir/\n\nexample_data/\n\n…\n\nmy_script.py\n\n\nImport the following modules: pandas, numpy\nCombine data from the output.csv file in each example_data/simulation/ sub-folder into a single DataFrame, with the following modifications:\n\nGroup by Day, Run_Number, and Treatment_Rate\nRestrict to include only values in the last 365 Days\nSave the values for “Blood_Smear_Parasite_Prevalence”, “PCR_Parasite_Prevalence” and “PfHRP2_Prevalence” in each group\n\nDo not save the values for any other variables that may have been in output.csv !\n\nAppend to results from all simulations together.\n\nSave the resulting DataFrame as output_cleaned.csv\n\n\n\nPart 2. R - transform and visualize output\n\n\n\n\n\n\nDid you generate the output from Part 1?\n\n\n\nThis must be done before starting Part 2.\nYour directory structure should now be:\n\nproject_dir/\n\nexample_data/\n\n…\n\nmy_script.py\noutput_cleaned.csv\n\n\n\n\n\nOpen Rstudio: File > New Project > Existing Directory > project_dir\nCreate a new .Rmd file or .R script inside project_dir to do the following:\n\nRead in output_cleaned.csv\nAggregate the mean prevalence by Blood Smear, PCR, and PfHRP2 (separately) on each day for a given Treatment_Rate\nUse ggplot2 to produce plots of the timeseries\n\nTime on the x-axis, prevalence on the y-axis\nSeparate lines and colors for each value of Treatment_Rate\nSeparate facets/panels/plots for each diagnostic (PCR, Blood Smear, and PfHRP2)\nAn informative title, labels, legend, color palette etc.\n\nYou don’t need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings\n\n\nSave your plot(s) as .png file(s) in project_dir/ with an informative filename (ex. “prevalence_by_treatment_rate.png”\n\n\n\n\nPart 3. Git - add files to your own branch"
   },
   {
     "objectID": "program/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html",

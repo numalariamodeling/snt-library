@@ -210,6 +210,22 @@
     ]
   },
   {
+    "listing": "/program/program_resources/program_materials.html",
+    "items": [
+      "/program/program_resources/program_materials/pre_program_checklist.html",
+      "/program/program_resources/program_materials/2023_program_handbook.html",
+      "/program/program_resources/program_materials/nu_team_best_practices.html"
+    ]
+  },
+  {
+    "listing": "/program/program_resources/program_materials/pre_program_checklist.html",
+    "items": [
+      "/program/program_resources/program_materials/pre-program/epi_crash_course.html",
+      "/program/program_resources/program_materials/pre-program/coding_assignment.html",
+      "/program/program_resources/program_materials/pre-program/journal_club_0.html"
+    ]
+  },
+  {
     "listing": "/program/program_resources/session_recordings/recorded_tutorials.html",
     "items": [
       "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
