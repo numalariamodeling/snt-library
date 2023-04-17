@@ -1,0 +1,10 @@
+---
+title: "Strengths & Limitations of Modeling"
+date: 2023-10-03
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Modeling is a useful tool for many research questions; however, it is limited in what it can do and how outputs should be interpreted. In this session we’ll discuss common strengths and limitations and how we can be cognizant of this in our own work

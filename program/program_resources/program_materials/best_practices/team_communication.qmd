@@ -1,0 +1,20 @@
+---
+title: "Team Communication"
+weight: 2
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+How to stay inform and ask for help
+
+#### Slack
+
+#### University email
+
+#### Calendars
+
+#### Meetings
+
+#### Asking for help

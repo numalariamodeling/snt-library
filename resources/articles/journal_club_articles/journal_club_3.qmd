@@ -1,5 +1,4 @@
 ---
-topic: "3. Intervention Mixing"
 title: "Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis"
 author: 
   -  Runge M.
@@ -8,6 +7,8 @@ author:
   -  et al.
 doi: https://doi.org/10.21203/rs.3.rs-2710667/v1
 ---
+
+Journal Club 3: Intervention Mixing
 
 ### Recommended further reading
 

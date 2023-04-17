@@ -8,7 +8,7 @@ format:
 page-layout: full
 ---
 
-Complete and submit the pre-program Coding Assignment to (re)familiarize yourself with some basics in `R` and `python`.
+Complete and submit the pre-program Coding Assignment to (re)familiarize yourself with some basics in `R` and `python`
 
 ### Pre-Requisites
 

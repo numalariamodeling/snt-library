@@ -1,5 +1,4 @@
 ---
-topic: "1. High-Burden High-Impact Modeling: Nigeria Case Study"
 title: "Application of mathematical modeling to inform national malaria intervention planning in Nigeria"
 author: 
   -  Ifeoma D. Ozodiegwu
@@ -9,3 +8,4 @@ author:
 doi: https://doi.org/10.21203/rs.3.rs-2335288/v1
 ---
 
+Journal Club 1: High-Burden High-Impact Modeling: Nigeria Case Study

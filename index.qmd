@@ -12,23 +12,23 @@ format:
 
 **Our long-term goal is to train a critical mass of modeling scientists who are:**
 
-::: {.callout-note appearance="minimal"}
+::: {.callout-note icon="false"}
 ## 1. Retained within Sub-Saharan Africa
 :::
 
-::: {.callout-note appearance="minimal"}
+::: {.callout-note icon="false"}
 ## 2. Training the next generation of modelers
 :::
 
-::: {.callout-note appearance="minimal"}
+::: {.callout-note icon="false"}
 ## 3. Working closely with local malaria control programs to provide operational support
 :::
 
-::: {.callout-note appearance="minimal"}
+::: {.callout-note icon="false"}
 ## 4. Competitive in obtaining grants from international funding agencies
 :::
 
-::: {.callout-note appearance="minimal"}
+::: {.callout-note icon="false"}
 ## 5. Closely networked with each other across Africa and with international partners
 :::
 
@@ -38,22 +38,32 @@ format:
 
 ### Program Highlights
 
+::: {.callout-important icon="false"}
+## Multi-modal training in applied malaria modeling
 
-#### Multi-modal training in applied malaria modeling
+Hands-on tutorials and exercises focused on model configuration and analysis, supplemented by lectures and journal clubs, to enable participants to independently carry out their focal projects. Participants will run models using Northwestern's high performance computing cluster.
+:::
 
-Hands-on tutorials and exercises focused on model configuration and analysis, supplemented by lectures and journal clubs, to enable participants to independently carry out their focal projects. Participants will run models on Northwestern's high performance computing cluster.
-
+::: {.callout-important icon="false"}
 #### Training in written and oral scientific communication
 
-Iterative revisions of written Specific Aims and oral presentations, with feedback from program director, peers, and other Northwestern modelers.
+Iterative revisions of draft documents and oral presentations, with feedback from program director, peers, and other Northwestern modelers.
 
+-   Project Specific Aims page
+-   NIH-Style Investigator "Biosketch"
+-   3 Research Talks (Project Proposal, Work-in-Progress, and Final Presentation)
+:::
+
+::: {.callout-important icon="false"}
 #### Dedicated mentorship
 
 Weekly 1-on-1 meetings with program director and an assigned partner from Northwestern's team of modelers.
+:::
 
+::: {.callout-important icon="false"}
 #### Building connections with a global community of malaria modelers
 
-Membership and participation in the Applied Malaria Modeling Network (AMMnet); connections with faculty enrichment program alumni; attendance at the American Society of Tropical Medicine & Hygiene (ASTMH) 2023 Annual Meeting in Chicago
-
-
-
+-   Join and participation in the Applied Malaria Modeling Network (AMMnet)\
+-   Connect with faculty enrichment program alumni
+-   Attend the American Society of Tropical Medicine & Hygiene (ASTMH) 2023 Annual Meeting in Chicago, and the AMMnet Pre-ASTMH Modeling Meeting
+:::

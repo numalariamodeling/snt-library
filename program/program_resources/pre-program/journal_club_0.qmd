@@ -1,12 +1,20 @@
 ---
-title: "Journal Club 0"
+title: "Prepare for Journal Club 0"
 weight: 3
 listing:
-  type: table
-  fields: [title, subtitle]
+  id: JC0
+  type: grid
+  grid-columns: 1
   contents: "../../../../resources/articles/journal_club_articles/journal_club_0.qmd"
+  
 ---
 
 Read the assigned article and prepare to discuss at the first (remote) Journal Club 
 
+:::{#JC0}
+:::
+
 Guiding questions:
+
+1.  
+2. 

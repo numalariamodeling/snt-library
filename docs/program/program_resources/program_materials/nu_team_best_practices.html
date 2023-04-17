@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
 <link href="../../../numalaria_logo.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -126,12 +158,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://github.com/numalariamodeling/FE-2023-examples" class="sidebar-item-text sidebar-link">Example Exercises</a>
+  <a href="../../../program/program_resources/pre_program_checklist.html" class="sidebar-item-text sidebar-link">Pre-Program Checklist</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../program/program_resources/program_faq.html" class="sidebar-item-text sidebar-link">FAQ</a>
+  <a href="https://github.com/numalariamodeling/FE-2023-examples" class="sidebar-item-text sidebar-link">Example Exercises</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -147,6 +179,11 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../program/program_resources/session_recordings.html" class="sidebar-item-text sidebar-link">Session Recordings</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../program/program_resources/program_faq.html" class="sidebar-item-text sidebar-link">FAQ</a>
   </div>
 </li>
       </ul>
@@ -246,52 +283,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#conduct-ethics-and-team-culture" id="toc-conduct-ethics-and-team-culture" class="nav-link active" data-scroll-target="#conduct-ethics-and-team-culture">Conduct, ethics, and team culture</a>
-  <ul>
-  <li><a href="#general-conduct" id="toc-general-conduct" class="nav-link" data-scroll-target="#general-conduct">General conduct</a></li>
-  <li><a href="#ethical-conduct-of-research" id="toc-ethical-conduct-of-research" class="nav-link" data-scroll-target="#ethical-conduct-of-research">Ethical conduct of research</a></li>
-  <li><a href="#culture-of-engagement-and-professional-critique" id="toc-culture-of-engagement-and-professional-critique" class="nav-link" data-scroll-target="#culture-of-engagement-and-professional-critique">Culture of engagement and professional critique</a></li>
-  <li><a href="#culture-of-teamwork" id="toc-culture-of-teamwork" class="nav-link" data-scroll-target="#culture-of-teamwork">Culture of teamwork</a></li>
-  </ul></li>
-  <li><a href="#team-communication" id="toc-team-communication" class="nav-link" data-scroll-target="#team-communication">Team communication</a>
-  <ul>
-  <li><a href="#slack" id="toc-slack" class="nav-link" data-scroll-target="#slack">Slack</a></li>
-  <li><a href="#university-email" id="toc-university-email" class="nav-link" data-scroll-target="#university-email">University email</a></li>
-  <li><a href="#calendars" id="toc-calendars" class="nav-link" data-scroll-target="#calendars">Calendars</a></li>
-  <li><a href="#meetings" id="toc-meetings" class="nav-link" data-scroll-target="#meetings">Meetings</a></li>
-  <li><a href="#asking-for-help" id="toc-asking-for-help" class="nav-link" data-scroll-target="#asking-for-help">Asking for help</a></li>
-  </ul></li>
-  <li><a href="#code-standards" id="toc-code-standards" class="nav-link" data-scroll-target="#code-standards">Code standards</a>
-  <ul>
-  <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control">Version control</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">Documentation</a></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a></li>
-  <li><a href="#managing-your-project" id="toc-managing-your-project" class="nav-link" data-scroll-target="#managing-your-project">Managing your project</a></li>
-  </ul></li>
-  <li><a href="#simulation-standards" id="toc-simulation-standards" class="nav-link" data-scroll-target="#simulation-standards">Simulation standards</a>
-  <ul>
-  <li><a href="#experiment-design" id="toc-experiment-design" class="nav-link" data-scroll-target="#experiment-design">Experiment design</a></li>
-  <li><a href="#reviewing-input-output-files" id="toc-reviewing-input-output-files" class="nav-link" data-scroll-target="#reviewing-input-output-files">Reviewing input &amp; output files</a></li>
-  <li><a href="#diagnostic-plots" id="toc-diagnostic-plots" class="nav-link" data-scroll-target="#diagnostic-plots">Diagnostic plots</a></li>
-  <li><a href="#quest-etiquette" id="toc-quest-etiquette" class="nav-link" data-scroll-target="#quest-etiquette">QUEST etiquette</a></li>
-  </ul></li>
-  <li><a href="#scientific-communication-standards" id="toc-scientific-communication-standards" class="nav-link" data-scroll-target="#scientific-communication-standards">Scientific communication standards</a>
-  <ul>
-  <li><a href="#writing" id="toc-writing" class="nav-link" data-scroll-target="#writing">Writing</a>
-  <ul>
-  <li><a href="#specific-aims" id="toc-specific-aims" class="nav-link" data-scroll-target="#specific-aims">Specific aims</a></li>
-  <li><a href="#peer-editing-hour" id="toc-peer-editing-hour" class="nav-link" data-scroll-target="#peer-editing-hour">Peer editing hour</a></li>
-  </ul></li>
-  <li><a href="#presentations-talks" id="toc-presentations-talks" class="nav-link" data-scroll-target="#presentations-talks">Presentations &amp; talks</a></li>
-  <li><a href="#plots-and-figures" id="toc-plots-and-figures" class="nav-link" data-scroll-target="#plots-and-figures">Plots and figures</a></li>
-  </ul></li>
-  <li><a href="#journal-club" id="toc-journal-club" class="nav-link" data-scroll-target="#journal-club">Journal Club</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -314,94 +306,131 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>How to work together better, because we work better together</p>
-<section id="conduct-ethics-and-team-culture" class="level3">
-<h3 class="anchored" data-anchor-id="conduct-ethics-and-team-culture">Conduct, ethics, and team culture</h3>
-<section id="general-conduct" class="level4">
-<h4 class="anchored" data-anchor-id="general-conduct">General conduct</h4>
-</section>
-<section id="ethical-conduct-of-research" class="level4">
-<h4 class="anchored" data-anchor-id="ethical-conduct-of-research">Ethical conduct of research</h4>
-</section>
-<section id="culture-of-engagement-and-professional-critique" class="level4">
-<h4 class="anchored" data-anchor-id="culture-of-engagement-and-professional-critique">Culture of engagement and professional critique</h4>
-</section>
-<section id="culture-of-teamwork" class="level4">
-<h4 class="anchored" data-anchor-id="culture-of-teamwork">Culture of teamwork</h4>
-</section>
-</section>
-<section id="team-communication" class="level3">
-<h3 class="anchored" data-anchor-id="team-communication">Team communication</h3>
-<section id="slack" class="level4">
-<h4 class="anchored" data-anchor-id="slack">Slack</h4>
-</section>
-<section id="university-email" class="level4">
-<h4 class="anchored" data-anchor-id="university-email">University email</h4>
-</section>
-<section id="calendars" class="level4">
-<h4 class="anchored" data-anchor-id="calendars">Calendars</h4>
-</section>
-<section id="meetings" class="level4">
-<h4 class="anchored" data-anchor-id="meetings">Meetings</h4>
-</section>
-<section id="asking-for-help" class="level4">
-<h4 class="anchored" data-anchor-id="asking-for-help">Asking for help</h4>
-</section>
-</section>
-<section id="code-standards" class="level3">
-<h3 class="anchored" data-anchor-id="code-standards">Code standards</h3>
-<section id="version-control" class="level4">
-<h4 class="anchored" data-anchor-id="version-control">Version control</h4>
-</section>
-<section id="documentation" class="level4">
-<h4 class="anchored" data-anchor-id="documentation">Documentation</h4>
-</section>
-<section id="troubleshooting" class="level4">
-<h4 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h4>
-</section>
-<section id="managing-your-project" class="level4">
-<h4 class="anchored" data-anchor-id="managing-your-project">Managing your project</h4>
-</section>
-</section>
-<section id="simulation-standards" class="level3">
-<h3 class="anchored" data-anchor-id="simulation-standards">Simulation standards</h3>
-<section id="experiment-design" class="level4">
-<h4 class="anchored" data-anchor-id="experiment-design">Experiment design</h4>
-</section>
-<section id="reviewing-input-output-files" class="level4">
-<h4 class="anchored" data-anchor-id="reviewing-input-output-files">Reviewing input &amp; output files</h4>
-</section>
-<section id="diagnostic-plots" class="level4">
-<h4 class="anchored" data-anchor-id="diagnostic-plots">Diagnostic plots</h4>
-</section>
-<section id="quest-etiquette" class="level4">
-<h4 class="anchored" data-anchor-id="quest-etiquette">QUEST etiquette</h4>
-</section>
-</section>
-<section id="scientific-communication-standards" class="level3">
-<h3 class="anchored" data-anchor-id="scientific-communication-standards">Scientific communication standards</h3>
-<section id="writing" class="level4">
-<h4 class="anchored" data-anchor-id="writing">Writing</h4>
-<section id="specific-aims" class="level5">
-<h5 class="anchored" data-anchor-id="specific-aims">Specific aims</h5>
-</section>
-<section id="peer-editing-hour" class="level5">
-<h5 class="anchored" data-anchor-id="peer-editing-hour">Peer editing hour</h5>
-</section>
-</section>
-<section id="presentations-talks" class="level4">
-<h4 class="anchored" data-anchor-id="presentations-talks">Presentations &amp; talks</h4>
-</section>
-<section id="plots-and-figures" class="level4">
-<h4 class="anchored" data-anchor-id="plots-and-figures">Plots and figures</h4>
-</section>
-</section>
-<section id="journal-club" class="level3">
-<h3 class="anchored" data-anchor-id="journal-club">Journal Club</h3>
 <a href="https://www.numalariamodeling.org/">
+</a>
 
-</a></section><a href="https://www.numalariamodeling.org/">
 
-</a></main><a href="https://www.numalariamodeling.org/"> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing"><a href="https://www.numalariamodeling.org/">
+</a><div class="list grid quarto-listing-cols-1"><a href="https://www.numalariamodeling.org/">
+</a><div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681762661748" data-listing-reading-time-sort="0.105"><a href="https://www.numalariamodeling.org/">
+</a><a href="../../../program/program_resources/program_materials/best_practices/team_culture.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Conduct, Ethics, and Team Culture
+</h5>
+<div class="card-text listing-description">
+General conduct, ethics, engagement, professional critique, and teamwork
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1681761810988" data-listing-reading-time-sort="0.075">
+<a href="../../../program/program_resources/program_materials/best_practices/team_communication.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Team Communication
+</h5>
+<div class="card-text listing-description">
+How to stay inform and ask for help
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1681761872309" data-listing-reading-time-sort="0.06">
+<a href="../../../program/program_resources/program_materials/best_practices/code_standards.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Code Standards
+</h5>
+<div class="card-text listing-description">
+Version control, documentation, project management, and debugging
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1681761875510" data-listing-reading-time-sort="0.08">
+<a href="../../../program/program_resources/program_materials/best_practices/simulation_standards.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Simulation Standards
+</h5>
+<div class="card-text listing-description">
+Experiment design, inputs/outputs, diagnostics plots, and QUEST
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1681767297602" data-listing-reading-time-sort="0.04">
+<a href="../../../program/program_resources/program_materials/best_practices/sci_comm_standards.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Scientific Communication Standards
+</h5>
+<div class="card-text listing-description">
+Best practices for writing, presentations, and designing plots/figures
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1681763256436" data-listing-reading-time-sort="0.1">
+<a href="../../../program/program_resources/program_materials/best_practices/best_practices_journal_club.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Journal Club Best Practices
+</h5>
+<div class="card-text listing-description">
+Best practices for participating in Journal Club as a facilitator or discussant
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -535,13 +564,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</a></div><a href="https://www.numalariamodeling.org/"> <!-- /content -->
-</a><footer class="footer"><a href="https://www.numalariamodeling.org/">
-  </a><div class="nav-footer"><a href="https://www.numalariamodeling.org/">
-    </a><div class="nav-footer-right"><a href="https://www.numalariamodeling.org/">
-      </a><ul class="footer-items list-unstyled"><a href="https://www.numalariamodeling.org/">
-    </a><li class="nav-item"><a href="https://www.numalariamodeling.org/">
- </a><a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
   </a></li><a href="https://www.numalariamodeling.org/">  
 </a></ul><a href="https://www.numalariamodeling.org/">
     </a></div><a href="https://www.numalariamodeling.org/">

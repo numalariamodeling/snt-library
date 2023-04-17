@@ -1,0 +1,18 @@
+---
+title: "Simulation Standards"
+weight: 4
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Experiment design, inputs/outputs, diagnostics plots, and QUEST
+
+#### Experiment design
+
+#### Reviewing input & output files
+
+#### Diagnostic plots
+
+#### QUEST etiquette

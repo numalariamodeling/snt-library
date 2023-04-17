@@ -1,5 +1,4 @@
 ---
-topic: "4. Efficiency of Intervention Allocation"
 title: "Estimating the most efficient allocation of interventions to achieve reductions in Plasmodium falciparum malaria burden and transmission in Africa: a modelling study"
 author: 
   -  Walker, P. G.
@@ -8,3 +7,5 @@ author:
   -  Ghani, A. C.
 doi: https://doi.org/10.1016/S2214-109X(16)30073-0
 ---
+
+Journal Club 4: Efficiency of Intervention Allocation

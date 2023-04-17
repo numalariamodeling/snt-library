@@ -1,5 +1,4 @@
 ---
-topic: "7. Diagnostics for Malaria Elimination"
 title: "Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies"
 author: 
   -  Slater, H. 
@@ -8,6 +7,8 @@ author:
   -  et al.
 doi: https://doi.org/10.1038/nature16040
 ---
+
+Journal Club 7: Diagnostics for Malaria Elimination
 
 #### Recommended further reading
 

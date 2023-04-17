@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Faculty Enrichment Program in Applied Malaria Modeling - Coding Assignment</title>
+<title>Faculty Enrichment Program in Applied Malaria Modeling - Scientific Communication Standards</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../../">
 <link href="../../../../numalaria_logo.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../../styles.css">
 </head>
@@ -70,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Coding Assignment</h1>
+      <h1 class="quarto-secondary-nav-title">Scientific Communication Standards</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -126,12 +158,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://github.com/numalariamodeling/FE-2023-examples" class="sidebar-item-text sidebar-link">Example Exercises</a>
+  <a href="../../../../program/program_resources/pre_program_checklist.html" class="sidebar-item-text sidebar-link">Pre-Program Checklist</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../program/program_resources/program_faq.html" class="sidebar-item-text sidebar-link">FAQ</a>
+  <a href="https://github.com/numalariamodeling/FE-2023-examples" class="sidebar-item-text sidebar-link">Example Exercises</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -147,6 +179,11 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../../program/program_resources/session_recordings.html" class="sidebar-item-text sidebar-link">Session Recordings</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../program/program_resources/program_faq.html" class="sidebar-item-text sidebar-link">FAQ</a>
   </div>
 </li>
       </ul>
@@ -245,28 +282,15 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </nav>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#pre-requisites" id="toc-pre-requisites" class="nav-link active" data-scroll-target="#pre-requisites">Pre-Requisites</a></li>
-  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a>
-  <ul>
-  <li><a href="#part-0.-get-a-copy-of-the-example-data" id="toc-part-0.-get-a-copy-of-the-example-data" class="nav-link" data-scroll-target="#part-0.-get-a-copy-of-the-example-data">Part 0. Get a copy of the example data</a></li>
-  <li><a href="#part-1.-python---analyze-example-data" id="toc-part-1.-python---analyze-example-data" class="nav-link" data-scroll-target="#part-1.-python---analyze-example-data">Part 1. Python - analyze example data</a></li>
-  <li><a href="#part-2.-r---transform-and-visualize-output" id="toc-part-2.-r---transform-and-visualize-output" class="nav-link" data-scroll-target="#part-2.-r---transform-and-visualize-output">Part 2. R - transform and visualize output</a></li>
-  <li><a href="#part-3.-submit-to-slack" id="toc-part-3.-submit-to-slack" class="nav-link" data-scroll-target="#part-3.-submit-to-slack">Part 3. Submit to Slack</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Coding Assignment</h1>
+<h1 class="title d-none d-lg-block">Scientific Communication Standards</h1>
 </div>
 
 
@@ -281,162 +305,75 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Complete and submit the pre-program Coding Assignment to (re)familiarize yourself with some basics in <code>R</code> and <code>python</code>.</p>
-<section id="pre-requisites" class="level3">
-<h3 class="anchored" data-anchor-id="pre-requisites">Pre-Requisites</h3>
-<p>Despite having a variety of backgrounds, we aim for all participants to arrive familiar with certain programming skills, most of which are needed to complete the pre-program Coding Assignment.</p>
-<p><span style="color:black;font-weight:bold">If you are unfamiliar with any of the skills in the table below, please review the self-led tutorials at the links provided to learn.</span></p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Python</th>
-<th>R</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Variables and Types</p></li>
-<li><p>Lists</p></li>
-<li><p>Basic Operators</p></li>
-<li><p>Strings - slicing, splitting, case</p></li>
-<li><p>Conditions - <code>and</code>, <code>or</code>, <code>in</code>, <code>is</code>, <code>not</code></p></li>
-<li><p>Loops - <code>for</code> and <code>while</code></p></li>
-<li><p>Functions</p></li>
-<li><p>Classes and Objects</p></li>
-<li><p>Dictionaries</p></li>
-<li><p>Modules and Packages</p></li>
-<li><p>Numpy Arrays</p></li>
-<li><p>Pandas Basics</p></li>
-</ul></td>
-<td><ul>
-<li><p>Basic Syntax</p></li>
-<li><p>Data Frames</p></li>
-<li><p>Data Cleaning - <code>tidyr</code></p></li>
-<li><p>Data Visualization - <code>ggplot2</code></p></li>
-<li><p>Aggregate Functions</p></li>
-<li><p>Joining Tables - <code>dplyr</code></p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="https://www.learnpython.org/en/Welcome">Self-led “Intro to Python” Tutorials</a></td>
-<td><a href="https://www.codecademy.com/learn/learn-r">Self-led “Learn R” Tutorials</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="instructions" class="level3">
-<h3 class="anchored" data-anchor-id="instructions">Instructions</h3>
-<p><span style="color:red;font-weight:bold">The assignment is due at the end of Week 0.</span> We will hold (virtual) Office Hours in Week 0 to answer questions and troubleshoot problems if you get stuck while working on it.</p>
-<section id="part-0.-get-a-copy-of-the-example-data" class="level4">
-<h4 class="anchored" data-anchor-id="part-0.-get-a-copy-of-the-example-data">Part 0. Get a copy of the example data</h4>
-<ol type="1">
-<li><p>Go to the <a href="">coding assignment repository</a></p></li>
-<li><p>Obtain a local copy of the <code>example_data/</code> folder</p>
-<ul>
-<li>Download and unzip the folder to a new folder on your computer, …<code>/project_dir</code></li>
-</ul></li>
-<li><p>Examine a sample <code>output.csv</code> file from the example data.<br>
-You will have to click through <code>experiment &gt; simulation_## &gt; outputs</code> to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!</p>
-<ul>
-<li>In reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we’ve created “fake” output files that already in a form that is easier to work with.</li>
-<li>Each output.csv file contains daily timeseries corresponding to a simulation with a unique combination of the parameters:
-<ul>
-<li>Treatment_Rate: probability that uncomplicated malaria cases seek (and receive) treatment with Artemether-Lumefantrine.</li>
-<li>Run_Number: random “seed” adding stochastic variation between simulations with otherwise identical parameters.</li>
-</ul></li>
-</ul></li>
-</ol>
-</section>
-<section id="part-1.-python---analyze-example-data" class="level4">
-<h4 class="anchored" data-anchor-id="part-1.-python---analyze-example-data">Part 1. Python - analyze example data</h4>
-<ol type="1">
-<li><p>Create a new <code>my_script.py</code> file in the same <code>/project_dir</code> where you saved the <code>example_data</code> folder</p>
-<p>Your directory structure should be:</p>
-<ul>
-<li><code>project_dir/</code>
-<ul>
-<li><code>example_data/</code>
-<ul>
-<li>…</li>
-</ul></li>
-<li><code>my_script.py</code></li>
-</ul></li>
-</ul></li>
-<li><p>Import the following modules: <code>pandas</code>, <code>numpy</code></p></li>
-<li><p>Combine data from the <code>output.csv</code> file in each <code>example_data/simulation/</code> sub-folder into a single DataFrame, with the following modifications:</p>
-<ul>
-<li>Group by Day, Run_Number, and Treatment_Rate</li>
-<li>Restrict to include only values in the last 365 Days</li>
-<li>Save the values for “Blood_Smear_Parasite_Prevalence”, “PCR_Parasite_Prevalence” and “PfHRP2_Prevalence” in each group
-<ul>
-<li>Do not save the values for any other variables that may have been in <code>output.csv</code> !</li>
-</ul></li>
-<li>Append to results from all simulations together.</li>
-</ul></li>
-<li><p>Save the resulting DataFrame as <code>output_cleaned.csv</code></p></li>
-</ol>
-</section>
-<section id="part-2.-r---transform-and-visualize-output" class="level4">
-<h4 class="anchored" data-anchor-id="part-2.-r---transform-and-visualize-output">Part 2. R - transform and visualize output</h4>
-<div class="callout-warning callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Did you generate the output from Part 1?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This must be done before starting Part 2.</p>
-<p>Your directory structure should now be:</p>
-<ul>
-<li><code>project_dir/</code>
-<ul>
-<li><p><code>example_data/</code></p>
-<ul>
-<li>…</li>
-</ul></li>
-<li><p><code>my_script.py</code></p></li>
-<li><p><code>output_cleaned.csv</code></p></li>
-</ul></li>
-</ul>
-</div>
-</div>
-<ol type="1">
-<li>Open Rstudio: File &gt; New Project &gt; Existing Directory &gt; <code>project_dir</code></li>
-<li>Create a new <code>.Rmd</code> file or <code>.R</code> script inside <code>project_dir</code> to do the following:
-<ul>
-<li><p>Read in output_cleaned.csv</p></li>
-<li><p>Aggregate the mean prevalence by Blood Smear, PCR, and PfHRP2 (separately) on each day for a given Treatment_Rate</p></li>
-<li><p>Use <code>ggplot2</code> to produce plots of the data:</p>
-<ul>
-<li><p>Time on the x-axis, prevalence on the y-axis</p></li>
-<li><p>Separate lines and colors for each value of Treatment_Rate</p></li>
-<li><p>Separate facets/panels/sub-plots for each diagnostic (PCR, Blood Smear, and PfHRP2)</p></li>
-<li><p>An informative title, labels, legend, color palette etc.</p>
-<ul>
-<li>You don’t need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings</li>
-</ul></li>
-</ul></li>
-<li><p>Save your plot(s) as <code>.png</code> file(s) in <code>project_dir/</code> with an informative file name (ex. “prevalence_by_treatment_rate.png”)</p></li>
-</ul></li>
-</ol>
-</section>
-<section id="part-3.-submit-to-slack" class="level4">
-<h4 class="anchored" data-anchor-id="part-3.-submit-to-slack">Part 3. Submit to Slack</h4>
-<p>Post your plot(s) to the slack channel for feedback.</p>
-<ul>
-<li><p>How does it compare to others?</p></li>
-<li><p>If something looks off, what do you think is causing it?</p></li>
-</ul>
+<p>Best practices for writing, presentations, and designing plots/figures</p>
 <a href="https://www.numalariamodeling.org/">
+</a>
 
-</a></section><a href="https://www.numalariamodeling.org/">
-</a></section><a href="https://www.numalariamodeling.org/">
 
-</a></main><a href="https://www.numalariamodeling.org/"> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing"><a href="https://www.numalariamodeling.org/">
+</a><div class="list grid quarto-listing-cols-1"><a href="https://www.numalariamodeling.org/">
+</a><div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681767206260" data-listing-reading-time-sort="0.11"><a href="https://www.numalariamodeling.org/">
+</a><a href="../../../../program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_writing.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Writing Standards
+</h5>
+<div class="card-text listing-description">
+Best writing practices for manuscripts and grants
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1681767136485" data-listing-reading-time-sort="0.02">
+<a href="../../../../program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_presenting.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Presentation Standards
+</h5>
+<div class="card-text listing-description">
+Posters, presentations, and pitches!
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1681767348428" data-listing-reading-time-sort="0.05">
+<a href="../../../../program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_plots.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data Visualization Standards
+</h5>
+<div class="card-text listing-description">
+Best practices for making figures for your presentation or paper.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -570,13 +507,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</a></div><a href="https://www.numalariamodeling.org/"> <!-- /content -->
-</a><footer class="footer"><a href="https://www.numalariamodeling.org/">
-  </a><div class="nav-footer"><a href="https://www.numalariamodeling.org/">
-    </a><div class="nav-footer-right"><a href="https://www.numalariamodeling.org/">
-      </a><ul class="footer-items list-unstyled"><a href="https://www.numalariamodeling.org/">
-    </a><li class="nav-item"><a href="https://www.numalariamodeling.org/">
- </a><a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
   </a></li><a href="https://www.numalariamodeling.org/">  
 </a></ul><a href="https://www.numalariamodeling.org/">
     </a></div><a href="https://www.numalariamodeling.org/">

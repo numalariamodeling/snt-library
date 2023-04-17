@@ -8,4 +8,4 @@ listing:
   sort: weight
 ---
 
-Suggested preparation, Program Handbook, and team best practices
+Program Handbook and Team Best Practices

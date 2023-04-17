@@ -1,0 +1,12 @@
+---
+title: "Scientific Communication Standards"
+weight: 5
+listing:
+  type: grid
+  grid-columns: 1
+  contents: sci_comm_standards_pages/*.qmd
+  sort: weight
+page-layout: full  
+---
+
+Best practices for writing, presentations, and designing plots/figures

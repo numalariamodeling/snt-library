@@ -2,11 +2,13 @@
 title: "Tutorials"
 weight: 2
 listing: 
-  type: grid
-  grid-columns: 1
+  type: table
   contents: recorded_tutorials/*.qmd
-  sort: -date
+  fields: [title, description, date]
   page-size: 10
+  sort: date
+  date-format: short
+page-layout: full
 ---
 
-Hands-on coding sessions with live problem-solving and debugging
+Practice new concepts in hands-on group coding sessions, with live problem-solving and debugging

@@ -1,0 +1,18 @@
+---
+title: "Conduct, Ethics, and Team Culture"
+weight: 1
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+General conduct, ethics, engagement, professional critique, and teamwork
+
+#### General conduct
+
+#### Ethical conduct of research
+
+#### Culture of engagement and professional critique
+
+#### Culture of teamwork

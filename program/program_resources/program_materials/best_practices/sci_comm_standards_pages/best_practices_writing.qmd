@@ -1,0 +1,30 @@
+---
+title: "Writing Standards"
+weight: 1
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Best writing practices for manuscripts and grants
+
+## General 
+
+### Peer Editing Hour
+
+### Writing Collaboratively
+
+
+## Writing Grant Applications
+
+### Specific Aims 
+
+### Investigator "Biosketch"
+
+## Writing Manuscripts
+
+
+
+
+

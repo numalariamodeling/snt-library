@@ -1,0 +1,26 @@
+---
+title: "Journal Club Best Practices"
+weight: 6
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+Best practices for participating in Journal Club as a facilitator or discussant
+
+### For Facilitators
+
+#### Before
+
+#### During
+
+#### After
+
+### For Discussants
+
+#### Before
+
+#### During
+
+#### After

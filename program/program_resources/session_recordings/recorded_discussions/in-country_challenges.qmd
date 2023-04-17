@@ -1,0 +1,10 @@
+---
+title: "In-Country Challenges"
+date: 2023-10-04
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+During the program you are immersed in an environment devoted to applied malaria modeling and your research projects, but this likely isn’t the case at your home institution. There may be challenges for your time as well as technical capacities. In this session we’ll discuss some of these difficulties as well as the potential impact of taking what you’ve learned during your time at Northwestern home
