@@ -1,0 +1,17 @@
+---
+title: "Vector genetics, insecticide resistance and gene drives: An agent-based modeling approach to evaluate malaria transmission and elimination"
+author: 
+  - Prashanth Selvaraj
+  - Edward A. Wenger
+  - Daniel Bridenbecker
+  - Nikolai Windbivhler
+  - Jonathan R. Russell
+  - Jaline Gerardin
+journal name: "PLoS Computational Biology"
+subtitle: "PLoS Computational Biology"
+date: 2020-08-14
+doi: https://doi.org/10.1371/journal.pcbi.1008121
+abstract: "Here, we present the first multi-locus, agent-based model of vector genetics that accounts for mutations and a many-to-many mapping cardinality of genotypes to phenotypes to investigate gene flow, and the propagation of gene drives in Anopheline populations. This model is embedded within a large scale individual-based model of malaria transmission representative of a high burden, high transmission setting characteristic of the Sahel. Results are presented for the selection of insecticide-resistant vectors and the spread of resistance through repeated deployment of insecticide treated nets (ITNs), in addition to scenarios where gene drives act in concert with existing vector control tools such as ITNs. The roles of seasonality, spatial distribution of vector habitat and feed sites, and existing vector control in propagating alleles that confer phenotypic traits via gene drives that result in reduced transmission are explored. The ability to model a spectrum of vector species with different genotypes and phenotypes in the context of malaria transmission allows us to test deployment strategies for existing interventions that reduce the deleterious effects of resistance and allows exploration of the impact of new tools being proposed or developed."
+category: Vector Control
+type: Modeling Study
+---

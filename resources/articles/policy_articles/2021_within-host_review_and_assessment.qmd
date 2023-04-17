@@ -1,0 +1,19 @@
+---
+title: "Beyond national indicators: adapting the Demographic and Health Surveys’ sampling strategies and questions to better inform subnational malaria intervention policy"
+author: 
+  - Ifeoma D. Ozodiegwu
+  - Monique Ambrose
+  - Katherine E. Battle
+  - Caitlin Bever
+  - Ousmane Diallo
+  - Beatriz Galatas
+  - Manuela Runge
+  - Jaline Gerardin
+journal name: "Malaria Journal"
+subtitle: "Malaria Journal"
+date: 2021-01-01
+doi: https://doi.org/10.1186/s12936-021-03646-w
+abstract: "In malaria-endemic countries, prioritizing intervention deployment to areas that need the most attention is crucial to ensure continued progress. Global and national policy makers increasingly rely on epidemiological data and mathematical modelling to help optimize health decisions at the sub-national level. The Demographic and Health Surveys (DHS) Program is a critical data source for understanding subnational malaria prevalence and intervention coverage, which are used for parameterizing country-specific models of malaria transmission. However, data to estimate indicators at finer resolutions are limited, and surveys questions have a narrow scope. Examples from the Nigeria DHS are used to highlight gaps in the current survey design. Proposals are then made for additional questions and expansions to the DHS and Malaria Indicator Survey sampling strategy that would advance the data analyses and modelled estimates that inform national policy recommendations. Collaboration between the DHS Program, national malaria control programmes, the malaria modelling community, and funders is needed to address the highlighted data challenges."
+category: DHS
+type: Opinion
+---

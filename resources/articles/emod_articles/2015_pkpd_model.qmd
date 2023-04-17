@@ -1,0 +1,14 @@
+---
+title: "Mass campaigns with antimalarial drugs: a modelling comparison of artemether-lumefantrine and DHA-piperaquine with and without primaquine as tools for malaria control and elimination"
+author: 
+  - Jaline Gerardin
+  - Philip Eckhoff
+  - Edward A. Wenger
+journal name: "BMC Infectious Diseases"
+subtitle: "BMC Infectious Diseases"
+date: 2015-03-22
+doi: https://doi.org/10.1186/s12879-015-0887-y
+abstract: "A previously established agent-based model that includes innate and adaptive immunity was used to simulate malaria infections and transmission. Pharmacokinetics of artemether, lumefantrine, dihydroartemisinin, piperaquine, and primaquine were modelled with a double-exponential distribution-elimination model including weight-dependent parameters and age-dependent dosing. Drug killing of asexual parasites and gametocytes was calibrated to clinical data. Mass distribution of ACTs and primaquine was simulated with seasonal mosquito dynamics at a range of transmission intensities."
+category: Drug Campaigns
+type: Modeling Study
+---

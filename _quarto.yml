@@ -40,7 +40,8 @@ website:
           - resources/coding_resources.qmd
           - resources/data_sources.qmd
           - resources/science_communication.qmd
-          - resources/AMMnet.qmd
+          - text: AMMnet
+            url: https://ammnet.org/
     tools: 
       - icon: github
         menu: 

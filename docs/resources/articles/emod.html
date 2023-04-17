@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../numalaria_logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,38 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-journal name','listing-type','listing-category',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -78,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
@@ -236,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../resources/AMMnet.html" class="sidebar-item-text sidebar-link">AMMnet</a>
+  <a href="https://ammnet.org/" class="sidebar-item-text sidebar-link">AMMnet</a>
   </div>
 </li>
       </ul>
@@ -245,11 +278,11 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </nav>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -272,7 +305,252 @@ ul.task-list li input[type="checkbox"] {
 <a href="https://www.numalariamodeling.org/">
 
 
-</a></main><a href="https://www.numalariamodeling.org/"> <!-- /main -->
+
+</a><div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table table-striped">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+journal name
+</th>
+<th>
+type
+</th>
+<th>
+category
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1318827600000" data-listing-file-modified-sort="1681675492639" data-listing-reading-time-sort="0.005" data-listing-title-sort="A malaria transmission-directed model of mosquito life cycle and ecology" data-listing-filename-sort="2011_mosquito_model.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2011_mosquito_model.html" class="title">A malaria transmission-directed model of mosquito life cycle and ecology</a>
+</td>
+<td class="listing-journal name">
+Malaria Journal
+</td>
+<td class="listing-type">
+Model Development
+</td>
+<td class="listing-category">
+Vectors
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1348030800000" data-listing-file-modified-sort="1681675504252" data-listing-reading-time-sort="0.005" data-listing-title-sort="P. falciparum Infection Durations and Infectiousness Are Shaped by Antigenic Variation and Innate and Adaptive Host Immunity in a Mathematical Model" data-listing-filename-sort="2012_within-host_immunity.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2012_within-host_immunity.html" class="title">P. falciparum Infection Durations and Infectiousness Are Shaped by Antigenic Variation and Innate and Adaptive Host Immunity in a Mathematical Model</a>
+</td>
+<td class="listing-journal name">
+PLoS One
+</td>
+<td class="listing-type">
+Model Development
+</td>
+<td class="listing-category">
+Within-Host
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1355551200000" data-listing-file-modified-sort="1681675479488" data-listing-reading-time-sort="0.005" data-listing-title-sort="Malaria parasite diversity and transmission intensity affect development of parasitological immunity in a mathematical model" data-listing-filename-sort="2012_within-host_parasite_variation.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2012_within-host_parasite_variation.html" class="title">Malaria parasite diversity and transmission intensity affect development of parasitological immunity in a mathematical model</a>
+</td>
+<td class="listing-journal name">
+Malaria Journal
+</td>
+<td class="listing-type">
+Model Development
+</td>
+<td class="listing-category">
+Within-Host
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1366002000000" data-listing-file-modified-sort="1681675428878" data-listing-reading-time-sort="0.005" data-listing-title-sort="A mathematical model of the impact of present and future malaria vaccines" data-listing-filename-sort="2013_vaccine_impact.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2013_vaccine_impact.html" class="title">A mathematical model of the impact of present and future malaria vaccines</a>
+</td>
+<td class="listing-journal name">
+Malaria Journal
+</td>
+<td class="listing-type">
+Modeling Study
+</td>
+<td class="listing-category">
+Vaccines
+</td>
+</tr>
+<tr data-index="4" data-listing-date-sort="1427000400000" data-listing-file-modified-sort="1681692295019" data-listing-reading-time-sort="0.005" data-listing-title-sort="Mass campaigns with antimalarial drugs: a modelling comparison of artemether-lumefantrine and DHA-piperaquine with and without primaquine as tools for malaria control and elimination" data-listing-filename-sort="2015_pkpd_model.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2015_pkpd_model.html" class="title">Mass campaigns with antimalarial drugs: a modelling comparison of artemether-lumefantrine and DHA-piperaquine with and without primaquine as tools for malaria control and elimination</a>
+</td>
+<td class="listing-journal name">
+BMC Infectious Diseases
+</td>
+<td class="listing-type">
+Modeling Study
+</td>
+<td class="listing-category">
+Drug Campaigns
+</td>
+</tr>
+<tr data-index="5" data-listing-date-sort="1451628000000" data-listing-file-modified-sort="1681692284570" data-listing-reading-time-sort="0.005" data-listing-title-sort="Public health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models" data-listing-filename-sort="2016_RTSS_model_comparison.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2016_RTSS_model_comparison.html" class="title">Public health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models</a>
+</td>
+<td class="listing-journal name">
+The Lancet
+</td>
+<td class="listing-type">
+Multi-Model Study
+</td>
+<td class="listing-category">
+Vaccines
+</td>
+</tr>
+<tr data-index="6" data-listing-date-sort="1482818400000" data-listing-file-modified-sort="1681691179393" data-listing-reading-time-sort="0.005" data-listing-title-sort="Impact of mosquito gene drive on malaria elimination in a computational model with explicit spatial and temporal dynamics" data-listing-filename-sort="2016_gene_drive.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2016_gene_drive.html" class="title">Impact of mosquito gene drive on malaria elimination in a computational model with explicit spatial and temporal dynamics</a>
+</td>
+<td class="listing-journal name">
+PNAS
+</td>
+<td class="listing-type">
+Modeling Study
+</td>
+<td class="listing-category">
+Vector Control
+</td>
+</tr>
+<tr data-index="7" data-listing-date-sort="1495774800000" data-listing-file-modified-sort="1681692541954" data-listing-reading-time-sort="0.005" data-listing-title-sort="Role of mass drug administration in elimination of Plasmodium falciparum malaria: a consensus modelling study" data-listing-filename-sort="2017_MDA_model_comparison.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2017_MDA_model_comparison.html" class="title">Role of mass drug administration in elimination of Plasmodium falciparum malaria: a consensus modelling study</a>
+</td>
+<td class="listing-journal name">
+The Lancet Global Health
+</td>
+<td class="listing-type">
+Multi-Model Study
+</td>
+<td class="listing-category">
+Drug Campaigns
+</td>
+</tr>
+<tr data-index="8" data-listing-date-sort="1523250000000" data-listing-file-modified-sort="1681692645091" data-listing-reading-time-sort="0.005" data-listing-title-sort="Impact of mass drug administration campaigns depends on interaction with seasonal human movement" data-listing-filename-sort="2018_MDA_seasonal_migration.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2018_MDA_seasonal_migration.html" class="title">Impact of mass drug administration campaigns depends on interaction with seasonal human movement</a>
+</td>
+<td class="listing-journal name">
+International Health
+</td>
+<td class="listing-type">
+Modeling Study
+</td>
+<td class="listing-category">
+Drug Campaigns
+</td>
+</tr>
+<tr data-index="9" data-listing-date-sort="1530853200000" data-listing-file-modified-sort="1681674488918" data-listing-reading-time-sort="0.005" data-listing-title-sort="Implementation and applications of EMOD, an individual-based multi-disease modeling platform" data-listing-filename-sort="2018_emod_review.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2018_emod_review.html" class="title">Implementation and applications of EMOD, an individual-based multi-disease modeling platform</a>
+</td>
+<td class="listing-journal name">
+Pathogens and Disease
+</td>
+<td class="listing-type">
+Review
+</td>
+<td class="listing-category">
+Software Design
+</td>
+</tr>
+<tr data-index="10" data-listing-date-sort="1534482000000" data-listing-file-modified-sort="1681675171991" data-listing-reading-time-sort="0.005" data-listing-title-sort="Agent-based models of malaria transmission: a systematic review" data-listing-filename-sort="2018_abm_malaria_review.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2018_abm_malaria_review.html" class="title">Agent-based models of malaria transmission: a systematic review</a>
+</td>
+<td class="listing-journal name">
+Malaria Journal
+</td>
+<td class="listing-type">
+Review
+</td>
+<td class="listing-category">
+</td>
+</tr>
+<tr data-index="11" data-listing-date-sort="1567659600000" data-listing-file-modified-sort="1681691031528" data-listing-reading-time-sort="0.005" data-listing-title-sort="Reducing malaria burden and accelerating elimination with long-lasting systemic insecticides: a modelling study of three potential use cases" data-listing-filename-sort="2019_systemic_insecticides.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2019_systemic_insecticides.html" class="title">Reducing malaria burden and accelerating elimination with long-lasting systemic insecticides: a modelling study of three potential use cases</a>
+</td>
+<td class="listing-journal name">
+Malaria Journal
+</td>
+<td class="listing-type">
+Modeling Study
+</td>
+<td class="listing-category">
+Vector Control
+</td>
+</tr>
+<tr data-index="12" data-listing-date-sort="1597381200000" data-listing-file-modified-sort="1681691492655" data-listing-reading-time-sort="0.005" data-listing-title-sort="Vector genetics, insecticide resistance and gene drives: An agent-based modeling approach to evaluate malaria transmission and elimination" data-listing-filename-sort="2020_gene_drive_remodeled.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2020_gene_drive_remodeled.html" class="title">Vector genetics, insecticide resistance and gene drives: An agent-based modeling approach to evaluate malaria transmission and elimination</a>
+</td>
+<td class="listing-journal name">
+PLoS Computational Biology
+</td>
+<td class="listing-type">
+Modeling Study
+</td>
+<td class="listing-category">
+Vector Control
+</td>
+</tr>
+<tr data-index="13" data-listing-date-sort="1625893200000" data-listing-file-modified-sort="1681675011042" data-listing-reading-time-sort="0.005" data-listing-title-sort="Mechanistic within-host models of the asexual Plasmodium falciparum infection: a review and analytical assessment" data-listing-filename-sort="2021_within-host_review_and_assessment.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2021_within-host_review_and_assessment.html" class="title">Mechanistic within-host models of the asexual Plasmodium falciparum infection: a review and analytical assessment</a>
+</td>
+<td class="listing-journal name">
+Malaria Journal
+</td>
+<td class="listing-type">
+Review
+</td>
+<td class="listing-category">
+Within-Host
+</td>
+</tr>
+<tr data-index="14" data-listing-date-sort="1638856800000" data-listing-file-modified-sort="1681691298078" data-listing-reading-time-sort="0.005" data-listing-title-sort="Modeling impact and cost-effectiveness of driving-Y gene drives for malaria elimination in the Democratic Republic of the Congo" data-listing-filename-sort="2021_gene_drive_in_combination.qmd">
+<td class="listing-title">
+<a href="../../resources/articles/emod_articles/2021_gene_drive_in_combination.html" class="title">Modeling impact and cost-effectiveness of driving-Y gene drives for malaria elimination in the Democratic Republic of the Congo</a>
+</td>
+<td class="listing-journal name">
+Evolutionary Applications
+</td>
+<td class="listing-type">
+Modeling Study
+</td>
+<td class="listing-category">
+Vector Control
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div></main><a href="https://www.numalariamodeling.org/"> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

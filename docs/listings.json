@@ -17,6 +17,41 @@
     ]
   },
   {
+    "listing": "/resources/articles/policy.html",
+    "items": [
+      "/resources/articles/policy_articles/2021_within-host_review_and_assessment.html"
+    ]
+  },
+  {
+    "listing": "/resources/articles/emod.html",
+    "items": [
+      "/resources/articles/emod_articles/2011_mosquito_model.html",
+      "/resources/articles/emod_articles/2012_within-host_immunity.html",
+      "/resources/articles/emod_articles/2012_within-host_parasite_variation.html",
+      "/resources/articles/emod_articles/2013_vaccine_impact.html",
+      "/resources/articles/emod_articles/2015_pkpd_model.html",
+      "/resources/articles/emod_articles/2016_RTSS_model_comparison.html",
+      "/resources/articles/emod_articles/2016_gene_drive.html",
+      "/resources/articles/emod_articles/2017_MDA_model_comparison.html",
+      "/resources/articles/emod_articles/2018_MDA_seasonal_migration.html",
+      "/resources/articles/emod_articles/2018_emod_review.html",
+      "/resources/articles/emod_articles/2018_abm_malaria_review.html",
+      "/resources/articles/emod_articles/2019_systemic_insecticides.html",
+      "/resources/articles/emod_articles/2020_gene_drive_remodeled.html",
+      "/resources/articles/emod_articles/2021_within-host_review_and_assessment.html",
+      "/resources/articles/emod_articles/2021_gene_drive_in_combination.html"
+    ]
+  },
+  {
+    "listing": "/resources/articles/other_models.html",
+    "items": [
+      "/resources/articles/other_models_articles/2016_RTSS_model_comparison.html",
+      "/resources/articles/other_models_articles/2017_MDA_model_comparison.html",
+      "/resources/articles/other_models_articles/2018_abm_malaria_review.html",
+      "/resources/articles/other_models_articles/2021_within-host_review_and_assessment.html"
+    ]
+  },
+  {
     "listing": "/resources/articles/evidence.html",
     "items": []
   },

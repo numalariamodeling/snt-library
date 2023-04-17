@@ -44,30 +44,30 @@
   {
     "objectID": "resources/articles/policy.html",
     "href": "resources/articles/policy.html",
-    "title": "Policy Documents",
+    "title": "Policy Pieces",
     "section": "",
-    "text": "Policy documents, white papers, and reports"
+    "text": "Policy documents, white papers, and reports\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\njournal name\n\n\ntype\n\n\ncategory\n\n\n\n\n\n\nBeyond national indicators: adapting the Demographic and Health Surveys’ sampling strategies and questions to better inform subnational malaria intervention policy\n\n\nMalaria Journal\n\n\nOpinion\n\n\nDHS\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/articles/emod.html",
     "href": "resources/articles/emod.html",
     "title": "EMOD",
     "section": "",
-    "text": "Applications of EMOD in the literature"
+    "text": "Applications of EMOD in the literature\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\njournal name\n\n\ntype\n\n\ncategory\n\n\n\n\n\n\nA malaria transmission-directed model of mosquito life cycle and ecology\n\n\nMalaria Journal\n\n\nModel Development\n\n\nVectors\n\n\n\n\nP. falciparum Infection Durations and Infectiousness Are Shaped by Antigenic Variation and Innate and Adaptive Host Immunity in a Mathematical Model\n\n\nPLoS One\n\n\nModel Development\n\n\nWithin-Host\n\n\n\n\nMalaria parasite diversity and transmission intensity affect development of parasitological immunity in a mathematical model\n\n\nMalaria Journal\n\n\nModel Development\n\n\nWithin-Host\n\n\n\n\nA mathematical model of the impact of present and future malaria vaccines\n\n\nMalaria Journal\n\n\nModeling Study\n\n\nVaccines\n\n\n\n\nMass campaigns with antimalarial drugs: a modelling comparison of artemether-lumefantrine and DHA-piperaquine with and without primaquine as tools for malaria control and elimination\n\n\nBMC Infectious Diseases\n\n\nModeling Study\n\n\nDrug Campaigns\n\n\n\n\nPublic health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models\n\n\nThe Lancet\n\n\nMulti-Model Study\n\n\nVaccines\n\n\n\n\nImpact of mosquito gene drive on malaria elimination in a computational model with explicit spatial and temporal dynamics\n\n\nPNAS\n\n\nModeling Study\n\n\nVector Control\n\n\n\n\nRole of mass drug administration in elimination of Plasmodium falciparum malaria: a consensus modelling study\n\n\nThe Lancet Global Health\n\n\nMulti-Model Study\n\n\nDrug Campaigns\n\n\n\n\nImpact of mass drug administration campaigns depends on interaction with seasonal human movement\n\n\nInternational Health\n\n\nModeling Study\n\n\nDrug Campaigns\n\n\n\n\nImplementation and applications of EMOD, an individual-based multi-disease modeling platform\n\n\nPathogens and Disease\n\n\nReview\n\n\nSoftware Design\n\n\n\n\nAgent-based models of malaria transmission: a systematic review\n\n\nMalaria Journal\n\n\nReview\n\n\n\n\n\n\nReducing malaria burden and accelerating elimination with long-lasting systemic insecticides: a modelling study of three potential use cases\n\n\nMalaria Journal\n\n\nModeling Study\n\n\nVector Control\n\n\n\n\nVector genetics, insecticide resistance and gene drives: An agent-based modeling approach to evaluate malaria transmission and elimination\n\n\nPLoS Computational Biology\n\n\nModeling Study\n\n\nVector Control\n\n\n\n\nMechanistic within-host models of the asexual Plasmodium falciparum infection: a review and analytical assessment\n\n\nMalaria Journal\n\n\nReview\n\n\nWithin-Host\n\n\n\n\nModeling impact and cost-effectiveness of driving-Y gene drives for malaria elimination in the Democratic Republic of the Congo\n\n\nEvolutionary Applications\n\n\nModeling Study\n\n\nVector Control\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/articles/other_models.html",
     "href": "resources/articles/other_models.html",
     "title": "Other Models",
     "section": "",
-    "text": "Examples from the literature using non-EMOD models"
+    "text": "Examples from the literature using non-EMOD models\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\njournal name\n\n\ntype\n\n\ncategory\n\n\n\n\n\n\nPublic health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models\n\n\nThe Lancet\n\n\nModeling Study\n\n\nVaccines\n\n\n\n\nRole of mass drug administration in elimination of Plasmodium falciparum malaria: a consensus modelling study\n\n\nThe Lancet Global Health\n\n\nMulti-Model Study\n\n\nDrug Campaigns\n\n\n\n\nAgent-based models of malaria transmission: a systematic review\n\n\nMalaria Journal\n\n\nReview\n\n\n\n\n\n\nMechanistic within-host models of the asexual Plasmodium falciparum infection: a review and analytical assessment\n\n\nMalaria Journal\n\n\nReview\n\n\nWithin-Host\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/articles/evidence.html",
     "href": "resources/articles/evidence.html",
     "title": "Evidence Base",
     "section": "",
-    "text": "The studies model parameters and assumptions are based on\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "The studies model parameters and assumptions are based on\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\njournal name\n\n\ntype\n\n\ncategory\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/AMMnet.html",
@@ -193,7 +193,7 @@
     "href": "resources/articles.html",
     "title": "Articles",
     "section": "",
-    "text": "Selected readings related to applied malaria modeling\n\n\n\n\n\n\n\n\n\n\n\nEMOD\n\n\n\n\n\n\n\n\n\n\n\n\n\nOther Models\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence Base\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolicy Documents\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Selected readings related to applied malaria modeling\n\n\n\n\n\n\n\n\n\n\n\nEMOD\n\n\n\n\n\n\n\n\n\n\n\n\n\nOther Models\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence Base\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolicy Pieces\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/data_sources.html",

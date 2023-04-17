@@ -3,7 +3,7 @@ title: "Articles"
 weight: 1
 listing:
   contents: 
-    - articles
+    - articles/*.qmd
     - "!articles/journal_club.qmd"
   type: grid
   fields: [title, description]

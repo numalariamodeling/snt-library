@@ -1,0 +1,15 @@
+---
+title: "Impact of mass drug administration campaigns depends on interaction with seasonal human movement"
+author: 
+  - Jaline Gerardin
+  - Amelia Bertozzi-Villa
+  - Philip A. Eckhoff
+  - Edward A. Wenger
+journal name: "International Health"
+subtitle: "International Health"
+date: 2018-04-09
+doi: https://doi.org/10.1093/inthealth/ihy025
+abstract: "A mathematical model was used to simulate malaria transmission in two villages connected to a high-risk area into and out of which 10% of villagers traveled seasonally. MDA was given only in the villages. Prevalence reduction under various possible timings of MDA and seasonal travel was predicted."
+category: Drug Campaigns
+type: Modeling Study
+---
