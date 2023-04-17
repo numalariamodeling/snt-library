@@ -20,27 +20,16 @@ Despite having a variety of backgrounds, we aim for all participants to arrive f
 | Python                                                                         | R                                                                        |
 +================================================================================+==========================================================================+
 | -   Variables and Types                                                        | -   Basic Syntax                                                         |
-|                                                                                |                                                                          |
-| -   Lists                                                                      | -   Data Frames                                                          |
-|                                                                                |                                                                          |
-| -   Basic Operators                                                            | -   Data Cleaning - `tidyr`                                              |
-|                                                                                |                                                                          |
-| -   Strings - slicing, splitting, case                                         | -   Data Visualization - `ggplot2`                                       |
-|                                                                                |                                                                          |
-| -   Conditions - `and`, `or`, `in`, `is`, `not`                                | -   Aggregate Functions                                                  |
-|                                                                                |                                                                          |
-| -   Loops - `for` and `while`                                                  | -   Joining Tables - `dplyr`                                             |
-|                                                                                |                                                                          |
-| -   Functions                                                                  |                                                                          |
-|                                                                                |                                                                          |
+| -   Lists                                                                      |                                                                          |
+| -   Basic Operators                                                            | -   Data Frames                                                          |
+| -   Strings - slicing, splitting, case                                         |                                                                          |
+| -   Conditions - `and`, `or`, `in`, `is`, `not`                                | -   Data Cleaning - `tidyr`                                              |
+| -   Loops - `for` and `while`                                                  |                                                                          |
+| -   Functions                                                                  | -   Data Visualization - `ggplot2`                                       |
 | -   Classes and Objects                                                        |                                                                          |
-|                                                                                |                                                                          |
-| -   Dictionaries                                                               |                                                                          |
-|                                                                                |                                                                          |
+| -   Dictionaries                                                               | -   Aggregate Functions                                                  |
 | -   Modules and Packages                                                       |                                                                          |
-|                                                                                |                                                                          |
-| -   Numpy Arrays                                                               |                                                                          |
-|                                                                                |                                                                          |
+| -   Numpy Arrays                                                               | -   Joining Tables - `dplyr`                                             |
 | -   Pandas Basics                                                              |                                                                          |
 +--------------------------------------------------------------------------------+--------------------------------------------------------------------------+
 | [Self-led "Intro to Python" Tutorials](https://www.learnpython.org/en/Welcome) | [Self-led "Learn R" Tutorials](https://www.codecademy.com/learn/learn-r) |
@@ -100,11 +89,8 @@ Your directory structure should now be:
 
 -   `project_dir/`
     -   `example_data/`
-
         -   ...
-
     -   `my_script.py`
-
     -   `output_cleaned.csv`
 :::
 
@@ -117,13 +103,9 @@ Your directory structure should now be:
     -   Use `ggplot2` to produce plots of the data:
 
         -   Time on the x-axis, prevalence on the y-axis
-
         -   Separate lines and colors for each value of Treatment_Rate
-
         -   Separate facets/panels/sub-plots for each diagnostic (PCR, Blood Smear, and PfHRP2)
-
         -   An informative title, labels, legend, color palette etc.
-
             -   You don't need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings
 
     -   Save your plot(s) as `.png` file(s) in `project_dir/` with an informative file name (ex. "prevalence_by_treatment_rate.png")
@@ -133,5 +115,4 @@ Your directory structure should now be:
 Post your plot(s) to the slack channel for feedback.
 
 -   How does it compare to others?
-
 -   If something looks off, what do you think is causing it?
