@@ -6,15 +6,11 @@ listing:
   type: grid
   grid-columns: 1
   contents: "../../../../resources/articles/journal_club_articles/journal_club_0.qmd"
-  
+page-layout: article
 ---
 
-Read the assigned article and prepare to discuss at the first (remote) Journal Club 
+Read the assigned article and review the [Journal Club Best Practices](../program_materials/best_practices/best_practices_journal_club.qmd) for details on how to prepare.
 
 :::{#JC0}
 :::
 
-Guiding questions:
-
-1.  
-2. 

@@ -1,13 +1,24 @@
 ---
-title: "Seasonality and heterogeneity of malaria transmission determine success of interventions in high-endemic settings: a modeling study"
+title: "Journal Club 2: Seasonality of Transmission and Interventions"
 author: 
   -  Selvaraj, P. 
   -  Wenger, E.A. 
   -  Gerardin, J.
 doi: https://doi.org/10.1186/s12879-018-3319-y
+page-layout: article
 ---
 
-Journal Club 2: Seasonality of Transmission and Interventions
+**Seasonality and heterogeneity of malaria transmission determine success of interventions in high-endemic settings: a modeling study**
+
+### Guiding Questions
+
+1. How does the seasonality and heterogeneity of malaria transmission impact the success of intervention strategies in high-endemic settings?
+
+2. What are some challenges in accurately capturing the realistic seasonality of vector abundance and within-host effects in mathematical models of malaria transmission?
+
+3. What are some potential limitations of using seasonal measurements of parasite densities in multiple age groups to determine seasonality of malaria exposure when entomological data is unavailable?
+
+4. How can a better understanding of the seasonality and heterogeneity of malaria transmission contribute to designing effective and efficient strategies for continued control and possibly elimination?
 
 ### Recommended additional reading
 

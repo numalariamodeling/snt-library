@@ -8,5 +8,5 @@ listing:
   sort: weight
 ---
 
-Understanding the Demographic & Health Surveys
+Demographic & Health Surveys
 

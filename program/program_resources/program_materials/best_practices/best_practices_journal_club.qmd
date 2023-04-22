@@ -7,9 +7,9 @@ format:
     toc-depth: 5
 ---
 
-Best practices for participating in Journal Club as a facilitator or discussant
+Best practices for participating in Journal Club as a leader or discussant
 
-### For Facilitators
+### For Leaders
 
 #### Before
 
@@ -21,6 +21,11 @@ Best practices for participating in Journal Club as a facilitator or discussant
 
 #### Before
 
+* Read the assigned paper prior to attending the journal club session.  
+* Make notes and mark any questions you may have to discuss with the group. 
+
 #### During
+
+Be an active participant so we can all learn from each other's ideas. These sessions are designed to familiarize you with the world of applied malaria modeling and help you think critically about the work being done.
 
 #### After

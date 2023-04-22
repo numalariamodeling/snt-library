@@ -41,10 +41,13 @@ website:
           - resources/coding_resources.qmd
           - resources/data_sources.qmd
           - resources/science_communication.qmd
-          - text: EMOD Model Documentation
-            url: https://docs.idmod.org/projects/emodpy-malaria/en/latest/
-          - text: AMMnet
-            url: https://ammnet.org/
+      - text: "<br>Quick Links:"      
+      - text: "--- EMOD Documentation"
+        url: https://docs.idmod.org/projects/emod-malaria/en/latest/
+      - text: "--- NU Malaria Modeling"
+        url: https://numalariamodeling.org
+      - text: "--- AMMnet"
+        url: https://ammnet.org/
 
     tools: 
       - icon: github

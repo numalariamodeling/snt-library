@@ -35,13 +35,26 @@ Despite having a variety of backgrounds, we aim for all participants to arrive f
 | [Self-led "Intro to Python" Tutorials](https://www.learnpython.org/en/Welcome) | [Self-led "Learn R" Tutorials](https://www.codecademy.com/learn/learn-r) |
 +--------------------------------------------------------------------------------+--------------------------------------------------------------------------+
 
-### Instructions
+### Assignment Overview
 
-[The assignment is due at the end of Week 0.]{style="color:red;font-weight:bold"} We will hold (virtual) Office Hours in Week 0 to answer questions and troubleshoot problems if you get stuck while working on it.
+This assignment is designed to review core competencies of `R` and `python` coding that you will use throughout the program. It is *not a test* but rather the first component of the technical program, through which we develop these skills alongside more advanced modeling techniques.
+
+The first assignment asks you to demonstrate your ability to use the pre-requisite skills to: 1. Use `python` to "analyze" (process, clean, and merge) example data from multiple simulations to produce a single output spreadsheet.\
+2. Use `r` to wrangle, summarize, and plot the cleaned output data from Part 1.
+
+[This assignment is due at the end of Week 0.]{style="color:red;font-weight:bold"}
+
+**Stuck?**
+
+-   Review the tutorials in the table above
+-   Post on the FE-2023 Slack Channel
+-   We will hold (virtual) Office Hours in Week 0 to answer questions and help out!
+
+### Instructions
 
 #### Part 0. Get a copy of the example data
 
-1.  Go to the [coding assignment repository]()
+1.  Go to the [coding assignment repository](https://github.com/numalariamodeling/FE-2023-examples/tree/main/coding_assignment/example_data)
 
 2.  Obtain a local copy of the `example_data/` folder
 
@@ -50,7 +63,7 @@ Despite having a variety of backgrounds, we aim for all participants to arrive f
 3.  Examine a sample `output.csv` file from the example data.\
     You will have to click through `experiment > simulation_## > outputs` to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!
 
-    -   In reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we've created "fake" output files that already in a form that is easier to work with.
+    -   In reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we've created "fake" output files in a form that is easier to work with.
     -   Each output.csv file contains daily timeseries corresponding to a simulation with a unique combination of the parameters:
         -   Treatment_Rate: probability that uncomplicated malaria cases seek (and receive) treatment with Artemether-Lumefantrine.
         -   Run_Number: random "seed" adding stochastic variation between simulations with otherwise identical parameters.
@@ -74,7 +87,7 @@ Despite having a variety of backgrounds, we aim for all participants to arrive f
     -   Restrict to include only values in the last 365 Days
     -   Save the values for "Blood_Smear_Parasite_Prevalence", "PCR_Parasite_Prevalence" and "PfHRP2_Prevalence" in each group
         -   Do not save the values for any other variables that may have been in `output.csv` !
-    -   Append to results from all simulations together.
+    -   Append results from all simulations together.
 
 4.  Save the resulting DataFrame as `output_cleaned.csv`
 
@@ -108,11 +121,11 @@ Your directory structure should now be:
         -   An informative title, labels, legend, color palette etc.
             -   You don't need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings
 
-    -   Save your plot(s) as `.png` file(s) in `project_dir/` with an informative file name (ex. "prevalence_by_treatment_rate.png")
+    -   Save your plot(s) as `.png` file(s) in `project_dir/` with a descriptive file name (ex. "prevalence_by_treatment_rate.png")
 
 #### Part 3. Submit to Slack
 
-Post your plot(s) to the slack channel for feedback.
+Post your plot(s) to the FE-2023 slack channel for feedback.
 
 -   How does it compare to others?
 -   If something looks off, what do you think is causing it?

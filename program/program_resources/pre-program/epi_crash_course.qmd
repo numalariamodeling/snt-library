@@ -5,6 +5,7 @@ format:
   html: 
     toc: true
     toc-depth: 5
+page-layout: article
 ---
 
 Make sure you're familiar with these fundamental concepts of malaria epidemiology 
@@ -16,11 +17,29 @@ The crash course in Week 0 will assume familiarity with certain concepts from th
 
 #### Study Design
 
+[StatPearls - Epidemiology of Study Design](https://www.ncbi.nlm.nih.gov/books/NBK470342/)
+
+Bias
+
 #### Mosquito Biology
 
 #### Malaria Disease
 
+[Nature Reviews Disease Primers - Malaria](https://www.nature.com/articles/nrdp201750#Sec3)
+
+* The *Plasmodium spp.* life cycle  
+* Stages of infection in the human host  
+* Types of host immune responses to infection  
+* Disease symptoms and clinical course  
+
+
 #### Malaria Epidemiology
+
+* Diagnostic methods and their measured quantities  
+* Preventive interventions
+  * Vector control
+  * Chemoprevention/protection
+  * Vaccines
 
 ### Crash Course Objectives
 During Week 0, we will host a malaria epidemiology crash course, focused on these learning objectives:  

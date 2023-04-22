@@ -1,5 +1,5 @@
 ---
-title: "Estimating the most efficient allocation of interventions to achieve reductions in Plasmodium falciparum malaria burden and transmission in Africa: a modelling study"
+title: "Journal Club 4: Efficiency of Intervention Allocation"
 author: 
   -  Walker, P. G.
   -  Griffin, J. T.
@@ -8,4 +8,4 @@ author:
 doi: https://doi.org/10.1016/S2214-109X(16)30073-0
 ---
 
-Journal Club 4: Efficiency of Intervention Allocation
+Estimating the most efficient allocation of interventions to achieve reductions in Plasmodium falciparum malaria burden and transmission in Africa: a modelling study

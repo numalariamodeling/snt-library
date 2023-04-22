@@ -4,9 +4,10 @@ weight: 1
 listing:
   contents: journal_club_articles/*.qmd
   type: grid
-  sort: description
+  sort: title
   fields: [title, description, author]
   grid-columns: 1
+page-layout: article
 ---
 
 Selected papers for 2023 program discussions

@@ -1,5 +1,5 @@
 ---
-title: "Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling"
+title: "Journal Club 5: Subnational Tailoring in Tanzania"
 author: 
   -  Runge, M.
   -  Thawer, S.G.
@@ -8,7 +8,7 @@ author:
 doi: https://doi-org.turing.library.northwestern.edu/10.1186/s12936-022-04099-5
 ---
 
-Journal Club 5: Subnational Tailoring in Tanzania
+Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling
 
 #### Recommended additional reading
 

@@ -9,10 +9,19 @@ format:
 
 Version control, documentation, project management, and debugging
 
-#### Version control
+### Github source control
 
-#### Documentation
+All code must be kept on GitHub. Be sure to commit and push regularly. Best practice is to commit several times a day when actively coding and push AT LEAST daily. The end of the workday is a great time to push. This serves two important purposes:  
+1.	It keeps us from losing track of our code if we overwrite a file or want to revert to an older version of a script. Every version of our code that has been committed and pushed can be retrieved if lost or overwritten. Code that has not been committed and push cannot be retrieved.  
+2.	Sharing our code lets us learn from each other and reuse code developed by other team members. If your repository is private, your code is only visible to those with whom you have explicitly shared it. 
 
-#### Troubleshooting
+Git can be tricky and we’ve all had to deal with git problems. Please don’t hesitate to ask for help on Slack (#help) or search the web as there are many existing resources, such as this [tutorial from GitHub](https://docs.github.com/en/get-started/quickstart/hello-world). You will learn it eventually and we have a lot of expertise on our team available to help make your life easier. Many of us use Sourcetree or GitHub Desktop to manage our repos.
 
-#### Managing your project
+
+#### Commit messages & descriptions]
+
+### Documentation
+
+### Troubleshooting
+
+### Managing your project

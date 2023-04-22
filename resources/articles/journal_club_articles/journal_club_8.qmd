@@ -1,5 +1,5 @@
 ---
-title: "Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models."
+title: "Journal Club 8: Cross-Model Comparisons"
 author: 
   -  Penny, M. A. 
   -  Verity, R. 
@@ -8,7 +8,7 @@ author:
 doi: https://www.sciencedirect.com/science/article/pii/S0140673615007254
 ---
 
-Journal Club 8: Cross-Model Comparisons
+Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models
 
 #### Recommended further reading
 

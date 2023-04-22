@@ -9,10 +9,17 @@ format:
 
 Experiment design, inputs/outputs, diagnostics plots, and QUEST
 
-#### Experiment design
+### Experiment design
 
-#### Reviewing input & output files
+### Reviewing input & output files
 
-#### Diagnostic plots
+### Diagnostic plots
 
-#### QUEST etiquette
+### QUEST etiquette
+
+QUEST computing resources are finite and shared. 
+
+* Check with others before running large or long jobs
+* Do *not* run more than 100 jobs simultaneously on b1139
+* Test and debug simulations with small jobs (minimal sweeping, duration, etc.) before exapnding to full sets
+* [Managing disk space]()

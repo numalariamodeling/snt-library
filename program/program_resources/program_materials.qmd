@@ -6,6 +6,7 @@ listing:
   grid-columns: 1
   contents: program_materials/*.qmd
   sort: weight
+page-layout: article
 ---
 
 Program Handbook and Team Best Practices
