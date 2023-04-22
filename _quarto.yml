@@ -61,9 +61,10 @@ website:
       - text: <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
 format:
   html:
-    theme: lumen
+    theme: cosmo
     css: styles.css
     toc: true
+    
 
 editor: source
 
