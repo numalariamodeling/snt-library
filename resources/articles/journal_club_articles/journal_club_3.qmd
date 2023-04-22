@@ -6,9 +6,10 @@ author:
   -  Ambrose M.
   -  et al.
 doi: https://doi.org/10.21203/rs.3.rs-2710667/v1
+page-layout: article
 ---
 
-Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis
+**Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis**
 
 ### Recommended further reading
 

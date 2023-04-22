@@ -6,9 +6,10 @@ author:
   -  Molteni, F. 
   -  et al. 
 doi: https://doi-org.turing.library.northwestern.edu/10.1186/s12936-022-04099-5
+page-layout: article
 ---
 
-Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling
+**Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling**
 
 #### Recommended additional reading
 

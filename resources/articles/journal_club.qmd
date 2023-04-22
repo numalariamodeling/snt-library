@@ -8,6 +8,7 @@ listing:
   fields: [title, description, author]
   grid-columns: 1
 page-layout: article
+lang: fr
 ---
 
 Selected papers for 2023 program discussions

@@ -6,9 +6,10 @@ author:
   -  Ouédraogo, A. 
   -  et al.
 doi: https://doi.org/10.1038/nature16040
+page-layout: article
 ---
 
-Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies
+**Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies**
 
 #### Recommended further reading
 

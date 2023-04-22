@@ -12,7 +12,7 @@ doi: https://doi.org/10.1016/j.epidem.2022.100570
 page-layout: article
 ---
 
-Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review
+**Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review**
 
 #### Guiding Questions
 

@@ -6,9 +6,10 @@ author:
   -  Bever, C. A. 
   -  et al. 
 doi: https://www.sciencedirect.com/science/article/pii/S0140673615007254
+page-layout: article
 ---
 
-Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models
+**Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models**
 
 #### Recommended further reading
 
