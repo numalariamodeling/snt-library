@@ -348,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="assignment-overview">Assignment Overview</h3>
 <p>This assignment is designed to review core competencies of <code>R</code> and <code>python</code> coding that you will use throughout the program. It is <em>not a test</em> but rather the first component of the technical program, through which we develop these skills alongside more advanced modeling techniques.</p>
 <p>The first assignment asks you to demonstrate your ability to use the pre-requisite skills to:<br>
-1. Use <code>python</code> to “analyze” (process, clean, and merge) example data from multiple simulations to produce a single output spreadsheet.<br>
+1. Use <code>python</code> to “analyze” (process, clean, and merge) data from multiple files to produce a single output spreadsheet.<br>
 2. Use <code>R</code> to wrangle, summarize, and plot the cleaned output data from Part 1.</p>
 <p><span style="color:red;font-weight:bold">This assignment is due at the end of Week 0.</span></p>
 <p><strong>Stuck?</strong></p>
@@ -371,12 +371,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Examine a sample <code>output.csv</code> file from the example data.<br>
 You will have to click through <code>experiment &gt; simulation_## &gt; outputs</code> to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!</p>
 <ul>
-<li>In reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we’ve created “fake” output files in a form that is easier to work with.</li>
-<li>Each output.csv file contains daily timeseries corresponding to a simulation with a unique combination of the parameters:
-<ul>
-<li>Treatment_Rate: probability that uncomplicated malaria cases seek (and receive) treatment with Artemether-Lumefantrine.</li>
-<li>Run_Number: random “seed” adding stochastic variation between simulations with otherwise identical parameters.</li>
-</ul></li>
+<li>In reality, the output files in EMOD can be .json dictionaries or .bin binary files in addition to .csv spreadsheets. However, to make the assignment simpler, we’ve created some “fake” output files in a form that is easier to work with.</li>
+<li>Each output.csv file contains daily timeseries of 3 dependent variables [Var1, Var2, and Var3] for a specific combination of the grouping variables [Site_Number and Trial_Number]</li>
 </ul></li>
 </ol>
 </section>
@@ -398,9 +394,9 @@ You will have to click through <code>experiment &gt; simulation_## &gt; outputs<
 <li><p>Import the following modules: <code>pandas</code>, <code>numpy</code></p></li>
 <li><p>Combine data from the <code>output.csv</code> file in each <code>example_data/simulation/</code> sub-folder into a single DataFrame, with the following modifications:</p>
 <ul>
-<li>Group by Day, Run_Number, and Treatment_Rate</li>
+<li>Group by Day, Village_Number, and Trial_Number</li>
 <li>Restrict to include only values in the last 365 Days</li>
-<li>Save the values for “Blood_Smear_Parasite_Prevalence”, “PCR_Parasite_Prevalence” and “PfHRP2_Prevalence” in each group
+<li>Save the values for “Var1”, “Var2” and “Var3” in each group
 <ul>
 <li>Do not save the values for any other variables that may have been in <code>output.csv</code> !</li>
 </ul></li>
@@ -441,18 +437,18 @@ Did you generate the output from Part 1?
 <li>Create a new <code>.Rmd</code> file or <code>.R</code> script inside <code>project_dir</code> to do the following:
 <ul>
 <li><p>Read in output_cleaned.csv</p></li>
-<li><p>Aggregate the mean prevalence by Blood Smear, PCR, and PfHRP2 (separately) on each day for a given Treatment_Rate</p></li>
+<li><p>Aggregate the mean of Var1, Var2, and Var3 (separately) on each day for a given Site_Number</p></li>
 <li><p>Use <code>ggplot2</code> to produce plots of the data:</p>
 <ul>
-<li>Time on the x-axis, prevalence on the y-axis</li>
-<li>Separate lines and colors for each value of Treatment_Rate</li>
-<li>Separate facets/panels/sub-plots for each diagnostic (PCR, Blood Smear, and PfHRP2)</li>
+<li>Day on the x-axis, Var# on the y-axis</li>
+<li>Separate lines and colors for each value of Site_Number</li>
+<li>Separate facets/panels/sub-plots for each diagnostic (Var1, Var2, and Var3)</li>
 <li>An informative title, labels, legend, color palette etc.
 <ul>
 <li>You don’t need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings</li>
 </ul></li>
 </ul></li>
-<li><p>Save your plot(s) as <code>.png</code> file(s) in <code>project_dir/</code> with a descriptive file name (ex. “prevalence_by_treatment_rate.png”)</p></li>
+<li><p>Save your plot(s) as <code>.png</code> file(s) in <code>project_dir/</code> with a descriptive file name (ex. “Variables_by_Site.png”)</p></li>
 </ul></li>
 </ol>
 </section>

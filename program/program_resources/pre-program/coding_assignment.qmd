@@ -40,7 +40,7 @@ Despite having a variety of backgrounds, we aim for all participants to arrive f
 This assignment is designed to review core competencies of `R` and `python` coding that you will use throughout the program. It is *not a test* but rather the first component of the technical program, through which we develop these skills alongside more advanced modeling techniques.
 
 The first assignment asks you to demonstrate your ability to use the pre-requisite skills to:  
-1. Use `python` to "analyze" (process, clean, and merge) example data from multiple simulations to produce a single output spreadsheet.\
+1. Use `python` to "analyze" (process, clean, and merge) data from multiple files to produce a single output spreadsheet.\
 2. Use `R` to wrangle, summarize, and plot the cleaned output data from Part 1.
 
 [This assignment is due at the end of Week 0.]{style="color:red;font-weight:bold"}
@@ -64,10 +64,8 @@ The first assignment asks you to demonstrate your ability to use the pre-requisi
 3.  Examine a sample `output.csv` file from the example data.\
     You will have to click through `experiment > simulation_## > outputs` to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!
 
-    -   In reality, this output file is produced as a .json dictionary, which can be thought of as a pandas DataFrame. However, to make the assignment simpler, we've created "fake" output files in a form that is easier to work with.
-    -   Each output.csv file contains daily timeseries corresponding to a simulation with a unique combination of the parameters:
-        -   Treatment_Rate: probability that uncomplicated malaria cases seek (and receive) treatment with Artemether-Lumefantrine.
-        -   Run_Number: random "seed" adding stochastic variation between simulations with otherwise identical parameters.
+    -   In reality, the output files in EMOD can be .json dictionaries or .bin binary files in addition to .csv spreadsheets. However, to make the assignment simpler, we've created some "fake" output files in a form that is easier to work with.
+    -   Each output.csv file contains daily timeseries of 3 dependent variables [Var1, Var2, and Var3] for a specific combination of the grouping variables [Site_Number and Trial_Number]
 
 #### Part 1. Python - analyze example data
 
@@ -84,9 +82,9 @@ The first assignment asks you to demonstrate your ability to use the pre-requisi
 
 3.  Combine data from the `output.csv` file in each `example_data/simulation/` sub-folder into a single DataFrame, with the following modifications:
 
-    -   Group by Day, Run_Number, and Treatment_Rate
+    -   Group by Day, Village_Number, and Trial_Number
     -   Restrict to include only values in the last 365 Days
-    -   Save the values for "Blood_Smear_Parasite_Prevalence", "PCR_Parasite_Prevalence" and "PfHRP2_Prevalence" in each group
+    -   Save the values for "Var1", "Var2" and "Var3" in each group
         -   Do not save the values for any other variables that may have been in `output.csv` !
     -   Append results from all simulations together.
 
@@ -112,17 +110,17 @@ Your directory structure should now be:
 2.  Create a new `.Rmd` file or `.R` script inside `project_dir` to do the following:
     -   Read in output_cleaned.csv
 
-    -   Aggregate the mean prevalence by Blood Smear, PCR, and PfHRP2 (separately) on each day for a given Treatment_Rate
+    -   Aggregate the mean of Var1, Var2, and Var3 (separately) on each day for a given Site_Number
 
     -   Use `ggplot2` to produce plots of the data:
 
-        -   Time on the x-axis, prevalence on the y-axis
-        -   Separate lines and colors for each value of Treatment_Rate
-        -   Separate facets/panels/sub-plots for each diagnostic (PCR, Blood Smear, and PfHRP2)
+        -   Day on the x-axis, Var# on the y-axis
+        -   Separate lines and colors for each value of Site_Number
+        -   Separate facets/panels/sub-plots for each diagnostic (Var1, Var2, and Var3)
         -   An informative title, labels, legend, color palette etc.
             -   You don't need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings
 
-    -   Save your plot(s) as `.png` file(s) in `project_dir/` with a descriptive file name (ex. "prevalence_by_treatment_rate.png")
+    -   Save your plot(s) as `.png` file(s) in `project_dir/` with a descriptive file name (ex. "Variables_by_Site.png")
 
 #### Part 3. Submit to Slack
 
