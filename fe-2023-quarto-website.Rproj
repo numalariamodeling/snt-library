@@ -11,3 +11,7 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+PythonType: system
+PythonVersion: 3.6.0
+PythonPath: C:/Users/aew2948/AppData/Local/Programs/Python/Python36/python.exe
