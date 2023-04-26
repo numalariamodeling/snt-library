@@ -2,7 +2,9 @@
 title: "Journal Club"
 weight: 1
 listing:
-  contents: journal_club_articles/*.qmd
+  contents: 
+    - "../../program/program_resources/program_materials/best_practices/best_practices_journal_club.qmd"
+    - journal_club_articles/*.qmd
   type: grid
   sort: title
   fields: [title, description, author]

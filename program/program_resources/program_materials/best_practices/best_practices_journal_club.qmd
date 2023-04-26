@@ -1,5 +1,5 @@
 ---
-title: "Journal Club Best Practices"
+title: "Best Practices for Journal Club"
 weight: 6
 format: 
   html: 

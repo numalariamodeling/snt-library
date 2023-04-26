@@ -18,12 +18,12 @@ website:
       - section: "2023 Program"
         contents: 
           - program/program_resources/pre_program_checklist.qmd
+          - program/program_resources/program_materials/2023_program_handbook.qmd
+          - program/program_resources/program_materials/nu_team_best_practices.qmd
           - text: Example Exercises
             href: https://github.com/numalariamodeling/FE-2023-examples
           - resources/articles/journal_club.qmd
-          - program/program_resources/program_materials.qmd
           - program/program_resources/session_recordings.qmd
-          - program/program_resources/program_faq.qmd
       - section: "EMOD How-To Guides"
         contents: 
           - guides/install_guide.qmd
@@ -35,7 +35,7 @@ website:
           - guides/intervention_guide.qmd
           - guides/report_guide.qmd
           - guides/analyzer_guide.qmd
-      - section: "Other Resources"            
+      - section: "Additional Resources"            
         contents: 
           - resources/articles.qmd
           - resources/coding_resources.qmd
@@ -67,4 +67,3 @@ format:
     
 
 editor: source
-
