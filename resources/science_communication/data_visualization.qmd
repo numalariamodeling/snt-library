@@ -7,5 +7,5 @@ format:
     toc-depth: 5
 ---
 
-details
-
+* [Ten simple rules for better figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)  
+    * More from the [PLoS Curated Collections](https://collections.plos.org/collection/ten-simple-rules/)

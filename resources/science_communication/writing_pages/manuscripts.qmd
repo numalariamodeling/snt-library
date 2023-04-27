@@ -1,5 +1,5 @@
 ---
-title: "Writing Manuscripts"
+title: "Manuscripts"
 weight: 2
 format: 
   html: 
@@ -7,4 +7,8 @@ format:
     toc-depth: 5
 ---
 
-Details
+
+* [Writing readable sentences](https://www.northwestern.edu/climb/resources/written-communication/5-principles-readable-sentences.html)  
+* [Creating coherent paragraphs](https://www.northwestern.edu/climb/resources/written-communication/Creating-Coherent-Paragraphs.html)  
+* [Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)  
+    * More from the [PLoS Curated Collections](https://collections.plos.org/collection/ten-simple-rules/)

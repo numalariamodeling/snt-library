@@ -1,5 +1,5 @@
 ---
-title: "Applying for Grants"
+title: "Grant Proposals"
 weight: 1
 format: 
   html: 
@@ -7,4 +7,7 @@ format:
     toc-depth: 5
 ---
 
-Details
+* [Video 1: Rhetorical Pattern of Introductions in Aims Pages Patterns](https://www.northwestern.edu/climb/resources/written-communication/aims-pages-part-1-the-rhetorical-pattern-of-introductions-in-aims-pages.html)  
+* [Video 2: Specific Aims](https://www.northwestern.edu/climb/resources/written-communication/aims-pages-part-2-specific-aims.html)  
+* [Ten simple rules for getting grants](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020012)  
+    * More from the [PLoS Curated Collections](https://collections.plos.org/collection/ten-simple-rules/)

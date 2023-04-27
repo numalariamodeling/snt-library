@@ -8,4 +8,3 @@ listing:
   sort: weight
 ---
 
-Grants & Manuscripts
