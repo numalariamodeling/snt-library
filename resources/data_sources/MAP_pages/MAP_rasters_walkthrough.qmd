@@ -1,6 +1,6 @@
 ---
 title: "MAP Rasters Walkthrough"
-weight: 1
+weight: 2
 format: 
   html: 
     toc: true

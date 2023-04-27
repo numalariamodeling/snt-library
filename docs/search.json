@@ -196,11 +196,18 @@
     "text": "Example: ITN usage of Kampti District\nTo achieve this, it is important to look at the “ingredients” needed: - Shape file for Burkina Faso and its district (You need to unzip this) - 2016 ITN usage map (note that this is originally covering the entire of SSA, but is cropped to reduce filesize) - 2016 estimated population distrbution map of Burkina Faso\nShape file serves as a “cookie cutter” such that we can ensure to extract values within the boundary of a district or area of interest. We will discuss about the use of population distribution map later.\nHere are the code walkthrough. First we import the libraries, and load the input using raster() and shapefile() functions.\n\nlibrary(sp)\nlibrary(raster)\n\nshp <- shapefile(\"data/burkina_70DS.shp\")\nshp\n\nclass       : SpatialPolygonsDataFrame \nfeatures    : 70 \nextent      : 224822.8, 1088963, 1040345, 1669090  (xmin, xmax, ymin, ymax)\ncrs         : +proj=utm +zone=30 +datum=WGS84 +units=m +no_defs \nvariables   : 11\nnames       : OBJECTID,  NOMDEP, SinistreIn, Innonde, NOMPROVINC,         NOMREGION, CommuneCib, CoomuneRis,    Shape_Leng,    Shape_Area, DS \nmin values  :        7, BANFORA,          0,       0,       BALE, BOUCLE DU MOUHOUN,          0,          0,  22326.136677, 28397716.1216,  0 \nmax values  :      107,  ZORGHO,       3179,       1, ZOUNDWEOGO,         SUD-OUEST,          1,          1, 656058.771223, 14845528347.3, 69 \n\nitn_raster <- raster(\"data/ITN2016.tif\")\nitn_raster\n\nclass      : RasterLayer \ndimensions : 156, 216, 33696  (nrow, ncol, ncell)\nresolution : 0.04166665, 0.04166665  (x, y)\nextent     : -6.00007, 2.999927, 8.999972, 15.49997  (xmin, xmax, ymin, ymax)\ncrs        : +proj=longlat +datum=WGS84 +no_defs \nsource     : ITN2016.tif \nnames      : ITN2016 \nvalues     : 0.09760008, 0.8092381  (min, max)\n\npop_raster <- raster(\"data/bfa_ppp_2016_1km_Aggregated_UNadj.tif\")\npop_raster\n\nclass      : RasterLayer \ndimensions : 682, 951, 648582  (nrow, ncol, ncell)\nresolution : 0.008333333, 0.008333333  (x, y)\nextent     : -5.517917, 2.407083, 9.407917, 15.09125  (xmin, xmax, ymin, ymax)\ncrs        : +proj=longlat +datum=WGS84 +no_defs \nsource     : bfa_ppp_2016_1km_Aggregated_UNadj.tif \nnames      : bfa_ppp_2016_1km_Aggregated_UNadj \nvalues     : 0.2217675, 6855.859  (min, max)\n\n\nThe summaries for each of the object suggests that shp has a different CRS (Coordinate Reference System) than others. The CRS of all objects must align for our work here, and it’s easier to convert CRS in shp to that of other raster objects.\n\nlibrary(rgdal)\n\nPlease note that rgdal will be retired during 2023,\nplan transition to sf/stars/terra functions using GDAL and PROJ\nat your earliest convenience.\nSee https://r-spatial.org/r/2022/04/12/evolution.html and https://github.com/r-spatial/evolution\nrgdal: version: 1.6-5, (SVN revision 1199)\nGeospatial Data Abstraction Library extensions to R successfully loaded\nLoaded GDAL runtime: GDAL 3.4.2, released 2022/03/08\nPath to GDAL shared files: /Library/Frameworks/R.framework/Versions/4.2/Resources/library/rgdal/gdal\nGDAL binary built with GEOS: FALSE \nLoaded PROJ runtime: Rel. 8.2.1, January 1st, 2022, [PJ_VERSION: 821]\nPath to PROJ shared files: /Library/Frameworks/R.framework/Versions/4.2/Resources/library/rgdal/proj\nPROJ CDN enabled: FALSE\nLinking to sp version:1.6-0\nTo mute warnings of possible GDAL/OSR exportToProj4() degradation,\nuse options(\"rgdal_show_exportToProj4_warnings\"=\"none\") before loading sp or rgdal.\n\nshp <- spTransform(shp, crs(itn_raster))\n\nWarning: PROJ support is provided by the sf and terra packages among others\n\n\nNow we can plot and see the raster and shapes. Here’s ITN raster.\n\nplot(itn_raster)\nplot(shp, add=T)\n\n\n\n\nAnd here’s population raster. There are a little misalignment in the north for this raster, but for our purpose, this problem is not too big.\n\nplot(pop_raster)\nplot(shp, add=T)\n\n\n\n\n\nNaïve Extraction\nThe most naïve way of extracting values for each district here is to directly use the extract() function. When supplied with a set of polygons (shapes), the function pull the values underlying all the pixels within the shapes, and aggregate them, say by taking means. The function can be supplied by a set of points too.\n\ndf <- shp@data # Pull data out of shapefiles (District names etc.)\n\n# Extract and aggregate using mean function\ndf$itn_cov <- extract(itn_raster, shp, fun=mean)\n\n# Look at values for Bittou district\ndf[df$NOMDEP=='BITTOU', c('NOMDEP', 'NOMREGION', 'itn_cov')]\n\n   NOMDEP  NOMREGION   itn_cov\n54 BITTOU CENTRE-EST 0.7512201\n\n\n\n\nPopulation-weighted extraction\nSometimes averaging each pixel without weights doesn’t feel quite “right”: Pixels inside uninhabited forests aren’t the same as pixels inside a crowded town when we care about ITN coverage. Therefore, we may elect to use population map to weight the pixels and obtain a population-weighted estimate for each district.\n\n# First try to stack the ITN and Population map\n## To do so, need to ensure two maps cover same area\n## Crop ITN raster according to Population raster\nitn_raster_cr <- crop(itn_raster, pop_raster)\n## Lower resolution of Population raster to the level of ITN raster\npop_raster_res <- resample(pop_raster, itn_raster_cr, )\n\n## Stacking the raster\nitn_pop_stack <- stack(itn_raster_cr, pop_raster_res)\n\n# Extract the raster stack according to the shapes, no aggregation\nout <- extract(itn_pop_stack, shp)\n\n# Define functions to calculate weighted average from output matrix\nweighted_avg <- function (x, w) sum(x * w) / sum(w)\nestim_from_matrix <- function (mat) {\n  mat <- na.omit(mat)\n  return(weighted_avg(mat[,1], mat[,2]))\n}\n\nWithout specifying the aggregating function for extract(), the function pull every single pixel out of the raster stack. Result is a list of matrices, first column is ITN coverage, second column is population count. So we define a function estim_from_matrix() that would calculate weighted average of first column according to second column. sapply() applies the function to each element (matrix) of the list, and combine the output nicely into a vector.\n\ndf2 <- shp@data\ndf2$itn_cov <- sapply(out, estim_from_matrix)\n\ndf2[df2$NOMDEP=='BITTOU', c('NOMDEP', 'NOMREGION', 'itn_cov')]\n\n   NOMDEP  NOMREGION   itn_cov\n54 BITTOU CENTRE-EST 0.7475682\n\n\nThe ITN coverage estimates from population-weighted method is almost the same as the naive method. This is potentially due to the ITN estimates within the district being relatively homogeneous."
   },
   {
+    "objectID": "resources/data_sources/MAP_pages/MAP_overview.html",
+    "href": "resources/data_sources/MAP_pages/MAP_overview.html",
+    "title": "MAP Overview",
+    "section": "",
+    "text": "(add details)"
+  },
+  {
     "objectID": "resources/data_sources/MAP_rasters.html",
     "href": "resources/data_sources/MAP_rasters.html",
     "title": "MAP Rasters",
     "section": "",
-    "text": "Estimates from Malaria Atlas Project\n\n\n\n\n\n\n\n\n\n\n\nMAP Rasters Walkthrough\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Estimates from Malaria Atlas Project\n\n\n\n\n\n\n\n\n\n\n\nMAP Overview\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMAP Rasters Walkthrough\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/data_sources/DHS_pages/DHS Surveys.html",
@@ -791,48 +798,6 @@
     "text": "How to work together better, because we work better together\n\n\n\n\n\n\n\n\n\n\n\nConduct, Ethics, and Team Culture\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam Communication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode Standards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation Standards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScientific Communication Standards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBest Practices for Journal Club\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_writing.html",
-    "href": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_writing.html",
-    "title": "Writing Standards",
-    "section": "",
-    "text": "Best writing practices for manuscripts and grants"
-  },
-  {
-    "objectID": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_writing.html#general",
-    "href": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_writing.html#general",
-    "title": "Writing Standards",
-    "section": "General",
-    "text": "General\n\nPeer Editing Hour\n\nFor Authors\nCome prepared with ~1 page of writing. Please send this to Shannon by the 9am CT the day of your peer editing session so she can ensure everything is in the right format to share with the team. Ideally, your writing should be in decent shape (i.e. not a messy first draft) by the time you are sharing it with the team. Be prepared to introduce your piece (context, audience, etc) and read your writing aloud to the group, one paragraph at a time, and receive feedback as we go. The facilitator will document comments and changes to the text for you. You may receive feedback on writing style, word choice, sentence structure, grammar, general comments and questions about the work, etc. This time is meant to be constructive and help you improve your final product, so please make the best use of it possible.\n\n\nFor Facilitators\nYou will be responsible for documenting any changes, suggestions, or comments on the work presented – you do not need to be familiar with the work in advance. At the beginning of the hour, make sure that the document is in “track changes” mode so the author will be able to easily see anything that has been modified when looking back at their work. Please be detailed in recording all comments so they can be as useful as possible.\n\n\nFor Audience\nBring your best constructive criticism and writing ideas! Be open to sharing your thoughts, big and small, to help your colleagues improve their writing. Authors may present work in various stages of development and/or completeness so ask clarifying questions as needed. This may be especially relevant for excerpts from specific sections of manuscripts where you may not understand the context or what has already been discussed (e.g. what is included in the first half of the background/introduction while we are editing the second half). Be sure to consider any information provided by the author when introducing their writing, such as the intended audience.\n\n\n\nWriting Collaboratively"
-  },
-  {
-    "objectID": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_writing.html#writing-grant-applications",
-    "href": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_writing.html#writing-grant-applications",
-    "title": "Writing Standards",
-    "section": "Writing Grant Applications",
-    "text": "Writing Grant Applications\n\nSpecific Aims\n\n\nInvestigator “Biosketch”"
-  },
-  {
-    "objectID": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_writing.html#writing-manuscripts",
-    "href": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_writing.html#writing-manuscripts",
-    "title": "Writing Standards",
-    "section": "Writing Manuscripts",
-    "text": "Writing Manuscripts"
-  },
-  {
-    "objectID": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_plots.html",
-    "href": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_plots.html",
-    "title": "Data Visualization Standards",
-    "section": "",
-    "text": "Best practices for making figures for your presentation or paper."
-  },
-  {
-    "objectID": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_presenting.html",
-    "href": "program/program_resources/program_materials/best_practices/sci_comm_standards_pages/best_practices_presenting.html",
-    "title": "Presentation Standards",
-    "section": "",
-    "text": "Posters, presentations, and pitches!"
-  },
-  {
     "objectID": "program/program_resources/program_materials/best_practices/team_communication.html",
     "href": "program/program_resources/program_materials/best_practices/team_communication.html",
     "title": "Team Communication",
@@ -844,7 +809,7 @@
     "href": "program/program_resources/program_materials/best_practices/sci_comm_standards.html",
     "title": "Scientific Communication Standards",
     "section": "",
-    "text": "Best practices for writing, presentations, and designing plots/figures\n\n\n\n\n\n\n\n\n\n\n\nWriting Standards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation Standards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualization Standards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Best practices for writing, presentations, and designing plots/figures"
   },
   {
     "objectID": "program/program_resources/program_materials/best_practices/code_standards.html",
