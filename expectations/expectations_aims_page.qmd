@@ -1,0 +1,18 @@
+---
+title: "Aims Page Expectations"
+weight: 1
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+
+### Ideas Outline
+
+
+### Outline Draft
+
+### Full Drafts 1-5
+
+### Final Draft

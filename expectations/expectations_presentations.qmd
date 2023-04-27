@@ -1,0 +1,20 @@
+---
+title: "Presentation Expectations"
+weight: 1 
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+
+
+### Introductory Research Talk
+
+
+### Specific Aims Presentation
+
+
+### Work-in-Progress Presentation
+
+
+### Final Project Presentation
