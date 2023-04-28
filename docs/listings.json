@@ -1,88 +1,84 @@
 [
   {
-    "listing": "/resources/science_communication.html",
+    "listing": "/guides/analyzer_guide.html",
     "items": [
-      "/resources/science_communication/writing.html",
-      "/resources/science_communication/presentations.html",
-      "/resources/science_communication/data_visualization.html"
+      "/guides/analyzer_guide_pages/InsetChart_analyzer.html",
+      "/guides/analyzer_guide_pages/MalariaSummaryReport_analyzer.html",
+      "/guides/analyzer_guide_pages/event_analyzer.html",
+      "/guides/analyzer_guide_pages/spatial_analyzer.html"
     ]
   },
   {
-    "listing": "/resources/science_communication/writing.html",
+    "listing": "/guides/climate_guide.html",
     "items": [
-      "/resources/science_communication/writing_pages/grants.html",
-      "/resources/science_communication/writing_pages/manuscripts.html"
+      "/guides/climate_guide_pages/get_climate_files.html",
+      "/guides/climate_guide_pages/edit_climate_files.html"
     ]
   },
   {
-    "listing": "/resources/coding_resources.html",
+    "listing": "/guides/demographics_guide.html",
     "items": [
-      "/resources/coding_resources/python_resources.html",
-      "/resources/coding_resources/r_resources.html",
-      "/resources/coding_resources/git_resources.html",
-      "/resources/coding_resources/quest_resources.html"
+      "/guides/demographics_guide_pages/demographics_files.html",
+      "/guides/demographics_guide_pages/individual_properties.html",
+      "/guides/demographics_guide_pages/multinode_demographics.html"
     ]
   },
   {
-    "listing": "/resources/articles/journal_club.html",
+    "listing": "/guides/diagnostic_guide.html",
     "items": [
-      "/program/program_resources/program_materials/best_practices/best_practices_journal_club.html",
-      "/resources/articles/journal_club_articles/journal_club_0.html",
-      "/resources/articles/journal_club_articles/journal_club_1.html",
-      "/resources/articles/journal_club_articles/journal_club_2.html",
-      "/resources/articles/journal_club_articles/journal_club_3.html",
-      "/resources/articles/journal_club_articles/journal_club_4.html",
-      "/resources/articles/journal_club_articles/journal_club_5.html",
-      "/resources/articles/journal_club_articles/journal_club_6.html",
-      "/resources/articles/journal_club_articles/journal_club_7.html",
-      "/resources/articles/journal_club_articles/journal_club_8.html"
+      "/guides/diagnostic_guide_pages/blood_smear_microscopy.html",
+      "/guides/diagnostic_guide_pages/pfhrp2_rdt.html",
+      "/guides/diagnostic_guide_pages/pcr.html",
+      "/guides/diagnostic_guide_pages/fever.html"
     ]
   },
   {
-    "listing": "/resources/coding_resources/python_resources.html",
+    "listing": "/guides/intervention_guide.html",
     "items": [
-      "/resources/coding_resources/python_resources/CodeAcademy.html"
+      "/guides/intervention_guide_pages/drug_based.html",
+      "/guides/intervention_guide_pages/vector_control.html",
+      "/guides/intervention_guide_pages/Vaccines.html"
     ]
   },
   {
-    "listing": "/resources/coding_resources/r_resources.html",
+    "listing": "/guides/intervention_guide_pages/drug_based.html",
     "items": [
-      "/resources/coding_resources/r_resources/CodeAcademy.html"
+      "/guides/intervention_guide_pages/drug_based_pages/treatment_seeking.html",
+      "/guides/intervention_guide_pages/drug_based_pages/drug_campaigns.html",
+      "/guides/intervention_guide_pages/drug_based_pages/triggered_interventions.html",
+      "/guides/intervention_guide_pages/drug_based_pages/change_drug_adherence.html"
     ]
   },
   {
-    "listing": "/resources/coding_resources/quest_resources.html",
+    "listing": "/guides/intervention_guide_pages/vector_control.html",
     "items": [
-      "/resources/coding_resources/quest_resources/nu_rcs_resources.html"
+      "/guides/intervention_guide_pages/vector_control_pages/bednets.html",
+      "/guides/intervention_guide_pages/vector_control_pages/indoor_residual_spraying.html",
+      "/guides/intervention_guide_pages/vector_control_pages/larvicides.html"
     ]
   },
   {
-    "listing": "/resources/coding_resources/git_resources.html",
+    "listing": "/guides/report_guide.html",
     "items": [
-      "/resources/coding_resources/git_resources/git_intro_old.html",
-      "/resources/coding_resources/git_resources/git_tutorials.html"
+      "/guides/report_guide_pages/InsetChart.html",
+      "/guides/report_guide_pages/MalariaSummaryReport.html",
+      "/guides/report_guide_pages/event_reports.html",
+      "/guides/report_guide_pages/spatial_reports.html"
     ]
   },
   {
-    "listing": "/resources/data_sources/MAP_rasters.html",
+    "listing": "/guides/simulation_guide.html",
     "items": [
-      "/resources/data_sources/MAP_pages/MAP_overview.html",
-      "/resources/data_sources/MAP_pages/MAP_rasters_walkthrough.html"
+      "/guides/simulation_guide_pages/EMODpy_overview.html",
+      "/guides/simulation_guide_pages/simulation_components.html"
     ]
   },
   {
-    "listing": "/resources/data_sources/DHS_surveys.html",
+    "listing": "/guides/vector_guide.html",
     "items": [
-      "/resources/data_sources/DHS_pages/DHS Surveys.html",
-      "/resources/data_sources/DHS_pages/DHS Portal.html",
-      "/resources/data_sources/DHS_pages/DHS via API.html"
-    ]
-  },
-  {
-    "listing": "/resources/data_sources.html",
-    "items": [
-      "/resources/data_sources/DHS_surveys.html",
-      "/resources/data_sources/MAP_rasters.html"
+      "/guides/vector_guide_pages/vector_species.html",
+      "/guides/vector_guide_pages/infections.html",
+      "/guides/vector_guide_pages/vector_abundance.html"
     ]
   },
   {
@@ -100,95 +96,9 @@
     ]
   },
   {
-    "listing": "/program.html",
+    "listing": "/program/program_resources/pre-program/journal_club_0.html",
     "items": [
-      "/program/program_resources/pre_program_checklist.html",
-      "/program/program_resources/program_faq.html",
-      "/program/program_resources/program_materials.html",
-      "/program/program_resources/session_recordings.html",
-      "/program/program_resources/example_exercises.html"
-    ]
-  },
-  {
-    "listing": "/guides/analyzer_guide.html",
-    "items": [
-      "/guides/analyzer_guide_pages/InsetChart_analyzer.html",
-      "/guides/analyzer_guide_pages/MalariaSummaryReport_analyzer.html",
-      "/guides/analyzer_guide_pages/event_analyzer.html",
-      "/guides/analyzer_guide_pages/spatial_analyzer.html"
-    ]
-  },
-  {
-    "listing": "/guides/vector_guide.html",
-    "items": [
-      "/guides/vector_guide_pages/vector_species.html",
-      "/guides/vector_guide_pages/vector_abundance.html",
-      "/guides/vector_guide_pages/infections.html"
-    ]
-  },
-  {
-    "listing": "/guides/simulation_guide.html",
-    "items": [
-      "/guides/simulation_guide_pages/EMODpy_overview.html",
-      "/guides/simulation_guide_pages/simulation_components.html"
-    ]
-  },
-  {
-    "listing": "/guides/intervention_guide.html",
-    "items": [
-      "/guides/intervention_guide_pages/drug_based.html",
-      "/guides/intervention_guide_pages/vector_control.html",
-      "/guides/intervention_guide_pages/Vaccines.html"
-    ]
-  },
-  {
-    "listing": "/guides/report_guide.html",
-    "items": [
-      "/guides/report_guide_pages/InsetChart.html",
-      "/guides/report_guide_pages/MalariaSummaryReport.html",
-      "/guides/report_guide_pages/event_reports.html",
-      "/guides/report_guide_pages/spatial_reports.html"
-    ]
-  },
-  {
-    "listing": "/guides/demographics_guide.html",
-    "items": [
-      "/guides/demographics_guide_pages/demographics_files.html",
-      "/guides/demographics_guide_pages/individual_properties.html",
-      "/guides/demographics_guide_pages/multinode_demographics.html"
-    ]
-  },
-  {
-    "listing": "/guides/intervention_guide_pages/vector_control.html",
-    "items": [
-      "/guides/intervention_guide_pages/vector_control_pages/bednets.html",
-      "/guides/intervention_guide_pages/vector_control_pages/indoor_residual_spraying.html",
-      "/guides/intervention_guide_pages/vector_control_pages/larvicides.html"
-    ]
-  },
-  {
-    "listing": "/guides/intervention_guide_pages/drug_based.html",
-    "items": [
-      "/guides/intervention_guide_pages/drug_based_pages/treatment_seeking.html",
-      "/guides/intervention_guide_pages/drug_based_pages/drug_campaigns.html",
-      "/guides/intervention_guide_pages/drug_based_pages/triggered_interventions.html",
-      "/guides/intervention_guide_pages/drug_based_pages/change_drug_adherence.html"
-    ]
-  },
-  {
-    "listing": "/guides/diagnostic_guide.html",
-    "items": [
-      "/guides/diagnostic_guide_pages/blood_smear_microscopy.html",
-      "/guides/diagnostic_guide_pages/pfhrp2_rdt.html",
-      "/guides/diagnostic_guide_pages/pcr.html",
-      "/guides/diagnostic_guide_pages/fever.html"
-    ]
-  },
-  {
-    "listing": "/guides/climate_guide.html",
-    "items": [
-      "/guides/climate_guide_pages/get_climate_files.html",
-      "/guides/climate_guide_pages/edit_climate_files.html"
+      "/resources/articles/journal_club_articles/journal_club_0.html"
     ]
   },
   {
@@ -197,27 +107,6 @@
       "/program/program_resources/pre-program/epi_crash_course.html",
       "/program/program_resources/pre-program/coding_assignment.html",
       "/program/program_resources/pre-program/journal_club_0.html"
-    ]
-  },
-  {
-    "listing": "/program/program_resources/session_recordings.html",
-    "items": [
-      "/program/program_resources/session_recordings/recorded_lectures.html",
-      "/program/program_resources/session_recordings/recorded_tutorials.html",
-      "/program/program_resources/session_recordings/recorded_discussions.html"
-    ]
-  },
-  {
-    "listing": "/program/program_resources/program_materials.html",
-    "items": [
-      "/program/program_resources/program_materials/2023_program_handbook.html",
-      "/program/program_resources/program_materials/nu_team_best_practices.html"
-    ]
-  },
-  {
-    "listing": "/program/program_resources/pre-program/journal_club_0.html",
-    "items": [
-      "/resources/articles/journal_club_articles/journal_club_0.html"
     ]
   },
   {
@@ -239,11 +128,10 @@
     ]
   },
   {
-    "listing": "/program/program_resources/session_recordings/recorded_tutorials.html",
+    "listing": "/program/program_resources/program_materials.html",
     "items": [
-      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
-      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html",
-      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html"
+      "/program/program_resources/program_materials/2023_program_handbook.html",
+      "/program/program_resources/program_materials/nu_team_best_practices.html"
     ]
   },
   {
@@ -259,6 +147,99 @@
       "/program/program_resources/session_recordings/recorded_lectures/epi_crash_course.html",
       "/program/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html",
       "/program/program_resources/session_recordings/recorded_lectures/intro_to_emod.html"
+    ]
+  },
+  {
+    "listing": "/program/program_resources/session_recordings/recorded_tutorials.html",
+    "items": [
+      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
+      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html",
+      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html"
+    ]
+  },
+  {
+    "listing": "/program/program_resources/session_recordings.html",
+    "items": [
+      "/program/program_resources/session_recordings/recorded_lectures.html",
+      "/program/program_resources/session_recordings/recorded_tutorials.html",
+      "/program/program_resources/session_recordings/recorded_discussions.html"
+    ]
+  },
+  {
+    "listing": "/program.html",
+    "items": [
+      "/program/program_resources/pre_program_checklist.html",
+      "/program/program_resources/program_faq.html",
+      "/program/program_resources/program_materials.html",
+      "/program/program_resources/session_recordings.html",
+      "/program/program_resources/example_exercises.html"
+    ]
+  },
+  {
+    "listing": "/resources/articles/journal_club.html",
+    "items": [
+      "/program/program_resources/program_materials/best_practices/best_practices_journal_club.html",
+      "/resources/articles/journal_club_articles/journal_club_0.html",
+      "/resources/articles/journal_club_articles/journal_club_1.html",
+      "/resources/articles/journal_club_articles/journal_club_2.html",
+      "/resources/articles/journal_club_articles/journal_club_3.html",
+      "/resources/articles/journal_club_articles/journal_club_4.html",
+      "/resources/articles/journal_club_articles/journal_club_5.html",
+      "/resources/articles/journal_club_articles/journal_club_6.html",
+      "/resources/articles/journal_club_articles/journal_club_7.html",
+      "/resources/articles/journal_club_articles/journal_club_8.html"
+    ]
+  },
+  {
+    "listing": "/resources/coding_resources/git_resources.html",
+    "items": [
+      "/resources/coding_resources/git_resources/git_intro_old.html"
+    ]
+  },
+  {
+    "listing": "/resources/coding_resources.html",
+    "items": [
+      "/resources/coding_resources/python_resources.html",
+      "/resources/coding_resources/r_resources.html",
+      "/resources/coding_resources/git_resources.html",
+      "/resources/coding_resources/quest_resources.html"
+    ]
+  },
+  {
+    "listing": "/resources/data_sources/DHS_surveys.html",
+    "items": [
+      "/resources/data_sources/DHS_pages/DHS Surveys.html",
+      "/resources/data_sources/DHS_pages/DHS Portal.html",
+      "/resources/data_sources/DHS_pages/DHS via API.html"
+    ]
+  },
+  {
+    "listing": "/resources/data_sources/MAP_rasters.html",
+    "items": [
+      "/resources/data_sources/MAP_pages/MAP_overview.html",
+      "/resources/data_sources/MAP_pages/MAP_rasters_walkthrough.html"
+    ]
+  },
+  {
+    "listing": "/resources/data_sources.html",
+    "items": [
+      "/resources/data_sources/DHS_surveys.html",
+      "/resources/data_sources/MAP_rasters.html"
+    ]
+  },
+  {
+    "listing": "/resources/science_communication/writing.html",
+    "items": [
+      "/resources/science_communication/writing_pages/grants.html",
+      "/resources/science_communication/writing_pages/manuscripts.html"
+    ]
+  },
+  {
+    "listing": "/resources/science_communication.html",
+    "items": [
+      "/resources/science_communication/writing.html",
+      "/resources/science_communication/presentations.html",
+      "/resources/science_communication/data_visualization.html"
     ]
   },
   {

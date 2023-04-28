@@ -1,9 +1,0 @@
----
-title: "Code Academy"
-format: 
-  html: 
-    toc: true
-    toc-depth: 5
----
-
-Details

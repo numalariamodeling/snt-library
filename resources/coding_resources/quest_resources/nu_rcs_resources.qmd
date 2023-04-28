@@ -1,9 +1,0 @@
----
-title: "NU Research Computing"
-format: 
-  html: 
-    toc: true
-    toc-depth: 5
----
-
-Webinars and details.

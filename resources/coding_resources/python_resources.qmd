@@ -1,12 +1,32 @@
 ---
 title: "Python"
 weight: 1
-listing:
-  contents: "python_resources/*.qmd"
-  type: grid
-  fields: [title, description]
-  sort: weight
-  grid-columns: 1
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
 ---
 
 Python is a high-level, general-purpose programming language.
+
+### Python Resources
+
+* [Pycharm]() (IDE for python)  
+  * Useful [keyboard shortcuts]() and [plugins]()  
+* [Learn python]()  
+* [Code academy]() some free intro tutorials/projects  
+* [Dataquest access](), free through NU on a quarter system (click on start free)  
+* [Python for Biologists]()   
+* [Python Data Science Handbook]()  
+* [pandas]() (includes a r/py comparison)
+
+
+### PyCharm Tips
+
+#### Set up python interpreter
+
+#### Run scipt from terminal
+
+#### Run script from pycharm
+
+#### Run script interactively
