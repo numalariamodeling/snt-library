@@ -348,13 +348,14 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="assignment-overview">Assignment Overview</h3>
 <p>This assignment is designed to review core competencies of <code>R</code> and <code>python</code> coding that you will use throughout the program. It is <em>not a test</em> but rather the first component of the technical program, through which we develop these skills alongside more advanced modeling techniques.</p>
 <p>The first assignment asks you to demonstrate your ability to use the pre-requisite skills to:<br>
-1. Use <code>python</code> to “analyze” (process, clean, and merge) data from multiple files to produce a single output spreadsheet.<br>
-2. Use <code>R</code> to wrangle, summarize, and plot the cleaned output data from Part 1.</p>
+1. Use <code>python</code> to “analyze” (process, clean, and merge) data from multiple files to produce a single output spreadsheet.&nbsp; 2. Use <code>R</code> to wrangle, summarize, and plot the cleaned output data from Part 1.</p>
 <p><span style="color:red;font-weight:bold">This assignment is due at the end of Week 0.</span></p>
 <p><strong>Stuck?</strong></p>
 <ul>
-<li>Review the tutorials in the table above</li>
-<li>Post on the FE-2023 Slack Channel</li>
+<li>Review the tutorials in the table above<br>
+</li>
+<li>Post on the FE-2023 Slack Channel<br>
+</li>
 <li>We will hold (virtual) Office Hours in Week 0 to answer questions and help out!</li>
 </ul>
 </section>
@@ -363,7 +364,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="part-0.-get-a-copy-of-the-example-data" class="level4">
 <h4 class="anchored" data-anchor-id="part-0.-get-a-copy-of-the-example-data">Part 0. Get a copy of the example data</h4>
 <ol type="1">
-<li><p>Go to the <a href="https://github.com/numalariamodeling/FE-2023-examples/tree/main/coding_assignment/example_data">coding assignment repository</a></p></li>
+<li><p>Go to the <a href="https://github.com/numalariamodeling/FE-2023-examples/tree/main/coding_assignment/project_dir">coding assignment repository</a></p></li>
 <li><p>Obtain a local copy of the <code>example_data/</code> folder</p>
 <ul>
 <li>Download and unzip the folder to a new folder on your computer, …<code>/project_dir</code></li>
@@ -371,34 +372,39 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Examine a sample <code>output.csv</code> file from the example data.<br>
 You will have to click through <code>experiment &gt; simulation_## &gt; outputs</code> to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!</p>
 <ul>
-<li>In reality, the output files in EMOD can be .json dictionaries or .bin binary files in addition to .csv spreadsheets. However, to make the assignment simpler, we’ve created some “fake” output files in a form that is easier to work with.</li>
-<li>Each output.csv file contains daily timeseries of 3 dependent variables [Var1, Var2, and Var3] for a specific combination of the grouping variables [Site_Number and Trial_Number]</li>
+<li>In reality, the output files in EMOD can be .json dictionaries or .bin binary files in addition to .csv spreadsheets. However, to make the assignment simpler, we’ve created some “fake” output files in a form that is easier to work with.<br>
+</li>
+<li>Each output.csv file contains daily timeseries of 3 dependent variables [Var1, Var2, and Var3] for a specific combination of the grouping variables [Site, Trial_Number, and Arm]</li>
 </ul></li>
 </ol>
 </section>
 <section id="part-1.-python---analyze-example-data" class="level4">
 <h4 class="anchored" data-anchor-id="part-1.-python---analyze-example-data">Part 1. Python - analyze example data</h4>
 <ol type="1">
-<li><p>Create a new <code>my_script.py</code> file in the same <code>/project_dir</code> where you saved the <code>example_data</code> folder</p>
+<li><p>Create a new <code>my_python_script.py</code> file in the same <code>/project_dir</code> where you saved the <code>example_data</code> folder</p>
 <p>Your directory structure should be:</p>
 <ul>
 <li><code>project_dir/</code>
 <ul>
 <li><code>example_data/</code>
 <ul>
-<li>…</li>
+<li>…<br>
+</li>
 </ul></li>
-<li><code>my_script.py</code></li>
+<li><code>my_python_script.py</code></li>
 </ul></li>
 </ul></li>
-<li><p>Import the following modules: <code>pandas</code>, <code>numpy</code></p></li>
+<li><p>Import the following modules: <code>pandas</code>, <code>numpy</code>, <code>os</code></p></li>
 <li><p>Combine data from the <code>output.csv</code> file in each <code>example_data/simulation/</code> sub-folder into a single DataFrame, with the following modifications:</p>
 <ul>
-<li>Group by Day, Village_Number, and Trial_Number</li>
-<li>Restrict to include only values in the last 365 Days</li>
-<li>Save the values for “Var1”, “Var2” and “Var3” in each group
+<li>Keep all grouping variables (“Day”, “Site”, “Trial_Number”, and “Arm”)<br>
+</li>
+<li>Restrict to include only values in the last 365 Days<br>
+</li>
+<li>Save the values for “Var1” and “Var3” in each group
 <ul>
-<li>Do not save the values for any other variables that may have been in <code>output.csv</code> !</li>
+<li>Do not save the values for any other variables that may have been in <code>output.csv</code> !<br>
+</li>
 </ul></li>
 <li>Append results from all simulations together.</li>
 </ul></li>
@@ -407,48 +413,46 @@ You will have to click through <code>experiment &gt; simulation_## &gt; outputs<
 </section>
 <section id="part-2.-r---transform-and-visualize-output" class="level4">
 <h4 class="anchored" data-anchor-id="part-2.-r---transform-and-visualize-output">Part 2. R - transform and visualize output</h4>
-<div class="callout-warning callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Did you generate the output from Part 1?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This must be done before starting Part 2.</p>
+<p><strong>Did you generate the output from Part 1?</strong></p>
+<p><em>This must be done before starting Part 2.</em></p>
 <p>Your directory structure should now be:</p>
 <ul>
 <li><code>project_dir/</code>
 <ul>
 <li><code>example_data/</code>
 <ul>
-<li>…</li>
+<li>…<br>
+</li>
 </ul></li>
-<li><code>my_script.py</code></li>
+<li><code>my_python_script.py</code><br>
+</li>
 <li><code>output_cleaned.csv</code></li>
 </ul></li>
 </ul>
-</div>
-</div>
 <ol type="1">
 <li>Open Rstudio: File &gt; New Project &gt; Existing Directory &gt; <code>project_dir</code></li>
-<li>Create a new <code>.Rmd</code> file or <code>.R</code> script inside <code>project_dir</code> to do the following:
+<li>Create a new <code>my_R_script.Rmd</code> file or <code>my_R_script.R</code> script inside <code>project_dir</code> to do the following:
 <ul>
 <li><p>Read in output_cleaned.csv</p></li>
-<li><p>Aggregate the mean of Var1, Var2, and Var3 (separately) on each day for a given Site_Number</p></li>
+<li><p>Aggregate the count, mean, and standard deviation of Var1 and Var3 (separately) on each day for a given Site</p>
+<ul>
+<li>This will collapse all Trial_Numbers and Arms together</li>
+</ul></li>
+<li><p>Use mutate to add upper and lower 95% prediction intervals around the daily mean of Var1 and Var3 at each Site</p>
+<ul>
+<li>mean ± 1.96 * sd ÷ √n</li>
+</ul></li>
 <li><p>Use <code>ggplot2</code> to produce plots of the data:</p>
 <ul>
 <li>Day on the x-axis, Var# on the y-axis</li>
-<li>Separate lines and colors for each value of Site_Number</li>
-<li>Separate facets/panels/sub-plots for each diagnostic (Var1, Var2, and Var3)</li>
+<li>Separate lines and colors for each dependent variable (Var 1 and Var 3)</li>
+<li>Separate facets for each Site</li>
 <li>An informative title, labels, legend, color palette etc.
 <ul>
 <li>You don’t need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings</li>
 </ul></li>
 </ul></li>
-<li><p>Save your plot(s) as <code>.png</code> file(s) in <code>project_dir/</code> with a descriptive file name (ex. “Variables_by_Site.png”)</p></li>
+<li><p>Save your plot(s) as <code>.png</code> file(s) in <code>project_dir/</code> with a descriptive file name (ex. “Variables1-2_by_Site.png”)</p></li>
 </ul></li>
 </ol>
 </section>
@@ -456,8 +460,11 @@ Did you generate the output from Part 1?
 <h4 class="anchored" data-anchor-id="part-3.-submit-to-slack">Part 3. Submit to Slack</h4>
 <p>Post your plot(s) to the FE-2023 slack channel for feedback.</p>
 <ul>
-<li>How does it compare to others?</li>
-<li>If something looks off, what do you think is causing it?</li>
+<li>How does it compare to others?<br>
+</li>
+<li>If something looks off, what do you think is causing it?<br>
+</li>
+<li>For more practice: Try creating the plots using different grouping variables (Ex. Trial_Number, or Arm) in addition to or instead of Site</li>
 </ul>
 <a href="https://www.numalariamodeling.org/">
 
