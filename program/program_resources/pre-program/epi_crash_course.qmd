@@ -10,41 +10,57 @@ page-layout: article
 
 Make sure you're familiar with these fundamental concepts of malaria epidemiology 
 
-
-### Pre-Requisites
-
-The crash course in Week 0 will assume familiarity with certain concepts from these review articles:
-
-#### Study Design
-
-[StatPearls - Epidemiology of Study Design](https://www.ncbi.nlm.nih.gov/books/NBK470342/)
-
-Bias
-
-#### Mosquito Biology
-
-#### Malaria Disease
-
-[Nature Reviews Disease Primers - Malaria](https://www.nature.com/articles/nrdp201750#Sec3)
-
-* The *Plasmodium spp.* life cycle  
-* Stages of infection in the human host  
-* Types of host immune responses to infection  
-* Disease symptoms and clinical course  
-
-
-#### Malaria Epidemiology
-
-* Diagnostic methods and their measured quantities  
-* Preventive interventions
-  * Vector control
-  * Chemoprevention/protection
-  * Vaccines
-
 ### Crash Course Objectives
+
 During Week 0, we will host a malaria epidemiology crash course, focused on these learning objectives:  
 
 1. Objective 1  
 2. Objective 2
 
+### Pre-Requisites
 
+The crash course in Week 0 will assume familiarity with certain concepts from these review articles:
+
+#### General Epidemiology
+
+[StatPearls - Epidemiology of Study Design](https://www.ncbi.nlm.nih.gov/books/NBK470342/)  
+
+* Observational vs. Cohort vs. Experimental Studies
+
+[CDC Principles of Epidemiology in Public Health Practice](https://www.cdc.gov/csels/dsepd/ss1978/SS1978.pdf)
+
+* Lesson One: Intro to Epidemiology  
+  * Key features and applications of descriptive & analytic epidemiology\
+* Lesson Two: Summarizing Data  
+  * Calculating and interpreting mean, median, mode, ranges, variance, standard deviation, and confidence intervals\
+* Lesson Three: Measures of Risk  
+  * Calculating and interpreting ratios, proportions, incidence rates, mortality rates, prevalence, and years of potential life lost
+
+[Identifying and Avoiding Bias in Research (Pannucci & Wilkins)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917255/)
+
+
+#### Malaria Epidemiology
+[Nature Reviews Disease Primers - Malaria: Epidemiology](https://www.nature.com/articles/nrdp201750#Sec3)
+
+* The vector  
+* The parasite  
+* The disease
+
+#### Malaria Pathophysiology
+
+[Nature Reviews Disease Primers - Malaria: Mechanisms/Pathophysiology](https://www.nature.com/articles/nrdp201750#Sec9)
+
+* The red blood cell stage  
+* Immune evasion and host immunity  
+* Disease pathogenesis
+
+
+#### Malaria Diagnosis & Interventions
+
+[Nature Reviews Disease Primers - Malaria: Diagnosis, Screening and Prevention](https://www.nature.com/articles/nrdp201750#Sec13)  
+
+* Diagnostic methods and their measured quantities  
+* Prevention in vulnerable populations  
+  * Vector control  
+  * Chemoprevention/protection  
+  * Vaccines
