@@ -78,7 +78,7 @@ The first assignment asks you to demonstrate your ability to use the pre-requisi
             -   ...  
         -   `my_script.py`  
 
-2.  Import the following modules: `pandas`, `numpy`
+2.  Import the following modules: `pandas`, `numpy`, `os`
 
 3.  Combine data from the `output.csv` file in each `example_data/simulation/` sub-folder into a single DataFrame, with the following modifications:  
 
