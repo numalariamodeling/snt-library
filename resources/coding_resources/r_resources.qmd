@@ -9,10 +9,27 @@ format:
 
 R is a programming language for statistical computing and graphics.
 
+# RStudio Cheatsheets
+
+[R Syntax Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/syntax.pdf)
+
+[Base R Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/base-r.pdf)
 
 [RMarkdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 
-[GGplot2 Data Visualization Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/data-visualization.pdf)
+[tidyr Data Importation Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/data-import.pdf)
+
+[tidyr Data Cleaning Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/tidyr.pdf)
+
+[dplyr Data Transformation Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf)
+
+[stringr String Manipulation Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/strings.pdf)
+
+[sf Spatial Manipulation Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/sf.pdf)
+
+[ggplot2 Data Visualization Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/data-visualization.pdf)
+
+# Data Carpentry Resources
 
 [Data Carpentry - Manipulating Data with tidyr and dplyr](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
 

@@ -137,7 +137,7 @@
     "href": "resources/coding_resources/r_resources.html",
     "title": "R",
     "section": "",
-    "text": "R is a programming language for statistical computing and graphics.\nRMarkdown Cheatsheet\nGGplot2 Data Visualization Cheatsheet\nData Carpentry - Manipulating Data with tidyr and dplyr\nData Carpentry - R for Geospatial Data"
+    "text": "R is a programming language for statistical computing and graphics.\n\nRStudio Cheatsheets\nR Syntax Cheatsheet\nBase R Cheatsheet\nRMarkdown Cheatsheet\ntidyr Data Importation Cheatsheet\ntidyr Data Cleaning Cheatsheet\ndplyr Data Transformation Cheatsheet\nstringr String Manipulation Cheatsheet\nsf Spatial Manipulation Cheatsheet\nggplot2 Data Visualization Cheatsheet\n\n\nData Carpentry Resources\nData Carpentry - Manipulating Data with tidyr and dplyr\nData Carpentry - R for Geospatial Data"
   },
   {
     "objectID": "resources/coding_resources/quest_resources.html",
