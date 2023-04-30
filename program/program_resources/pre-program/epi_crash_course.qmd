@@ -19,7 +19,7 @@ During Week 0, we will host a malaria epidemiology crash course, focused on thes
 
 ### Pre-Requisites
 
-The crash course in Week 0 will assume familiarity with certain concepts from these review articles:
+The crash course in Week 0 will assume familiarity with certain concepts from these review resources:
 
 #### General Epidemiology
 

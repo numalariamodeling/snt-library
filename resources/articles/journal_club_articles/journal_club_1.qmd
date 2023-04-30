@@ -5,7 +5,7 @@ author:
   -  Monique Ambrose
   -  Beatriz Galatas
   -  et al.
-doi: https://doi.org/10.21203/rs.3.rs-2335288/v1
+doi: https://doi.org/10.1186/s12936-023-04563-w
 page-layout: article
 ---
 
