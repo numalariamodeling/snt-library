@@ -2,6 +2,7 @@
 title: "Git"
 weight: 3
 listing:
+  id: git-pages
   contents: "git_resources/*.qmd"
   type: grid
   fields: [title, description]
@@ -10,3 +11,8 @@ listing:
 ---
 
 Git is a popular version control software to manage codes, especially in a collaborative environment. 
+
+:::{#git-pages}
+:::
+
+[Ten simple rules for taking advantage of Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947)

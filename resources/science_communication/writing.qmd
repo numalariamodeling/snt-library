@@ -2,9 +2,21 @@
 title: "Writing Tips"
 weight: 1
 listing:
+  id: writing-pages
   type: grid
   grid-columns: 1
+  fields: [title]
   contents: writing_pages/*.qmd
   sort: weight
 ---
 
+::: {#writing-pages}
+:::
+
+[Ten simple rules for improving your writing productivity](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006379)  
+
+[Writing readable sentences](https://www.northwestern.edu/climb/resources/written-communication/5-principles-readable-sentences.html)  
+
+[Creating coherent paragraphs](https://www.northwestern.edu/climb/resources/written-communication/Creating-Coherent-Paragraphs.html)  
+
+[PLoS Writing Center](https://plos.org/resources/writing-center/) - A collection of free, practical guides and hands-on resources for authors looking to improve their scientific publishing skillset.

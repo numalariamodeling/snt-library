@@ -4,7 +4,7 @@ weight: 4
 listing:
   contents: "science_communication/*.qmd"
   type: grid
-  fields: [title, description]
+  fields: [title]
   grid-columns: 1
   sort: weight
 ---

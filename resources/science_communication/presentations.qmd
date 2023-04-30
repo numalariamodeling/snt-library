@@ -8,5 +8,6 @@ format:
 ---
 
 
-* [Ten simple rules for making good oral presentations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1857815/)  
-    * More from the [PLoS Curated Collections](https://collections.plos.org/collection/ten-simple-rules/)
+[Ten simple rules for making good oral presentations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1857815/)  
+
+[Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005373)
