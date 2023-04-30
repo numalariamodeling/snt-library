@@ -79,7 +79,19 @@ I am asking for this information not to evaluate if you are working hard enough,
 
 ## Asking for Help
 
-### Troubleshooting
+### Help with Code
+
+Encountering errors in programming is inevitable and part of the learning process. They provide a learning opportunity and while annoying should not be seen as discouragement to continue. It is always good to try to resolve any issues yourself, however if it takes too much time, do not hesitate to ask for help. Many of the issues have been encountered by others as well and can be resolved in no time!
+
+*Whenever asking for help with errors, please provide detailed information about:*
+
+-   *the error message*
+-   *the script you are trying to run*
+-   *what you already tried to resolve the error*
+
+*Depending on the type of error further details on your system setup and program versions might be needed as well. This will ensure that whoever responds can give the best answer in less time.*
+
+#### Troubleshooting Steps
 
 1.  Check for Existing Answers
 
