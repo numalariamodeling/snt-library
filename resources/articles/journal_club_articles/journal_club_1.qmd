@@ -1,12 +1,12 @@
 ---
 title: "Journal Club 1: High-Burden High-Impact Modeling: Nigeria Case Study"
 author: 
-  -  Ifeoma D. Ozodiegwu
-  -  Monique Ambrose
-  -  Beatriz Galatas
+  -  Ozodiegwu, I.D.
+  -  Ambrose, M.
+  -  Galatas, B.
   -  et al.
 doi: https://doi.org/10.1186/s12936-023-04563-w
 page-layout: article
 ---
 
-**Application of mathematical modeling to inform national malaria intervention planning in Nigeria**
+**Application of mathematical modelling to inform national malaria intervention planning in Nigeria**
