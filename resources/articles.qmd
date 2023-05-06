@@ -58,11 +58,15 @@ format:
 
 (**2019**) [Reducing malaria burden and accelerating elimination with long-lasting systemic insecticides: a modelling study of three potential use cases](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-019-2942-4)
 
+(**2023**) [Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modelling analysis](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-023-04564-9)
+
 #### Vaccines
 
 (**2013**) [A mathematical model of the impact of present and future malaria vaccines](https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-12-126)
 
 (**2016**) [Public health impact and cost-effectiveness of the RTS,S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models](https://www.sciencedirect.com/science/article/pii/S0140673615007254)
+
+(**2023**) [Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modelling analysis](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-023-04564-9)
 
 #### Gene Drives
 
@@ -72,7 +76,11 @@ format:
 
 (**2021**) [Vector genetics, insecticide resistance and gene drives: An agent-based modeling approach to evaluate malaria transmission and elimination](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008121)
 
-### Zambia Elimination (Multi-Intervention)
+(**2022**) [Population replacement gene drive characteristics for malaria elimination in a range of seasonal transmission settings: a modelling study](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-022-04242-2)
+
+(**2022**) [Gene drive mosquitoes can aid malaria elimination by retarding Plasmodium sporogonic development](https://www.science.org/doi/full/10.1126/sciadv.abo1733)
+
+### Intervention Combinations
 
 (**2016**) [Optimal Population-Level Infection Detection Strategies for Malaria Control and Elimination in a Spatial Model of Malaria Transmission](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004707)
 
@@ -81,3 +89,7 @@ format:
 (**2017**) [Effectiveness of reactive case detection for malaria elimination in three archetypical transmission settings: a modelling study](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-017-1903-z)
 
 (**2019**) [Effective strategies for preventing reestablishment of malaria in areas with recent elimination and high transmission potential](https://www.biorxiv.org/content/10.1101/766048v1.abstract)
+
+(**2023**) [An archetypes approach to malaria intervention impact mapping: a new framework and example application](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-023-04535-0)
+
+(**2023**) [Application of mathematical modelling to inform national malaria intervention planning in Nigeria](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-023-04563-w)
