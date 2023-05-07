@@ -1,5 +1,5 @@
 ---
-title: "Guidance for Journal Club"
+title: "Expectations for Journal Club"
 weight: 6
 format: 
   html: 
@@ -7,7 +7,7 @@ format:
     toc-depth: 5
 ---
 
-Guidance for participating in Journal Club as a leader or discussant
+Expectations for participating in Journal Club as a leader or discussant
 
 ### Objectives of the applied modeling journal club
 
