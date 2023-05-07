@@ -8,13 +8,18 @@ format:
 ---
 
 
-### Introductory Research Talk
+### Presentation 0: Introductory Research Talk
 
+A 30-minute talk showcasing 1 or 2 past or current projects to introduce yourself, your work, and your interests to the program participants, program staff, and team at Northwestern.
 
-### Specific Aims Presentation
+### Presentation 1: Specific Aims Presentation
 
+A 15-minute talk presenting the proposed research project using EMOD that you will be carrying out in the remainder of the program. Focus on the motivation, background, and proposed approach. Do not present results. This presentation will be followed by a feedback session with the other participants and program staff.
 
-### Work-in-Progress Presentation
+### Presentation 2: Work-in-Progress Presentation
 
+A 20-minute talk presenting the research project. Focus on the motivation, background, approach, initial results, and next steps. This presentation will be followed by a feedback session with the other participants and program staff.
 
-### Final Project Presentation
+### Presentation 3: Final Project Presentation
+
+A 30-minute talk presenting the research project. Focus on the motivation, background, approach, results, interpretation, and next steps. This presentation will be followed by a feedback session with the other participants and program staff.
