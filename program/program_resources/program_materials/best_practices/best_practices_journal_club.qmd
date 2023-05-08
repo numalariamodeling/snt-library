@@ -17,16 +17,18 @@ Even if a particular paper is of limited relevance to someone's project, each pa
 
 ### Guidance for leaders
 
-Journal club leaders are expected to be able to walk discussants through the paper, explaining the following on the *content* of the paper:
-* Motivation for the work
-* Approach used
-* Walk through each figure, including methods and results
-* Main conclusions
+Journal club leaders are expected to be able to walk discussants through the paper, explaining the following on the *content* of the paper:  
 
-Journal club leaders should also have prepared their own thoughts on the *analysis* of the paper:
-* Strengths and limitations of the model
-* To what extent the conclusions are supported by the results
-* What further evidence would support the modeling results
+* Motivation for the work  
+* Approach used  
+* Walk through each figure, including methods and results  
+* Main conclusions  
+
+Journal club leaders should also have prepared their own thoughts on the *analysis* of the paper:  
+
+* Strengths and limitations of the model  
+* To what extent the conclusions are supported by the results  
+* What further evidence would support the modeling results  
 * What would be other interesting questions to ask, using either the approach in the paper or other approaches (modeling or not)
 
 #### Before
