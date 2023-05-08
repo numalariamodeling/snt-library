@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
@@ -268,9 +268,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ideas-outline" id="toc-ideas-outline" class="nav-link active" data-scroll-target="#ideas-outline">Ideas Outline</a></li>
-  <li><a href="#outline-draft" id="toc-outline-draft" class="nav-link" data-scroll-target="#outline-draft">Outline Draft</a></li>
-  <li><a href="#full-drafts-1-5" id="toc-full-drafts-1-5" class="nav-link" data-scroll-target="#full-drafts-1-5">Full Drafts 1-5</a></li>
+  <li><a href="#ideas-list" id="toc-ideas-list" class="nav-link active" data-scroll-target="#ideas-list">Ideas List</a></li>
+  <li><a href="#outline-draft-1" id="toc-outline-draft-1" class="nav-link" data-scroll-target="#outline-draft-1">Outline Draft 1</a></li>
+  <li><a href="#outline-draft-2" id="toc-outline-draft-2" class="nav-link" data-scroll-target="#outline-draft-2">Outline Draft 2</a></li>
+  <li><a href="#full-draft-1" id="toc-full-draft-1" class="nav-link" data-scroll-target="#full-draft-1">Full Draft 1</a></li>
+  <li><a href="#full-drafts-2-4" id="toc-full-drafts-2-4" class="nav-link" data-scroll-target="#full-drafts-2-4">Full Drafts 2-4</a></li>
   <li><a href="#final-draft" id="toc-final-draft" class="nav-link" data-scroll-target="#final-draft">Final Draft</a></li>
   </ul>
 </nav>
@@ -288,23 +290,49 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<section id="ideas-outline" class="level3">
-<h3 class="anchored" data-anchor-id="ideas-outline">Ideas Outline</h3>
+<section id="ideas-list" class="level3">
+<h3 class="anchored" data-anchor-id="ideas-list">Ideas List</h3>
+<ul>
+<li>A list of at least 3 topics or research ideas for your EMOD project in applied malaria modeling</li>
+</ul>
 </section>
-<section id="outline-draft" class="level3">
-<h3 class="anchored" data-anchor-id="outline-draft">Outline Draft</h3>
+<section id="outline-draft-1" class="level3">
+<h3 class="anchored" data-anchor-id="outline-draft-1">Outline Draft 1</h3>
+<ul>
+<li>Draft 2-3 specific aims for two of your applied malaria modeling ideas, along with the appropriate context and motivation as bullet points</li>
+</ul>
 </section>
-<section id="full-drafts-1-5" class="level3">
-<h3 class="anchored" data-anchor-id="full-drafts-1-5">Full Drafts 1-5</h3>
+<section id="outline-draft-2" class="level3">
+<h3 class="anchored" data-anchor-id="outline-draft-2">Outline Draft 2</h3>
+<ul>
+<li>Pick one of your applied malaria modeling ideas</li>
+<li>Complete the “structure of an aims page” outline for this idea, filling in each element. For elements where you are not sure how to complete, review with one of the instructional staff</li>
+</ul>
+</section>
+<section id="full-draft-1" class="level3">
+<h3 class="anchored" data-anchor-id="full-draft-1">Full Draft 1</h3>
+<ul>
+<li>Using your “structure of an aims page” outline, write the entire first draft of the Aims page, including all sections.</li>
+</ul>
+</section>
+<section id="full-drafts-2-4" class="level3">
+<h3 class="anchored" data-anchor-id="full-drafts-2-4">Full Drafts 2-4</h3>
+<ul>
+<li>Each new draft should be incorporate the feedback you received on the previous draft and anything new you have learned from the program, from literature review, or from executing the project. If you have chosen to reject a piece of feedback, provide a reason. If you need to change topics entirely, do so by returning to the <em>Outline Draft 2</em> step and moving forward from there with the new research question.</li>
+</ul>
 </section>
 <section id="final-draft" class="level3">
 <h3 class="anchored" data-anchor-id="final-draft">Final Draft</h3>
+<ul>
+<li>This should be a very polished Specific Aims page on your applied malaria project that you would be proud to submit to a funding agency.</li>
+</ul>
 <a href="https://www.numalariamodeling.org/">
 
 </a></section><a href="https://www.numalariamodeling.org/">
@@ -351,7 +379,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -387,24 +432,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

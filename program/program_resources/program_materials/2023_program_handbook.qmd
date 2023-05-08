@@ -4,8 +4,10 @@ listing:
   id: "expectations"
   contents: 
     - ../../../expectations/*.qmd
+    - best_practices/best_practices_journal_club.qmd
   type: grid
   grid-columns: 1
+  fields: [title]
 weight: 2
 format: 
   html: 
