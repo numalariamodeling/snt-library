@@ -30,10 +30,11 @@ A comprehensive guide to this year's curriculum, assignments, and learning objec
 |------|---------------------------------|------------------------|
 | 0    | Pre-Program Coding Assignment   | **June 23, 2023**      |
 | 2    | Introductory Research Talk      | **July 3, 2023**       |
-| 2    | Specific Aims Ideas Outline     | **July 7, 2023**       |
-| 3    | Specific Aims Outline Draft     | **July 14, 2023**      |
-| 5    | Specific Aims Full Draft #1     | **July 28, 2023**      |
-| 6    | Specific Aims Presentation      | **August 1, 2023**     |
+| 2    | Specific Aims Ideas             | **July 7, 2023**       |
+| 3    | Specific Aims Outline #1        | **July 14, 2023**      |
+| 4    | Specific Aims Outline #2        | **July 21, 2023**      |
+| 6    | Specific Aims Full Draft #1     | **July 31, 2023**      |
+| 6    | Specific Aims Presentation      | **August 2, 2023**     |
 | 8    | Specific Aims Full Draft #2     | **August 18. 2023**    |
 | 10   | Specific Aims Full Draft #3     | **September 1, 2023**  |
 | 11   | Work-in-Progress Presentation   | **September 5, 2023**  |
