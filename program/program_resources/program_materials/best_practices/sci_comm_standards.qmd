@@ -6,5 +6,6 @@ format:
     toc: true
     toc-depth: 5
 ---
+[[Back to Best Practices](../nu_team_best_practices.qmd)]{.aside}
 
 Best practices for writing, presentations, and designing plots/figures

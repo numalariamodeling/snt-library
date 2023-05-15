@@ -8,6 +8,7 @@ author:
 doi: https://doi.org/10.1038/nature16040
 page-layout: article
 ---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
 
 **Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies**
 

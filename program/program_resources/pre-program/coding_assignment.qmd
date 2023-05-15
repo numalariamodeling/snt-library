@@ -7,6 +7,7 @@ format:
     toc-depth: 5
 page-layout: full
 ---
+[[Back to Pre-Program Checklist](../pre_program_checklist.qmd)]{.aside}
 
 Complete the pre-program Coding Assignment to (re)familiarize yourself with some basics in `R` and `python`
 

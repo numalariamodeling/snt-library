@@ -8,6 +8,7 @@ author:
 doi: https://doi.org/10.1186/s12936-022-04099-5
 page-layout: article
 ---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
 
 **Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling**
 

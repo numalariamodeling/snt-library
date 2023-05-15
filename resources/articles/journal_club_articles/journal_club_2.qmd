@@ -7,6 +7,7 @@ author:
 doi: https://doi.org/10.1186/s12879-018-3319-y
 page-layout: article
 ---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
 
 **Seasonality and heterogeneity of malaria transmission determine success of interventions in high-endemic settings: a modeling study**
 

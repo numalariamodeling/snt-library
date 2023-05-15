@@ -9,6 +9,8 @@ listing:
 page-layout: article
 ---
 
+[[Back to Pre-Program Checklist](../pre_program_checklist.qmd)<br>[Back to Journal Club](../../../resources/articles/journal_club.qmd)]{.aside}
+
 Read the assigned article and review the [Journal Club Best Practices](../program_materials/best_practices/best_practices_journal_club.qmd) to prepare
 
 :::{#JC0}

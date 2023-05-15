@@ -11,6 +11,7 @@ author:
 doi: https://doi.org/10.1016/j.epidem.2022.100570
 page-layout: article
 ---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
 
 **Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review**
 

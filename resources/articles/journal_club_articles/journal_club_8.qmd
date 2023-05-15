@@ -8,6 +8,7 @@ author:
 doi: https://www.sciencedirect.com/science/article/pii/S0140673615007254
 page-layout: article
 ---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
 
 **Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models**
 

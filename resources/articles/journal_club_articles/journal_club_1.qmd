@@ -8,5 +8,6 @@ author:
 doi: https://doi.org/10.1186/s12936-023-04563-w
 page-layout: article
 ---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
 
 **Application of mathematical modelling to inform national malaria intervention planning in Nigeria**
