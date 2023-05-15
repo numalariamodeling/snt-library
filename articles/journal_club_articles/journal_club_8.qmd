@@ -1,0 +1,27 @@
+---
+title: "Journal Club 8: Cross-Model Comparisons"
+author: 
+  -  Penny, M. A. 
+  -  Verity, R. 
+  -  Bever, C. A. 
+  -  et al. 
+doi: https://www.sciencedirect.com/science/article/pii/S0140673615007254
+page-layout: article
+---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
+
+**Public health impact and cost-effectiveness of the RTS, S/AS01 malaria vaccine: a systematic comparison of predictions from four mathematical models**
+
+### Guiding Questions
+
+1. Why did the authors use multiple mathematical models?  
+2. What were some of the key similarities and differences between the four models used?  
+3. How did the authors estimate the potential public health impact of the RTS,S/AS01 malaria vaccine, and what were some of the key assumptions and inputs used in these calculations?  
+4. How did the authors validate their models and assess their predictive accuracy?  
+5. Did all four models “agree” on the additional impact of the four-dose schedule? Should they?  
+
+
+#### Recommended further reading
+
+-  Smith, N.R., Trauer, J.M., Gambhir, M. et al. [Agent-based models of malaria transmission: a systematic review](https://doi.org/10.1186/s12936-018-2442-y). Malar J 17, 299 (2018).
+

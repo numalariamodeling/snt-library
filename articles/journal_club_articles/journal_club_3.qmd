@@ -1,0 +1,17 @@
+---
+title: "Journal Club 3: Intervention Mixing"
+author: 
+  -  Runge M.
+  -  Stahlfeld A.
+  -  Ambrose M.
+  -  et al.
+doi: https://doi.org/10.21203/rs.3.rs-2710667/v1
+page-layout: article
+---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
+
+**Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis**
+
+### Recommended further reading
+
+-   Ozodiegwu, I. D., Ambrose, M., Battle, K. E., Bever, C., Diallo, O., Galatas, B., ... & Gerardin, J. (2021). [Beyond national indicators: adapting the Demographic and Health Surveys' sampling strategies and questions to better inform subnational malaria intervention policy](https://link.springer.com/article/10.1186/s12936-021-03646-w). Malaria journal, 20(1), 1-7

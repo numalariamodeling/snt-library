@@ -1,0 +1,13 @@
+---
+title: "Journal Club 6: Reactive Case Detection in Zambia"
+author: 
+  -  Gerardin, J.
+  -  Bever, C.A.
+  -  Bridenbecker D.
+  -  et al.
+doi: (https://doi-org.turing.library.northwestern.edu/10.1186/s12936-017-1903-z
+page-layout: article
+---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
+
+**Effectiveness of reactive case detection for malaria elimination in three archetypical transmission settings: a modelling study**

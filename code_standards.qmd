@@ -1,0 +1,42 @@
+---
+title: "Code Standards"
+weight: 3
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+---
+[[Back to Best Practices](../nu_team_best_practices.qmd)]{.aside}
+
+Version control, documentation, project management, and debugging
+
+### Github source control
+
+All code must be kept on GitHub. Be sure to commit and push regularly. Best practice is to commit several times a day when actively coding and push AT LEAST daily. The end of the workday is a great time to push. This serves two important purposes:  
+1.	It keeps us from losing track of our code if we overwrite a file or want to revert to an older version of a script. Every version of our code that has been committed and pushed can be retrieved if lost or overwritten. Code that has not been committed and push cannot be retrieved.  
+2.	Sharing our code lets us learn from each other and reuse code developed by other team members. If your repository is private, your code is only visible to those with whom you have explicitly shared it. 
+
+Git can be tricky and we’ve all had to deal with git problems. Please don’t hesitate to ask for help on Slack (#help) or search the web as there are many existing resources, such as this [tutorial from GitHub](https://docs.github.com/en/get-started/quickstart/hello-world). You will learn it eventually and we have a lot of expertise on our team available to help make your life easier. Many of us use Sourcetree or GitHub Desktop to manage our repos.
+
+
+#### Commit messages & descriptions
+
+### Documentation
+
+### Troubleshooting
+
+### Managing your project
+
+It is important to keep detailed notes for your project including design, progress, and analyses. The notes should be as comprehensive as possible to show so you can keep track of methods, changes you make, etc. By including all these details, you will be better equipped to make forward progress rather than going in circles and to eventually publish your results. A few key points:
+
+* It is never too early to start your project notes! You should start them as soon as you begin a project, so you have details from the entire process.  
+    * There are many different platforms that you can use to take your project notes depending on your preferences. Team members often use Word or Rmarkdown but there are other notes apps that can be just as effective. It is preferable to take online notes as they are both searchable and shareable.  
+* Template and example project notes files are available:
+    * [Project Notes - Word Template](https://www.dropbox.com/scl/fi/vpgmz2sn4sz4cbjaz7l0a/Project-Notes-Template.docx?dl=0&rlkey=ujad22gm0g9fa84w6e803wtmz)  
+    * [Project Notes - Markdown Template](https://www.dropbox.com/s/m6w2usdeuskzkuy/project_notes_template.md?dl=0)  
+* Stay organized and keep track of your workflow. You should include all necessary information for writing up the methods and results sections of a paper in addition to keeping track of incremental changes along the way.  
+    * Record what you did, what you saw as you made changes to your project. Keep good records of everything you try because you will try a lot and won’t remember everything you did.   
+    * It can be helpful to include all the details of your simulations at each update (i.e., Simulation ran for X years with X intervention details, etc.), even if this seems repetitive, so you can get a quick idea of what is going on. These detailed progress notes will help you avoid repeating the same steps unnecessarily.  
+    * Be sure to include plots and discussion notes as you go as these will help you understand the outcomes of what you did and your thoughts on it.  
+        * Useful tools include [snippingtool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) or [Greenshot](https://getgreenshot.org/) to make screenshots of plots and error messages, and writing slack messages to yourself or have another place for quick reminders, code snippets, or notes.  
+* Your project notes should be accessible to anyone with whom you are regularly collaborating. For faculty enrichment, be sure to share your notes with Jaline, your buddy, and the rest of the instructional staff. We will go through this together during the project setup session.

@@ -1,0 +1,17 @@
+---
+title: "Journal Club 7: Diagnostics for Malaria Elimination"
+author: 
+  -  Slater, H. 
+  -  Ross, A. 
+  -  Ouédraogo, A. 
+  -  et al.
+doi: https://doi.org/10.1038/nature16040
+page-layout: article
+---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
+
+**Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies**
+
+#### Recommended further reading
+
+-   Gerardin, J., Ouédraogo, A.L., McCarthy, K.A. et al. [Characterization of the infectious reservoir of malaria with an agent-based model calibrated to age-stratified parasite densities and infectiousness](https://doi.org/10.1186/s12936-015-0751-y). Malar J 14, 231 (2015).

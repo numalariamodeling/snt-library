@@ -1,0 +1,18 @@
+---
+title: "Prepare for Journal Club 0"
+weight: 3
+listing:
+  id: JC0
+  type: grid
+  grid-columns: 1
+  contents: "../../../../resources/articles/journal_club_articles/journal_club_0.qmd"
+page-layout: article
+---
+
+[[Back to Pre-Program Checklist](../pre_program_checklist.qmd)<br>[Back to Journal Club](../../../resources/articles/journal_club.qmd)]{.aside}
+
+Read the assigned article and review the [Journal Club Best Practices](../program_materials/best_practices/best_practices_journal_club.qmd) to prepare
+
+:::{#JC0}
+:::
+

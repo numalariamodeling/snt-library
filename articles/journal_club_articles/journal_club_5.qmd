@@ -1,0 +1,17 @@
+---
+title: "Journal Club 5: Subnational Tailoring in Tanzania"
+author: 
+  -  Runge, M.
+  -  Thawer, S.G.
+  -  Molteni, F. 
+  -  et al. 
+doi: https://doi.org/10.1186/s12936-022-04099-5
+page-layout: article
+---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
+
+**Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling**
+
+#### Recommended additional reading
+
+-   Ozodiegwu, I. D., Ambrose, M., Galatas, B., Runge, M., Nandi, A., Okuneye, K., ... & Gerardin, J. (2023). [Application of mathematical modelling to inform national malaria intervention planning in Nigeria](https://doi.org/10.1186/s12936-023-04563-w). Malaria Journal, 22(1), 1-19.

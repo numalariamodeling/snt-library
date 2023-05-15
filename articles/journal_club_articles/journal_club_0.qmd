@@ -1,0 +1,29 @@
+---
+title: "Journal Club 0: Use of Mathematical Modeling in WHO Guidelines"
+author: 
+  -  Lo, N. C. 
+  -  Andrejko, K.
+  -  Shukla, P.
+  -  Baker, T.
+  -  Sawin, V. I.
+  -  Norris, S. L.
+  -  Lewnard, J. A.
+doi: https://doi.org/10.1016/j.epidem.2022.100570
+page-layout: article
+---
+[[Back to Journal Club](../journal_club.qmd)]{.aside}
+
+**Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review**
+
+#### Guiding Questions
+
+
+1. What are the benefits and limitations of using mathematical modeling studies to guide global health policy?
+
+2. How can policymakers ensure that mathematical modeling studies are conducted and reported in a transparent and rigorous manner?  
+
+3. What ethical considerations should be taken into account when using mathematical modeling studies to inform policy decisions?  
+
+4. How can stakeholders with different perspectives (e.g., scientists, policymakers, patients) collaborate effectively to incorporate mathematical modeling evidence into guidelines?  
+
+5. What are some potential areas for future research in this field?
