@@ -17,13 +17,6 @@ page-layout: article
 
 #### Guiding Questions
 
-
-1. What are the benefits and limitations of using mathematical modeling studies to guide global health policy?
-
-2. How can policymakers ensure that mathematical modeling studies are conducted and reported in a transparent and rigorous manner?  
-
-3. What ethical considerations should be taken into account when using mathematical modeling studies to inform policy decisions?  
-
-4. How can stakeholders with different perspectives (e.g., scientists, policymakers, patients) collaborate effectively to incorporate mathematical modeling evidence into guidelines?  
-
-5. What are some potential areas for future research in this field?
+1. Modeling-informed recommendations were more likely to be conditional (versus strong), and to be based on evidence that was assessed as lower quality. Why might this be?  
+2. How does reporting model limitations and assumptions affect trust in model validity?  
+3. How does the use of mathematical modeling differ for infectious disease vs other disease guidelines?
