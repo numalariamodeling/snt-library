@@ -334,8 +334,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#installation-methods" id="toc-installation-methods" class="nav-link active" data-scroll-target="#installation-methods">Installation Methods</a>
   <ul>
   <li><a href="#prerequisites-login-load-python" id="toc-prerequisites-login-load-python" class="nav-link" data-scroll-target="#prerequisites-login-load-python">Prerequisites, Login, Load Python</a></li>
-  <li><a href="#installation-with-singularity-slurm_bridge-mode" id="toc-installation-with-singularity-slurm_bridge-mode" class="nav-link" data-scroll-target="#installation-with-singularity-slurm_bridge-mode">Installation with Singularity – <code>SLURM_BRIDGE</code> Mode</a></li>
-  <li><a href="#installation-with-virtual-environment-slurm_local-mode-alternative" id="toc-installation-with-virtual-environment-slurm_local-mode-alternative" class="nav-link" data-scroll-target="#installation-with-virtual-environment-slurm_local-mode-alternative">Installation with Virtual Environment – <code>SLURM_LOCAL</code> Mode (Alternative)</a></li>
+  <li><a href="#installation-with-virtual-environment-slurm_local-mode" id="toc-installation-with-virtual-environment-slurm_local-mode" class="nav-link" data-scroll-target="#installation-with-virtual-environment-slurm_local-mode">Installation with Virtual Environment – <code>SLURM_LOCAL</code> Mode</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -362,7 +361,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="installation-methods" class="level2">
 <h2 class="anchored" data-anchor-id="installation-methods">Installation Methods</h2>
-<p>Below are instructions on how to install emodpy from the terminal, particularly for use on QUEST, or other linux-based clusters. The following instructions are specific to QUEST but can easily be adapted to other clusters or HPCs that use SLURM scheduling. There are existing virtual environments (one for <code>SLURM_BRIDGE</code>, emodpy_b, and one for <code>SLURM_LOCAL</code>, emodpy_alt) that are up-to-date on b1139 and available for team use. If choosing to use these it is recommended that you set up an alias in your <code>.bashrc</code> file for ease of access, but otherwise require no installation. However, if you would like to use your own virtual environment or version of emodpy/idmtools you can use these to setup on your home directory.</p>
+<p>Below are instructions on how to install emodpy from the terminal, particularly for use on QUEST, or other linux-based clusters. The following instructions are specific to QUEST but can easily be adapted to other clusters or HPCs that use SLURM scheduling. There is an existing virtual environments (emodpy_alt) that is up-to-date on b1139 and available for team use. If choosing to use these it is recommended that you set up an alias in your <code>.bashrc</code> file for ease of access, but otherwise require no installation. However, if you would like to use your own virtual environment or version of emodpy/idmtools you can use these to setup on your home directory.</p>
 <section id="prerequisites-login-load-python" class="level3">
 <h3 class="anchored" data-anchor-id="prerequisites-login-load-python">Prerequisites, Login, Load Python</h3>
 <ol type="1">
@@ -385,64 +384,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> https://packages.idmod.org:443/artifactory/idm-docker-public/idmtools/rocky_mpi/dtk_run_rocky_py39.sif <span class="at">-o</span> dtk_run_rocky_py39.sif</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
 </section>
-<section id="installation-with-singularity-slurm_bridge-mode" class="level3">
-<h3 class="anchored" data-anchor-id="installation-with-singularity-slurm_bridge-mode">Installation with Singularity – <code>SLURM_BRIDGE</code> Mode</h3>
+<section id="installation-with-virtual-environment-slurm_local-mode" class="level3">
+<h3 class="anchored" data-anchor-id="installation-with-virtual-environment-slurm_local-mode">Installation with Virtual Environment – <code>SLURM_LOCAL</code> Mode</h3>
+<p><em>NOTE: A shared environment exists in /projects/b1139/environments/emodpy_alt for <code>SLURM_LOCAL</code>. The following instructions will teach you how to make your own installation if desired</em></p>
 <ol type="1">
-<li><p>The preferred method of installation is to use a Singularity image, where you first load a module and then pull an idmtools image:</p>
+<li><p>Create a Python virtual environment, unload Python module, and activate virtual environment, which is named “myvenv” in the following:</p>
 <ul>
-<li><em>NOTE: this sif file already exists in <code>/projects/b1139/images/emodpy-malaria_2.4.3e.sif</code> and does not need to be reinstalled if you have access to the project</em></li>
+<li><em>NOTE: you may name the environment anything you like, “myvenv” is just an example</em></li>
 </ul>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">module</span> load singularity </span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">singularity</span> pull docker://idm-docker-public.packages.idmod.org/emodpy/emodpy-malaria:2.4.3e </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li><em>NOTE: If you chose not to use Singularity, see <a href="https://numalariamodeling.github.io/FE-2023-quarto-website/guides//guides/install_guide.html#installation-with-virtual-environment-slurm_local-mode-alternative">(Alternative) Install in virtual environment</a></em></li>
-</ul></li>
-<li><p>Then you must create a Python virtual environment, unload Python module, and activate virtual environment, which is named “myvenv” in the following:</p>
-<ul>
-<li><em>NOTE: A shared environment does not exist in for <code>SLURM_BRIDGE</code> in order to support logging for each user/bridge</em></li>
-</ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-m</span> venv <span class="op">&lt;</span>myvenv<span class="op">&gt;</span> </span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">module</span> unload python/3.8.4 </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> ./<span class="op">&lt;</span>myvenv<span class="op">&gt;</span>/bin/activate </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-m</span> venv <span class="op">&lt;</span>myvenv<span class="op">&gt;</span> </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">module</span> unload python/3.8.4 </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> ./<span class="op">&lt;</span>myvenv<span class="op">&gt;</span>/bin/activate </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><em>NOTE: The following step is only needed when a new idmtools Singularity image is available and you’ve previously installed packages in your home directory. This cleans up local packages from previous installations inside Singularity container</em></li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> –fr ~/.local/lib/python<span class="pp">*</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Install the idmtools slurm utils package:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>pip3 install idmtools<span class="op">-</span>slurm<span class="op">-</span>utils <span class="op">-</span>i https:<span class="op">//</span>packages.idmod.org<span class="op">/</span>api<span class="op">/</span>pypi<span class="op">/</span>pypi<span class="op">-</span>production<span class="op">/</span>simple </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Run the agent for <code>SLURM_BRIDGE</code> in background</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">idmtools-slurm-bridge</span> <span class="kw">&amp;</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Launch the terminal within the Singularity container</p>
-<ul>
-<li><em>NOTE: emodpy-malaria_2.4.3e.sif is the current image but is subject to change as updates are made</em></li>
-<li>After launching, you will see the Singularity prompt in the terminal, <code>Singularity&gt;</code>, from which you can run <code>pip3</code> list to show the available Singularity container packages, including emodpy-malaria.</li>
-</ul>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">singularity</span> exec emodpy-malaria_2.4.3e.sif bash</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co">#OR</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="ex">singularity</span> shell emodpy-malaria_2.4.3e.sif</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-</ol>
-</section>
-<section id="installation-with-virtual-environment-slurm_local-mode-alternative" class="level3">
-<h3 class="anchored" data-anchor-id="installation-with-virtual-environment-slurm_local-mode-alternative">Installation with Virtual Environment – <code>SLURM_LOCAL</code> Mode (Alternative)</h3>
-<p><em>NOTE: A shared environment exists in /projects/b1139/environments/emodpy_alt for <code>SLURM_LOCAL</code></em></p>
-<ol type="1">
-<li><p>Alternatively, you can install everything through a virtual environment. Create a Python virtual environment and activate (see step 2 above in Preferred Install)</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>pip3 install emodpy<span class="op">-</span>malaria <span class="op">--</span>index<span class="op">-</span>url<span class="op">=</span>https:<span class="op">//</span>packages.idmod.org<span class="op">/</span>api<span class="op">/</span>pypi<span class="op">/</span>pypi<span class="op">-</span>production<span class="op">/</span>simple </span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>pip3 install idmtools_platform_slurm <span class="op">--</span>index<span class="op">-</span>url<span class="op">=</span>https:<span class="op">//</span>packages.idmod.org<span class="op">/</span>api<span class="op">/</span>pypi<span class="op">/</span>pypi<span class="op">-</span>production<span class="op">/</span>simple</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-</ol>
-<ul>
-<li><p>currently need to also run the following to download the newest version of emodpy (in development) and overwrite the one that comes with emodpy-malaria:</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>pip3 install emodpy<span class="op">==</span><span class="fl">1.21.0</span>.dev0 <span class="op">--</span>index<span class="op">-</span>url<span class="op">=</span>https:<span class="op">//</span>packages.idmod.org<span class="op">/</span>api<span class="op">/</span>pypi<span class="op">/</span>pypi<span class="op">-</span>production<span class="op">/</span>simple <span class="op">--</span>no<span class="op">-</span>cache<span class="op">-</span><span class="bu">dir</span> <span class="op">--</span>pre</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-</ul>
-<ol start="2" type="1">
-<li>During installation of the shared venv on b1139, some issues arose that cause the installation to quit unexpectedly. This is seemingly an issue with access to the libgit2 module to build the pygit wheel. Libgit2 was installed within the emodpy_alt venv folder using these <a href="https://github.com/libgit2/pygit2/blob/master/docs/install.rst#libgit2-within-a-virtual-environment">instructions</a>. As it is now available, installation should hopefully avoid these issues in the future but it could occur with personal venvs (if team members choose to create their own environments).
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> –fr ~/.local/lib/python<span class="pp">*</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Install emodpy-malaria and idmtools_platform_slurm</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>pip3 install emodpy<span class="op">-</span>malaria <span class="op">--</span>index<span class="op">-</span>url<span class="op">=</span>https:<span class="op">//</span>packages.idmod.org<span class="op">/</span>api<span class="op">/</span>pypi<span class="op">/</span>pypi<span class="op">-</span>production<span class="op">/</span>simple </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>pip3 install idmtools_platform_slurm <span class="op">--</span>index<span class="op">-</span>url<span class="op">=</span>https:<span class="op">//</span>packages.idmod.org<span class="op">/</span>api<span class="op">/</span>pypi<span class="op">/</span>pypi<span class="op">-</span>production<span class="op">/</span>simple</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>During installation of the shared venv on b1139, some issues arose that cause the installation to quit unexpectedly. This is seemingly an issue with access to the libgit2 module to build the pygit wheel. Libgit2 was installed within the emodpy_alt venv folder using these <a href="https://github.com/libgit2/pygit2/blob/master/docs/install.rst#libgit2-within-a-virtual-environment">instructions</a>. As it is now available, installation should hopefully avoid these issues in the future but it could occur with personal venvs (if team members choose to create their own environments).</p>
 <ul>
 <li><em>NOTE: The above installation instructions are for emodpy-malaria, which includes installing idmtools and other dependencies by referencing the requirements.txt when using pip install. For more information on requirements.txt and pip install, see https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#using-requirements-files</em></li>
-<li><em>NOTE: IDM prefers us to use the bridged mode; however, local will work better with multiple login nodes and team venv sharing</em></li>
 </ul></li>
 </ol>
 <a href="https://www.numalariamodeling.org/">
