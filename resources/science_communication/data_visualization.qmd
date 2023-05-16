@@ -6,6 +6,7 @@ format:
     toc: true
     toc-depth: 5
 ---
+[[Back to Science Communication Resources](../science_communication.qmd)]{.aside}
 
 * [Ten simple rules for better figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)  
     * More from the [PLoS Curated Collections](https://collections.plos.org/collection/ten-simple-rules/)

@@ -6,6 +6,7 @@ format:
     toc: true
     toc-depth: 5
 ---
+[[Back to Writing Resources](../writing.qmd)]{.aside}
 
 * [Video 1: Rhetorical Pattern of Introductions in Aims Pages Patterns](https://www.northwestern.edu/climb/resources/written-communication/aims-pages-part-1-the-rhetorical-pattern-of-introductions-in-aims-pages.html)  
 * [Video 2: Specific Aims](https://www.northwestern.edu/climb/resources/written-communication/aims-pages-part-2-specific-aims.html)  

@@ -9,6 +9,7 @@ listing:
   sort: weight
   grid-columns: 1
 ---
+[[Back to Coding Resources](../coding_resources.qmd)]{.aside}
 
 Git is a popular version control software to manage codes, especially in a collaborative environment. 
 

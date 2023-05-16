@@ -872,28 +872,28 @@
     "href": "resources/coding_resources/git_resources.html",
     "title": "Git",
     "section": "",
-    "text": "Git is a popular version control software to manage codes, especially in a collaborative environment.\n\n\n\n\n\n\n\nIntro to Git (2022)\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nTen simple rules for taking advantage of Git and GitHub"
+    "text": "Back to Coding Resources\nGit is a popular version control software to manage codes, especially in a collaborative environment.\n\n\n\n\n\n\n\nIntro to Git (2022)\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nTen simple rules for taking advantage of Git and GitHub"
   },
   {
     "objectID": "resources/coding_resources/python_resources.html",
     "href": "resources/coding_resources/python_resources.html",
     "title": "Python",
     "section": "",
-    "text": "Python is a high-level, general-purpose programming language.\n\nPython Resources\n\nPycharm (IDE for python)\n\nUseful keyboard shortcuts and plugins\n\n\nLearn python\n\nCode academy some free intro tutorials/projects\n\nDataquest access, free through NU on a quarter system (click on start free)\n\nPython for Biologists\n\nPython Data Science Handbook\n\npandas (includes a r/py comparison)\n\n\n\nPyCharm Tips\n\nSet up python interpreter\n\n\nRun scipt from terminal\n\n\nRun script from pycharm\n\n\nRun script interactively"
+    "text": "Back to Coding Resources\nPython is a high-level, general-purpose programming language.\n\nPython Resources\n\nPycharm (IDE for python)\n\nUseful keyboard shortcuts and plugins\n\n\nLearn python\n\nCode academy some free intro tutorials/projects\n\nDataquest access, free through NU on a quarter system (click on start free)\n\nPython for Biologists\n\nPython Data Science Handbook\n\npandas (includes a r/py comparison)\n\n\n\nPyCharm Tips\n\nSet up python interpreter\n\n\nRun scipt from terminal\n\n\nRun script from pycharm\n\n\nRun script interactively"
   },
   {
     "objectID": "resources/coding_resources/quest_resources.html",
     "href": "resources/coding_resources/quest_resources.html",
     "title": "QUEST",
     "section": "",
-    "text": "Northwestern’s High-Performance Computing (HPC) cluster is ideal to run compute-intensive and data-intensive applications.\nNorthwesterns University’s high performance computing (HPC) system is called Quest, you can read more about Quest here.\nGood to know:\n\nConnect to Quest using the software MobaXterm or FastX .\nThe Quest Quick Start Guide provide useful information to get started and find help to common questions and issues when using Quest.\n\nand youtube video Navigating Quest via Shell from Northwestern Research Computing Team (they have many more resources!)\n\nSLURM guide - On the cluster, the SLURM job scheduling system is used"
+    "text": "Back to Coding Resources\nNorthwestern’s High-Performance Computing (HPC) cluster is ideal to run compute-intensive and data-intensive applications.\nNorthwesterns University’s high performance computing (HPC) system is called Quest, you can read more about Quest here.\nGood to know:\n\nConnect to Quest using the software MobaXterm or FastX .\nThe Quest Quick Start Guide provide useful information to get started and find help to common questions and issues when using Quest.\n\nand youtube video Navigating Quest via Shell from Northwestern Research Computing Team (they have many more resources!)\n\nSLURM guide - On the cluster, the SLURM job scheduling system is used"
   },
   {
     "objectID": "resources/coding_resources/r_resources.html",
     "href": "resources/coding_resources/r_resources.html",
     "title": "R",
     "section": "",
-    "text": "R is a programming language for statistical computing and graphics.\n\nRStudio Cheatsheets\nR Syntax Cheatsheet\nBase R Cheatsheet\nRMarkdown Cheatsheet\ntidyr Data Importation Cheatsheet\ntidyr Data Cleaning Cheatsheet\ndplyr Data Transformation Cheatsheet\nstringr String Manipulation Cheatsheet\nsf Spatial Manipulation Cheatsheet\nggplot2 Data Visualization Cheatsheet\n\n\nData Carpentry Resources\nData Carpentry - Manipulating Data with tidyr and dplyr\nData Carpentry - R for Geospatial Data"
+    "text": "Back to Coding Resources\nR is a programming language for statistical computing and graphics.\n\nRStudio Cheatsheets\nR Syntax Cheatsheet\nBase R Cheatsheet\nRMarkdown Cheatsheet\ntidyr Data Importation Cheatsheet\ntidyr Data Cleaning Cheatsheet\ndplyr Data Transformation Cheatsheet\nstringr String Manipulation Cheatsheet\nsf Spatial Manipulation Cheatsheet\nggplot2 Data Visualization Cheatsheet\n\n\nData Carpentry Resources\nData Carpentry - Manipulating Data with tidyr and dplyr\nData Carpentry - R for Geospatial Data"
   },
   {
     "objectID": "resources/coding_resources.html",
@@ -998,35 +998,35 @@
     "href": "resources/science_communication/data_visualization.html",
     "title": "Data Visualization Tips",
     "section": "",
-    "text": "Ten simple rules for better figures\n\nMore from the PLoS Curated Collections"
+    "text": "Back to Science Communication Resources\n\nTen simple rules for better figures\n\nMore from the PLoS Curated Collections"
   },
   {
     "objectID": "resources/science_communication/presentations.html",
     "href": "resources/science_communication/presentations.html",
     "title": "Presentation Tips",
     "section": "",
-    "text": "Ten simple rules for making good oral presentations\nTen simple rules for short and swift presentations"
+    "text": "Back to Science Communication Resources\nTen simple rules for making good oral presentations\nTen simple rules for short and swift presentations"
   },
   {
     "objectID": "resources/science_communication/writing.html",
     "href": "resources/science_communication/writing.html",
     "title": "Writing Tips",
     "section": "",
-    "text": "Grant Proposals\n\n\n\n\n\n\n\n\n\n\nManuscripts\n\n\n\n\n\n\n\nNo matching items\n\n\nTen simple rules for improving your writing productivity\nWriting readable sentences\nCreating coherent paragraphs\nPLoS Writing Center - A collection of free, practical guides and hands-on resources for authors looking to improve their scientific publishing skillset."
+    "text": "Back to Science Communication Resources\n\n\n\n\n\n\n\nGrant Proposals\n\n\n\n\n\n\n\n\n\n\nManuscripts\n\n\n\n\n\n\n\nNo matching items\n\n\nTen simple rules for improving your writing productivity\nWriting readable sentences\nCreating coherent paragraphs\nPLoS Writing Center - A collection of free, practical guides and hands-on resources for authors looking to improve their scientific publishing skillset."
   },
   {
     "objectID": "resources/science_communication/writing_pages/grants.html",
     "href": "resources/science_communication/writing_pages/grants.html",
     "title": "Grant Proposals",
     "section": "",
-    "text": "Video 1: Rhetorical Pattern of Introductions in Aims Pages Patterns\n\nVideo 2: Specific Aims\n\nTen simple rules for getting grants\n\nMore from the PLoS Curated Collections"
+    "text": "Back to Writing Resources\n\nVideo 1: Rhetorical Pattern of Introductions in Aims Pages Patterns\n\nVideo 2: Specific Aims\n\nTen simple rules for getting grants\n\nMore from the PLoS Curated Collections"
   },
   {
     "objectID": "resources/science_communication/writing_pages/manuscripts.html",
     "href": "resources/science_communication/writing_pages/manuscripts.html",
     "title": "Manuscripts",
     "section": "",
-    "text": "Writing readable sentences\nCreating coherent paragraphs\nTen simple rules for structuring papers\nTen simple rules for responsible referencing\nTen simple rules for collaboratively writing a multi-authored paper\n\nMore from the PLoS Curated Collections"
+    "text": "Back to Writing Resources\nWriting readable sentences\nCreating coherent paragraphs\nTen simple rules for structuring papers\nTen simple rules for responsible referencing\nTen simple rules for collaboratively writing a multi-authored paper\n\nMore from the PLoS Curated Collections"
   },
   {
     "objectID": "resources/science_communication.html",
