@@ -2,7 +2,8 @@
 title: "Lectures"
 weight: 1
 listing: 
-  type: table
+  type: grid
+  grid-columns: 1
   contents: recorded_lectures/*.qmd
   fields: [title, description, date]
   page-size: 10
@@ -10,5 +11,6 @@ listing:
   sort: date
 page-layout: full
 ---
+[[Back to Session Recordings](../session_recordings.qmd)]{.aside}
 
 Learn new concepts from program instructors & guest lecturers

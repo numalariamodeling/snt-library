@@ -6,5 +6,6 @@ format:
     toc: true
     toc-depth: 5
 ---
+[[Back to Recorded Lectures](../recorded_lectures.qmd)]{.aside}
 
 An overview of EMOD, the agent-based modeling platform we will use througout the program, and how it differs from simpler epidemiological models

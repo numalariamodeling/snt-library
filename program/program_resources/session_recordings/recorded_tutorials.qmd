@@ -2,7 +2,8 @@
 title: "Tutorials"
 weight: 2
 listing: 
-  type: table
+  type: grid
+  grid-columns: 1
   contents: recorded_tutorials/*.qmd
   fields: [title, description, date]
   page-size: 10
@@ -10,5 +11,6 @@ listing:
   date-format: short
 page-layout: full
 ---
+[[Back to Session Recordings](../session_recordings.qmd)]{.aside}
 
 Practice new concepts in hands-on group coding sessions, with live problem-solving and debugging

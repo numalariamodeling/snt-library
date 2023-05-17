@@ -2,13 +2,14 @@
 title: "Discussions"
 weight: 3
 listing: 
-  type: table
-  grid-columns: 3
+  type: grid
+  grid-columns: 1
   contents: recorded_discussions/*.qmd
   fields: [title, description, date]
   date-format: "short"
   sort: date
 page-layout: full
 ---
+[[Back to Session Recordings](../session_recordings.qmd)]{.aside}
 
 Roundtable discussions and other informal sessions
