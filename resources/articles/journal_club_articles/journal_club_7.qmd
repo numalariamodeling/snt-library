@@ -12,6 +12,26 @@ page-layout: article
 
 **Assessing the impact of next-generation rapid diagnostic tests on Plasmodium falciparum malaria elimination strategies**
 
+**Context**: Last week we discussed diagnostics and the within-host component of EMOD. This week's journal club will dive into how we think about these for decision-making as well as model calibration.
+
+Please read the journal club paper and recommended additional reading, and come prepared to discuss your thoughts. If you are facilitating the session, prepare an overview of the paper and at least four guiding questions.
+
+**Leader**:
+
+#### Learning Objectives
+
+* Understand similarities and differences between compartmental (Imperal College, Openmalaria) and agent-based (MAEMOD) models  
+* Learn about mass-screen-and-treat programs, focal MSAT, and reactive strategies to target the asymptomatic infectious reservoir  
+* Explore the impact of diagnostic thresholds on the success of mass screening intervention strategies  
+* Discuss the relationship between environmental or within-host factors and the success of mass screening intervention strategies
+
+#### Guiding Questions
+
+1.  
+2.  
+3.  
+4. 
+
 #### Recommended further reading
 
 -   Gerardin, J., Ouédraogo, A.L., McCarthy, K.A. et al. [Characterization of the infectious reservoir of malaria with an agent-based model calibrated to age-stratified parasite densities and infectiousness](https://doi.org/10.1186/s12936-015-0751-y). Malar J 14, 231 (2015).

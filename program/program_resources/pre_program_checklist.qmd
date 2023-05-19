@@ -5,7 +5,8 @@ listing:
   type: grid
   grid-columns: 1
   contents: pre-program/*.qmd
-  sort: weight
+  sort: date
+  date-format: short
 ---
 
 Come prepared to make the most of the program

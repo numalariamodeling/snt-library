@@ -12,6 +12,25 @@ page-layout: article
 
 **Sub-national tailoring of malaria interventions in Mainland Tanzania: simulation of the impact of strata-specific intervention combinations using modelling**
 
+**Context**: Last week we revisited the application of malaria modeling within the HBHI and SNT contexts. This week we will read a paper that addressed similar questions but in a different model to support the national malaria program in Tanzania. An additional use-case that we read earlier in the program is included as recommended reading. 
+
+Please read the journal club paper and recommended read and come prepared to discuss your thoughts. If you are facilitating the session, prepare an overview of the paper and at least four guiding questions.
+
+**Leader**:
+
+#### Learning Objectives
+
+* Discuss specificities and differences of subnational tailoring of malaria interventions and stratification in the example from Tanzania    
+* Compare to earlier SNT use-case in Nigeria  
+* Describe how heterogeneities in transmission and prevalence can affect intervention impact and model outputs
+
+#### Guiding Questions
+
+1.  
+2.  
+3.  
+4.
+
 #### Recommended additional reading
 
 -   Ozodiegwu, I. D., Ambrose, M., Galatas, B., Runge, M., Nandi, A., Okuneye, K., ... & Gerardin, J. (2023). [Application of mathematical modelling to inform national malaria intervention planning in Nigeria](https://doi.org/10.1186/s12936-023-04563-w). Malaria Journal, 22(1), 1-19.

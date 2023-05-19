@@ -11,3 +11,27 @@ page-layout: article
 [[Back to Journal Club](../journal_club.qmd)]{.aside}
 
 **Effectiveness of reactive case detection for malaria elimination in three archetypical transmission settings: a modelling study**
+
+**Context**: This week we are discussing reactive interventions so we will examine a paper on reactive case detection in various transmission settings.
+
+Please read the journal club paper and recommended additional reading, and come prepared to discuss your thoughts. If you are facilitating the session, prepare an overview of the paper and at least four guiding questions.
+
+**Leader**:
+
+#### Learning Objectives
+
+* Understand how reactive case detection can impact malaria control & progress toward elimination  
+* Discuss the efficacy of reactive case detection in various transmission settings  
+* Discuss the use of archetypal settings in malaria modeling
+
+#### Guiding Questions
+
+1.  
+2.  
+3.  
+4.  
+
+#### Additional Recommended Reading
+
+Perera, R., Caldera, A. & Wickremasinghe, A.R.
+Reactive Case Detection (RACD) and foci investigation strategies in malaria control and elimination: a review. Malar J 19, 401 (2020)

@@ -1,5 +1,5 @@
 ---
-title: "Journal Club 3: Intervention Mixing"
+title: "Journal Club 3: PMC + RTS,S"
 author: 
   -  Runge M.
   -  Stahlfeld A.
@@ -12,6 +12,25 @@ page-layout: article
 
 **Perennial malaria chemoprevention with and without malaria vaccination to reduce malaria burden in young children: a modeling analysis**
 
-### Recommended further reading
+**Context**: We use data to inform model inputs for configuration, campaigns, and demographics. This paper provides a good example of data informing transmission and intervention coverage assumptions. 
+
+Please read the journal club paper and come prepared to discuss your thoughts. If you are facilitating the session, prepare an overview of the paper and at least four guiding questions.
+
+**Leader**:
+
+#### Learning Objectives
+
+* Discuss how DHS data can be used to inform country-specific model parameters 
+*  Explain potential assumptions and adjustment requirements for model input that are dependent on data context
+* Discuss differences in operational and target coverage, and how we may think about them for modeling questions
+
+#### Guiding Questions
+
+1.  
+2.  
+3.  
+4.  
+
+#### Recommended further reading
 
 -   Ozodiegwu, I. D., Ambrose, M., Battle, K. E., Bever, C., Diallo, O., Galatas, B., ... & Gerardin, J. (2021). [Beyond national indicators: adapting the Demographic and Health Surveys' sampling strategies and questions to better inform subnational malaria intervention policy](https://link.springer.com/article/10.1186/s12936-021-03646-w). Malaria journal, 20(1), 1-7

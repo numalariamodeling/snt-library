@@ -6,6 +6,7 @@ listing:
     contents: ../../program/program_resources/program_materials/best_practices/best_practices_journal_club.qmd
     type: grid
     fields: [title, description, author]
+    grid-columns: 1
   - id: jc-articles
     contents: journal_club_articles/*.qmd
     type: grid
@@ -17,11 +18,10 @@ page-layout: full
 
 ---
 
-Selected papers for 2023 program discussions
-
 :::{#jc-expectations}
 :::
 
+**Selected papers for 2023 program discussions**
 
 :::{#jc-articles}
 :::

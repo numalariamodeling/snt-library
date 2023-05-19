@@ -11,3 +11,21 @@ page-layout: article
 [[Back to Journal Club](../journal_club.qmd)]{.aside}
 
 **Application of mathematical modelling to inform national malaria intervention planning in Nigeria**
+
+**Context**: In this week you have learned how the EMOD building blocks come together in a series of simulation experiments and scenarios across parameter sweeps. One of the most complex yet practical experiment setup can be found in modeling intervention impact in countries. 
+
+Please read the journal club paper on such an application of modeling in Nigeria and come prepared to discuss your thoughts
+
+**Leader**: 
+
+#### Learning Objectives
+
+*  Discuss a practical use case that demonstrates how EMOD building blocks and simulation steps come together to address a common question in malaria intervention planning
+*  Understand types of questions that malaria models can be used to answer
+
+#### Guiding Questions
+
+1.  
+2.  
+3.  
+4. 

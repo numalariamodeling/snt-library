@@ -11,3 +11,22 @@ page-layout: article
 [[Back to Journal Club](../journal_club.qmd)]{.aside}
 
 **Estimating the most efficient allocation of interventions to achieve reductions in Plasmodium falciparum malaria burden and transmission in Africa: a modelling study**
+
+**Context**: Often, we are interested in comparing various intervention scenarios using modeling to inform policymakers about the efficiency of allocation in controlling malaria.
+
+Please read the journal club paper and come prepared to discuss your thoughts. If you are facilitating the session, prepare an overview of the paper and at least four guiding questions. 
+
+**Leader**:
+
+#### Learning Objectives
+
+* Understand how modeling approaches can evaluate the impact of different intervention scenarios
+* Discuss different methods of thinking about efficiency and so-called optimal allocation in terms of cost, reducing burden and transmission, and scaling of implementation.
+
+#### Guiding Questions
+
+1.  
+2.  
+3.  
+4. 
+

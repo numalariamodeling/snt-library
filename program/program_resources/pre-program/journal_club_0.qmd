@@ -1,6 +1,6 @@
 ---
 title: "Prepare for Journal Club 0"
-weight: 3
+date: 2023-06-22
 listing:
   id: JC0
   type: grid

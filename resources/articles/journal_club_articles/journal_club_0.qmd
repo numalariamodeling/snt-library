@@ -15,6 +15,19 @@ page-layout: article
 
 **Contribution and quality of mathematical modeling evidence in World Health Organization guidelines: A systematic review**
 
+**Context**: For the first journal club, we will discuss a systematic review which identifies and assesses WHO guideline recommendations that include evidence from mathematical modeling studies. The goal is to take a high-level view of the relationship between modeling studies and actual public health practice.
+
+Please read the journal club paper and come prepared to discuss your thoughts.
+
+**Leader**: 
+
+#### Learning Objectives
+
+* Understand benefits and limitations of using mathematical modeling studies to guide global health policy  
+* List important ethical considerations of using modeling to inform policy  
+* Learn how modelers can ensure studies are conducted and reported in a rigorous & transparent manner  
+* Become familiar with examples of mathematical modeling applied to global health policy
+
 #### Guiding Questions
 
 1. Modeling-informed recommendations were more likely to be conditional (versus strong), and to be based on evidence that was assessed as lower quality. Why might this be?  
