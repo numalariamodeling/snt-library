@@ -15,14 +15,17 @@ Make sure you're familiar with these fundamental concepts of malaria epidemiolog
 
 During Week 0, we will host a malaria epidemiology crash course, focused on these learning objectives:  
 
-1. Objective 1  
-2. Objective 2
+* Describe malaria pathogenesis and disease burden metrics in humans  
+* Describe factors that affect the disease burden, including impact of interventions and host factors such as age and immunity  
+* Overview of epidemiological methods for measuring malaria morbidity and mortality and how information can be collected  
+* Identify examples of error, bias, confounding, and validity in malaria studies  
+* Describe the life-cycle of human malaria parasites, key stages, and their relevance to transmission and control  
+* Relate the parasite life cycle to pathogenesis, immune responses, and interventions  
+* Describe the life- and feeding cycle of malaria vectors
 
 ### Pre-Requisites
 
 The crash course in Week 0 will assume familiarity with certain concepts from these review resources:
-
-#### General Epidemiology
 
 [StatPearls - Epidemiology of Study Design](https://www.ncbi.nlm.nih.gov/books/NBK470342/)  
 
@@ -36,32 +39,3 @@ The crash course in Week 0 will assume familiarity with certain concepts from th
   * Calculating and interpreting mean, median, mode, ranges, variance, standard deviation, and confidence intervals\
 * Lesson Three: Measures of Risk  
   * Calculating and interpreting ratios, proportions, incidence rates, mortality rates, prevalence, and years of potential life lost
-
-[Identifying and Avoiding Bias in Research (Pannucci & Wilkins)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917255/)
-
-
-#### Malaria Epidemiology
-[Nature Reviews Disease Primers - Malaria: Epidemiology](https://www.nature.com/articles/nrdp201750#Sec3)
-
-* The vector  
-* The parasite  
-* The disease
-
-#### Malaria Pathophysiology
-
-[Nature Reviews Disease Primers - Malaria: Mechanisms/Pathophysiology](https://www.nature.com/articles/nrdp201750#Sec9)
-
-* The red blood cell stage  
-* Immune evasion and host immunity  
-* Disease pathogenesis
-
-
-#### Malaria Diagnosis & Interventions
-
-[Nature Reviews Disease Primers - Malaria: Diagnosis, Screening and Prevention](https://www.nature.com/articles/nrdp201750#Sec13)  
-
-* Diagnostic methods and their measured quantities  
-* Prevention in vulnerable populations  
-  * Vector control  
-  * Chemoprevention/protection  
-  * Vaccines
