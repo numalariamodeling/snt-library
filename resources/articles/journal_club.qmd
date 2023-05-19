@@ -5,15 +5,14 @@ listing:
   - id: jc-expectations
     contents: ../../program/program_resources/program_materials/best_practices/best_practices_journal_club.qmd
     type: grid
-    sort: title
     fields: [title, description, author]
-    grid-columns: 1
   - id: jc-articles
     contents: journal_club_articles/*.qmd
     type: grid
     sort: title
     fields: [title, description, author]
     grid-columns: 3
+    
 page-layout: full
 
 ---

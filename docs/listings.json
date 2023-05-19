@@ -1,20 +1,5 @@
 [
   {
-    "listing": "/articles/journal_club.html",
-    "items": [
-      "/program/program_resources/program_materials/best_practices/best_practices_journal_club.html",
-      "/articles/journal_club_articles/journal_club_0.html",
-      "/articles/journal_club_articles/journal_club_1.html",
-      "/articles/journal_club_articles/journal_club_2.html",
-      "/articles/journal_club_articles/journal_club_3.html",
-      "/articles/journal_club_articles/journal_club_4.html",
-      "/articles/journal_club_articles/journal_club_5.html",
-      "/articles/journal_club_articles/journal_club_6.html",
-      "/articles/journal_club_articles/journal_club_7.html",
-      "/articles/journal_club_articles/journal_club_8.html"
-    ]
-  },
-  {
     "listing": "/guides/analyzer_guide.html",
     "items": [
       "/guides/analyzer_guide_pages/InsetChart_analyzer.html",
