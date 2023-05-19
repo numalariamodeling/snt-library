@@ -11,21 +11,9 @@ page-layout: article
 
 Make sure you're familiar with these fundamental concepts of malaria epidemiology 
 
-### Crash Course Objectives
-
-During Week 0, we will host a malaria epidemiology crash course, focused on these learning objectives:  
-
-* Describe malaria pathogenesis and disease burden metrics in humans  
-* Describe factors that affect the disease burden, including impact of interventions and host factors such as age and immunity  
-* Overview of epidemiological methods for measuring malaria morbidity and mortality and how information can be collected  
-* Identify examples of error, bias, confounding, and validity in malaria studies  
-* Describe the life-cycle of human malaria parasites, key stages, and their relevance to transmission and control  
-* Relate the parasite life cycle to pathogenesis, immune responses, and interventions  
-* Describe the life- and feeding cycle of malaria vectors
-
 ### Pre-Requisites
 
-The crash course in Week 0 will assume familiarity with certain concepts from these review resources:
+The crash course in Week 0 will assume familiarity with certain concepts. If you are not familiar with them, please review these resources before the crash course:
 
 [StatPearls - Epidemiology of Study Design](https://www.ncbi.nlm.nih.gov/books/NBK470342/)  
 
@@ -39,3 +27,16 @@ The crash course in Week 0 will assume familiarity with certain concepts from th
   * Calculating and interpreting mean, median, mode, ranges, variance, standard deviation, and confidence intervals\
 * Lesson Three: Measures of Risk  
   * Calculating and interpreting ratios, proportions, incidence rates, mortality rates, prevalence, and years of potential life lost
+
+
+### Crash Course Objectives
+
+During Week 0, we will host a malaria epidemiology crash course, focused on these learning objectives:  
+
+* Describe malaria pathogenesis and disease burden metrics in humans  
+* Describe factors that affect the disease burden, including impact of interventions and host factors such as age and immunity  
+* Overview of epidemiological methods for measuring malaria morbidity and mortality and how information can be collected  
+* Identify examples of error, bias, confounding, and validity in malaria studies  
+* Describe the life-cycle of human malaria parasites, key stages, and their relevance to transmission and control  
+* Relate the parasite life cycle to pathogenesis, immune responses, and interventions  
+* Describe the life- and feeding cycle of malaria vectors
