@@ -57,8 +57,8 @@ website:
           - text: Example Exercises
             url: https://github.com/numalariamodeling/FE-2023-examples
   page-footer:
-    right: 
-      - text: <a href="https://www.numalariamodeling.org/"> © NU Malaria Modeling 2023
+    center: © NU Malaria Modeling 2023
+      
 format:
   html:
     theme: cosmo

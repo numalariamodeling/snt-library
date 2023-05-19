@@ -6,7 +6,7 @@ listing:
     - ../../../expectations/*.qmd
     - best_practices/best_practices_journal_club.qmd
   type: grid
-  grid-columns: 1
+  grid-columns: 3
   fields: [title]
 weight: 2
 format: 

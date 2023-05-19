@@ -3,13 +3,13 @@ title: "Lectures"
 weight: 1
 listing: 
   type: grid
-  grid-columns: 1
+  grid-columns: 3
   contents: recorded_lectures/*.qmd
   fields: [title, description, date]
-  page-size: 10
+  page-size: 9
   date-format: "short"
   sort: date
-page-layout: full
+page-layout: article
 ---
 [[Back to Session Recordings](../session_recordings.qmd)]{.aside}
 

@@ -3,7 +3,7 @@ title: "Best Practices"
 weight: 3
 listing:
   type: grid
-  grid-columns: 1
+  grid-columns: 3
   contents: 
     - best_practices/*.qmd
     - "!best_practices/*/*.qmd"

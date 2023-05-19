@@ -3,10 +3,10 @@ title: "Tutorials"
 weight: 2
 listing: 
   type: grid
-  grid-columns: 1
+  grid-columns: 3
   contents: recorded_tutorials/*.qmd
   fields: [title, description, date]
-  page-size: 10
+  page-size: 9
   sort: date
   date-format: short
 page-layout: full

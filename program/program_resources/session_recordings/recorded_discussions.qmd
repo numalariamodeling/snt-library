@@ -3,7 +3,8 @@ title: "Discussions"
 weight: 3
 listing: 
   type: grid
-  grid-columns: 1
+  grid-columns: 3
+  page-size: 9
   contents: recorded_discussions/*.qmd
   fields: [title, description, date]
   date-format: "short"
