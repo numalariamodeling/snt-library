@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.1.189">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../index.html" class="sidebar-logo-link">
+      <a href="../../" class="sidebar-logo-link">
       <img src="../../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
@@ -269,13 +269,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#python-resources" id="toc-python-resources" class="nav-link active" data-scroll-target="#python-resources">Python Resources</a></li>
-  <li><a href="#pycharm-tips" id="toc-pycharm-tips" class="nav-link" data-scroll-target="#pycharm-tips">PyCharm Tips</a>
-  <ul>
-  <li><a href="#set-up-python-interpreter" id="toc-set-up-python-interpreter" class="nav-link" data-scroll-target="#set-up-python-interpreter">Set up python interpreter</a></li>
-  <li><a href="#run-scipt-from-terminal" id="toc-run-scipt-from-terminal" class="nav-link" data-scroll-target="#run-scipt-from-terminal">Run scipt from terminal</a></li>
-  <li><a href="#run-script-from-pycharm" id="toc-run-script-from-pycharm" class="nav-link" data-scroll-target="#run-script-from-pycharm">Run script from pycharm</a></li>
-  <li><a href="#run-script-interactively" id="toc-run-script-interactively" class="nav-link" data-scroll-target="#run-script-interactively">Run script interactively</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -292,52 +285,25 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
 
 </header>
 
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="../../resources/coding_resources.html">Back to Coding Resources</a></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="../../resources/coding_resources.html">Back to Coding Resources</a></span></div></div>
 <p>Python is a high-level, general-purpose programming language.</p>
-<section id="python-resources" class="level3">
-<h3 class="anchored" data-anchor-id="python-resources">Python Resources</h3>
-<ul>
-<li><a href="">Pycharm</a> (IDE for python)
-<ul>
-<li>Useful <a href="">keyboard shortcuts</a> and <a href="">plugins</a><br>
-</li>
-</ul></li>
-<li><a href="">Learn python</a><br>
-</li>
-<li><a href="">Code academy</a> some free intro tutorials/projects<br>
-</li>
-<li><a href="">Dataquest access</a>, free through NU on a quarter system (click on start free)<br>
-</li>
-<li><a href="">Python for Biologists</a><br>
-</li>
-<li><a href="">Python Data Science Handbook</a><br>
-</li>
-<li><a href="">pandas</a> (includes a r/py comparison)</li>
-</ul>
-</section>
-<section id="pycharm-tips" class="level3">
-<h3 class="anchored" data-anchor-id="pycharm-tips">PyCharm Tips</h3>
-<section id="set-up-python-interpreter" class="level4">
-<h4 class="anchored" data-anchor-id="set-up-python-interpreter">Set up python interpreter</h4>
-</section>
-<section id="run-scipt-from-terminal" class="level4">
-<h4 class="anchored" data-anchor-id="run-scipt-from-terminal">Run scipt from terminal</h4>
-</section>
-<section id="run-script-from-pycharm" class="level4">
-<h4 class="anchored" data-anchor-id="run-script-from-pycharm">Run script from pycharm</h4>
-</section>
-<section id="run-script-interactively" class="level4">
-<h4 class="anchored" data-anchor-id="run-script-interactively">Run script interactively</h4>
+<section id="python-resources" class="level1">
+<h1>Python Resources</h1>
+<p><a href="https://www.jetbrains.com/pycharm/download/#section=windows">Pycharm Community Edition</a> (IDE for python)<br>
+* Useful <a href="https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html#choose-keymap">keyboard shortcuts</a> and <a href="https://www.jetbrains.com/help/pycharm/managing-plugins.html">plugins</a></p>
+<p><a href="https://www.learnpython.org/">Learn python</a></p>
+<p><a href="https://www.codecademy.com/catalog/language/python">Code academy</a> contains some free lessons and tutorials for beginner to advanced python and other coding skills. Be sure to filter by price.</p>
+<p><a href="https://www.pythonforbiologists.org/">Python for Biologists</a></p>
+<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a></p>
+<p><a href="https://pandas.pydata.org/docs/getting_started/index.html#getting-started">Using pandas</a> (includes comparisons to R libraries)</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -382,24 +348,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -435,42 +384,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

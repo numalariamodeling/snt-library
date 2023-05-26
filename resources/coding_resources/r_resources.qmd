@@ -35,3 +35,9 @@ R is a programming language for statistical computing and graphics.
 [Data Carpentry - Manipulating Data with tidyr and dplyr](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
 
 [Data Carpentry - R for Geospatial Data](https://datacarpentry.org/r-intro-geospatial/)
+
+# Epidemiologist R Handbook
+
+[EpiRHandbook - English](https://epirhandbook.com/en/)
+
+[EpiRHandbook - Français](https://epirhandbook.com/fr/)

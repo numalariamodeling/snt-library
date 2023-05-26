@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.1.189">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../../../index.html" class="sidebar-logo-link">
+      <a href="../../../../" class="sidebar-logo-link">
       <img src="../../../../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
@@ -270,8 +270,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#experiment-design" id="toc-experiment-design" class="nav-link active" data-scroll-target="#experiment-design">Experiment design</a></li>
   <li><a href="#reviewing-input-output-files" id="toc-reviewing-input-output-files" class="nav-link" data-scroll-target="#reviewing-input-output-files">Reviewing input &amp; output files</a></li>
-  <li><a href="#diagnostic-plots" id="toc-diagnostic-plots" class="nav-link" data-scroll-target="#diagnostic-plots">Diagnostic plots</a></li>
-  <li><a href="#quest-etiquette" id="toc-quest-etiquette" class="nav-link" data-scroll-target="#quest-etiquette">QUEST etiquette</a></li>
+  <li><a href="#using-quest" id="toc-using-quest" class="nav-link" data-scroll-target="#using-quest">Using QUEST</a>
+  <ul>
+  <li><a href="#resource-sharing" id="toc-resource-sharing" class="nav-link" data-scroll-target="#resource-sharing">Resource Sharing</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -288,35 +290,60 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
 
 </header>
 
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="../../../../program/program_resources/program_materials/nu_team_best_practices.html">Back to Best Practices</a></span></div></div>
-<p>Experiment design, inputs/outputs, diagnostics plots, and QUEST</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="../../../../program/program_resources/program_materials/nu_team_best_practices.html">Back to Best Practices</a></span></div></div>
+<p>Best practices for experiment design, inputs/outputs, and using QUEST</p>
 <section id="experiment-design" class="level3">
 <h3 class="anchored" data-anchor-id="experiment-design">Experiment design</h3>
+<p>When setting up a simulation experiment, be considerate about the number of parameters to change and scenarios to run. There is rarely a first single large simulation that will provide immediate answer at once and is correctly setup. Plan for multiple iterations that build up on another to gain confidence and better understanding before building a larger simulation experiment.</p>
+<ul>
+<li>Prepare a simulation plan (list of scenarios to run): which ones are the main simulation experiments you need to run in order to answer the research question? Which ones are out of scope?
+<ul>
+<li>You may find it helpful to create an excel sheet with the 1) parameter names and relevant values to explore and 2) combination of parameter values that define a simulation experiment to run. An example is provided [HERE]. More advanced use also includes notes about # number of scenarios, computational resources and time required.</li>
+</ul></li>
+<li>Pilot before scaling up: Start simple and use a template scenario that has been validated, then add the intervention or feature of interest for one or a few settings before running all.</li>
+<li>Technical feasibility before accurate predictions: It is OK to use placeholder parameters for test simulations to develop your code and scripts; however, do keep track of these and do not forget to update them to the correct parameters as soon as the initial testing is done.
+<ul>
+<li>In the pilot and test simulations, make sure to carefully investigate the input json and output files. See reviewing input and output files below.</li>
+</ul></li>
+<li>Give your simulation experiments meaningful names that can be versioned and tracked across iterations. For instance, any test runs may include ‘test’ in its name and have a v0, v1 or a date or similar included in the name or folder in which your simulations are stored.</li>
+</ul>
+<p>Some general <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">best practices for scientific computing</a> are described by PLOS Biology in addition to what we specifically recommend for members of this team.</p>
 </section>
 <section id="reviewing-input-output-files" class="level3">
 <h3 class="anchored" data-anchor-id="reviewing-input-output-files">Reviewing input &amp; output files</h3>
-</section>
-<section id="diagnostic-plots" class="level3">
-<h3 class="anchored" data-anchor-id="diagnostic-plots">Diagnostic plots</h3>
-</section>
-<section id="quest-etiquette" class="level3">
-<h3 class="anchored" data-anchor-id="quest-etiquette">QUEST etiquette</h3>
-<p>QUEST computing resources are finite and shared.</p>
+<p>When designing new experiments, you should make sure to review input and output files to make sure your simulations are doing what you think they are. It can be tricky to get everything setup correctly the first time, even for experienced EMOD users, so this review process will help you verify prior to scaling up. Questions to check for investigating new simulation runs include:</p>
 <ul>
-<li>Check with others before running large or long jobs</li>
-<li>Do <em>not</em> run more than 100 jobs simultaneously on b1139</li>
-<li>Test and debug simulations with small jobs (minimal sweeping, duration, etc.) before exapnding to full sets</li>
-<li><a href="">Managing disk space</a></li>
+<li>Were the campaigns actually deployed, at the correct coverage and time?</li>
+<li>How often were the campaigns deployed?</li>
+<li>How does the simulated population change over time?</li>
+<li>When running with burnin, was the burnin actually “picked up” successfully?</li>
+<li>Small simulations allow for individual event reports, at what ages and how often did individuals get an intervention or change property?</li>
+<li>Look at the same metric (i.e.&nbsp;prevalence) noy only at aggregated level over time, but monthly.</li>
+<li>Are the agebins correctly set up, extracted in the analyzer and aggregated?</li>
+<li>How do your plots compare to other known relationships?</li>
+</ul>
+</section>
+<section id="using-quest" class="level3">
+<h3 class="anchored" data-anchor-id="using-quest">Using QUEST</h3>
+<p>Quest is Northwestern’s high-performance computing cluster (HPC) on which we run our EMOD simulations. Quest is a linux-based HPC with the workload manager slurm on it to schedule jobs among its users. Everyone will need to apply for access to the team’s Quest allocation, b1139, <a href="https://app.smartsheet.com/b/form/797775d810274db5889b5199c4260328">here</a>. Once granted access, you will have 80GB of space on your home directory and access to the team allocation which has much more space. We recommend cloning GitHub repositories to the home directory but saving all outputs to an appropriate folder on the team allocation.</p>
+<section id="resource-sharing" class="level4">
+<h4 class="anchored" data-anchor-id="resource-sharing">Resource Sharing</h4>
+<p>Because everyone on the team, as well as participating in the program, uses b1139 we need to be conscious of resource sharing. Please follow the best practices below so everyone can have the best experience using the cluster.</p>
+<ul>
+<li>Be aware of how long you expect your jobs to run. If they will take a long time, it is considerate to run fewer sims at once or to wait until times of low usage (such as evenings or weekends) to start the jobs. You can enable email notification for your submitted jobs, and also check in the terminal via squeue -u <username> or squeue –A b1139.</username></li>
+<li>If you must run a “big job” with many simulations, discuss any urgent needs for the cluster as others may have time sensitive projects. Submit &lt;100 jobs at a time on b1139 to avoid “clogging” the cluster. It is easy to limit the number of jobs able to run at one time with idmtools, so you can submit all your jobs at once but only the specified “max_run_jobs” will run at one time. As simulations finish, the next ones will start automatically.</li>
+<li>Debug your simulations with small pilots (see experiment design) to make sure your simulations do what you expect before scaling up.</li>
+<li>Managing disk space, you can check for space used via typing ‘homedu’ or ‘checkproject b1139’ in the terminal. Simulations should typically be stored in respective project folders on b1139 so they are accessible to other team members for troubleshooting and due to low storage limits on home directories. Be sure to remove old and/or failed simulations when they are no longer needed as they can occupy a great deal of storage space.</li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -361,24 +388,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -414,42 +424,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

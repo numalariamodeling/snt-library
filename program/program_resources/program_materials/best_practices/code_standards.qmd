@@ -8,22 +8,23 @@ format:
 ---
 [[Back to Best Practices](../nu_team_best_practices.qmd)]{.aside}
 
-Version control, documentation, project management, and debugging
+Best practices for source control, commit messages, documentation, & project management
 
 ### Github source control
 
-All code must be kept on GitHub. Be sure to commit and push regularly. Best practice is to commit several times a day when actively coding and push AT LEAST daily. The end of the workday is a great time to push. This serves two important purposes:  
-1.	It keeps us from losing track of our code if we overwrite a file or want to revert to an older version of a script. Every version of our code that has been committed and pushed can be retrieved if lost or overwritten. Code that has not been committed and push cannot be retrieved.  
-2.	Sharing our code lets us learn from each other and reuse code developed by other team members. If your repository is private, your code is only visible to those with whom you have explicitly shared it. 
+All code must be kept on GitHub. Be sure to commit and push regularly. Best practice is to commit several times a day when actively coding and push AT LEAST daily. The end of the workday is a great time to push. This serves three important purposes:
 
-Git can be tricky and we’ve all had to deal with git problems. Please don’t hesitate to ask for help on Slack (#help) or search the web as there are many existing resources, such as this [tutorial from GitHub](https://docs.github.com/en/get-started/quickstart/hello-world). You will learn it eventually and we have a lot of expertise on our team available to help make your life easier. Many of us use Sourcetree or GitHub Desktop to manage our repos.
+1.	It keeps us from losing track of our code if we overwrite a file or want to revert to an older version of a script. Every version of our code that has been committed and pushed can be retrieved if lost or overwritten. Code that has not been committed and push cannot be retrieved.
+2.	Sharing our code lets us learn from each other and reuse code developed by other team members. If your repository is private, your code is only visible to those with whom you have explicitly shared it. 
+3.	It is very helpful for troubleshooting! When your code is online, it makes it much easier for other team members to understand the issue you are running into as they can see your entire repository, including the script with the problem. The GitHub version control will show the most recent version as well as allow exploration of any changes made to the script.
+
+
+Git can be tricky and we’ve all had to deal with git problems. Please don’t hesitate to ask for help on Slack (#help) or search the web as there are many existing resources, such as this [tutorial from GitHub](https://docs.github.com/en/get-started/quickstart/hello-world). You will learn it eventually and we have a lot of expertise on our team available to help make your life easier. Many of us use Sourcetree or GitHub Desktop to manage our repositories.
 
 
 #### Commit messages & descriptions
 
-### Documentation
-
-### Troubleshooting
+When you make a Git commit, include a short but meaningful message that describes the changes that you are committing. Typical changes include new functionality, improved code, updated parameters, bugfixes and corrections among others. The commit message should provide information on type and reason of edits made (i.e., what changes did you make since the last commit?) and why (e.g., is this fixing a problem, adding new functionality, etc.). These commit messages can be short and to the point but should be helpful to you and others who may be going through the repository in the future. More advanced use allows for writing pull request messages when working from a developer and a clean master repository and you can read more about it once familiar with the basics of Git
 
 ### Managing your project
 
@@ -34,7 +35,7 @@ It is important to keep detailed notes for your project including design, progre
 * Template and example project notes files are available:
     * [Project Notes - Word Template](https://www.dropbox.com/scl/fi/vpgmz2sn4sz4cbjaz7l0a/Project-Notes-Template.docx?dl=0&rlkey=ujad22gm0g9fa84w6e803wtmz)  
     * [Project Notes - Markdown Template](https://www.dropbox.com/s/m6w2usdeuskzkuy/project_notes_template.md?dl=0)  
-* Stay organized and keep track of your workflow. You should include all necessary information for writing up the methods and results sections of a paper in addition to keeping track of incremental changes along the way.  
+* Stay organized and keep track of your workflow. You should include all necessary information for writing up the methods and results sections of a paper in addition to keeping track of incremental changes along the way.
     * Record what you did, what you saw as you made changes to your project. Keep good records of everything you try because you will try a lot and won’t remember everything you did.   
     * It can be helpful to include all the details of your simulations at each update (i.e., Simulation ran for X years with X intervention details, etc.), even if this seems repetitive, so you can get a quick idea of what is going on. These detailed progress notes will help you avoid repeating the same steps unnecessarily.  
     * Be sure to include plots and discussion notes as you go as these will help you understand the outcomes of what you did and your thoughts on it.  

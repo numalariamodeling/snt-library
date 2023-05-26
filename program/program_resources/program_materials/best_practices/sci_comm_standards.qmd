@@ -9,3 +9,176 @@ format:
 [[Back to Best Practices](../nu_team_best_practices.qmd)]{.aside}
 
 Best practices for writing, presentations, and designing plots/figures
+
+## Writing
+
+### General Resources
+
+[10 Simple Rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)
+[10 Simple Rules for improving your writing productivity](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006379)
+
+### Specific Aims
+
+
+The Specific Aims page is a 1-page document that summarizes the motivation, significance, innovation, and approach of your proposed project. Writing an Aims page will help you define your project concisely and communicate why it is worthwhile.
+
+We recommend following the document setup guidelines [here](http://chrome-extension//efaidnbmnnnibpcajpcglclefindmkaj/https://www.feinberg.northwestern.edu/sites/bsa/docs/nih-documentsetupguidelines.pdf) since this will give you the most space while staying within NIH guidelines.
+
+[From BioScience Writers](https://www.biosciencewriters.com/NIH-Grant-Applications-The-Anatomy-of-a-Specific-Aims-Page.aspx):
+
+“The Specific Aims section is the most vital part of any NIH grant application. In this section, you must quickly gain the reviewers’ trust and confidence while simultaneously convincing them that your work is important to fund. You must also convey that you and your team are the best people to complete the work you’ve proposed. For these reasons, the Specific Aims can be one of the most difficult sections to write. In this article, we provide some tips on structure, content, and organization of your Specific Aims page.”
+
+Begin by watching these two excellent videos:
+
+- Writing Introduction: [The Rhetorical Pattern of Introductions in Aims Pages](https://www.northwestern.edu/climb/resources/written-communication/aims-pages-part-1-the-rhetorical-pattern-of-introductions-in-aims-pages.html)
+- Writing Aims/Conclusion: [Patterns and Content in the Specific Aims and Conclusions in Aims Pages](https://www.northwestern.edu/climb/resources/written-communication/aims-pages-part-2-specific-aims.html)
+
+Then respond to each of these questions to create an outline for your Aims page:
+
+- General context and significance: What is the “big picture” for research? Why is it important?
+- Narrowing context: What is known and accepted in your research area?
+- Your research contribution: Has your previous work contributed? How?
+- Complication: What is the problem, roadblock, the unknown?
+- Long-term goal: What final “big results” will research help achieve?
+- Specific goal of this research: “What is “specific narrow goal” of this research?
+- Summary of research—path to hypothesis: How does previous research lead to hypothesis?
+- Hypothesis: What do you believe to be the answer to the complication?
+- Qualifications stressed: What makes you the right person to undertake the research?
+
+From this outline, you can start writing the first draft of the Aims page.
+
+### NIH Biosketch
+
+- [Official instructions for the NIH Biosketch](https://grants.nih.gov/grants/forms/biosketch.htm). Use the “Non-Fellowship” biosketch format and download a sample document that has the correct formatting.
+- Start by filling in the header information (Name, ERA commons name, position title, education and training)
+- Next, write part C, contributions to science
+- Next, fill in part B, positions and honors
+- Finally, finish with part A, the personal statement
+
+#### Excellent instructions from Better at the Bench, which cites a workshop by Orit Rapaport:
+
+**Tackling the Contributions to Science**
+Contributions by the numbers
+
+- Write up to five contributions to science
+- Include up to four publications or research products per contribution
+- Typically, each scientific contribution (including the publications) should occupy about half a page.
+What is the definition of a publication or research product? 
+- You can only include/cite accepted publications. However, you can mention papers in progress in the text. 
+- You are allowed to include/cite preprints or other interim research products. However, you need to cite them properly. For full instructions regarding citing preprints or interim research products, refer to notice [NOT-OD-17-050](https://grants.nih.gov/grants/guide/notice-files/not-od-17-050.html).
+- Research products can include, but are not limited to the following: 
+audio or video products; conference proceedings such as meeting abstracts, posters, or other presentations; patents; data and research materials; databases; educational aids or curricula; instruments or equipment; models; protocols; and software or netware. For more information about each category above, you can download the [NIH Guide to Categorizing Products](https://grants.nih.gov/grants/rppr/Guide-to-Categorizing-Products-in-RPPR-Sec-C_draft.pdf). 
+Orit’s five step guide to writing your contributions to science
+- Gather all of your papers and research products
+- Read through all your materials to re-familiarize yourself with the papers and research products.
+- Divide these papers and research products into a maximum of five groups (where there is a maximum of four papers/research products per each of the five groups/contributions). Orit mentioned that the manner in which you set up your groups/contributions is entirely up to you, but here are a few that are commonly used:
+    - Career phases — Early (undergrad), graduate, and postdoctoral career
+    - Different perspectives in science
+    - Development of different state of the art tools
+    - Varying translational impact 
+- Instead of jumping directly into your research, for each contribution to science write a narrative/short story that includes these five components:
+    - An opening or introduction of a problem in the field
+    - A challenge in the form of a gap in knowledge or motivation
+    - An action, which consists of what you did (your research contribution)
+    - A climax, where you describe a result and its significance 
+    - A conclusion, end the paragraph with a statement indicating how this research has transformed or advanced the field
+- Cite up to four papers/research products for each scientific contribution
+    - Note, here you want to be a bit strategic. Maximize your citations! If you have more than four papers that you want to cite in a single scientific contribution, consider splitting the scientific contribution to allow for citing all your papers. 
+    - Note, bold your name in each citation to help the reviewer identify your name in the list of authors.
+Include a link to a bibliography at the end (optional)
+- This is optional, but Orit highly recommends that you include a link to your full bibliography at the end of your contributions to science. Importantly, the URL you provide must be from a Federal Government website (aka. you cannot use Google Scholar). It is highly recommended that you use the [My Bibliography](https://www.ncbi.nlm.nih.gov/books/NBK53595/) option that can be setup through [My NCBI](https://www.ncbi.nlm.nih.gov/myncbi/).
+
+**Tackling the Positions and Honors**
+It’s time to brag about yourself and how awesome you are! :)
+Read the full instructions on the [NIH Grants and Funding website](https://grants.nih.gov/grants/forms/biosketch.htm) and the [NIH General Application Guide for NIH and other PHS Agencies](https://grants.nih.gov/grants/how-to-apply-application-guide/forms-e/general/g.240-r&r-seniorkey-person-profile-(expanded)-form.htm), but here are a few of the important details:
+
+- List positions and honors in chronological order (oldest to newest/current)… you can list a future position/employment, just include the expected start date.
+- Look at the examples, the positions and honors for both fellowship and non-fellowship applications is roughly divided into three sections: 
+    1. Positions and employment — Your postdoc can be listed as a position (in addition to adding it to the header). You can include TA work here. 
+    2. Other experience and professional memberships — You can include volunteer work here.
+    3. Honors — You can include travel awards here. 
+- List any relevant academic or professional achievements and honors. 
+    - For students, postdocs, and junior faculty this includes scholarships, traineeships, fellowships, and development awards.
+    - For clinicians this includes clinical licensures and specialty board certifications. 
+- Note, certain large honors (like receiving an F31 as a graduate student) can and should be listed in multiple sections of your biosketch — it should be included as an honor (part B), but it can also be mentioned in your contributions to science (part C), mentioned in your personal statement (part A), and included in your research support (part A, highlighted projects).
+
+**Tackling the Personal Statement**
+Last, but not least, it’s time to write the personal statement! Orit suggests writing the personal statement at the end, because it will be tailored to the specific proposal. As with all other sections of the biosketch, read carefully through the instructions in the [NIH General Application Guide for NIH and other PHS Agencies](https://grants.nih.gov/grants/how-to-apply-application-guide/forms-e/general/g.240-r&r-seniorkey-person-profile-(expanded)-form.htm). 
+
+Personal statement instructions
+
+- Briefly describe why you are well suited for your role(s) in this project. 
+- Should include aspects of your training, previous experimental work on this topic, your technical expertise, your collaborators, your scientific environment, and/or past performance in this field. 
+- At the end, you may cite up to four publications or research products that highlight your experiences and qualifications for this project.
+- Note, this is also where you have the opportunity to address factors that affected past scientific productivity (including a death in the family or other obligations).
+- Not explicitly written in the instructions, but the personal statement should be written in the first person and should fit on the first page (excluding the four citations).
+
+Goals for the personal statement
+Orit mentioned that the goals for the personal statement differ depending on if you are applying for a fellowship or non-fellowship, so keep this in mind when writing.
+
+- Fellowship (F-grant) goals: The personal statement should describe how the research proposed will provide you with the best possible training to advance your career. 
+- Non-fellowship/career transition (K-grant) goals: The personal statement should describe how the research proposed will help you transition to an independent academic position.
+
+Suggestions for writing the personal statement
+By walking us through a well-written personal statement, Orit described lay out a excellent format to follow:
+
+- Start with career goals and motivations 
+- Transition towards an exhibition of your research experience and here incorporate references to what you have already accomplished in science. 
+- End with a statement regarding how the research proposed in this grant will advance your career. Here it is important to show some aspect of growth. Explain how the research proposed will (1) provide the training necessary to allow you to find your science niche and (2) help you use new tools (or a new perspective) to make significant advances in science.
+
+**Additional notes and final thoughts**
+A few final thoughts from Orit’s workshop:
+
+- No diagrams or figures are allowed in the biosketch.
+- Don’t forget to update your biosketch over time (continue to add positions and honors, update funding, update scholastic performance/grades, etc).
+- The biosketch should be tailored to each specific proposal. 
+- For the NIH, you will attach the biosketch as a PDF file.
+- The biosketch cannot be longer than 5 pages long. 
+- Make sure you adhere to other NIH guidelines regarding font type, font size, margins — refer to the [NIH format guidelines](https://grants.nih.gov/grants/how-to-apply-application-guide/format-and-write/format-attachments.htm). 
+- Share with others, get feedback, and edit!
+
+### Peer Editing Hour
+
+#### For Author
+
+Come prepared with ~1 page of writing. Please send this to Shannon by the 9am CT the day of your peer editing session so she can ensure everything is in the right format to share with the team. Ideally, your writing should be in decent shape (i.e., not a messy first draft) by the time you are sharing it with the team. Be prepared to introduce your piece (context, audience, etc.) and read your writing aloud to the group, one paragraph at a time, and receive feedback as we go. The facilitator will document comments and changes to the text for you. You may receive feedback on writing style, word choice, sentence structure, grammar, general comments and questions about the work, etc. This time is meant to be constructive and help you improve your final product, so please make the best use of it possible.
+
+#### For Facilitators
+
+You will be responsible for documenting any changes, suggestions, or comments on the work presented – you do not need to be familiar with the work in advance. At the beginning of the hour, make sure that the document is in “track changes” mode so the author will be able to easily see any modifications when looking back at their work. Please be detailed in recording all comments so they can be as useful as possible. 
+
+#### For Audience
+
+Bring your best constructive criticism and writing ideas! Be open to sharing your thoughts, big and small, to help your colleagues improve their writing. Authors may present work in various stages of development and/or completeness so ask clarifying questions as needed. This may be especially relevant for excerpts from specific sections of manuscripts where you may not understand the context (e.g., what is included in the first half of the background/introduction while we are editing the second half). Be sure to consider any information provided by the author when introducing their writing, such as the intended audience.
+
+
+## Plots & Figures
+
+Any figures you make should be clear and thoughtful in content. They should help convey the story you are trying to tell and highlight key results. You should always spend time to think through what you are trying to show and why as this will lead your design process. Just because you’ve seen or made a figure in the past does not mean that it will be the best way to show your current results.
+Likewise, consider your audience and the style of presentation of your figures. Are you presenting to experts in the field? Non-scientists? Are you preparing an oral presentation or paper? Each of these will have different implications for your figure so it can be the most appropriate and impactful.
+For more extensive best practices for scientific figures, check out PLOS Computational Biology’s article: [10 Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833). Some key points that you should take away, that are not already mentioned, are to think through color, legends, and labeling. Oftentimes, the R and python defaults will not provide the best setup for a nice figure in these areas so you may need to adjust them to better tell your story. For example, color can help distinguish differences between simulations and can convey grouping and should be thought out for single figures as well as multiples contained in the same presentation or paper. 
+
+### Presentations
+
+For figures included in presentations, the font size should be at least 16pt. You do not have to include as detailed of a caption as you would in a paper; however, your slide title should include the key takeaway for the slide and figure, and you should be prepared to walk your audience through the figure as you present. Do not crowd a slide with too many figures, especially ones that are more complex. If you must include multiple figures on one slide, use animations to build the slide up and keep your audience focused on one figure at a time. 
+
+###Papers
+
+For figures included in papers, the font size should be at least 8pt. You must include a caption that concisely explains the figure. Avoid overcrowding of the space and ensure that all aspects are differentiable and legible.
+
+
+## Presentations / Talks
+
+### For Speaker
+
+The most important things for the speaker to keep in mind is who is the audience and what are the objectives of the presentation. What is the single take-home message you would like to communicate? Everything in your talk should build toward that single message.
+
+Review PLOS Computational Biology’s [10 simple rules for effective presentation slides](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009554) to understand general expectations for slide decks. Key takeaways include using slide headers as a summary sentence for the contents, with one main idea per slide, and designing slides to minimize distraction and overload that will prevent your audience from getting the full benefit of your talk. You should also review this document’s section on figures for presentations.
+
+Be sure to consider your audience and their background knowledge of the subject, as well as time limit when drafting slide decks as this will guide the level of depth and what to focus on.  Understanding your audience will also help you frame your presentation to give appropriate background and motivation for your work and to emphasize the importance and implications of your results both generally and for the audience specifically.
+
+### For Audience 
+
+During presentations, all audience members are expected to be active and respectful listeners who give the presenter their undivided attention. We encourage asking questions both during and after the talk – if you are confused, chances are someone else is too. It should be noted that during certain presentations questions and comments should be saved for the end. This is typically only the expectation of practice talks while team meetings are open to questions at any time, and this type of special consideration will be established before the presentation starts.
+
+After practice talks, all attendees are expected to provide comments and/or ask questions about the presentation in order to help the speaker improve before their official presentation. Speakers may ask for specific kinds of feedback which can help guide your commentary. If not, comments on presentation style and content are welcome. All comments should be constructive in nature and typically should not be repeated (i.e. a speaker does not need to hear “you should improve X” multiple times). You should be prepared to provide thoughtful feedback to all presenters, even if they are presenting on something outside your technical expertise, as we believe everyone has something valuable to contribute.

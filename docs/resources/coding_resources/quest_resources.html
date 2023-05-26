@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.1.189">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../index.html" class="sidebar-logo-link">
+      <a href="../../" class="sidebar-logo-link">
       <img src="../../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
@@ -279,24 +279,23 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
 
 </header>
 
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="../../resources/coding_resources.html">Back to Coding Resources</a></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="../../resources/coding_resources.html">Back to Coding Resources</a></span></div></div>
 <p>Northwestern’s High-Performance Computing (HPC) cluster is ideal to run compute-intensive and data-intensive applications.</p>
-<p>Northwesterns University’s high performance computing (HPC) system is called Quest, you can read more about Quest <a href="">here</a>.</p>
+<p>Northwestern’s University’s high performance computing (HPC) system is called Quest, you can read more about Quest <a href="https://www.it.northwestern.edu/departments/it-services-support/research/computing/quest/">here</a>.</p>
 <p>Good to know:</p>
 <ul>
-<li>Connect to Quest using the software <a href="">MobaXterm</a> or <a href="">FastX</a> .</li>
-<li>The <a href="">Quest Quick Start Guide</a> provide useful information to get started and find help to common questions and issues when using Quest.
+<li>Connect to Quest using the software <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm Home Edition</a> or <a href="https://services.northwestern.edu/TDClient/30/Portal/KB/ArticleDet?ID=1511">FastX</a> .</li>
+<li>The <a href="https://services.northwestern.edu/TDClient/30/Portal/KB/ArticleDet?ID=1542">Quest Quick Start Guide</a> provide useful information to get started and find help to common questions and issues when using Quest.
 <ul>
-<li>and youtube video <a href="">Navigating Quest via Shell</a> from Northwestern Research Computing Team (they have many more resources!)</li>
+<li>The <a href="https://www.youtube.com/watch?v=cLn_1BzRxCM">Navigating Quest via Shell</a> youtube video from Northwestern Research Computing Team (they have many more resources!) can help you learn about basic bash commands and moving between directories</li>
 </ul></li>
-<li><a href="">SLURM guide</a> - On the cluster, the SLURM job scheduling system is used</li>
+<li><a href="https://services.northwestern.edu/TDClient/30/Portal/KB/ArticleDet?ID=1964">SLURM guide</a> - On the cluster, the SLURM job scheduling system is used</li>
 </ul>
 
 
@@ -343,24 +342,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -396,42 +378,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

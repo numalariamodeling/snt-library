@@ -10,11 +10,11 @@ format:
 
 Northwestern’s High-Performance Computing (HPC) cluster is ideal to run compute-intensive and data-intensive applications.
 
-Northwesterns University’s high performance computing (HPC) system is called Quest, you can read more about Quest [here]().
+Northwestern's University’s high performance computing (HPC) system is called Quest, you can read more about Quest [here](https://www.it.northwestern.edu/departments/it-services-support/research/computing/quest/).
 
 Good to know:
 
-* Connect to Quest using the software [MobaXterm]() or [FastX]() .
-* The [Quest Quick Start Guide]() provide useful information to get started and find help to common questions and issues when using Quest.
-    * and youtube video [Navigating Quest via Shell]() from Northwestern Research Computing Team (they have many more resources!)
-* [SLURM guide]() - On the cluster, the SLURM job scheduling system is used 
+* Connect to Quest using the software [MobaXterm Home Edition](https://mobaxterm.mobatek.net/download.html) or [FastX](https://services.northwestern.edu/TDClient/30/Portal/KB/ArticleDet?ID=1511) .
+* The [Quest Quick Start Guide](https://services.northwestern.edu/TDClient/30/Portal/KB/ArticleDet?ID=1542) provide useful information to get started and find help to common questions and issues when using Quest.
+    * The [Navigating Quest via Shell](https://www.youtube.com/watch?v=cLn_1BzRxCM) youtube video from Northwestern Research Computing Team (they have many more resources!) can help you learn about basic bash commands and moving between directories
+* [SLURM guide](https://services.northwestern.edu/TDClient/30/Portal/KB/ArticleDet?ID=1964) - On the cluster, the SLURM job scheduling system is used 

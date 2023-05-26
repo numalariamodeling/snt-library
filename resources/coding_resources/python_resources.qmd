@@ -10,24 +10,18 @@ format:
 
 Python is a high-level, general-purpose programming language.
 
-### Python Resources
+# Python Resources
 
-* [Pycharm]() (IDE for python)  
-  * Useful [keyboard shortcuts]() and [plugins]()  
-* [Learn python]()  
-* [Code academy]() some free intro tutorials/projects  
-* [Dataquest access](), free through NU on a quarter system (click on start free)  
-* [Python for Biologists]()   
-* [Python Data Science Handbook]()  
-* [pandas]() (includes a r/py comparison)
+[Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows) (IDE for python)  
+  * Useful [keyboard shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html#choose-keymap) and [plugins](https://www.jetbrains.com/help/pycharm/managing-plugins.html)  
 
+[Learn python](https://www.learnpython.org/)  
 
-### PyCharm Tips
+[Code academy](https://www.codecademy.com/catalog/language/python) contains some free lessons and tutorials for beginner to advanced python and other coding skills. Be sure to filter by price.  
 
-#### Set up python interpreter
+[Python for Biologists](https://www.pythonforbiologists.org/)   
 
-#### Run scipt from terminal
+[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)  
 
-#### Run script from pycharm
+[Using pandas](https://pandas.pydata.org/docs/getting_started/index.html#getting-started) (includes comparisons to R libraries)
 
-#### Run script interactively

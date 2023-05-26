@@ -1,6 +1,6 @@
 ---
 title: "EMOD Outputs & Analyzers"
-date: 2023-07-07
+date: 2023-07-06
 format: 
   html: 
     toc: true

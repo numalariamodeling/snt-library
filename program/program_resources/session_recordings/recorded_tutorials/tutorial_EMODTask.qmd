@@ -1,6 +1,6 @@
 ---
-title: "EMODTask - Running Simulations"
-date: 2023-07-05
+title: "EMOD Walkthrough & Simple Run"
+date: 2023-06-30
 format: 
   html: 
     toc: true
@@ -8,4 +8,4 @@ format:
 ---
 [[Back to Recorded Tutorials](../recorded_tutorials.qmd)]{.aside}
 
-EMODTask controls the basic building of simulations so is necessary for running EMOD. 
+In this session, we walk through the basic parts of a simple EMOD run script. EMODTask controls the basic building of simulations so is necessary for running EMOD. 

@@ -76,13 +76,11 @@ I am asking for this information not to evaluate if you are working hard enough,
 
 *I strongly recommend you keep a log of your weekly 1-on-1's, noting what was discussed and any next steps you're planning to do.*
 
-## Office Hours
-
-## Asking for Help
+## Getting Help
 
 ### Help with Code
 
-Encountering errors in programming is inevitable and part of the learning process. They provide a learning opportunity and while annoying should not be seen as discouragement to continue. It is always good to try to resolve any issues yourself, however if it takes too much time, do not hesitate to ask for help. Many of the issues have been encountered by others as well and can be resolved in no time!
+We find that learning by doing is incredibly useful to improving our skill and knowledge bases. In this process, things will inevitably go awry. These mishaps provide a learning opportunity and while annoying should not be seen as discouragement to continue. There are a variety of ways to seek help – the flowchart below can help you walk through the process of where and how to get the help needed for a few types of anticipated problems. Below that are team expectations for what these steps entail.
 
 *Whenever asking for help with errors, please provide detailed information about:*
 
@@ -92,28 +90,44 @@ Encountering errors in programming is inevitable and part of the learning proces
 
 *Depending on the type of error further details on your system setup and program versions might be needed as well. This will ensure that whoever responds can give the best answer in less time.*
 
+![](GettingHelpFlowchart.png)
+
 #### Troubleshooting Steps
 
 1.  Check for Existing Answers
-
--   Web Search (*Python, R, git*)
--   Example Exercises (*EMOD*)
--   EMOD How-To Guides
--   Search the Help channel on Slack
-
+    -   *EMOD*:	Check the FE example exercises, how-tos, and coding resources for anything helpful. This is especially useful when you don’t know or have forgotten how to add certain things to your script. 
+        -   For EMOD capabilities and parameter-related questions, the [EMOD malaria documentation](https://docs.idmod.org/projects/emod-malaria/en/latest/index.html) from IDM contains the most relevant information.
+    -   *Python, R, GitHub*: Search the internet more broadly. Sites such as stack overflow or package documentation (if questions on a specific function) can be particularly helpful for general coding questions. If you find a solution on one of these sites, make sure that you spend some time to understand what they are doing to fix the problem – do NOT just copy and paste.
+    -   Search the #help channel on Slack to see if a similar question has been answered by the team previously. There are many common questions and errors experienced in running EMOD, so this space contains many useful answers
 2.  Ask peers for help
+    -   If you have tried searching online for coding troubleshooting or have general scientific question about your work, your peers are a great place to seek help. You are all learning together and come from a variety of scientific backgrounds. We highly encourage you to discuss any errors you are encountering or questions you have with each other you may be able to solve the problem together without further assistance. This peer discussion process can also be helpful in cementing what you have learned through teaching.
 3.  Post on Slack
-4.  1-on-1 Help
+    -   If you have not found a solution after searching online and discussing with peers, then we recommend posting on the #help channel on slack so everyone can see your question. This will also help yourself and others in the future who are asking similar questions. Of note, not everyone is in the same time zone so you may need to wait for others’ availability. This is an interactive process where you will often have to try many things. Below is a checklist to help you shape posts for the #help channel so you and others can get the most out of it.
+    -   Making the most of posting to the #help channel
+        -   *Error message*: Include the entire error message in your post so the channel can fully understand the problem. It is preferable to include the text of the error message rather than just a screenshot so the key words will pop up in future searches. You may include the most important part of the text and a screenshot of the entire message if it is a particularly long error
+        -   *Link to code where the error is occurring*: It is much easier for others to help you solve your problem if they can see the code that is generating the error. The easiest way to share this is through your GitHub repository, if it is up to date and viewable to team members. Be sure to link to the exact script and include any pertinent information (such as lines the error is coming from)
+        -   *Context of the error*: What were you doing when the error occurred? It can be helpful to know what the goal of the script is (e.g., running simulations, analyzers, etc.) as well as the answers to the following questions:
+            -   Did it ever work? 
+            -   Is this a new error? 
+            -   What has changed since it last worked?
+        -   *What have you done to try to solve it*: Include specifics of solutions you’ve tried and how you’ve changed the code. Saying that you searched online and talked to a peer does not help the channel understand what you have done and how it impacted the error. Without this information the channel may suggest potential solutions you’ve already tried which wastes everyone’s time. Furthermore, including failed potential solutions can sometimes help us better understand what the problem is as sometimes error messages are not particularly helpful on their own. 
+    -   If you find a solution to a complicated problem that you think others would benefit from knowing, feel free to post it to the channel with the same kinds of details!
+4.  Office Hours
+    -   Office hours are protected, structured touchpoints that all members of the instructional staff will host to facilitate your learning experience. Most staff will have one hour scheduled per week dedicated to answering questions and providing assistance. This set aside time helps to ensure that someone is accessible to answer questions and talk about your work, without distraction, most days. You are encouraged to show up to any of the office hours – it does not have to be your buddy or the lecturer on the relevant topic as all of the staff should be able to assist or identify others if needed. This time can be used for many topics including errors encountered, general EMOD questions, or asking for feedback.
+    -   For technical problems, office hours are particularly helpful when you have already tried a few methods of solving the problem yourself (see flowchart and code troubleshooting, below). Come prepared to discuss
+            1. the error that you are encountering
+            2. what you think may be causing the error/changes made since the code last worked, and 
+            3. any methods you have tried to solve the problem. Be sure to have all documentation ready to help the staff understand the problem (such as pushing your code to GitHub, a copy of the full error message, etc.)
+    -   Office hours can also be used for consultations on project design and scientific approach to the project.
 
--   Office Hours
-    -   Isaiah or Benedicta
-        -   Buddy 1-on-1
-            -   Jaline 1-on-1
-
-### Understanding an Article
+*Note that outside of 1:1s and office hours, instructional staff may not be immediately available for help due to their other obligations. You may bring additional questions to 1:1 sessions.*
 
 ### Logistics
 
-## 
+Contact Shannon on Slack or in the office. Reach out to her as soon as possible as sometimes bureaucratic problems can take time to solve. Logistical problems include:
 
-#### 
+1.	Accessing team/NU resources, such as dropbox, email, and DUO
+2.	Expenses/reimbursements
+3.	Housing
+4.	Arranging visitor travel
+5.	ASTMH registration
