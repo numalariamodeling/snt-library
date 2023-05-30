@@ -1,13 +1,19 @@
 ---
-title: "2023 Program Handbook"
+title: "Program Handbook"
 listing:
-  id: "expectations"
-  contents: 
-    - ../../../expectations/*.qmd
-    - best_practices/best_practices_journal_club.qmd
-  type: grid
-  grid-columns: 3
-  fields: [title]
+  - id: "handbook"
+    contents: ../../../handbook.qmd
+    type: grid
+    grid-columns: 1
+    fields: [title]
+  
+  - id: "expectations"
+    contents: 
+      - ../../../expectations/*.qmd
+      - best_practices/best_practices_journal_club.qmd
+    type: grid
+    grid-columns: 3
+    fields: [title]
 weight: 2
 format: 
   html: 
@@ -17,7 +23,12 @@ format:
 page-layout: article
 ---
 
-A comprehensive guide to this year's curriculum, assignments, and learning objectives
+### Full 2023 Program Handbook
+
+A comprehensive guide to this year’s curriculum, assignments, and learning objectives
+
+:::{#handbook}
+:::
 
 ### Expectations
 
@@ -46,4 +57,4 @@ A comprehensive guide to this year's curriculum, assignments, and learning objec
 | 16   | Biosketch Peer Editing Hour     | **October 11, 2023**   |
 | 18   | Final Project Presentation      | **October 26, 2023**   |
 
-### Full 2023 Program Handbook
+

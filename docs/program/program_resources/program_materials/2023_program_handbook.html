@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Faculty Enrichment Program in Applied Malaria Modeling - 2023 Program Handbook</title>
+<title>Faculty Enrichment Program in Applied Malaria Modeling - Program Handbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,6 +64,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-handbook .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-handbook'] = new List('listing-handbook', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-expectations .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -102,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">2023 Program Handbook</h1>
+      <h1 class="quarto-secondary-nav-title">Program Handbook</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -163,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../program/program_resources/program_materials/2023_program_handbook.html" class="sidebar-item-text sidebar-link active">2023 Program Handbook</a>
+  <a href="../../../program/program_resources/program_materials/2023_program_handbook.html" class="sidebar-item-text sidebar-link active">Program Handbook</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -300,9 +328,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#expectations" id="toc-expectations" class="nav-link active" data-scroll-target="#expectations">Expectations</a></li>
+  <li><a href="#full-2023-program-handbook" id="toc-full-2023-program-handbook" class="nav-link active" data-scroll-target="#full-2023-program-handbook">Full 2023 Program Handbook</a></li>
+  <li><a href="#expectations" id="toc-expectations" class="nav-link" data-scroll-target="#expectations">Expectations</a></li>
   <li><a href="#program-milestones" id="toc-program-milestones" class="nav-link" data-scroll-target="#program-milestones">Program Milestones</a></li>
-  <li><a href="#full-2023-program-handbook" id="toc-full-2023-program-handbook" class="nav-link" data-scroll-target="#full-2023-program-handbook">Full 2023 Program Handbook</a></li>
   </ul>
 </nav>
     </div>
@@ -311,7 +339,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">2023 Program Handbook</h1>
+<h1 class="title d-none d-lg-block">Program Handbook</h1>
 </div>
 
 
@@ -326,7 +354,28 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="full-2023-program-handbook" class="level3">
+<h3 class="anchored" data-anchor-id="full-2023-program-handbook">Full 2023 Program Handbook</h3>
 <p>A comprehensive guide to this year’s curriculum, assignments, and learning objectives</p>
+<div id="listing-handbook" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1685465088535" data-listing-reading-time-sort="0.025">
+<a href="../../../handbook.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Full 2023 Program Handbook
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
 <section id="expectations" class="level3">
 <h3 class="anchored" data-anchor-id="expectations">Expectations</h3>
 <div id="listing-expectations" class="quarto-listing quarto-listing-container-grid">
@@ -468,9 +517,6 @@ No matching items
 </tr>
 </tbody>
 </table>
-</section>
-<section id="full-2023-program-handbook" class="level3">
-<h3 class="anchored" data-anchor-id="full-2023-program-handbook">Full 2023 Program Handbook</h3>
 
 
 
