@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../../" class="sidebar-logo-link">
+      <a href="../../../index.html" class="sidebar-logo-link">
       <img src="../../../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
@@ -311,13 +311,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="../../../program/program_resources/session_recordings.html">Back to Session Recordings</a></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="../../../program/program_resources/session_recordings.html">Back to Session Recordings</a></span></div></div>
 <p>Learn new concepts from program instructors &amp; guest lecturers</p>
 
 
@@ -325,7 +326,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1687323600000" data-listing-file-modified-sort="1685123774886" data-listing-reading-time-sort="0.09">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1687323600000" data-listing-file-modified-sort="1684350227459" data-listing-reading-time-sort="0.09">
 <a href="../../../program/program_resources/session_recordings/recorded_lectures/epi_crash_course.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -333,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
 Epidemiology Crash Course
 </h5>
 <div class="card-text listing-description">
-
+Brush up on some fundamental concepts needed to study - and model - malaria transmission
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -344,7 +345,7 @@ Epidemiology Crash Course
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1687842000000" data-listing-file-modified-sort="1685123774887" data-listing-reading-time-sort="0.08">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1687842000000" data-listing-file-modified-sort="1684350236562" data-listing-reading-time-sort="0.08">
 <a href="../../../program/program_resources/session_recordings/recorded_lectures/intro_to_applied_modeling.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -352,7 +353,7 @@ Epidemiology Crash Course
 What is Applied Malaria Modeling?
 </h5>
 <div class="card-text listing-description">
-
+A broad overview of the concepts behind the practice of applied malaria modeling
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -363,7 +364,7 @@ What is Applied Malaria Modeling?
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1687928400000" data-listing-file-modified-sort="1685123774887" data-listing-reading-time-sort="0.125">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1687928400000" data-listing-file-modified-sort="1684350242028" data-listing-reading-time-sort="0.125">
 <a href="../../../program/program_resources/session_recordings/recorded_lectures/intro_to_emod.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -371,7 +372,7 @@ What is Applied Malaria Modeling?
 Intro to EMOD
 </h5>
 <div class="card-text listing-description">
-
+An overview of EMOD, the agent-based modeling platform we will use througout the program, and how it differs from simpler epidemiological models
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -428,7 +429,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -464,24 +482,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
