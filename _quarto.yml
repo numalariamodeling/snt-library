@@ -48,7 +48,7 @@ website:
         url: https://numalariamodeling.org
       - text: "--- AMMnet"
         url: https://ammnet.org/
-      - text: "<br>Voir le Site en Français"
+      - text: "<br><span style='color: red; font-weight:bold;'>Voir le Site en Français</span>" 
         url: https://numalariamodeling.github.io/FE-2023-site-web-francais/
 
     tools: 
