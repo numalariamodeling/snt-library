@@ -7,6 +7,7 @@ website:
   reader-mode: true
   favicon: numalaria_logo.png
   sidebar: 
+    header: "English"
     style: floating   
     title: "Faculty Enrichment Program in Applied Malaria Modeling"
     logo: numalaria_logo.png
