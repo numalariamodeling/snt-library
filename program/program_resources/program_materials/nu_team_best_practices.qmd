@@ -7,6 +7,7 @@ listing:
   contents: 
     - best_practices/*.qmd
     - "!best_practices/*/*.qmd"
+  fields: [title]
   sort: weight
 ---
 
