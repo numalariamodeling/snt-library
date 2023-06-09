@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.1.189">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
 <p>English</p>
 </div></div>
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../../../index.html" class="sidebar-logo-link">
+      <a href="../../../../" class="sidebar-logo-link">
       <img src="../../../../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
@@ -297,14 +297,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
 
 </header>
 
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="../../../../program/program_resources/program_materials/nu_team_best_practices.html">Back to Best Practices</a></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><a href="../../../../program/program_resources/program_materials/nu_team_best_practices.html">Back to Best Practices</a></span></div></div>
 <p>Best practices for experiment design, inputs/outputs, and using QUEST</p>
 <section id="experiment-design" class="level3">
 <h3 class="anchored" data-anchor-id="experiment-design">Experiment design</h3>
@@ -347,7 +346,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Be aware of how long you expect your jobs to run. If they will take a long time, it is considerate to run fewer sims at once or to wait until times of low usage (such as evenings or weekends) to start the jobs. You can enable email notification for your submitted jobs, and also check in the terminal via squeue -u <username> or squeue –A b1139.</username></li>
 <li>If you must run a “big job” with many simulations, discuss any urgent needs for the cluster as others may have time sensitive projects. Submit &lt;100 jobs at a time on b1139 to avoid “clogging” the cluster. It is easy to limit the number of jobs able to run at one time with idmtools, so you can submit all your jobs at once but only the specified “max_run_jobs” will run at one time. As simulations finish, the next ones will start automatically.</li>
 <li>Debug your simulations with small pilots (see experiment design) to make sure your simulations do what you expect before scaling up.</li>
-<li>Managing disk space, you can check for space used via typing ‘homedu’ or ‘checkproject b1139’ in the terminal. Simulations should typically be stored in respective project folders on b1139 so they are accessible to other team members for troubleshooting and due to low storage limits on home directories. Be sure to remove old and/or failed simulations when they are no longer needed as they can occupy a great deal of storage space.</li>
+<li>Managing disk space, you can check for space used via typing <code>homedu</code> or <code>checkproject b1139</code> in the terminal. Simulations should typically be stored in respective project folders on b1139 so they are accessible to other team members for troubleshooting and due to low storage limits on home directories. Be sure to remove old and/or failed simulations when they are no longer needed as they can occupy a great deal of storage space.</li>
 </ul>
 
 
@@ -396,24 +395,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -449,42 +431,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

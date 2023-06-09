@@ -162,7 +162,7 @@ For more extensive best practices for scientific figures, check out PLOS Computa
 
 For figures included in presentations, the font size should be at least 16pt. You do not have to include as detailed of a caption as you would in a paper; however, your slide title should include the key takeaway for the slide and figure, and you should be prepared to walk your audience through the figure as you present. Do not crowd a slide with too many figures, especially ones that are more complex. If you must include multiple figures on one slide, use animations to build the slide up and keep your audience focused on one figure at a time. 
 
-###Papers
+### Papers
 
 For figures included in papers, the font size should be at least 8pt. You must include a caption that concisely explains the figure. Avoid overcrowding of the space and ensure that all aspects are differentiable and legible.
 
