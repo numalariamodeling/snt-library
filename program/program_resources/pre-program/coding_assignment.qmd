@@ -124,7 +124,7 @@ Your directory structure should now be:
         -   An informative title, labels, legend, color palette etc.
             -   You don't need to spend much time on plot appearance for this for this assignment, but it is an important part of communicating our findings
 
-    -   Save your plot(s) as `.png` file(s) in `project_dir/` with a descriptive file name (ex. "Variables1-2_by_Site.png")
+    -   Save your plot(s) as `.png` file(s) in `project_dir/` with a descriptive file name (ex. "Variables1-3_by_Site.png")
 
 #### Part 3. Submit to Slack
 
