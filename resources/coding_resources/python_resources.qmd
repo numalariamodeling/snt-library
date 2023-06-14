@@ -6,22 +6,23 @@ format:
     toc: true
     toc-depth: 5
 ---
+
 [[Back to Coding Resources](../coding_resources.qmd)]{.aside}
 
 Python is a high-level, general-purpose programming language.
 
 # Python Resources
 
-[Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows) (IDE for python)  
-  * Useful [keyboard shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html#choose-keymap) and [plugins](https://www.jetbrains.com/help/pycharm/managing-plugins.html)  
+[Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows) (IDE for python)
 
-[Learn python](https://www.learnpython.org/)  
+-   Useful [keyboard shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html#choose-keymap) and [plugins](https://www.jetbrains.com/help/pycharm/managing-plugins.html)
 
-[Code academy](https://www.codecademy.com/catalog/language/python) contains some free lessons and tutorials for beginner to advanced python and other coding skills. Be sure to filter by price.  
+[Learn python](https://www.learnpython.org/)
 
-[Python for Biologists](https://www.pythonforbiologists.org/)   
+[Code academy](https://www.codecademy.com/catalog/language/python) contains some free lessons and tutorials for beginner to advanced python and other coding skills. Be sure to filter by price.
 
-[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)  
+[Python for Biologists](https://www.pythonforbiologists.org/)
+
+[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 [Using pandas](https://pandas.pydata.org/docs/getting_started/index.html#getting-started) (includes comparisons to R libraries)
-

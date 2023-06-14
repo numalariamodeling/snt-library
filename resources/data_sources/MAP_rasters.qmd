@@ -4,7 +4,8 @@ weight: 2
 listing:
   type: grid
   grid-columns: 1
-  contents: MAP_pages/*.qmd
+  contents: 
+    - 'MAP_pages/MAP_rasters_walkthrough.qmd'
   sort: weight
 ---
 
