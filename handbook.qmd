@@ -9,4 +9,4 @@ format:
 page-layout: article
 ---
 
-<iframe src="./2023_Course_Handbook.pdf" title="foo" width="960" height="900"></iframe>
+<iframe src="./2023_Course_Handbook_en.pdf" title="foo" width="960" height="900"></iframe>
