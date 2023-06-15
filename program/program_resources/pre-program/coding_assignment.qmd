@@ -63,7 +63,7 @@ The first assignment asks you to demonstrate your ability to use the pre-requisi
     -   Download and unzip the folder to a new folder on your computer, ...`/project_dir`
 
 3.  Examine a sample `output.csv` file from the example data.\
-    You will have to click through `experiment > simulation_## > outputs` to see one. This is a standard directory structure for outputs from the model, EMOD, which you will soon become very familiar with!
+    You will have to click through some subfolders to see one. This is common for outputs from the model, EMOD, which you will soon become very familiar with!
 
     -   In reality, the output files in EMOD can be .json dictionaries or .bin binary files in addition to .csv spreadsheets. However, to make the assignment simpler, we've created some "fake" output files in a form that is easier to work with.  
     -   Each output.csv file contains daily timeseries of 3 dependent variables [Var1, Var2, and Var3] for a specific combination of the grouping variables [Site, Trial_Number, and Arm]
