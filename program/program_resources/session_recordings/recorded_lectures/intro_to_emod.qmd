@@ -1,6 +1,6 @@
 ---
-title: "Intro to EMOD"
-date: 2023-06-28
+title: "Program Introduction"
+date: 2023-06-20
 format: 
   html: 
     toc: true
@@ -8,4 +8,12 @@ format:
 ---
 [[Back to Recorded Lectures](../recorded_lectures.qmd)]{.aside}
 
-An overview of EMOD, the agent-based modeling platform we will use througout the program, and how it differs from simpler epidemiological models
+Meet the members of the Northwestern Malaria Modeling team who will lead the program and other
+participants.  
+
+* Get to know instructional staff and other participants involved in the program  
+* Discuss the program curriculum, handbook, and NU team slack
+
+[Lecture Slides](https://www.dropbox.com/scl/fi/7idkgcmum0xawszhl9red/230620-Program-Introduction-en.pptx?dl=0&rlkey=66w17hyptrojhl6mzy6phaymg)
+
+[Recorded Presentation](https://www.dropbox.com/scl/fo/lmb7g5qcs0zt6hsyxpxsm/h?dl=0&rlkey=fto39noqpu2khhzgfrpcpuyeu)
