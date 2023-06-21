@@ -219,21 +219,6 @@
     ]
   },
   {
-    "listing": "/program/program_resources/session_recordings/recorded_tutorials.html",
-    "items": [
-      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html",
-      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html",
-      "/program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html"
-    ]
-  },
-  {
-    "listing": "/program/program_resources/session_recordings/recorded_discussions.html",
-    "items": [
-      "/program/program_resources/session_recordings/recorded_discussions/modeling_strengths_and_limitations.html",
-      "/program/program_resources/session_recordings/recorded_discussions/in-country_challenges.html"
-    ]
-  },
-  {
     "listing": "/resources.html",
     "items": [
       "/resources/articles.html",

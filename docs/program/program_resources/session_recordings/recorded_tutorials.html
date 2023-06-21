@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
 <link href="../../../numalaria_logo.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,37 +59,17 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
+<script src="../../../site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="../../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="../../../site_libs/datatables-binding-0.27/datatables.js"></script>
+<script src="../../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../../../site_libs/dt-core-1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../../../site_libs/dt-core-1.12.1/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="../../../site_libs/dt-core-1.12.1/js/jquery.dataTables.min.js"></script>
+<link href="../../../site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../../site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
 
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -325,74 +303,17 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><a href="../../../program/program_resources/session_recordings.html">Back to Session Recordings</a></span></div></div>
 <p>Practice new concepts in hands-on group coding sessions, with live problem-solving and debugging</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-7e6be3a8e03c922fd045" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-7e6be3a8e03c922fd045">{"x":{"filter":"none","vertical":false,"data":[["29-Jun-23"],["GitHub Tutorial"],[""]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Date<\/th>\n      <th>Topic<\/th>\n      <th>Links<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"f","columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1688101200000" data-listing-file-modified-sort="1686591278879" data-listing-reading-time-sort="0.16">
-<a href="../../../program/program_resources/session_recordings/recorded_tutorials/tutorial_EMODTask.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-EMOD Walkthrough &amp; Simple Run
-</h5>
-<div class="card-text listing-description">
-In this session, we walk through the basic parts of a simple EMOD run script. EMODTask controls the basic building of simulations so is necessary for running EMOD.
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-6/30/23
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1688533200000" data-listing-file-modified-sort="1686591278879" data-listing-reading-time-sort="0.045">
-<a href="../../../program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_inputs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-EMOD Inputs
-</h5>
-<div class="card-text listing-description">
-Demographics, climate, and configuration files.
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-7/5/23
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1688619600000" data-listing-file-modified-sort="1686591278879" data-listing-reading-time-sort="0.045">
-<a href="../../../program/program_resources/session_recordings/recorded_tutorials/tutorial_EMOD_outputs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-EMOD Outputs &amp; Analyzers
-</h5>
-<div class="card-text listing-description">
-Track and report data from simulations.
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-7/6/23
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
