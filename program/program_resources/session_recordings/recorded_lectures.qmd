@@ -1,7 +1,7 @@
 ---
 title: "Lectures"
 weight: 1
-page-layout: article
+page-layout: full
 ---
 
 [[Back to Session Recordings](../session_recordings.qmd)]{.aside}
@@ -9,5 +9,5 @@ page-layout: article
 Learn new concepts from program instructors & guest lecturers
 
 | Date          |        Topic         |                                                                                                                                                                                                                                            Links |
-|:----------------------|:---------------------:|-------------------------:|
+|:------------------|:---------------------------:|---------------------:|
 | June 20, 2023 | Program Introduction | [Slides](https://www.dropbox.com/scl/fi/7idkgcmum0xawszhl9red/230620-Program-Introduction-en.pptx?dl=0&rlkey=66w17hyptrojhl6mzy6phaymg) [Recording](https://www.dropbox.com/scl/fo/lmb7g5qcs0zt6hsyxpxsm/h?dl=0&rlkey=fto39noqpu2khhzgfrpcpuyeu) |
