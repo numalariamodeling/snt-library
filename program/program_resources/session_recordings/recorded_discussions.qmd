@@ -1,16 +1,20 @@
 ---
 title: "Discussions"
 weight: 3
-listing: 
-  type: grid
-  grid-columns: 3
-  page-size: 9
-  contents: recorded_discussions/*.qmd
-  fields: [title, description, date]
-  date-format: "short"
-  sort: date
 page-layout: full
 ---
 [[Back to Session Recordings](../session_recordings.qmd)]{.aside}
 
 Roundtable discussions and other informal sessions
+
+```{r,echo=F, warning=F, error=F, message=F}
+library(tidyverse)
+df <- read.csv("FE Recordings Database.csv")
+df <- df %>% filter(Type=="Discussion")
+df <- df %>% relocate(Date)
+
+df <-  df %>% mutate(Links = paste(ifelse(Slides_Link!=" ",paste("<a href=\"",Slides_Link,"\">Slides</a><br>",sep=''),""),ifelse(Recording_Link!=" ",paste("<a href=\"",Recording_Link,"\">Recording</a>",sep=''), ""),sep=''))
+
+
+DT::datatable(df %>% select(Date,Topic,Links), options = list(dom='f'), escape = F, rownames = F)
+```

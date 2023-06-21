@@ -8,6 +8,14 @@ page-layout: full
 
 Learn new concepts from program instructors & guest lecturers
 
-| Date          |        Topic         |                                                                                                                                                                                                                                            Links |
-|:------------------|:---------------------------:|---------------------:|
-| June 20, 2023 | Program Introduction | [Slides](https://www.dropbox.com/scl/fi/7idkgcmum0xawszhl9red/230620-Program-Introduction-en.pptx?dl=0&rlkey=66w17hyptrojhl6mzy6phaymg) [Recording](https://www.dropbox.com/scl/fo/lmb7g5qcs0zt6hsyxpxsm/h?dl=0&rlkey=fto39noqpu2khhzgfrpcpuyeu) |
+```{r,echo=F, warning=F, error=F, message=F}
+library(tidyverse)
+df <- read.csv("FE Recordings Database.csv")
+df <- df %>% filter(Type=="Lecture")
+df <- df %>% relocate(Date)
+
+df <-  df %>% mutate(Links = paste(ifelse(Slides_Link!=" ",paste("<a href=\"",Slides_Link,"\">Slides</a><br>",sep=''),""),ifelse(Recording_Link!=" ",paste("<a href=\"",Recording_Link,"\">Recording</a>",sep=''), ""),sep=''))
+
+
+DT::datatable(df %>% select(Date,Topic,Links), options = list(dom='f'), escape = F, rownames = F)
+```
