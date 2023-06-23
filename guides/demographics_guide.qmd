@@ -4,11 +4,9 @@ weight: 2
 listing:
   contents: demographics_guide_pages
   type: grid
-  fields: [title, description, image]
+  fields: [title, description]
   sort: weight
   grid-columns: 1
-  image-placeholder: ../chicago_blue.png
-  image-height: "1cm"
 ---
 
 Simulated settings and human populations.
