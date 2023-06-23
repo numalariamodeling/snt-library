@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -301,7 +364,17 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#required-modules" id="toc-required-modules" class="nav-link active" data-scroll-target="#required-modules">Required modules</a></li>
+  <li><a href="#basic-structure-of-an-analyzer" id="toc-basic-structure-of-an-analyzer" class="nav-link" data-scroll-target="#basic-structure-of-an-analyzer">Basic structure of an Analyzer</a>
+  <ul class="collapse">
+  <li><a href="#analyze-insetchart" id="toc-analyze-insetchart" class="nav-link" data-scroll-target="#analyze-insetchart">Analyze InsetChart</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -323,9 +396,117 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p><em>Analyze reported outputs from a collection of a simulations.</em></p>
+<p>Most of <a href="https://docs.idmod.org/projects/emod-malaria/en/latest/software-outputs.html">EMOD generated output files</a> are in json format, and the remainder are csv’s. In <code>emodpy</code>, <em>Analyzer</em> functions facilitate extracting information from EMOD’s raw output files to produce results in csv’s or as figures.</p>
+<section id="required-modules" class="level2">
+<h2 class="anchored" data-anchor-id="required-modules">Required modules</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> idmtools.entities <span class="im">import</span> IAnalyzer </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> idmtools.entities.simulation <span class="im">import</span> Simulation</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> idmtools.analysis.analyze_manager <span class="im">import</span> AnalyzeManager</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> idmtools.core <span class="im">import</span> ItemType</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> idmtools.core.platform_factory <span class="im">import</span> Platform</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Other modules such as <code>datetime</code> may also be helpful, depending on the type of output and desired manipulations.</p>
+</section>
+<section id="basic-structure-of-an-analyzer" class="level2">
+<h2 class="anchored" data-anchor-id="basic-structure-of-an-analyzer">Basic structure of an Analyzer</h2>
+<p>The Analyzer Class should be defined using a meaningful name, i.e.&nbsp;<code>InsetChartAnalyzer</code> for an analyzer that processes <code>InsetChart.json</code> outputs. A <a href="https://docs.python.org/3/tutorial/classes.html">class</a> in Python allows constructing custom objects with associated attributes and functions. Each class starts with a definition of custom parameters and objects attributes via <code>__init__</code> and <code>self</code>. This requires a few edits across simulation experiments but tends to stay relatively unchanged within the same experiment setup.</p>
+<p>The <code>filter</code> function is optional. It allows the analyzer to only analyze a subset of simulations in an experiment by filtering based on simulation tags. For example, the user can request the analyzer only analyze simulations where the tag <code>SMC_Coverage</code> has the value 1 (if this is a tag the user specified when building their experiment), or simulations that succeeded. This functionality can be useful when debugging large experiments. If the <code>filter</code> function is not specified, then all simulations are targeted for analysis.</p>
+<p>The <code>map</code> is a custom function applied to extract data from the EMOD output file and needs to be modified the most across different EMOD output file types and according to the user’s needs.</p>
+<p>Finally, the <code>reduce</code> checks the extracted data, aggregates data from multiple simulations in the same experiment, and then saves or plots the data. The checking of the simulation stays mostly the same across simulations while the part of processing the simulation data is highly variable across projects and depends on the desired results.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> InsetChartAnalyzer(IAnalyzer): ...</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 1 - Definition of custom parameters and object attributes</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, ...)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Optional</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="bu">filter</span>(<span class="va">self</span>, simulation):</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        ...</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 2 - Extract and select data from the json output files</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="bu">map</span>(<span class="va">self</span>, data, simulation):</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        ...</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 3 - Check the extracted data and then save or plot the data</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="bu">reduce</span>(<span class="va">self</span>, all_data):</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>        ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>More information on the general structure and functioning of analyzers that work with EMOD output sis available in the <a href="https://docs.idmod.org/projects/idmtools/en/latest/analyzers/analyzers.html">idmtools documentation</a></p>
+<section id="analyze-insetchart" class="level3">
+<h3 class="anchored" data-anchor-id="analyze-insetchart">Analyze InsetChart</h3>
+<p>The InsetChartAnalyzer is used to explain the Analyzer structure in detail.</p>
+<section id="setup-analyzer-class-define-variables" class="level4">
+<h4 class="anchored" data-anchor-id="setup-analyzer-class-define-variables">Setup analyzer class &amp; define variables</h4>
+<p>You don’t need to understand the python fundamentals in depth, just what each line does and what to modify. - The first two lines including the <code>__init__(self,...)</code> and <code>super</code> is required in each analyzer class. Be sure to update the analyzer name in <code>super</code>. - The second line <code>filenames=["output/InsetChart.json"]</code> defines the EMOD output file to be analyzed. It is written in a list so that analyzers have the capability of combining data from multiple files. Generally we use 1 output file per analyzer. - The next lines that start with <code>self</code> attach each argument that the user has passed to the analyzer (<code>expt_name</code>, etc) to the analyzer class via <code>self</code>. This allows easy access to any of these values from any analyzer function via the <code>self</code> object. - This analyzer allows the user to specify the parameters <code>expt_name</code>, <code>sweep_variables</code> , <code>channels</code>, and <code>start_year</code>. Generally we use <code>expt_name</code> and <code>sweep_variables</code> across all analyzers we write, while the others are specific to this particular analyzer. All these requested parameters can be modified or extended with additional parameters if needed, according to the user’s needs. - These parameters allow the analyzer to take in experiment specific values, for instance simulation <code>start_year</code> is used to convert timesteps into date-time values, as we generally run EMOD in simulation time instead of calendar time. - The <code>expt_name</code> parameter lets the user specify the name of the experiment. We often use the experiment name in the file names of outputs from the analyzer, for example aggregated csv’s and figures. - The <code>sweep_variables</code> parameter is a list of simulation tags from the experiment that the user would like attached to each simulation. For example, <code>Run_Number</code> to track the random seed, or <code>SMC_Coverage</code> if the experiment sweeps over SMC coverage. - The <code>channels</code> is an optional parameter as it takes default values if not specified. It is included in this analyzer so the user has the flexibility to extract different channels from InsetChart.json if needed. If the same channels are always used, one could instead hard code the desired channel names into <code>self.channels</code> and remove the optional argument.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MonthlyInsetChartAnalyzer(IAnalyzer):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, expt_name, sweep_variables<span class="op">=</span><span class="va">None</span>, channels<span class="op">=</span><span class="va">None</span>, working_dir<span class="op">=</span><span class="st">"."</span>, start_year<span class="op">=</span><span class="dv">2022</span>):</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>(MonthlyInsetChartAnalyzer, <span class="va">self</span>).<span class="fu">__init__</span>(working_dir<span class="op">=</span>working_dir, filenames<span class="op">=</span>[<span class="st">"output/InsetChart.json"</span>])</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sweep_variables <span class="op">=</span> sweep_variables <span class="kw">or</span> [<span class="st">"Run_Number"</span>]</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.channels <span class="op">=</span> channels <span class="kw">or</span>  [<span class="st">'Statistical Population'</span>, <span class="st">'New Clinical Cases'</span>, <span class="st">'New Severe Cases'</span>, <span class="st">'PfHRP2 Prevalence'</span>]</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.expt_name <span class="op">=</span> expt_name</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.start_year <span class="op">=</span> start_year</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="map-simulation-data" class="level4">
+<h4 class="anchored" data-anchor-id="map-simulation-data">Map simulation data</h4>
+<p>The <code>map</code> is a custom function that will change the most when adapting an analyzer to different EMOD outputs. Do not change the function definition (the line beginning <code>def map()</code>).</p>
+<p>EMOD output from the requested output file(s) is stored in <code>data</code>. The first activity of <code>map()</code> is therefore to extract the desired data out of <code>data</code>. <code>data</code> is a dictionary where the keys are the filenames stored in <code>self.filenames</code> and the values are the content of each file.</p>
+<p>In this example using <code>InsetChart.json</code>, we read in the data from the json file, keeping only channels that have been specified in <code>self.channels</code>, and convert into a pandas dataframe. The dataframe will have one column for each channel, and each row is the channel value for each timestep in the simulation.</p>
+<p>Next, we want to convert the timesteps (row number) into calendar dates. Those are the next 5 lines. We copy <code>simdata.index</code> into <code>simdata['Time']</code> and create additional variables for Day, Month and Year that are easier to work with, as well as a <code>date</code> column that is a <code>datetime.date</code> object.</p>
+<p>Finally, the sweep variables corresponding to the simulation tags of the experiment are attached, the dataframe is returned, and the returned dataframe is automatically passed on to the next and final step of the analyzer. It is not required to return a dataframe but it is required to return something: the data of interest from the simulation.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="bu">map</span>(<span class="va">self</span>, data, simulation):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>        simdata <span class="op">=</span> pd.DataFrame({x: data[<span class="va">self</span>.filenames[<span class="dv">0</span>]][<span class="st">'Channels'</span>][x][<span class="st">'Data'</span>] <span class="cf">for</span> x <span class="kw">in</span> <span class="va">self</span>.inset_channels})</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>        simdata[<span class="st">'Time'</span>] <span class="op">=</span> simdata.index</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>        simdata[<span class="st">'Day'</span>] <span class="op">=</span> simdata[<span class="st">'Time'</span>] <span class="op">%</span> <span class="dv">365</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        simdata[<span class="st">'Month'</span>] <span class="op">=</span> simdata[<span class="st">'Day'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="va">self</span>.monthparser((x <span class="op">+</span> <span class="dv">1</span>) <span class="op">%</span> <span class="dv">365</span>))</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>        simdata[<span class="st">'Year'</span>] <span class="op">=</span> simdata[<span class="st">'Time'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="bu">int</span>(x <span class="op">/</span> <span class="dv">365</span>) <span class="op">+</span> <span class="va">self</span>.start_year)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>        simdata[<span class="st">'date'</span>] <span class="op">=</span> simdata.<span class="bu">apply</span>(<span class="kw">lambda</span> x: datetime.date(<span class="bu">int</span>(x[<span class="st">'Year'</span>]), <span class="bu">int</span>(x[<span class="st">'Month'</span>]), <span class="dv">1</span>), axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> sweep_var <span class="kw">in</span> <span class="va">self</span>.sweep_variables:</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> sweep_var <span class="kw">in</span> simulation.tags.keys():</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>                simdata[sweep_var] <span class="op">=</span> simulation.tags[sweep_var]</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> simdata</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="reduce" class="level4">
+<h4 class="anchored" data-anchor-id="reduce">Reduce</h4>
+<p>This part checks the simulation data returned by <code>map()</code> and aggregates data across all simulations in the experiment into the <code>adf</code> dataframe. In this example, the analyzer saves results into the specified working_dir/expt_name subfolder. Other analyzers may use the <code>reduce()</code> function to plot and save a figure.</p>
+<p>We typically do not modify the first 4 lines of <code>reduce()</code> (creation of <code>selected</code> and checking that it contains data). If <code>map()</code> returns a dataframe, then the <code>adf = ...</code> line can stay the same as well. Everything after that should be customized to the user’s needs.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="bu">map</span>(<span class="va">self</span>, all_data):</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>        selected <span class="op">=</span> [data <span class="cf">for</span> sim, data <span class="kw">in</span> all_data.items()]</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(selected) <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"No data have been returned... Exiting..."</span>)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        adf <span class="op">=</span> pd.concat(selected).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> os.path.exists(os.path.join(<span class="va">self</span>.working_dir, <span class="va">self</span>.expt_name)):</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>            os.mkdir(os.path.join(<span class="va">self</span>.working_dir, <span class="va">self</span>.expt_name))</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>        adf.to_csv(os.path.join(<span class="va">self</span>.working_dir, <span class="va">self</span>.expt_name, <span class="st">'All_Age_Monthly_Cases.csv'</span>), index<span class="op">=</span><span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="optional-analyzer-extensions-and-helper-functions" class="level4">
+<h4 class="anchored" data-anchor-id="optional-analyzer-extensions-and-helper-functions">Optional analyzer extensions and helper functions</h4>
+<p>For instance selecting only simulations with <code>SMC_Coverage</code> at 0.5:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="bu">filter</span>(<span class="va">self</span>, simulation):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> simulation.tags[<span class="st">"SMC_Coverage"</span>] <span class="op">==</span> <span class="fl">0.5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Helper function to convert months.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>    <span class="at">@classmethod</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> monthparser(<span class="va">self</span>, x):</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> x <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="dv">12</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> datetime.datetime.strptime(<span class="bu">str</span>(x), <span class="st">'%j'</span>).month</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 
+</section>
+</section>
+</section>
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-1">
