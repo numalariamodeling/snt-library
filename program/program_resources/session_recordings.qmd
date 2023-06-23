@@ -3,7 +3,7 @@ title: "Session Recordings"
 weight: 3
 listing: 
   type: grid
-  grid-columns: 1
+  grid-columns: 3
   grid-item-border: true
   contents: session_recordings/*.qmd
   sort: weight
