@@ -6,6 +6,8 @@ format:
     toc: true
     toc-depth: 5
     page-layout: full
+execute: 
+  enabled: false 
 ---
 
 # Generate demographics for multiple nodes
@@ -30,7 +32,7 @@ Ex. "my_nodes.csv"
 
 Then, you can generate demographics for each node in every simulation, by adding this code to `build_demog()`
 
-``` python
+```python
 def build_demog():
     """
     This function builds a demographics input file for the DTK using emod_api.

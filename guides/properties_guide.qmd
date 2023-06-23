@@ -1,0 +1,10 @@
+---
+title: "Individual Properties Guides"
+weight: 9
+listing:
+  contents: properties_guide_pages
+  type: grid
+  fields: [title, description]
+  sort: weight
+  grid-columns: 1
+---

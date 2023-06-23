@@ -1,0 +1,62 @@
+---
+title: "Using Individual Properties in Reports"
+weight: 4
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+execute: 
+  enabled: false 
+---
+
+Individual properties can also be used in reporting to limit the report to only those individuals in the specified group, to track the number of individuals with an IP or combination of IPs, or to report the IPs of individuals.
+
+### Malaria Summary Report
+
+For the [`MalariaSummaryReport`](https://docs.idmod.org/projects/emod-malaria/en/latest/software-report-malaria-summary.html), aggregation can be restricted by IP using the `ipfilter` argument. For example, the following function will report, on aggregate, every 30 days on new infections and other infection updates in the Placebo group across the three age bins.
+
+```{python,eval=F}
+from emodpy_malaria.reporters.builtin import *
+add_malaria_summary_report(task, manifest, 
+                           start_day=1, 
+                           end_day=sim_years*365, 
+                           reporting_interval=30,
+                           age_bins=[0.25, 5, 115],
+                           must_have_ip_key_value='StudyCohort:Placebo',
+                           filename_suffix='_placebo',
+                           pretty_format=True)
+```
+
+### Property Report
+
+The [`PropertyReport`](https://docs.idmod.org/projects/emod-malaria/en/latest/software-report-property.html) outputs select channels (population, infected, new infections, and disease deaths) for all combinations of IPs and IP values. This output can get very large if there are many IPs and/or IP values in play.
+
+To request the `PropertyReport`:
+
+```{python,eval=F}
+# add to config parameter setup
+config.parameters.Enable_Property_Output = 1
+```
+
+### Node Demographics Report
+
+The [`NodeDemographicsReport`](https://docs.idmod.org/projects/emod-malaria/en/latest/software-report-malaria-node-demographics.html) reports on node-level counts of individuals by age bin, infection status, and IPs if requested through `IP_key_to_collect`:
+
+```{python,eval=F}
+from emodpy_malaria.reporters.builtin import *
+add_report_node_demographics(task, manifest, 
+                             IP_key_to_collect='StudyCohort')
+```
+
+### Report Event Recorder
+
+To add an IP column to [`ReportEventRecorder`](https://docs.idmod.org/projects/emod-malaria/en/latest/software-report-event-recorder.html) that reports the IP value for each individual experiencing the requested events, use `ips_to_record`:
+
+```{python, eval=F}
+from emodpy_malaria.reporters.builtin import *
+add_event_recorder(task, event_list=["NewClinicalCase","Received_Treatment"],
+                     start_day=1, end_day=365, node_ids=[1], min_age_years=0,
+                     max_age_years=100,
+                     ips_to_record=['StudyCohort'])
+```

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -145,7 +145,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../" class="sidebar-logo-link">
+      <a href="../../index.html" class="sidebar-logo-link">
       <img src="../../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
@@ -336,10 +336,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#create-a-demographics-file" id="toc-create-a-demographics-file" class="nav-link active" data-scroll-target="#create-a-demographics-file">Create a demographics file</a>
+  <li><a href="#create-a-demographics-files" id="toc-create-a-demographics-files" class="nav-link active" data-scroll-target="#create-a-demographics-files">Create a Demographics Files</a>
   <ul>
   <li><a href="#parts-of-a-demographics-file" id="toc-parts-of-a-demographics-file" class="nav-link" data-scroll-target="#parts-of-a-demographics-file">Parts of a demographics file</a></li>
-  <li><a href="#generate-a-demographics-file-from-csv" id="toc-generate-a-demographics-file-from-csv" class="nav-link" data-scroll-target="#generate-a-demographics-file-from-csv">Generate a demographics file from csv</a></li>
+  <li><a href="#single-node-simulations" id="toc-single-node-simulations" class="nav-link" data-scroll-target="#single-node-simulations">Single-node simulations</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -357,17 +357,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<section id="create-a-demographics-file" class="level1">
-<h1>Create a demographics file</h1>
-<p>The demographics file is a required input file for EMOD that specifies characteristics of the population in a simulation. This includes aspects like the population size, birth rates, non-malaria mortality rates, age structure, initial prevalence, and more. Full documentation on the demographics file can be found here.</p>
-<p>At least one demographics file is required for every simulation unless you set the parameter Enable_Demographics_Builtin to 1 (one) in the configuration file. This setting does not represent a real location and is generally only used for testing and validating code.</p>
-<p>For many applications, users often will reuse a standard demographics file and make modifications by hand or by script. In more complex simulations, creating a demographics file from scratch may be needed.</p>
+<section id="create-a-demographics-files" class="level1">
+<h1>Create a Demographics Files</h1>
+<p>The demographics file is a required input file for EMOD that specifies characteristics of the population in a simulation. This includes aspects like the population size, birth rates, non-malaria mortality rates, age structure, initial prevalence, and more. Full documentation on the <a href="https://docs.idmod.org/projects/emod-malaria/en/latest/software-demographics.html">demographics file</a> and its <a href="https://docs.idmod.org/projects/emod-malaria/en/latest/parameter-demographics.html">parameters/structure</a> are available in the malaria model documentation.</p>
 <section id="parts-of-a-demographics-file" class="level2">
 <h2 class="anchored" data-anchor-id="parts-of-a-demographics-file">Parts of a demographics file</h2>
 <p>A demographics file is a JSON file organized into 4 main sections:</p>
@@ -419,75 +418,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>     }]</span>
 <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>  }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="generate-a-demographics-file-from-csv" class="level2">
-<h2 class="anchored" data-anchor-id="generate-a-demographics-file-from-csv">Generate a demographics file from csv</h2>
-<p>First, create a file “my_node.csv” with the following columns:</p>
-<table class="table">
-<colgroup>
-<col style="width: 24%">
-<col style="width: 75%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Required</th>
-<th>optional</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>nodeid (unique # &gt;0)</td>
-<td>Other node-specific variables, if any, such as village name, latitude, and logitude</td>
-</tr>
-<tr class="even">
-<td>population (starting size)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>Example:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>nodeid</th>
-<th>population</th>
-<th>Village</th>
-<th>lat</th>
-<th>lon</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>1000</td>
-<td>“Obom”</td>
-<td>5.760759</td>
-<td>-0.4473415</td>
-</tr>
-</tbody>
-</table>
-<p>In EMODpy, we generate the demographics file for each simulation using a standard <code>build_demog()</code> function.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> build_demog():</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">    This function builds a demographics input file for the DTK using emod_api.</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># From template node #</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="co">######################</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># This snippet allows you to manually specify the node details instead of using a .csv</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co">#    demog = Demographics.from_template_node(lat=1, lon=2, pop=1000, name="Example_Site")</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># From input file csv #</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="co">#######################</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    demog <span class="op">=</span> Demographics.from_csv(input_file <span class="op">=</span> os.path.join(<span class="op">&lt;</span>path_to_file<span class="op">&gt;</span>,<span class="st">"my_node.csv"</span>),</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>                                  id_ref<span class="op">=</span><span class="st">"indie_clusters"</span>, </span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>                                  init_prev <span class="op">=</span> <span class="fl">0.01</span>, </span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>                                  include_biting_heterogeneity <span class="op">=</span> <span class="va">True</span>)</span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    demog.SetEquilibriumVitalDynamics()</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    age_distribution <span class="op">=</span> Distributions.AgeDistribution_SSAfrica</span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    demog.SetAgeDistribution(age_distribution)</span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> demog</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="single-node-simulations" class="level2">
+<h2 class="anchored" data-anchor-id="single-node-simulations">Single-node simulations</h2>
+<p>The <a href="https://docs.idmod.org/projects/emod-api/en/latest/emod_api.demographics.html">emod-api</a> package contains most of the major functionality to create a demographics file. It is supported by <code>emodpy-malaria</code> to add parameters that are more specific to the malaria workflow, imported as <a href="https://docs.idmod.org/projects/emodpy-malaria/en/latest/emodpy_malaria.demographics.MalariaDemographics.html/github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/demographics/MalariaDemographics.py"><code>Demographics</code></a> in the code chunk below. For single node, non-spatial simulations the <a href="https://docs.idmod.org/projects/emodpy-malaria/en/latest/emodpy_malaria.demographics.MalariaDemographics.html#emodpy_malaria.demographics.MalariaDemographics.from_template_node"><code>from_template_node</code></a> command is most commonly used; however, you may also choose to read in pre-made json files for these types of simulations. We include this command in our demographics builder with it’s basic parameters: - latitude - longitude - population size - site name - forced node ID (if desired) - initial prevalence value (if desired)</p>
+<p>With this saved as the <code>demog</code> item, we can add additional complexity as needed. This may include things like setting equilibrium vital dynamics so birth and mortality rates are equal, producing a relatively stable population size, or an age distribution for our population. In this example, we pull the <a href="https://github.com/numalariamodeling/emod-api/blob/master/emod_api/demographics/PreDefinedDistributions.py">age distribution</a> of all of Sub-Saharan Africa from the <code>emod-api</code> and then apply it to our demographics item. You may also add complexity through individual properties and other specific parameters as desired.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> emodpy_malaria.demographics.MalariaDemographics <span class="im">as</span> Demographics</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> emod_api.demographics.PreDefinedDistributions <span class="im">as</span> Distributions</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> build_demog():</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">    This function builds a demographics input file for the DTK using emod_api.</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    demog <span class="op">=</span> Demographics.from_template_node(lat<span class="op">=</span><span class="fl">1.00</span>, lon<span class="op">=</span><span class="fl">1.00</span>, pop<span class="op">=</span><span class="dv">1000</span>, name<span class="op">=</span><span class="st">"Example_Site_Name"</span>, forced_id<span class="op">=</span><span class="dv">1</span>, init_prev<span class="op">=</span><span class="fl">0.1</span>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Add equal birth and mortality rates</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    demog.SetEquilibriumVitalDynamics()</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Call and add age distribution</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    age_distribution <span class="op">=</span> Distributions.AgeDistribution_SSAfrica</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    demog.SetAgeDistribution(age_distribution)</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> demog</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>
@@ -535,7 +489,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -571,24 +542,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

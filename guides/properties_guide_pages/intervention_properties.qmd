@@ -1,0 +1,29 @@
+---
+title: "Using Individual Properties in Interventions"
+weight: 4
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+execute: 
+  enabled: false 
+---
+
+Most interventions can be targeted to individuals holding specific IP values, typically with the `ind_property_restrictions` function argument and setting the desired Individual Property restrictions. This example creates an SMC drug campaign that is limited to individuals in the 'Treatment' group as defined in the demographics file.
+
+```{python}
+import emod_api.campaign as campaign
+import emodpy_malaria.interventions.drug_campaign as drug_campaign
+
+drug_campaign.add_drug_campaign(campaign, 
+                                campaign_type="SMC", 
+                                start_days=[165], 
+                                drug_code="SPA",
+                                repetitions=4, 
+                                tsteps_btwn_repetitions=30, 
+                                coverage=0.7,
+                                ind_property_restrictions=[{'StudyCohort': 'Treatment'}],
+                                target_group={'agemin': 0.25, 'agemax': 5},
+                                receiving_drugs_event_name="Received_SMC")                  
+```

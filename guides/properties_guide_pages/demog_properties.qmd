@@ -1,0 +1,31 @@
+---
+title: "Adding Individual Properties to Demographics"
+weight: 4
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+execute: 
+  enabled: false 
+---
+
+Individual properties, possible property values, and initial distributions of property values must be specified in the demographics file.
+
+In this example we create a study cohort where 50% of individuals are assigned to 'Placebo' and the other 50% are assigned to 'Treatment' without any transitions between the groups or differences in transmission by group. We add this property set directly to the basic demographics item. This example includes only one property but you can define as many as needed.
+
+```{python}
+import emodpy_malaria.demographics.MalariaDemographics as Demographics
+def build_demog():
+
+    demog = Demographics.from_template_node(lat=1, lon=2, pop=1000, name="Example_Site")
+    demog.SetEquilibriumVitalDynamics()
+    
+    age_distribution = Distributions.AgeDistribution_SSAfrica
+    demog.SetAgeDistribution(age_distribution)
+    
+    initial_distribution = [0.5, 0.5]
+    demog.AddIndividualPropertyAndHINT(Property="StudyCohort", Values=["Placebo", "Treatment"],
+                                       InitialDistribution=initial_distribution)              
+    return demog
+```

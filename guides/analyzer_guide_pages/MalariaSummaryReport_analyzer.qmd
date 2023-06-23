@@ -7,6 +7,51 @@ format:
     toc-depth: 5
     page-layout: full
     weight: 2
+execute: 
+  enabled: false 
 ---
 
-Analyze MalariaSummaryReport
+### Analyze MalariaSummaryReport
+
+The summary report aggregates the monitored simulation outputs into user-specified agebins, monitoring intervals, and/or parasitemia bins. Outputs such as prevalence by age, incidence by age, and parasite density by age can be obtained through the summary report. Multiple summary reports can be requested in the simulation run script, and analyzers can be built to handle working with multiple summary reports.
+
+```{python}
+class AnnualAgebinPfPRAnalyzer(IAnalyzer):
+    def __init__(self, expt_name, sweep_variables=None, working_dir='./', start_year=2022,
+                 end_year=2025, burnin=None):
+        super(AnnualAgebinPfPRAnalyzer, self).__init__(working_dir=working_dir,
+                              filenames=["output/MalariaSummaryReport_Annual_Agebin.json"])
+```
+
+
+Documentation on the summary report is [here](https://docs.idmod.org/projects/emod-malaria/en/latest/software-report-malaria-summary.html). If you are writing a new summary report analyzer, you will need to know which part of the summary report contains the data you need.
+
+Within each summary report the channel `DataByTimeAndAgeBins` reports monitored outputs per _time_ and _age_ it therefore needs to be indexed twice, one for selecting time range and one for selecting agebin. The outer list is time and the inner list is age.
+
+In this example, the data of interest is in `DataByTimeAndAgeBins`: we extract, for each age group, annually-aggregated PfPR, clinical incidence, severe incidence, and population. All outcomes are combined into a dataframe for each age group, then the age-specific dataframes are concatenated into a single dataframe.
+
+Attaching the sweep variable for the respective simulation is done the same way across analyzers.
+
+```{python}
+    def map(self, data, simulation):
+        adf = pd.DataFrame()
+        nyears = (self.end_year - self.start_year)
+        age_bins = data[self.filenames[0]]['Metadata']['Age Bins']
+        d = data[self.filenames[0]]['DataByTimeAndAgeBins']
+        for age in range(len(age_bins)):
+            pfpr = [x[age] for x in d['PfPR by Age Bin'][:nyears]]
+            clinical_cases = [x[age] for x in d['Annual Clinical Incidence by Age Bin'][:nyears]]
+            severe_cases = [x[age] for x in d['Annual Severe Incidence by Age Bin'][:nyears]]
+            pop = [x[age] for x in d['Average Population by Age Bin'][:nyears]]
+            simdata = pd.DataFrame({'year': range(self.start_year, self.end_year),
+                                    'PfPR': pfpr,
+                                    'Cases': clinical_cases,
+                                    'Severe cases': severe_cases,
+                                    'Pop': pop})
+            simdata['agebin'] = age_bins[age]
+            adf = pd.concat([adf, simdata])
+        for sweep_var in self.sweep_variables:
+            if sweep_var in simulation.tags.keys():
+                 adf[sweep_var] = simulation.tags[sweep_var]
+        return adf
+```
