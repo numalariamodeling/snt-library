@@ -35,6 +35,7 @@ website:
           - guides/intervention_guide.qmd
           - guides/report_guide.qmd
           - guides/analyzer_guide.qmd
+          - guides/properties_guide.qmd
       - section: "Additional Resources"            
         contents: 
           - resources/articles.qmd
