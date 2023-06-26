@@ -13,26 +13,59 @@ Here is a comic from ["Piled Higher and Deeper"](http://www.phdcomics.com) by Jo
 
 ![](https://swcarpentry.github.io/git-novice/fig/phd101212s.png){style="float:left; margin-right: 20px" width="250"} Git allows us to make changes to our code, and say if we didn't like the changes, we can always go back to the older versions of the code. In a collaborative environment, our colleagues can make changes to our codes, and we can track who's made what changes to the code, and undo it if necessary. If all of these sounds familiar, yes it does feel like we that track changes function in say Microsoft Word, or the version control function available in Dropbox. The difference is that you can designate a folder as your "Git repository", and you decide which file inside this folder get version controlled.
 
-While Git is a software that lives inside your computer, GitHub is an internet hosting provider that can host your Git repository. For example, a git repository containing the `dtk-tools` Python package is hosted on GitHub. This package is important for us to use EMOD, and is developed by IDM. To obtain the package, we can (1) get granted access to the repository that lives in GitHub, and (2) "clone" the package from GitHub to our local computer. We can then look into the package and find out who has made what changes to the source code of the package. This has made it very easy for coding projects and packages to be shared to others.
+While Git is a software that lives inside your computer, GitHub is an internet hosting provider that can host your Git repository. For example, many Python packages such as `pandas` is hosted on [GitHub](https://github.com/pandas-dev/pandas).  Our FE examples and website are also hosted in GitHub, [here](https://github.com/numalariamodeling/FE-2023-examples) and [here](https://github.com/numalariamodeling/FE-2023-quarto-website).
 
-Git can get complicated and difficult to use at times... However, in this section, we focus only on the simple steps of getting the packages to your computer.
+In this tutorial, we will:
 
-### Things you'll need
+1. *Fork* the FE example repository to our personal account.
+2. Setup our Quest environment to communicate with GitHub.
+3. *Clone* the forked repository to Quest.
+4. *Commit* some of our changes, and *push* to GitHub.
 
-1.  Install [GitHub Desktop](https://desktop.github.com/)
-2.  Get a GitHub account if you don't already have.
-3.  Get the access to the repository `dtk-tools` and `dtk-tools-malaria` if you don't already have them
+### Forking
 
-### GitHub Desktop
+We start with going to the GitHub repository of our `FE-2023-examples` [repository](https://github.com/numalariamodeling/FE-2023-examples).  Make sure that you are signed into *your own* GitHub account at this point.  Look for the buttons near the top right section of the page: `Watch`, `Fork` and `Star`.  Clicking on the `Fork` button will lead you to a page about "Create a new fork".  By clicking on the `Create fork` button, you would have created a fork of the `FE-2023-examples` to your own account.
 
-This is an app that provides graphic user interface to GitHub. Note that you do not necessarily need to use this app to interface with Git or GitHub. There are other app such as [Sourcetree](https://www.sourcetreeapp.com/) or commandline that does similar and wonderful job. However for this tutorial, we use GitHub Desktop because it's easier to set things up.
+What does this forking mean? Essentially you copy and paste the existing repository to your account.  This allows you to make changes on the repository, without affecting the main repository. Often, we don't necessarily have editing access to a repository, or we simply don't want to accidentally make any changes to the "main" one. Forking allows us to make modification to the codes without that fear!  Furthermore, we can, e.g., make meaningful changes to the repository, and then ask the original repository's owner to review and adapt our changes to their repository through a *pull request*. If the original repository made some updates, we can also synchronize our forked repository with its upstream.
 
-To "download" the package, we "Clone repository" from GitHub, which can be access from "File" at the top bar. If you already connected your GitHub account to the app, you should be able to choose the `dtk-tools` repository in the pop-up window. Then you would specify a "Local path" of your choice (you do not need to add "dtk-tools" to that path.) When you click "Clone", the app would download the package into a folder called `dtk-tools` and put it onto the path you specified.
+### Setting up Quest environment for GitHub
 
-Do the same thing for `dtk-tools-malaria`!
+Now that we have a forked repository, we want to bring the repository to our work machine, known as "clone".  Since this involves getting our work machine to talk to GitHub, we need to make sure this process is secured.  Typically, we would enter our username and password when prompted, however, this process becomes cumbersome as GitHub added additional security measure. As a result, we find it easiest to add SSH keys of our Quest environment to GitHub.
+
+You can find instruction to do them in details:
+
+1. [Generate a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+2. [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+Here's a condensed version of it...
+
+1. Login to your Quest via SSH  
+2. Paste the following text `ssh-keygen -t ed25519 -C "your_email@example.com"` to your terminal, substitute the email address to the one you use for your GitHub.  
+3. Press Enter when prompted (you unlikely need to change the file for the key).
+4. Choose a passphrase or leave it empty when prompted.
+5. Done with Part 1, now paste this `pbcopy < ~/.ssh/id_ed25519.pub` to your terminal. This basically copy the content of the newly generated key to your clipboard.
+6. In GitHub (go to `github.com` in case youre lost), click on the top right corner which should display your profile photo.
+7. 'Settings' -> 'SSH and GPG keys' -> 'New SSH key'
+8. Paste into the `Key` section. Give your key a name in the `Title`, say `Quest`.
+9. Click `Add SSH key` and... you should be done with this!
+  
+### Clone repository
+  
+Let's navigate back to the forked repository page in GitHub. You should see a green button that says "Code". When you click on it, you can see 3 tabs: "Local", "SSH" and "GitHub CLI". Click on the "SSH" tab, and copy the URL that's right below it.
+
+Now go back to your terminal that's SSH into Quest. Navigate to the desired directory that will receive the repository. The following command will clone your forked repository hosted in GitHub into Quest:
+```
+git clone <paste_your_url_here>
+```
+
+If nothing goes wrong, you can check the content of your directory (e.g., by typing `ls`), and you should now see a new folder with the name of your repository (most likely `FE-2023-examples`). You have now cloned it to Quest!
+
+### Making changes and git commit
+
+(Under construction)
 
 ### More Git?
 
-Of course, there are more to git than what we have just done. During the tutorial, some of the basic function of git, such as `commit`, `push` and `pull` will be demonstrated. These functions will be important when you start developing your own project. Depending on what software you use to code (e.g., PyCharm, VS Code), git functions are often incorporated into them already, so the experience is bound to be slightly different.
+There are more to git than all these but these are the bare minimum to start using git.
 
-If you're planning to use git through command line (e.g., Powershell, Bash etc.) then this is a [good tutorial](https://swcarpentry.github.io/git-novice/) for you to learn more about git.
+The software carpentry has a [good tutorial](https://swcarpentry.github.io/git-novice/) for you to learn more about git.

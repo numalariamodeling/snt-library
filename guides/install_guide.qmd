@@ -50,8 +50,7 @@ If not already existing, be sure to create an "environments" folder in your home
     - *NOTE: you may name the environment anything you like, "myvenv" is just an example*
 
     ``` bash
-    python3 -m venv <myvenv> 
-    module unload python/3.8.4 
+    python -m venv <myvenv> 
     source ~/environments/<myvenv>/bin/activate 
     ```
     - *NOTE: The following step is only needed when a new idmtools Singularity image is available and you’ve previously installed packages in your home directory. This cleans up local packages from previous installations inside Singularity container*
@@ -63,9 +62,9 @@ If not already existing, be sure to create an "environments" folder in your home
 2. Install emodpy-malaria and idmtools_platform_slurm
 
     ``` python
-    pip3 install emodpy-malaria --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple 
+    pip install emodpy-malaria --ignore-installed --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple 
    
-    pip3 install idmtools_platform_slurm --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
+    pip install idmtools_platform_slurm --ignore-installed --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
     ```    
 
 3. During installation of the shared venv on b1139, some issues arose that cause the installation to quit unexpectedly. This is seemingly an issue with access to the libgit2 module to build the pygit wheel. Libgit2 was installed within the emodpy_alt venv folder on b1139 using these [instructions](https://github.com/libgit2/pygit2/blob/master/docs/install.rst#libgit2-within-a-virtual-environment). As it is now available, installation should hopefully avoid these issues in the future but it could occur with personal venvs.
