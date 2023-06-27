@@ -2,7 +2,6 @@
   {
     "listing": "/guides/analyzer_guide.html",
     "items": [
-      "/guides/analyzer_guide_pages/InsetChart_analyzer.html",
       "/guides/analyzer_guide_pages/MalariaSummaryReport_analyzer.html",
       "/guides/analyzer_guide_pages/event_analyzer.html",
       "/guides/analyzer_guide_pages/spatial_analyzer.html"
@@ -28,7 +27,8 @@
       "/guides/diagnostic_guide_pages/blood_smear_microscopy.html",
       "/guides/diagnostic_guide_pages/pfhrp2_rdt.html",
       "/guides/diagnostic_guide_pages/pcr.html",
-      "/guides/diagnostic_guide_pages/fever.html"
+      "/guides/diagnostic_guide_pages/fever.html",
+      "/guides/diagnostic_guide_pages/diagnostic_survey.html"
     ]
   },
   {
@@ -76,15 +76,16 @@
   {
     "listing": "/guides/simulation_guide.html",
     "items": [
-      "/guides/simulation_guide_pages/EMODpy_overview.html",
-      "/guides/simulation_guide_pages/simulation_components.html"
+      "/guides/simulation_guide_pages/simulation_components.html",
+      "/guides/simulation_guide_pages/adding_malaria.html",
+      "/guides/simulation_guide_pages/update_config.html"
     ]
   },
   {
     "listing": "/guides/vector_guide.html",
     "items": [
+      "/guides/vector_guide_pages/vector_genetics.html",
       "/guides/vector_guide_pages/vector_species.html",
-      "/guides/vector_guide_pages/infections.html",
       "/guides/vector_guide_pages/vector_abundance.html"
     ]
   },
