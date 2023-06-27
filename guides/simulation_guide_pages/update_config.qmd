@@ -1,0 +1,59 @@
+---
+title: "Updating the Config File"
+weight: 3
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+execute: 
+  enabled: false 
+---
+
+The config file contains the core parameters for EMOD. Many of these parameters have been established by the malaria team and can be set using `set_team_defaults()`; however, you may need to update a variety of configuration parameters for your simulations. These parameters can be explored more in depth in the [EMOD config documentation](https://docs.idmod.org/projects/emod-malaria/en/latest/parameter-configuration.html). Broadly, configuration parameters can be used to set up certain things in these categories: drugs and treatments, enable/disable features, general disease, geography and the environment, immunity, incubation, infectivity and transmission, input files, larval habitat, migration, mortality and survival, output settings, parasite dynamics, population dynamics, sampling, scalars and multipliers, simulation setup, symptoms and diagnosis, vector control, and vector life cycle. 
+
+For parameters that won't often change you can hard code them directly into the config building function (called `set_param_fn()` in the how-tos), while it may be beneficial to call others as a global variable, such as sim_years, that can be set and then referenced within the setup function.
+
+In this example, we show how to change the `Simulation_Duration` and `Run_Number` parameters, but the `config.parameters.X` structure works for any [config parameter](https://docs.idmod.org/projects/emod-malaria/en/latest/parameter-configuration.html). Simulation duration is set in days, and in this example is set to last 5 years (5 yrs * 365 days/yr).
+
+```{python}
+sim_years = 5
+
+def set_param_fn(config):
+    import emodpy_malaria.malaria_config as conf
+    config = conf.set_team_defaults(config, manifest)
+              
+    #update simulation duration and run number
+    config.parameters.Simulation_Duration = sim_years*365
+    config.parameters.Run_Number = 0
+    return config
+```
+
+### Enable Births and Deaths
+
+Vital dynamics can be specified in the same way as general config parameters; however, emodpy includes [functionality](https://docs.idmod.org/projects/emodpy-malaria/en/latest/faq.html#what-are-some-of-the-key-differences-for-people-used-to-using-dtk-tools) to automatically keep the demographics and config files aligned. For example, if a birth rate is set in the demographics, `Enable_Vital_Dynamics` and `Enable_Birth` will automatically be turned on, and vice versa. Birth rates can be specified by `Birth_Rate_Dependence` to be dependent on a number of factors:  
+- "NONE"
+- "FIXED_BIRTH_RATE"
+- "POPULATION_DEP_RATE"
+- "DEMOGRAPHIC_DEP_RATE"
+- "INDIVIDUAL_PREGNANCIES"
+- "INDIVIDUAL_PREGNANCIES_BY_AGE_AND_YEAR"
+
+Likewise, `Death_Rate_Dependence` determines individuals likelihood of dying from natural, non-disease causes when `Enable_Natural_Mortality`=1, and can be set to 
+- "NOT_INITIALIZED" 
+- "NONDISEASE_MORTALITY_BY_AGE_AND_GENDER"
+- "NONDISEASE_MORTALITY_BY_YEAR_AND_AGE_FOR_EACH_GENDER"
+
+Detailed descriptions of dependencies can be found [here](https://docs.idmod.org/projects/emod-malaria/en/latest/parameter-configuration-population.html).
+
+In this example, we have a fixed birth rate (number of infants born each year is independent of modeled population), age- and gender-specific overall mortality rates (defined in demographics file), and no malaria mortality. These parameters should be set in the config builder function. Based on a demographics including equilibrium vital dynamics, `Enable_Vital_Dynamics`, `Enable_Birth`, and `Enable_Natural_Mortality` will already be set to 1 (turned on) and `Enable_Disease_Mortality` will be set to 0 (turned off), so we only need to set the rate dependencies.
+
+```{python}
+def set_param_fn(config):
+    import emodpy_malaria.malaria_config as conf
+    config = conf.set_team_defaults(config, manifest)
+              
+    #update birth and death rate dependence
+    config.parameters.Birth_Rate_Dependence = 'FIXED_BIRTH_RATE'
+    config.parameters.Death_Rate_Dependence = 'NONDISEASE_MORTALITY_BY_AGE_AND_GENDER'
+    return config
+```

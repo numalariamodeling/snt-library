@@ -6,12 +6,36 @@ format:
     toc: true
     toc-depth: 5
     page-layout: full
+execute: 
+  enabled: false 
 ---
 
+After adding vectors to your model, you may want to alter their abundance in order to reach a desired entomological innoculation rate (EIR), malaria prevalence, or malaria incidence. In EMOD this is often done by re-scaling the amount of habitat available for larval development: Available habitat is directly related to mosquito abundance, and mosquito abundance in turn is directly related to biting rate. 
+
+There are several options for configuring habitat. You can first set habitat parameters and modify them directly as detailed in the section [Set up mosquito species](https://numalariamodeling.github.io/FE-2023-quarto-website/guides/vector_guide_pages/vector_species.html).
+
+After those initial parameters are set, habitat can be modified with scaling parameters.
 
 # Universal scaling
 
+To apply a constant scale factor to all habitats equally for all species, use the **x_Temporary_Larval_Habitat** configuration parameter.
+
+This parameter will scale all habitat parameters for the entire simulation duration without changing the temporal dynamics, so that a new transmission is achieved with the same ratios among the species and same time profile. For example, setting `x_Temporary_Larval_Habitat` to 0.1 would reduce habitat by 90%. 
+
+```{python}
+# Ex: Reduce habitat (and thus, adult vectors and biting rate) by 90%.
+config.parameters.x_Temporary_Larval_Habitat = 0.1  
+```
+
 # Node-specific scaling in demographics
 
-# Dynamic scaling during simulation
+# Dynamic habitat scaling during simulation
 
+The [`ScaleLarvalHabitat`](https://docs.idmod.org/projects/emod-malaria/en/latest/parameter-campaign-node-scalelarvalhabitat.html) intervention allows the user to scale habitats by type and species at a specified time during the simulation. The `emodpy-malaria` function [`add_scale_larval_habitats()`](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/interventions/scale_larval_habitats.py) takes a dataframe argument to construct the campaign events for habitat scaling:
+
+```{python}
+from emodpy_malaria.interventions.scale_larval_habitat import add_scale_larval_habitats
+add_scale_larval_habitats(campaign, df=habitat_df, start_day=0)
+```
+
+The `habitat_df` argument requires column name(s) for each habitat type being scaled, with column values being the scale factor(s). Many configuration options are available, including by species, by node, and by date with additional details in the [documentation](https://docs.idmod.org/projects/emodpy-malaria/en/latest/emodpy_malaria.interventions.scale_larval_habitats.html).

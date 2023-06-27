@@ -10,7 +10,7 @@ execute:
   enabled: false 
 ---
 
-Most interventions can be targeted to individuals holding specific IP values, typically with the `ind_property_restrictions` function argument and setting the desired Individual Property restrictions. This example creates an SMC drug campaign that is limited to individuals in the 'Treatment' group as defined in the demographics file.
+Most interventions can be targeted to individuals holding specific IP values, typically with the `ind_property_restrictions` function argument and setting the desired Individual Property restrictions. This example creates an SMC drug campaign that is limited to individuals in the 'Treatment' study cohort group as defined in the [demographics file](https://numalariamodeling.github.io/FE-2023-quarto-website/guides/properties_guide_pages/demog_properties.html).
 
 ```{python}
 import emod_api.campaign as campaign

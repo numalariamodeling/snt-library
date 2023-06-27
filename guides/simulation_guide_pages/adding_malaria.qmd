@@ -1,0 +1,69 @@
+---
+title: "Adding Malaria Transmission"
+weight: 2
+format: 
+  html: 
+    toc: true
+    toc-depth: 5
+execute: 
+  enabled: false 
+---
+
+
+There are three primary ways to add malaria into a simulation. Ways #1 and 2 are used for idealized situations while #3 is the standard method to use when modeling a specific geography.
+
+## 1. Outbreaks
+
+Force a given fraction (`demographic_coverage`) of the simulated population to experience a new infection on a specified date or dates with an [`add_outbreak_individual()`](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/interventions/outbreak.py) campaign.
+
+This example infects 5% of the population every year for 5 years, beginning on day 0:
+
+```{python}
+from emodpy_malaria.interventions.outbreak import add_outbreak_individual
+import emod_api.campaign as campaign
+
+def add_outbreak_individual(campaign,
+                            start_day = 0,
+                            demographic_coverage = 0.05,
+                            repetitions = 5,
+                            timesteps_between_repetitions = 365
+                   )
+```
+
+Additional targeting of the outbreak can be added with parameters described [here](https://docs.idmod.org/projects/emodpy-malaria/en/latest/emodpy_malaria.interventions.outbreak.html#emodpy_malaria.interventions.outbreak.add_outbreak_individual)
+
+## 2. Forced EIR
+
+For simulations without mosquitoes, a forced EIR campaign can be used to impose infectious bites. EIR timeseries data are typically recreated from previous literature sources that provide monthly EIR levels, input here as a monthly_site_EIR_annualized list. The [`add_scheduled_input_eir()`](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/interventions/inputeir.py) function is called and given the calculated monthly EIR (the annual values divided by 12) to apply to the simulations. You may also choose to use daily values if you interpolate from monthly using the `daily_eir` argument instead of `monthly_eir`. The EIR can be scaled up or down using a `scaling_factor` to apply the same change to all EIR timepoints, in this example we scale the EIR to be 75% of the input values. Additionally, EIR can be setup to be age-dependent with `age_dependence` set to "OFF", "LINEAR", or "SURFACE_AREA_DEPENDENT".
+
+```{python}
+from emodpy_malaria.interventions.inputeir import add_scheduled_input_eir
+import emod_api.campaign as campaign
+
+monthly_site_EIR_annualized = [15.99, 5.41, 2.23, 10.33, 7.44, 11.77, 79.40, 85.80, 118.59, 82.97, 46.62, 33.49]
+monthly_EIR = [x/12 for x in site_EIR_annualized]
+EIR_scale_factor = 0.75
+add_scheduled_input_eir(campaign=campaign, start_day=1, monthly_eir=monthly_EIR,
+                            age_dependence="SURFACE_AREA_DEPENDENT",
+                            scaling_factor=EIR_scale_factor)
+```
+
+Additional information on this "intervention" is available in the related [emodpy_malaria documentation](https://docs.idmod.org/projects/emodpy-malaria/en/latest/emodpy_malaria.interventions.inputeir.html).
+
+## 3. Setting initial prevalence
+
+Initial prevalence is set in the demographics file, in the `['Defaults']['IndividualAttributes']` block. See [documentation on the demographics file](https://docs.idmod.org/projects/emod-malaria/en/latest/parameter-demographics.html) for more information.
+
+It can be set simply, as in the demographics example (***link to demog***), or you can also add a initial prevalence value draw from a uniform distribution if desired. In this example, the value is pulled in a uniform draw from 0.1 to 0.2. setting-specific mosquitoes should also be added to the simulation to maintain transmission in the population using the vector configuration how tos. ***LINK***
+
+```{python}
+import emodpy_malaria.demographics.MalariaDemographics as Demographics
+
+def build_demog():
+  
+    demog = Demographics.from_template_node(lat=1.00, lon=1.00, pop=1000, name="Example_Site_Name", forced_id=1)
+    demog.SetInitPrevFromUniformDraw(min_init_prev=0.1, max_init_prev=0.2, description="prevalence_draw_example" )
+    
+    return demog
+```
+

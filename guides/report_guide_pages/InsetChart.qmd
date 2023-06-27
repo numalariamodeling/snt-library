@@ -8,4 +8,6 @@ format:
     page-layout: full
 ---
 
-Default reporting
+The [inset chart](https://docs.idmod.org/projects/emod-malaria/en/latest/software-report-inset-chart.html) (InsetChart.json) is an output report that is automatically generated with every simulation. It contains simulation-wide averages, one per time step, for a wide number of data channels. This default reporter is an easy way to check if your simulation is doing the basics of what you expect by plotting the outputs of the included channels. It may be particularly helpful to examine channels like `Statistical Population`, `True Prevalence`, `New Clinical Cases`, and `Adult Vectors` or `Daily EIR` depending on how transmission is defined in your simulations.
+
+If you do not want to include `InsetChart` outputs in your simulations, you can remove it by setting the config parameter `Enable_Default_Reporting` to 0. We often disable this report once we are conident in our simulation setup or for particularly long simulations where the report will be extremely large.

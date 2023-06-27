@@ -6,13 +6,37 @@ format:
     toc: true
     toc-depth: 5
     page-layout: full
+execute: 
+  enabled: false 
 ---
 
 Population-wide programmatic treatment campaigns
 
 # Drug Campaigns
 
+Using [`add_drug_campaign()`](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/interventions/drug_campaign.py) you can set different drug `campaign_type`s including MDA, MSAT, SMC, fMDA, MTAT, rfMSAT, and rfMDA. This function also includes the ability to set coverage levels, repetitions (such as SMC cycles) and the timesteps between them, diagnostics information for campaigns that include testing, target groups, and restrictions on who can receive drugs by node or individual properties. Node and individual properties are set in the demographics file and can be called upon here for things like low vs high access groups, example [here](https://numalariamodeling.github.io/FE-2023-quarto-website/guides/properties_guide_pages/intervention_properties.qmd).
+
+For more details on all of the campaign types and other options, checkout the [emodpy-malaria documentation](https://docs.idmod.org/projects/emodpy-malaria/en/latest/emodpy_malaria.interventions.drug_campaign.html#emodpy_malaria.interventions.drug_campaign.add_drug_campaign)
+
 ### Seasonal/Perennial Malaria Chemoprophylaxis (SMC/PMC)
+
+This example details an SMC intervention. Timesteps between repetitions (if more than one cycle given) is set to 30 days as SMC is given on a monthly basis during peak season. The target group is also specified here to limit the age group to 0.25-5 year old children. This example uses adherent drug configurations as shown in the [change drug adherence](https://numalariamodeling.github.io/FE-2023-quarto-website/guides/intervention_guide_pages/drug_based_pages/change_drug_adherence.html) example.
+
+```{python}
+import emod_api.campaign as campaign
+import emodpy_malaria.interventions.drug_campaign as drug_campaign
+
+drug_campaign.add_drug_campaign(campaign, 
+                                campaign_type="SMC", 
+                                start_days=[165], 
+                                drug_code="SPA", #single code if not using adherent drug
+                                #adherent_drug_configs=[adherent_drug], #use adherent drug from adherent drug how to
+                                repetitions=4, 
+                                tsteps_btwn_repetitions=30, 
+                                coverage=0.7,
+                                target_group={'agemin': 0.25, 'agemax': 5},
+                                receiving_drugs_event_name="Received_SMC")                       
+```
 
 ### Mass Drug Administration (MDA)
 

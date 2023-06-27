@@ -6,6 +6,23 @@ format:
     toc: true
     toc-depth: 5
     page-layout: full
+execute: 
+  enabled: false 
 ---
 
-Reporting for specific time and age bins
+The [`MalariaSummaryReport`](https://docs.idmod.org/projects/emod-malaria/en/latest/software-report-malaria-summary.html) is a useful output that reports infection data (prevalence, clinical incidence, parasitemia, infectivity) by age group and aggregated over a user-defined time interval such as years or months. 
+
+In this example, simulation data is reported starting at day 365 and ending at day 1825 (the end of a simulation with a duration of 5 years), with a monthly aggregation, in 3 age bins (0 - 0.25, 0.25 - 5, and 5 - 115 years), as called by [`add_malaria_summary_report()`](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/reporters/builtin.py). The report name will also include a suffix of "monthly_report" to keep separate multiple summary reports with different outputs, such as monthly vs annual or including different IPs. Check out the [documentation](https://docs.idmod.org/projects/emodpy-malaria/en/latest/emodpy_malaria.reporters.builtin.html#emodpy_malaria.reporters.builtin.add_malaria_summary_report) for more information on parameters that can be changed to customize this report, such as infectiousness bins.
+
+```{python}
+from emodpy_malaria.reporters.builtin import *
+
+sim_years=5
+
+add_malaria_summary_report(task, manifest, start_day=365, end_day=sim_years*365, 
+                               reporting_interval=30,
+                               age_bins=[0.25, 5, 115],
+                               max_number_reports=20,
+                               filename_suffix="monthly",
+                               pretty_format=True)                   
+```

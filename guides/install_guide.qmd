@@ -51,7 +51,7 @@ If not already existing, be sure to create an "environments" folder in your home
 
     ``` bash
     python -m venv <myvenv> 
-    source ~/environments/<myvenv>/bin/activate 
+    source <path_to_myvenv>/bin/activate 
     ```
     - *NOTE: The following step is only needed when a new idmtools Singularity image is available and you’ve previously installed packages in your home directory. This cleans up local packages from previous installations inside Singularity container*
 

@@ -1,0 +1,33 @@
+---
+title: "Diagnostic Survey Intervention"
+weight: 5
+format: 
+  html:
+    toc: true
+    toc-depth: 5
+    page-layout: full
+execute: 
+  enabled: false 
+---
+
+[Diagnostic surveys](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/interventions/diag_survey.py) are useful interventions for triggering events based on an individual's diagnosis. Testing can be performed at regular intervals (`tsteps_between_repetitions`) for a set number of `repetitions` based on `target` groups and `coverage`. Testing can also be triggered by other events, such as receiving a particular dose of perennial malaria chemoprevention (PMC) in this example.
+
+Different methods of diagnostic testing may also be utilized, including *TRUE_PARASITE_DENSITY*, *BLOOD_SMEAR*, *PCR*, *PF_HRP2*, *TRUE_INFECTION_STATUS*, and *HAS_FEVER*. Diagnostic threshold, sensitivity, and specificity can all be parameterized. Once a positive or negative result is obtained in the simulation, the relative configs parameter dictates what will happen to that individual. In this example, either diagnosis broadcasts an event for that individual that they were positive or negative on the day that they received their first dose of PMC.
+
+```{python}
+import emod_api.campaign as campaign
+import emodpy_malaria.interventions.diag_survey as diagnostic_survey
+import emod_api.interventions.common
+
+parasites_detected = emod_api.interventions.common.BroadcastEvent(campaign, Event_Trigger="Day_0_positive")
+no_parasites_detected = emod_api.interventions.common.BroadcastEvent(campaign, Event_Trigger="Day_0_negative")
+
+diagnostic_survey.add_diagnostic_survey(campaign=campaign, start_day=0, 
+                                        diagnostic_type="TRUE_PARASITE_DENSITY",
+                                        diagnostic_threshold=20,
+                                        trigger_condition_list=['Received_PMC_1'],
+                                        positive_diagnosis_configs=[parasites_detected],
+                                        negative_diagnosis_configs=[no_parasites_detectedc])
+```
+
+Additional targeting and configuration parameters are described [here](https://docs.idmod.org/projects/emodpy-malaria/en/latest/emodpy_malaria.interventions.diag_survey.html)

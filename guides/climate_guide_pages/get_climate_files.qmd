@@ -58,4 +58,4 @@ def set_param_fn(config):
     return config
 ```
 
-Additional "getting started" instructions are available in the [emodpy-malaria repository](https://github.com/InstituteforDiseaseModeling/emodpy-malaria/blob/main/emodpy_malaria/weather/README.md), including information on converting weather files to a csv for modification (such as increasing temperature) and then back to a weather file.
+Additional "getting started" instructions are available in the [emodpy-malaria repository](https://github.com/numalariamodeling/emodpy-malaria/tree/main/emodpy_malaria/weather/README.md), including information on converting weather files to a csv for modification (such as increasing temperature) and then back to a weather file.

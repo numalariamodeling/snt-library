@@ -6,13 +6,61 @@ format:
     toc: true
     toc-depth: 5
     page-layout: full
+execute: 
+  enabled: false 
 ---
 
+EMOD allows us to specify the distribution of mosquito species in the simulation, and to specify life cycle, larval habitat, and transmission parameters for each species. 
 
 # Single Species
 
+The example below would populate the model with 100% gambiae mosquitoes and can be included in the config builder with a simple [`add_species()`](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/malaria_config.py).
+
+```{python}
+import emodpy_malaria.malaria_config as conf
+conf.add_species(config, manifest, ["gambiae"])
+```
+
+Default parameters will appear in the config file for *A. gambiae*. Some defaults differ between species and EMOD defaults can be found [here](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/malaria_vector_species_params.py).
+
 # Multiple Species
+
+We can also include a mix of vector species, adding multiple vector populations with species-specific parameters.
+
+```{python}
+import emodpy_malaria.malaria_config as conf
+conf.add_species(config, manifest, species_to_select=["gambiae", "arabiensis"])
+```
+
+For each species listed in Vector_Species_Params, a “VectorPopulation” object will be added to the simulation at each node. Each species will be defined by parameters in the simulation configuration file for the vector ecology and behavior of the species. This allows for a mechanistic description of vector abundances and behavior through the effects of climate and weather on different preferred larval habitats.
 
 # Modify vector species parameters
 
+To change vector species parameters from defaults, use the [`set_species_param()`](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/vector_config.py) function.
+
+```{python}
+import emodpy_malaria.malaria_config as conf
+# Example: Decrease the 'Transmission_Rate' of A. arabiensis from 0.9 (default) to 0.75.
+conf.set_species_param(config, 
+                     species="arabiensis", 
+                     parameter="Transmission_Rate", 
+                     value=0.75, 
+                     overwrite=False # If True, replaces any previous stored values
+                     )
+```
+
 # Modify species habitat parameters
+
+The larval habitat parameters for each vector species can also be modified.
+
+```{python}
+import emodpy_malaria.malaria_config as conf
+# Example: Add brackish swamp habitat availability for A. arabiensis only. 
+new_habitats = {"arabiensis": {"BRACKISH_SWAMP": 1.7e9, "Max_Larval_Capacity": 30000000.0}}
+for species, habitat in new_habitats.items():
+    conf.set_species_param(config, species,
+                         parameter="Larval_Habitat_Types", 
+                         value= habitat, 
+                         overwrite=False # Does not delete previous habitat types
+                         )
+```
