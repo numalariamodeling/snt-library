@@ -1,11 +1,13 @@
 ---
-title: "Intro to Git (2022)"
+title: "Git tutorial (2023 FE edition)"
 weight: 1
 format: 
   html: 
     toc: true
     toc-depth: 5
 ---
+
+This tutorial is created specifically for faculty enrichment purpose, please adjust accordingly if you're not using it in this context.
 
 Git is a popular version control software to manage codes, especially in a collaborative environment.
 
@@ -62,10 +64,53 @@ If nothing goes wrong, you can check the content of your directory (e.g., by typ
 
 ### Making changes and git commit
 
-(Under construction)
+We make changes or add more files to our repository locally all the time. Git would take note of all these changes, but until we "commit" these changes, they would only remain a local change that can be discarded.
+
+Let's navigate to the repository itself, and type `git status`, which tells you the general status of your repository. For now, you'll most likely see:
+```
+On branch main
+Your branch is up-to-date with 'origin/main'.
+nothing to commit, working directory clean
+```
+
+In this case, it is saying that your repository is synchronized with the one in GitHub, and that you've made no changes to the local repository yet.
+
+Let's start out by changing something and see what git does. Say, we can modify the `README.md`, adding a sentence after the first sentence of the README file, say "This is <your_name>'s version!". Now save your changes, and run `git status` again. Now you'll see this instead:
+```
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+```
+
+Git has been tracking the file `README.md` and it has detected changes in that file. While this is quite obvious to us what has changed, it is not always so when you working with lots of code. It is helpful to use following command to see what has changed in the file: `git diff`.
+
+Next, to "commit" to the changes you made to `README.md`, we use `git add` to "stage" the file for changes. We don't immediately commit changes in git, instead we put those changes in a "staging ground" first. Imagine you are sending documents to some government agencies for some application, you don't immediately send one document (say in total you have four documents to send) out right? You might instead put the document in an envelope, and wait until you have all four documents inside the envelope before you seal it and send them off. Similar concept here where we "stage" the file(s) first before committing.
+
+Once we stage the `README.md`, check `git status` again. Now you can see `README.md` turns green colour, and you see `Changes to be committed` now. We can commit the changes now, but we can also wait for more changes.
+
+In this case, let's create a new file, say a `hello_world.py`, with a line that prints out "Hello World!". Now check `git status` again, and you can see that the new file appears in another section called `Untracked files:`. This file is new to git, and git is not currently tracking the changes to the file. It only starts tracking after you add and commit the file to your repository.
+
+We can now also `git add` the hello world file. Check `git status`.
+
+OK let's say we are now satisfied with the changes we made so far. We are now ready to commit the staged file to our repository. To do so:
+```
+git commit -m "<your commit message here>"
+```
+
+Typically we want to have a commit message that is short, and yet informative about your changes. Some softwares would even ask you to put a message with less than 50 characters. In this case, we can say `Add my name to README and add hello world`.
+
+Now we committed our changes. To be sure, we can check `git log`. This log shows us all the commits that were done and by whom they were done, from the newest to the oldest. You should see your commit at the top of the log. 
+
+Now this commit is done locally, meaning that if you go to GitHub, you would not see any of your commit yet! You can also see that something like `Your branch is ahead of 'origin/main' by 1 commit.` in `git status`. This means that there's 1 commit in your local git that is not captured by your remote git, i.e., GitHub. In order to synchronize, we can use `git push`. This basically "push" the commit to the remote repository in GitHub.
+
+Now if you look over to your GitHub repository, you should see the commit there now with the corresponding changes!
+
+These are some of the basics of git, let's practice creating two more commits, 1 with changes to your hello world script, and 1 deleting your hello world script.
 
 ### More Git?
 
-There are more to git than all these but these are the bare minimum to start using git.
+There are more to git than all these, hopefully we get to learn more as we start using git more and more.
 
 The software carpentry has a [good tutorial](https://swcarpentry.github.io/git-novice/) for you to learn more about git.

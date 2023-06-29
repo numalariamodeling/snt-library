@@ -59,9 +59,9 @@
   {
     "listing": "/guides/properties_guide.html",
     "items": [
-      "/guides/properties_guide_pages/report_properties.html",
       "/guides/properties_guide_pages/demog_properties.html",
-      "/guides/properties_guide_pages/intervention_properties.html"
+      "/guides/properties_guide_pages/intervention_properties.html",
+      "/guides/properties_guide_pages/report_properties.html"
     ]
   },
   {
@@ -84,8 +84,8 @@
   {
     "listing": "/guides/vector_guide.html",
     "items": [
-      "/guides/vector_guide_pages/vector_species.html",
       "/guides/vector_guide_pages/vector_genetics.html",
+      "/guides/vector_guide_pages/vector_species.html",
       "/guides/vector_guide_pages/vector_abundance.html"
     ]
   },
@@ -181,7 +181,7 @@
   {
     "listing": "/resources/coding_resources/git_resources.html",
     "items": [
-      "/resources/coding_resources/git_resources/git_intro_old.html"
+      "/resources/coding_resources/git_resources/git_intro_fe2023.html"
     ]
   },
   {
