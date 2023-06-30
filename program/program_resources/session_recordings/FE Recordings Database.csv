@@ -1,8 +1,13 @@
-Date,Topic,Type,Slides_Link,Recording_Link
-20-Jun-23,Program Introduction,Lecture,https://www.dropbox.com/s/1aavf61yr8314ju/230620%20Program%20Introduction%20en.pptx?dl=0,https://www.dropbox.com/scl/fo/lmb7g5qcs0zt6hsyxpxsm/h?dl=0&rlkey=fto39noqpu2khhzgfrpcpuyeu
-21-Jun-23,Malaria Epidemiology Crash Course,Lecture,https://www.dropbox.com/s/eu9hozndvgiqmbf/230621%20Malaria%20Epidemiology%20Crash%20Course.pptx?dl=0,https://www.dropbox.com/scl/fo/gfzqe2x39m3us6w1qbzwl/h?dl=0&rlkey=4uxil1d13nz1a8i9ynimhi26t
-22-Jun-23,Advice from Program Alumni,Discussion,,https://www.dropbox.com/s/ue6jxbtowwfgz7y/Advice%20From%20Program%20Alumni.mp4?dl=0
-22-Jun-23,Journal Club: A Use of Mathematical Modeling in WHO Guidelines,Discussion,https://www.dropbox.com/s/ri4cnjrse8z50gz/JC-Week0_Presentation.pptx?dl=0,https://www.dropbox.com/s/ggc7p7tcjssjmeu/Journal%20Club%20Week%200.mp4?dl=0
-27-Jun-23,Introduction to Applied Malaria Modeling,Lecture,https://www.dropbox.com/s/zq94dbak5jaqwt8/230627_applied_modeling%20en.pptx?dl=0,https://www.dropbox.com/s/mhoydl8zz1ys51i/Introduction_to_Applied_Malaria_Modeling.mp4?dl=0
-27-Jun-23,Intro to EMOD,Lecture,https://www.dropbox.com/s/3hxtspyj7dpjxyv/230627_EMOD_intro_en.pptx?dl=0,https://www.dropbox.com/s/e8vq4qd6yyz7st6/Introduction_to_EMOD.mp4?dl=0
-29-Jun-23,GitHub Tutorial,Tutorial,,
+Date,Topic,Type,English_Slides,French_Slides,Recording_Link
+20-Jun-23,Program Introduction,Lecture,https://www.dropbox.com/s/1aavf61yr8314ju/230620%20Program%20Introduction%20en.pptx?dl=0,https://www.dropbox.com/s/4r1gnfm1rcpxmgh/230620%20Program%20Introduction%20fr.pptx?dl=0,https://www.dropbox.com/s/u80wsx649l53bon/230620%20Program%20Introduction.mp4?dl=0
+21-Jun-23,Malaria Epidemiology Crash Course,Lecture,https://www.dropbox.com/s/eu9hozndvgiqmbf/230621%20Malaria%20Epidemiology%20Crash%20Course.pptx?dl=0,https://www.dropbox.com/s/yuoflfyg2a6c7rp/230621%20Malaria%20Epidemiology%20Crash%20Course%20fr.pptx?dl=0,https://www.dropbox.com/s/obx5fuxoz0p7z62/20230621_MalariaEpidemiologyCrashCourse.mp4?dl=0
+22-Jun-23,Advice from Program Alumni,Discussion, , ,https://www.dropbox.com/s/ue6jxbtowwfgz7y/Advice%20From%20Program%20Alumni.mp4?dl=0
+22-Jun-23,Journal Club: A Use of Mathematical Modeling in WHO Guidelines,Discussion,https://www.dropbox.com/scl/fi/omq0dt52nqx1d9kfvu00b/JC-Week0_Presentation.pptx?dl=0&rlkey=xir9qqxyghsnhckgscui20im3,https://www.dropbox.com/s/s3pu9nlgtdfh1ki/JC-Week0_Presentation%20fr.pptx?dl=0,https://www.dropbox.com/s/ggc7p7tcjssjmeu/Journal%20Club%20Week%200.mp4?dl=0
+27-Jun-23,Introduction to Applied Malaria Modeling,Lecture,https://www.dropbox.com/s/zq94dbak5jaqwt8/230627_applied_modeling%20en.pptx?dl=0,https://www.dropbox.com/s/wsxskwf5rqpzh5h/230627_applied_modeling%20fr.pptx?dl=0,https://www.dropbox.com/s/mhoydl8zz1ys51i/Introduction_to_Applied_Malaria_Modeling.mp4?dl=0
+27-Jun-23,Intro to EMOD,Lecture,https://www.dropbox.com/s/3hxtspyj7dpjxyv/230627_EMOD_intro_en.pptx?dl=0,https://www.dropbox.com/s/c1mpdcc7shsczzx/230627_EMOD_intro_fr.pptx?dl=0,https://www.dropbox.com/s/e8vq4qd6yyz7st6/Introduction_to_EMOD.mp4?dl=0
+28-Jun-23,Team Best Practices,Lecture, , ,https://www.dropbox.com/s/ouqvg4n590s9sr4/best_practices.mp4?dl=0
+28-Jun-23,Intro to Quest,Lecture,https://www.dropbox.com/s/xdxo0ltbe13xcq5/230628%20QUEST%20Introduction%20EN.pptx?dl=0,https://www.dropbox.com/s/dh1dd1h2lg43v0m/230628%20QUEST%20Introduction%20FR.pptx?dl=0,https://www.dropbox.com/s/irpldo8erza7req/Intro_to_Quest.mp4?dl=0
+29-Jun-23,Introductory Research Talks,Lecture, , ,https://www.dropbox.com/s/8nddl8n7vzofdor/FE_Participant_Research_Intro_Presentations.mp4?dl=0
+29-Jun-23,GitHub Tutorial,Tutorial, , ,https://www.dropbox.com/s/2ckuyuksk9b3sb4/Git_Tutorial.mp4?dl=0
+30-Jun-23,NU Team Project Showcase,Lecture,https://www.dropbox.com/s/ssrclgnqp37v901/230630_NU_team_project_showcase_en.pptx?dl=0,https://www.dropbox.com/s/nc33an2z2cpj92y/230630_NU_team_project_showcase_fr.pptx?dl=0,https://www.dropbox.com/s/whsr2zibeezc6p3/Northwestern_team_project_showcase.mp4?dl=0
+30-Jun-23,EMOD Installation and Walkthrough,Tutorial, , ,https://www.dropbox.com/s/bcidn74q8xk0rn3/Emod_Install_and_walkthrough.mp4?dl=0

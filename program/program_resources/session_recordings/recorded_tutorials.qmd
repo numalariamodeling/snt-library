@@ -13,7 +13,11 @@ df <- read.csv("FE Recordings Database.csv")
 df <- df %>% filter(Type=="Tutorial")
 df <- df %>% relocate(Date)
 
-df <-  df %>% mutate(Links = paste(ifelse(Slides_Link!=" ",paste("<a href=\"",Slides_Link,"\">Slides</a><br>",sep=''),""),ifelse(Recording_Link!=" ",paste("<a href=\"",Recording_Link,"\">Recording</a>",sep=''), ""),sep=''))
+df <-  df %>% mutate(Links = paste(
+  ifelse(English_Slides!=" ",paste("<a href=\"",English_Slides,"\">English Slides</a><br>",sep=''),""),
+  ifelse(French_Slides!=" ",paste("<a href=\"",French_Slides,"\">French Slides</a><br>",sep=''),""),
+  ifelse(Recording_Link!=" ",paste("<a href=\"",Recording_Link,"\">Recording</a>",sep=''), ""),sep=''))
+
 
 
 DT::datatable(df %>% select(Date,Topic,Links), options = list(dom='f'), escape = F, rownames = F)
