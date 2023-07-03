@@ -42,7 +42,7 @@ website:
           - resources/coding_resources.qmd
           - resources/data_sources.qmd
           - resources/science_communication.qmd
-      - text: "<br>Quick Links:"      
+      - text: "Quick Links:"      
       - text: "--- EMOD Documentation"
         url: https://docs.idmod.org/projects/emod-malaria/en/latest/
       - text: "--- NU Malaria Modeling"
