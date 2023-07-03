@@ -10,7 +10,7 @@ execute:
   enabled: false 
 ---
 
-After adding vectors to your model, you may want to alter their abundance in order to reach a desired entomological innoculation rate (EIR), malaria prevalence, or malaria incidence. In EMOD this is often done by re-scaling the amount of habitat available for larval development: Available habitat is directly related to mosquito abundance, and mosquito abundance in turn is directly related to biting rate. 
+After adding vectors to your model, you may want to alter their abundance in order to reach a desired entomological inoculation rate (EIR), malaria prevalence, or malaria incidence. In EMOD this is often done by re-scaling the amount of habitat available for larval development: Available habitat is directly related to mosquito abundance, and mosquito abundance in turn is directly related to biting rate. 
 
 There are several options for configuring habitat. You can first set habitat parameters and modify them directly as detailed in the section [Set up mosquito species](https://numalariamodeling.github.io/FE-2023-quarto-website/guides/vector_guide_pages/vector_species.html).
 

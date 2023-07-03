@@ -54,7 +54,7 @@ Additional information on this "intervention" is available in the related [emodp
 
 Initial prevalence is set in the demographics file, in the `['Defaults']['IndividualAttributes']` block. See [documentation on the demographics file](https://docs.idmod.org/projects/emod-malaria/en/latest/parameter-demographics.html) for more information.
 
-It can be set simply, as in the demographics example (***link to demog***), or you can also add a initial prevalence value draw from a uniform distribution if desired. In this example, the value is pulled in a uniform draw from 0.1 to 0.2. setting-specific mosquitoes should also be added to the simulation to maintain transmission in the population using the vector configuration how tos. ***LINK***
+It can be set simply, as in the [demographics example](https://numalariamodeling.github.io/FE-2023-quarto-website/guides/demographics_guide_pages/demographics_files.html), or you can also add a initial prevalence value draw from a uniform distribution if desired. In this example, the value is pulled in a uniform draw from 0.1 to 0.2. Setting-specific mosquitoes should also be added to the simulation to maintain transmission in the population using the [vector configuration how tos](https://numalariamodeling.github.io/FE-2023-quarto-website/guides/vector_guide_pages/vector_species.html).
 
 ```{python}
 import emodpy_malaria.demographics.MalariaDemographics as Demographics
