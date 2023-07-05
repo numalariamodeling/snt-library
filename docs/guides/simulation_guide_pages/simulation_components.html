@@ -369,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
       
       
 4. Demographics
-    - Build a demographics file using `emod-api`. This is typically done through [`from_template_node`](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/demographics/MalariaDemographics.py) for single node sims, but there are other methods available if needed (*see demographics how to*)
+    - Build a demographics file using `emod-api`. This is typically done through [`from_template_node`](https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/demographics/MalariaDemographics.py) for single node sims, but there are other methods available if needed ([*see demographics how to*](https://numalariamodeling.github.io/FE-2023-quarto-website/guides/demographics_guide.html))
 
 
       ::: {.cell}
@@ -384,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
 5. EMODTask &amp; experiment builder
     - Set the platform with details for where we will run the simulations and create the `EMODTask` that that references the above builders, schema, and model executable
     - Reporters can be added after the task to monitor simulation outputs (*see reporters section below*)
-    - The experiment can be built using `from_task` or `from_builder` depending on simulation complexity. When changes, such as with sweeps, are made outside of the initial campaign builder then `from_builder` is need (*see model builder section below*)
+    - The experiment can be built using `from_task` or `from_builder` depending on simulation complexity. When changes, such as with sweeps, are made outside of the initial campaign builder then `from_builder` is needed (*see model builder section below*)
 
 
       ::: {.cell}
