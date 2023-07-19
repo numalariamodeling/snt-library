@@ -380,7 +380,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>ITNs with different usage patterns</p>
 <section id="bednets-itns" class="level1">
 <h1>Bednets (ITNs)</h1>
-<p>Insecticide-treated bednets can be distributed with the <a href="https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/interventions/bednet.py"><code>add_itn_scheduled()</code></a> function, which has many options to configure who is targeted for ITN distribution. The scheduled distribution is particlarly useful for distribution campaigns, while a similar function, <code>add_itn_triggered()</code> is necessary for distribution tied to events, such as births.</p>
+<p>Insecticide-treated bednets can be distributed with the <a href="https://github.com/numalariamodeling/emodpy-malaria/blob/main/emodpy_malaria/interventions/bednet.py"><code>add_itn_scheduled()</code></a> function, which has many options to configure who is targeted for ITN distribution. The scheduled distribution is particularly useful for distribution campaigns, while a similar function, <code>add_itn_triggered()</code> is necessary for distribution tied to events, such as births.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> emod_api.campaign <span class="im">as</span> campaign</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> emodpy_malaria.interventions.bednet <span class="im">import</span> add_itn_scheduled</span>
@@ -393,7 +393,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        ],</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        repetitions<span class="op">=</span><span class="dv">5</span>, <span class="co"># ITN will be distributed 5 times</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>        timesteps_between_repetitions<span class="op">=</span> <span class="dv">365</span><span class="op">*</span><span class="dv">3</span> <span class="co"># three years between ITN distributions</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Full Argument List : </span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> add_itn_scheduled(campaign,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>                      start_day: <span class="bu">int</span> <span class="op">=</span> <span class="dv">0</span>,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>                      coverage_by_ages: <span class="bu">list</span> <span class="op">=</span> <span class="va">None</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>                      demographic_coverage: <span class="bu">float</span> <span class="op">=</span> <span class="fl">1.0</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>                      target_num_individuals: <span class="bu">int</span> <span class="op">=</span> <span class="va">None</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>                      node_ids: <span class="bu">list</span> <span class="op">=</span> <span class="va">None</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>                      repetitions: <span class="bu">int</span> <span class="op">=</span> <span class="dv">1</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>                      timesteps_between_repetitions: <span class="bu">int</span> <span class="op">=</span> <span class="dv">365</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>                      ind_property_restrictions: <span class="bu">list</span> <span class="op">=</span> <span class="va">None</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>                      receiving_itn_broadcast_event: <span class="bu">str</span> <span class="op">=</span> <span class="va">None</span>,</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>                      blocking_initial_effect: <span class="bu">float</span> <span class="op">=</span> <span class="fl">0.9</span>,              <span class="co"># </span><span class="al">NOTE</span><span class="co">: these default effect sizes and kinetics are not calibrated values</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>                      blocking_box_duration: <span class="bu">float</span> <span class="op">=</span> <span class="dv">0</span>,</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>                      blocking_decay_time_constant: <span class="bu">float</span> <span class="op">=</span> <span class="dv">7300</span>,</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>                      killing_initial_effect: <span class="bu">float</span> <span class="op">=</span> <span class="fl">0.6</span>,</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>                      killing_box_duration: <span class="bu">int</span> <span class="op">=</span> <span class="dv">0</span>,</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>                      killing_decay_time_constant: <span class="bu">float</span> <span class="op">=</span> <span class="dv">7300</span>,</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>                      repelling_initial_effect: <span class="bu">float</span> <span class="op">=</span> <span class="dv">0</span>,</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>                      repelling_box_duration: <span class="bu">float</span> <span class="op">=</span> <span class="op">-</span><span class="dv">1</span>,</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>                      repelling_decay_time_constant: <span class="bu">float</span> <span class="op">=</span> <span class="dv">0</span>,</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>                      usage_initial_effect: <span class="bu">float</span> <span class="op">=</span> <span class="dv">1</span>,</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>                      usage_box_duration: <span class="bu">float</span> <span class="op">=</span> <span class="op">-</span><span class="dv">1</span>,</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>                      usage_decay_time_constant: <span class="bu">float</span> <span class="op">=</span> <span class="dv">0</span>,</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>                      insecticide: <span class="bu">str</span> <span class="op">=</span> <span class="st">""</span>,</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>                      cost: <span class="bu">float</span> <span class="op">=</span> <span class="dv">0</span>,</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>                      intervention_name: <span class="bu">str</span> <span class="op">=</span> <span class="st">"SimpleBednet"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The default <code>coverage_by_age</code> sets coverage to 100% for everyone regardless of age.</p>
 <p>Details on all arguments for this function, including items such as inseticides, costs, etc, can be found <a href="https://docs.idmod.org/projects/emodpy-malaria/en/latest/emodpy_malaria.interventions.bednet.html#emodpy_malaria.interventions.bednet.add_itn_scheduled">here</a></p>
