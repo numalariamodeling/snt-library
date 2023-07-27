@@ -20,5 +20,5 @@ df <-  df %>% mutate(Links = paste(
 
 
 
-DT::datatable(df %>% select(Date,Topic,Links), options = list(dom='f'), escape = F, rownames = F)
+DT::datatable(df %>% select(Date,Topic,Links), options = list(dom='f', "pageLength"=40), escape = F, rownames = F)
 ```

@@ -20,5 +20,5 @@ df <-  df %>% mutate(Links = paste(
   ifelse(Recording_Link!=" ",paste("<a href=\"",Recording_Link,"\">Recording</a>",sep=''), ""),sep=''))
 
 
-DT::datatable(df %>% select(Date,Topic,Links), options = list(dom='f'), escape = F, rownames = F)
+DT::datatable(df %>% select(Date,Topic,Links), options = list(dom='f', "pageLength"=40), escape = F, rownames = F)
 ```
