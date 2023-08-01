@@ -21,3 +21,5 @@ listing:
 [Creating coherent paragraphs](https://www.northwestern.edu/climb/resources/written-communication/Creating-Coherent-Paragraphs.html)  
 
 [PLoS Writing Center](https://plos.org/resources/writing-center/) - A collection of free, practical guides and hands-on resources for authors looking to improve their scientific publishing skillset.
+
+[NIH Grant Application Format Guidelines](https://www.dropbox.com/scl/fi/13i6034mjpvtos75ha17e/NIH-Grant-Application-Format-Guidelines.pdf?rlkey=es16t5d975t531u9w7tav9cxq&dl=0)
