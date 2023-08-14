@@ -17,7 +17,8 @@ Call the DHS application program interface (API) from `R`
 knitr::opts_chunk$set(echo = TRUE)
 library(data.table)
 library(jsonlite)
-library(tidyverse)
+library(dplyr)
+library(ggplot2)
 library(DT)
 ```
 
