@@ -8,7 +8,7 @@ page-layout: full
 Practice new concepts in hands-on group coding sessions, with live problem-solving and debugging
 
 ```{r,echo=F, warning=F, error=F, message=F}
-library(tidyverse)
+library(dplyr)
 df <- read.csv("FE Recordings Database.csv")
 df <- df %>% filter(Type=="Tutorial")
 df <- df %>% relocate(Date)

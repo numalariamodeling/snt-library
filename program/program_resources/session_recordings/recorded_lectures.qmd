@@ -9,7 +9,7 @@ page-layout: full
 Learn new concepts from program instructors & guest lecturers
 
 ```{r,echo=F, warning=F, error=F, message=F}
-library(tidyverse)
+library(dplyr)
 df <- read.csv("FE Recordings Database.csv")
 df <- df %>% filter(Type=="Lecture")
 df <- df %>% relocate(Date)
