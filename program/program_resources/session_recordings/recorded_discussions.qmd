@@ -8,7 +8,7 @@ page-layout: full
 Roundtable discussions and other informal sessions
 
 ```{r,echo=F, warning=F, error=F, message=F}
-library(tidyverse)
+library(dplyr)
 df <- read.csv("FE Recordings Database.csv")
 df <- df %>% filter(Type=="Discussion")
 df <- df %>% relocate(Date)

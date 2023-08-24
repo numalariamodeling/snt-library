@@ -95,3 +95,36 @@ def build_demog():
 
     return demog
 ```
+
+## Fixed birth rate and age equilibrium
+
+The example above is based on the assumption that you set the population dynamic, controlled by `Birth_Rate_Dependence` to `POPULATION_DEP_RATE` (the default). However, in the situation where you want to use `FIXED_BIRTH_RATE`, then setting as above will cause the birth to be near zero, because birth rate in the `POPULATION_DEP_RATE` is read as probability of birth per person in the model per day. In the `FIXED_BIRTH_RATE` setting, birth rate is read as probability of birth per day.
+
+As a result, it is recommended that you choose a crude birth rate that works for you (birth per 1000 population per year), and create your demographic this way:
+
+```{python, eval=F}
+import emodpy_malaria.demographics.MalariaDemographics as Demographics
+from emod_api.demographics.DemographicsTemplates import CrudeRate
+
+def build_demog():
+    """
+    This function builds a demographics input file for the DTK using emod_api.
+    """
+    
+    pop = 1000
+    crude_rate = 38.92
+
+    demog = Demographics.from_template_node(lat=1.00, lon=1.00, pop=pop, name="Example_Site_Name", forced_id=1, init_prev=0.1)
+
+    # Set Birth and Death Rate    
+    demog.SetBirthRate(CrudeRate(crude_rate*pop))
+    demog.SetMortalityRate(CrudeRate(crude_rate))
+    
+    # Set age distribution to equilibrium
+    demog.SetEquilibriumAgeDistFromBirthAndMortRates(CrudeRate(crude_rate),
+                                                     CrudeRate(crude_rate))
+
+    return demog
+```
+
+Basically, the birth rate needs to be set differently to account for the difference between using `FIXED_BIRTH_RATE` and `POPULATION_DEP_RATE`. Note that in this example, the mortality rate is also set to the birth rate to ensure that the population is stable and at equilibrium. Finally, we use the `SetEquilibriumAgeDistFromBirthAndMortRates` to make sure the age distribution is already at equilibrium given the birth and death rates right from the beginning. You might notice that this means the age distribution in the model is not the same as the "real world". The actual age distribution in the model can only be achieved if you supply the birth and death (by age) rates over the years of simulations. With constant birth rate and equilibrium vital dynamics, the age distribution will move into a fixed shape even if you start off with a different age distribution.
