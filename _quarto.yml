@@ -17,7 +17,7 @@ website:
     contents:  
       - section: "2023 Program"
         contents: 
-          - overview.qmd
+          - index.qmd
           - program/program_resources/pre_program_checklist.qmd
           - program/program_resources/program_materials/2023_program_handbook.qmd
           - program/program_resources/program_materials/nu_team_best_practices.qmd
