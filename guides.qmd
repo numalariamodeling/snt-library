@@ -8,4 +8,4 @@ listing:
   grid-columns: 1
 ---
 
-📁 Choose Category
+📁 Choose A Category
