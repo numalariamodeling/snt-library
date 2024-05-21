@@ -9,7 +9,7 @@ Roundtable discussions and other informal sessions
 
 ```{r,echo=F, warning=F, error=F, message=F}
 library(dplyr)
-df <- read.csv("FE Recordings Database.csv")
+df <- read.csv("FE Recordings Database.csv",encoding = "UTF-8")
 df <- df %>% filter(Type=="Discussion")
 df <- df %>% relocate(Date)
 
@@ -17,7 +17,6 @@ df <-  df %>% mutate(Links = paste(
   ifelse(English_Slides!=" ",paste("<a href=\"",English_Slides,"\">English Slides</a><br>",sep=''),""),
   ifelse(French_Slides!=" ",paste("<a href=\"",French_Slides,"\">French Slides</a><br>",sep=''),""),
   ifelse(Recording_Link!=" ",paste("<a href=\"",Recording_Link,"\">Recording</a>",sep=''), ""),sep=''))
-
 
 DT::datatable(df %>% select(Date,Topic,Links), options = list(dom='f', "pageLength"=40), escape = F, rownames = F)
 ```

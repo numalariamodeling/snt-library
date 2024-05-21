@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
 </style>
@@ -60,15 +60,16 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-<script src="../../../site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="../../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <link href="../../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="../../../site_libs/datatables-binding-0.28/datatables.js"></script>
+<script src="../../../site_libs/datatables-binding-0.33/datatables.js"></script>
 <script src="../../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="../../../site_libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="../../../site_libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet">
-<script src="../../../site_libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
-<link href="../../../site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
-<script src="../../../site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="../../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="../../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="../../../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 
 
 <link rel="stylesheet" href="../../../styles.css">
@@ -78,18 +79,11 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Faculty Enrichment Program in Applied Malaria Modeling
-      </li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Discussions</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
       </button>
     </div>
   </nav>
@@ -97,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../../../index.html" class="sidebar-logo-link">
       <img src="../../../numalaria_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -105,22 +99,20 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="../../../">Faculty Enrichment Program in Applied Malaria Modeling</a> 
         <div class="sidebar-tools-main">
-    <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/numalariamodeling/FE-2023-quarto-website">
-            Website Source Code
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/numalariamodeling/FE-2023-examples">
-            Example Exercises
-            </a>
-          </li>
-      </ul>
-    </div>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+    <a href="" title="" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-github"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/numalariamodeling/FE-2023-quarto-website">
+          Website Source Code
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/numalariamodeling/FE-2023-examples">
+          Example Exercises
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -128,197 +120,169 @@ ul.task-list li input[type="checkbox"] {
 </div>
     </div>
       </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
+      <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-        </div>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
- <span class="menu-text">2023 Program</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">2023 Program</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../program/program_resources/pre_program_checklist.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Pre-Program Checklist</span></a>
+  <a href="../../../program/program_resources/pre_program_checklist.html" class="sidebar-item-text sidebar-link">Pre-Program Checklist</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../program/program_resources/program_materials/2023_program_handbook.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Program Handbook</span></a>
+  <a href="../../../program/program_resources/program_materials/2023_program_handbook.html" class="sidebar-item-text sidebar-link">Program Handbook</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../program/program_resources/program_materials/nu_team_best_practices.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Best Practices</span></a>
+  <a href="../../../program/program_resources/program_materials/nu_team_best_practices.html" class="sidebar-item-text sidebar-link">Best Practices</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://github.com/numalariamodeling/FE-2023-examples" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Example Exercises</span></a>
+  <a href="https://github.com/numalariamodeling/FE-2023-examples" class="sidebar-item-text sidebar-link">Example Exercises</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../resources/articles/journal_club.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Journal Club</span></a>
+  <a href="../../../resources/articles/journal_club.html" class="sidebar-item-text sidebar-link">Journal Club</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../program/program_resources/session_recordings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Session Recordings</span></a>
+  <a href="../../../program/program_resources/session_recordings.html" class="sidebar-item-text sidebar-link">Session Recordings</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
- <span class="menu-text">EMOD How-To Guides</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">EMOD How-To Guides</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/install_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Installation Guide</span></a>
+  <a href="../../../guides/install_guide.html" class="sidebar-item-text sidebar-link">Installation Guide</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/simulation_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Simulation Guides</span></a>
+  <a href="../../../guides/simulation_guide.html" class="sidebar-item-text sidebar-link">Simulation Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/demographics_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Demographics Guides</span></a>
+  <a href="../../../guides/demographics_guide.html" class="sidebar-item-text sidebar-link">Demographics Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/climate_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Climate Guides</span></a>
+  <a href="../../../guides/climate_guide.html" class="sidebar-item-text sidebar-link">Climate Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/vector_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Vector Guides</span></a>
+  <a href="../../../guides/vector_guide.html" class="sidebar-item-text sidebar-link">Vector Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/diagnostic_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Diagnostic Guides</span></a>
+  <a href="../../../guides/diagnostic_guide.html" class="sidebar-item-text sidebar-link">Diagnostic Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/intervention_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intervention Guides</span></a>
+  <a href="../../../guides/intervention_guide.html" class="sidebar-item-text sidebar-link">Intervention Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/report_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Report Guides</span></a>
+  <a href="../../../guides/report_guide.html" class="sidebar-item-text sidebar-link">Report Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/analyzer_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyzer Guides</span></a>
+  <a href="../../../guides/analyzer_guide.html" class="sidebar-item-text sidebar-link">Analyzer Guides</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guides/properties_guide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Individual Properties Guides</span></a>
+  <a href="../../../guides/properties_guide.html" class="sidebar-item-text sidebar-link">Individual Properties Guides</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
- <span class="menu-text">Additional Resources</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Additional Resources</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../resources/articles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">EMOD Papers</span></a>
+  <a href="../../../resources/articles.html" class="sidebar-item-text sidebar-link">EMOD Papers</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../resources/coding_resources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Coding Resources</span></a>
+  <a href="../../../resources/coding_resources.html" class="sidebar-item-text sidebar-link">Coding Resources</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../resources/data_sources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Sources</span></a>
+  <a href="../../../resources/data_sources.html" class="sidebar-item-text sidebar-link">Data Sources</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../resources/science_communication.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Science Communication</span></a>
+  <a href="../../../resources/science_communication.html" class="sidebar-item-text sidebar-link">Science Communication</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
- <span class="menu-text">Quick Links:</span>
+  Quick Links:
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://docs.idmod.org/projects/emod-malaria/en/latest/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">— EMOD Documentation</span></a>
+  <a href="https://docs.idmod.org/projects/emod-malaria/en/latest/" class="sidebar-item-text sidebar-link">— EMOD Documentation</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://numalariamodeling.org" class="sidebar-item-text sidebar-link">
- <span class="menu-text">— NU Malaria Modeling</span></a>
+  <a href="https://numalariamodeling.org" class="sidebar-item-text sidebar-link">— NU Malaria Modeling</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://ammnet.org/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">— AMMnet</span></a>
+  <a href="https://ammnet.org/" class="sidebar-item-text sidebar-link">— AMMnet</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://numalariamodeling.github.io/FE-2023-site-web-francais/" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><br><span style="color: red; font-weight:bold;">Voir le Site en Français</span></span></a>
+  <a href="https://numalariamodeling.github.io/FE-2023-site-web-francais/" class="sidebar-item-text sidebar-link"><br><span style="color: red; font-weight:bold;">Voir le Site en Français</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -328,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Discussions</h1>
+<h1 class="title d-none d-lg-block">Discussions</h1>
 </div>
 
 
@@ -348,8 +312,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output-display">
 
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-3b0fb09e372c82e7aa13" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-3b0fb09e372c82e7aa13">{"x":{"filter":"none","vertical":false,"data":[["22-Jun-23","22-Jun-23","7-Jul-23","20-Jul-23","2-Aug-23","4-Aug-23","17-Aug-23"],["Advice from Program Alumni","Journal Club: A Use of Mathematical Modeling in WHO Guidelines","Journal Club 1: HBHI Nigeria","Journal Club 2: Seasonality of Transmission and Interventions","Specific Aims Presentations","Journal Club 3: PMC and RTSS","Journal Club 4: Efficiency of Intervention Allocation"],["<a href=\"https://www.dropbox.com/s/ue6jxbtowwfgz7y/Advice%20From%20Program%20Alumni.mp4?dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/omq0dt52nqx1d9kfvu00b/JC-Week0_Presentation.pptx?dl=0&rlkey=xir9qqxyghsnhckgscui20im3\">English Slides<\/a><br><a href=\"https://www.dropbox.com/s/s3pu9nlgtdfh1ki/JC-Week0_Presentation%20fr.pptx?dl=0\">French Slides<\/a><br><a href=\"https://www.dropbox.com/s/ggc7p7tcjssjmeu/Journal%20Club%20Week%200.mp4?dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/s/qujm6coej8s2tes/JC1_%20FE%202023_en.pptx?dl=0\">English Slides<\/a><br><a href=\"https://www.dropbox.com/s/1kdx65crub819w9/JC1_%20FE%202023_fr.pptx?dl=0\">French Slides<\/a><br><a href=\"https://www.dropbox.com/s/39sopmeeb7bxzw8/journal_club_1.mp4?dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/chxi6rzgr8cdytmnw7r11/Journal-Club-2.mp4?rlkey=iwyx0d4scmuodz6esduxcjs0t&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/t444y3p63b2ek83vynudo/Specific_Aims_Presentation_1.mp4?rlkey=f02dkkrq91nxqr5bve14j5anz&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/nll465busp2wysqq0l8u6/journal_club3.mp4?rlkey=q1zbvboigelbmj92ddukwixz8&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/ivjai4ffyelbv4i6bultp/Journal_Club_4.mp4?rlkey=ig8v8pyikyupqh8d1tfu90xb1&dl=0\">Recording<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Date<\/th>\n      <th>Topic<\/th>\n      <th>Links<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"f","pageLength":40,"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,25,40,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-54674248f041e7773b66" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-54674248f041e7773b66">{"x":{"filter":"none","vertical":false,"data":[["22-Jun-23","22-Jun-23","7-Jul-23","20-Jul-23","2-Aug-23","4-Aug-23","17-Aug-23","31-Aug-23","6-Sep-23","13-Sep-23","14-Sep-23","28-Sep-23","3-Oct-23","4-Oct-23","11-Oct-23","12-Oct-23","26-Oct-23"],["Advice from Program Alumni","Journal Club: A Use of Mathematical Modeling in WHO Guidelines","Journal Club 1: HBHI Nigeria","Journal Club 2: Seasonality of Transmission and Interventions","Specific Aims Presentations","Journal Club 3: PMC and RTSS","Journal Club 4: Efficiency of Intervention Allocation","Journal Club 5: Tanzania SNT and Intervention Packages","Work In Progress Presentations","Specific Aims Peer Editing","Journal Club 6: RCD in Zambia","Journal Club 7: Diagnostics for Malaria Elimination","Strengths and Limitations of Modeling","In-Country Challenges","Personal Statement Peer Editing","Journal Club 8: Cross-Model Comparisons","Final Presentations"],["<a href=\"https://www.dropbox.com/s/ue6jxbtowwfgz7y/Advice%20From%20Program%20Alumni.mp4?dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/omq0dt52nqx1d9kfvu00b/JC-Week0_Presentation.pptx?dl=0&rlkey=xir9qqxyghsnhckgscui20im3\">English Slides<\/a><br><a href=\"https://www.dropbox.com/s/s3pu9nlgtdfh1ki/JC-Week0_Presentation%20fr.pptx?dl=0\">French Slides<\/a><br><a href=\"https://www.dropbox.com/s/ggc7p7tcjssjmeu/Journal%20Club%20Week%200.mp4?dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/s/qujm6coej8s2tes/JC1_%20FE%202023_en.pptx?dl=0\">English Slides<\/a><br><a href=\"https://www.dropbox.com/s/1kdx65crub819w9/JC1_%20FE%202023_fr.pptx?dl=0\">French Slides<\/a><br><a href=\"https://www.dropbox.com/s/39sopmeeb7bxzw8/journal_club_1.mp4?dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/chxi6rzgr8cdytmnw7r11/Journal-Club-2.mp4?rlkey=iwyx0d4scmuodz6esduxcjs0t&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/t444y3p63b2ek83vynudo/Specific_Aims_Presentation_1.mp4?rlkey=f02dkkrq91nxqr5bve14j5anz&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/nll465busp2wysqq0l8u6/journal_club3.mp4?rlkey=q1zbvboigelbmj92ddukwixz8&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/ivjai4ffyelbv4i6bultp/Journal_Club_4.mp4?rlkey=ig8v8pyikyupqh8d1tfu90xb1&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/lcz17ui67o4apw8z2595m/Journal_Club_5.mp4?rlkey=zmfz9ryr9ive424dcd0msnlf0&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/dw4fuso0kaw8m50en5wql/WIP_Specific_Aims.pptx?rlkey=ypk780g97rx2bg9po0yjnpoq8&dl=0\">English Slides<\/a><br><a href=\"https://www.dropbox.com/scl/fi/0aaretxve3tselyng3wmm/WIP_Specific_Aims-fr.pptx?rlkey=2ux8r6dzur9366nvo0ptvipn5&dl=0\">French Slides<\/a><br><a href=\"https://www.dropbox.com/scl/fi/312mprswu40xrs31y1sx8/FE_Participants_WIP_Presentations.mp4?rlkey=55mrhucu4k6qmlp12c7rjtp6e&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/1e8yo1z44lyant9tr0g8t/SpecificAimsPeerEditingHour.mp4?rlkey=76yaz8wm011ytvnswvxj9e0ty&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/32ny3xi5zjoebxyyegg3l/Journal_Club6.mp4?rlkey=2vhbfqry63rqxpntwtb69rjzm&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/4kh1erdjhg6razr0iup71/journalclub7.mp4?rlkey=79jw07fzl77f8v4itog5ra6rz&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/1xurlx7hcpo1zpe9rpxcb/Strengths_and_Limitations_of_Modeling.mp4?rlkey=wdrryyh6es4spo31s153x8o8c&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/qxir22b1zcfmgaym37uwp/In-Country-Challenges.mp4?rlkey=jezbn4luavcr9jsmk5n267dsw&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/oqh32s6rqz37mx6hwrois/PEH_Biosketch_PS.mp4?rlkey=jlrezzamrimwlxqpmt1erefd4&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/n7qstpk23rqg7nrprxmkb/JournalClub8.mp4?rlkey=bwcfe805pne4xzn246m4jz0o1&dl=0\">Recording<\/a>","<a href=\"https://www.dropbox.com/scl/fi/l4mkr2gt939vzxsxxbv4v/Final_Presentations.mp4?rlkey=w60oqb6jwi7okr4c08wrb2qot&dl=0\">Recording<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Date<\/th>\n      <th>Topic<\/th>\n      <th>Links<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"f","pageLength":40,"columnDefs":[{"name":"Date","targets":0},{"name":"Topic","targets":1},{"name":"Links","targets":2}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,25,40,50,100]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
@@ -383,23 +347,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
+    target: function(trigger) {
+      return trigger.previousElementSibling;
     }
   });
   clipboard.on('success', function(e) {
@@ -464,92 +414,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -592,13 +456,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">© NU Malaria Modeling 2023</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
+      <div class="nav-footer-center">© NU Malaria Modeling 2023</div>
   </div>
 </footer>
 
