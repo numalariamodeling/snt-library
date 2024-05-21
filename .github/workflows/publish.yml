@@ -31,14 +31,14 @@ jobs:
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
+          packages:
+            any::rmarkdown
+            any::knitr
           cache-version: 1
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          packages: 
-            any::rmarkdown
-            any::knitr
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
