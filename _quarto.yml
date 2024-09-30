@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "Faculty Enrichment Program in Applied Malaria Modeling"
+  title: "Code library for subnational tailoring"
   reader-mode: true
   favicon: numalaria_logo.png
   sidebar: 
     style: floating   
-    title: "Faculty Enrichment Program in Applied Malaria Modeling"
+    title: "Code library for subnational tailoring"
     logo: numalaria_logo.png
     background: white
     foreground: dark
